@@ -1,3 +1,0 @@
-run,crawl_dir,states,edges,states_with_dep,unique_dep,exit_status
-baseline,experiments/dep/results/k8s-results/baseline/web/crawl0,18,147,16,27,MAX_TIME
-dep,experiments/dep/results/k8s-results/dep/web/crawl0,17,133,15,27,MAX_TIME

@@ -1,0 +1,4 @@
+.DS_Store
+
+# Generated DEP experiment outputs; keep locally, do not publish.
+experiments/dep/results/
