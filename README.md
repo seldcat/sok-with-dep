@@ -1,55 +1,55 @@
-# State of the Krawlers experiments data
+# SoK crawlers with DEP state abstraction
 
-This repository contains the data used in experiments for [SoK: State of the Krawlers – Evaluating the Effectiveness of Crawling Algorithms for Web Security Measurements](https://www.usenix.org/conference/usenixsecurity24/presentation/stafeev)
+Этот репозиторий содержит кодовую часть экспериментов с краулерами, основанную на проекте [SoK: State of the Krawlers - Evaluating the Effectiveness of Crawling Algorithms for Web Security Measurements](https://www.usenix.org/conference/usenixsecurity24/presentation/stafeev).
 
-## Survey
+Репозиторий не является полным зеркалом оригинального проекта и не предназначен для хранения всех экспериментальных данных. Здесь оставлен код, нужный для работы с краулерами, а крупные данные, результаты запусков, survey-таблицы и тестовые приложения вынесены из отслеживания git.
 
-[survey/](survey/) contains the labels we assigned on 1057 papers from the security and web measurements conferences from 2010 to 2022.
+## Что находится в репозитории
 
+- `crawlers/` - основная кодовая база краулеров из оригинального проекта.
+- `arachnarium_examples/` - примеры конфигураций и запусков Arachnarium.
+- `experiments/dep/` - добавленная часть для экспериментов с DEP-подходом: конфигурации, скрипты запуска и обработки результатов.
 
-## Arachnarium modules
-[crawlers/](crawlers/) contains the [Arachnarium](https://github.com/pixelindigo/arachnarium/tree/sec24) crawler modules used in the paper.
+## Оригинальная основа
 
-[apps/](apps/) contains the [Arachnarium](https://github.com/pixelindigo/arachnarium/tree/sec24) app modules used in the paper.
+Большая часть кода сохранена из оригинального проекта State of the Krawlers. Это позволяет использовать уже существующую инфраструктуру Crawljax/Arachnarium и не переписывать базовую логику краулеров с нуля.
 
+Папки с данными, которые повторяют оригинальный проект или нужны только локально для запусков, не публикуются в git:
 
-Example usage (assuming Arachnarium is installed on the system):
+- `apps/` - тестовые web-приложения для прогонов краулеров;
+- `survey/` - survey-данные оригинальной работы;
+- `experiments/dep/results/` - локальные результаты DEP-экспериментов.
 
-`arachnarium run crawlers/crawljax apps/hotcrp -t 5 -a url_full --nav bfs --app hotcrp --no-save-screenshots --url https://web/index.php`
+Эти директории добавлены в `.gitignore`, поэтому могут оставаться в локальной рабочей папке, не попадая в remote.
 
-Or run a few at once `arachnarium batch -w 4 arachnarium_examples/tools.yml`
+## DEP-логика
 
-Then check `experiments/` directory to see the generated data -- each experiment would be at `/<app>/<crawler>/<id>/` and contain the following dir structure:
-- `coverage/` -- code coverage files collected
-- `report/` -- crawler's report files
-- `command.txt` -- crawler command line arguments
-- `runtime.txt` -- time spent on an experiment
-- `stderr.txt` -- stderr output
-- `stdout.txt` -- stdout output
+Дополнительная часть репозитория связана с внедрением DEP-логики в Crawljax state abstraction.
 
-## Experiment data
+Основные классы находятся в:
 
-[Experiment data](https://github.com/pixelindigo/state-of-the-krawlers/releases/tag/sec24) contains the data collected for code coverage, link coverage, and JS file coverage:
-
-- [itw.txz](https://github.com/pixelindigo/state-of-the-krawlers/releases/download/sec24/itw.txz) contains the link and js file coverage files (Uncompressed 639.7 MiB).
-
-- [code_coverage.txz](https://github.com/pixelindigo/state-of-the-krawlers/releases/download/sec24/code_coverage.txz) contains the code coverage files (Uncompressed 43.8 GiB).
-
-You can also find the corresponding `README.md` files in each archive.
-
-## Cite
-
-```bibtex
-@inproceedings {stateofthekrawlers,
-author = {Aleksei Stafeev and Giancarlo Pellegrino},
-title = {{SoK: State of the Krawlers \textendash Evaluating the Effectiveness of Crawling Algorithms for Web Security Measurements}},
-booktitle = {33rd USENIX Security Symposium (USENIX Security 24)},
-year = {2024},
-isbn = {978-1-939133-44-1},
-address = {Philadelphia, PA},
-pages = {719--737},
-url = {https://www.usenix.org/conference/usenixsecurity24/presentation/stafeev},
-publisher = {USENIX Association},
-month = aug
-}
+```text
+crawlers/crawljax/crawljax/examples/src/main/java/com/crawljax/examples/stateabstractions/dep/
 ```
+
+Ключевые файлы:
+
+- `DepSignature.java` - построение DEP-сигнатуры состояния.
+- `DepAwareStateVertex.java` и `DepAwareStateVertexFactory.java` - состояние и фабрика для DEP-aware сравнения.
+- `DepOnlyStateVertex.java` и `DepOnlyStateVertexFactory.java` - вариант состояния, основанный только на DEP-сигнатуре.
+
+Интеграция с примером запуска находится в:
+
+```text
+crawlers/crawljax/crawljax/examples/src/main/java/com/crawljax/examples/ArachnariumCrawl.java
+```
+
+Скрипты и конфигурации для запусков DEP-экспериментов лежат в:
+
+```text
+experiments/dep/
+```
+
+## Примечание
+
+Для воспроизводимых запусков всё ещё могут понадобиться локальные `apps/` и результаты экспериментов, но они специально не включаются в remote-репозиторий: цель этой версии - показать код краулеров и изменения, связанные с DEP, без лишних больших или производных данных.
