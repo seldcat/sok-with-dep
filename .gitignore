@@ -2,3 +2,7 @@
 
 # Generated DEP experiment outputs; keep locally, do not publish.
 experiments/dep/results/
+
+# Original benchmark/data modules kept locally.
+apps/
+survey/
