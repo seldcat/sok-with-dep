@@ -1,7 +1,10 @@
 FROM php:7.1.33-apache
 #xdebug needs < 7.2.0
 
-RUN apt update && apt install -y git \
+RUN sed -i 's|deb.debian.org|archive.debian.org|g' /etc/apt/sources.list \
+    && sed -i 's|security.debian.org/debian-security|archive.debian.org/debian-security|g' /etc/apt/sources.list \
+    && sed -i 's| buster-updates| buster|g' /etc/apt/sources.list \
+    && apt -o Acquire::AllowInsecureRepositories=true update && apt install -y --allow-unauthenticated git \
     && pecl install xdebug-2.5.5 && docker-php-ext-enable xdebug \
     && docker-php-ext-install mysqli \ 
     && rm -r /var/lib/apt/lists/* \
@@ -14,4 +17,3 @@ COPY xdebug.php /var/www/html/xdebug.php
 COPY options.php /var/www/html/conf/options.php
 
 ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
-

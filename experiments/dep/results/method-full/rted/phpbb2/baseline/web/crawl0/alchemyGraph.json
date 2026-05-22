@@ -1,0 +1,17 @@
+{
+  "nodes" : [ {
+    "name" : "index",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 0,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778373488497,
+    "nearestState" : "null"
+  } ],
+  "links" : [ ]
+}

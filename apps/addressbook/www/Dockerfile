@@ -1,7 +1,7 @@
 #FROM php:5.5-apache
 FROM php:5.6-apache
 
-#COPY html/addressbook-mod /var/www/html/
+COPY html/ /var/www/html/
 
 # Install PHP extensions and PECL modules.
 RUN buildDeps=" \
@@ -32,7 +32,7 @@ RUN buildDeps=" \
     && docker-php-ext-install bcmath bz2 calendar iconv intl mbstring mcrypt mysql mysqli opcache pdo_mysql pdo_pgsql pgsql soap xsl zip \
     && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
     && docker-php-ext-install gd \
-    && docker-php-ext-configure ldap --with-libdir=lib/x86_64-linux-gnu/ \
+    && docker-php-ext-configure ldap --with-libdir=lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/ \
     && docker-php-ext-install ldap \
     && docker-php-ext-install exif \
 #   && pecl install memcached-2.2.0 redis-4.3.0 \

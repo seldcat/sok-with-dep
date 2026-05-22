@@ -1,0 +1,115 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sotk-dep
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: dep-results
+  namespace: sotk-dep
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  namespace: sotk-dep
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wackopicko
+  template:
+    metadata:
+      labels:
+        app: wackopicko
+    spec:
+      containers:
+        - name: web
+          image: sotk-wackopicko:local
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+          volumeMounts:
+            - name: coverage
+              mountPath: /xdebug
+      volumes:
+        - name: coverage
+          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web
+  namespace: sotk-dep
+spec:
+  selector:
+    app: wackopicko
+  ports:
+    - name: http
+      port: 80
+      targetPort: 80
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: crawljax-dep-comparison
+  namespace: sotk-dep
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      initContainers:
+        - name: wait-for-web
+          image: busybox:1.36
+          command:
+            - sh
+            - -c
+            - until wget -q -O /dev/null http://web/index.php; do sleep 2; done
+      containers:
+        - name: crawler
+          image: sotk-crawljax-dep:local
+          imagePullPolicy: IfNotPresent
+          workingDir: /opt/crawljax
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -euo pipefail
+              run_crawl() {
+                label="$1"
+                shift
+                rm -rf out
+                mkdir -p out
+                ./docker-entrypoint.sh -t "${CRAWL_TIMEOUT_MINUTES}" \
+                  -a url_full --nav bfs --app wackopicko \
+                  --no-save-screenshots --no-report-skeleton \
+                  --url http://web/index.php "$@"
+                rm -rf "/results/${label}"
+                mv out "/results/${label}"
+              }
+              run_crawl baseline
+              run_crawl dep --compare-deps
+          env:
+            - name: CRAWL_TIMEOUT_MINUTES
+              value: "5"
+          volumeMounts:
+            - name: results
+              mountPath: /results
+            - name: shm
+              mountPath: /dev/shm
+      volumes:
+        - name: results
+          persistentVolumeClaim:
+            claimName: dep-results
+        - name: shm
+          emptyDir:
+            medium: Memory
+            sizeLimit: 2Gi

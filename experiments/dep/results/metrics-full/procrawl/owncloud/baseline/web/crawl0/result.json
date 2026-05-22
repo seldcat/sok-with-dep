@@ -1,0 +1,213 @@
+{
+  "states" : {
+    "index" : {
+      "name" : "index",
+      "url" : "http://web/",
+      "candidateElements" : [ {
+        "top" : 408,
+        "left" : 232,
+        "xpath" : "//BUTTON[@id = 'submit']",
+        "width" : 300,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 408,
+        "left" : 232,
+        "xpath" : "//BUTTON[@id = 'submit']",
+        "width" : 300,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 2,
+      "id" : 0,
+      "failedEvents" : [ "xpath //BUTTON[@id = 'cboxPrevious']", "xpath //BUTTON[@id = 'cboxNext']", "xpath //BUTTON[@id = 'cboxSlideshow']", "xpath //BUTTON[@id = 'cboxPrevious']", "xpath //BUTTON[@id = 'cboxNext']", "xpath //BUTTON[@id = 'cboxSlideshow']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778539398134,
+      "nearestState" : "null"
+    },
+    "state2" : {
+      "name" : "state2",
+      "url" : "http://web/index.php/login",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 2,
+      "failedEvents" : [ "xpath //BUTTON[@id = 'cboxPrevious']", "xpath //BUTTON[@id = 'cboxNext']", "xpath //BUTTON[@id = 'cboxSlideshow']", "xpath //BUTTON[@id = 'cboxPrevious']", "xpath //BUTTON[@id = 'cboxNext']", "xpath //BUTTON[@id = 'cboxSlideshow']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778539402349,
+      "nearestState" : "index"
+    },
+    "state4" : {
+      "name" : "state4",
+      "url" : "http://web/index.php/login",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 4,
+      "failedEvents" : [ "xpath //BUTTON[@id = 'cboxPrevious']", "xpath //BUTTON[@id = 'cboxNext']", "xpath //BUTTON[@id = 'cboxSlideshow']", "xpath //BUTTON[@id = 'cboxPrevious']", "xpath //BUTTON[@id = 'cboxNext']", "xpath //BUTTON[@id = 'cboxSlideshow']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778539407374,
+      "nearestState" : "index"
+    }
+  },
+  "edges" : [ {
+    "from" : "index",
+    "to" : "state2",
+    "text" : "Login",
+    "id" : "xpath //BUTTON[@id = 'submit']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Login, attributes={class=login-button, id=submit, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state4",
+    "text" : "Login",
+    "id" : "xpath //BUTTON[@id = 'submit']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Login, attributes={class=login-button, id=submit, type=submit}}",
+    "eventType" : "click"
+  } ],
+  "statistics" : {
+    "duration" : "12 seconds",
+    "crawlPaths" : 2,
+    "averageDomSize" : "5.922 kB",
+    "edges" : 2,
+    "startDate" : "2026-05-11 22:42:58 UTC",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "state2",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "mostFanOut" : {
+        "id" : "index",
+        "count" : 2
+      },
+      "mostFanIn" : {
+        "id" : "state2",
+        "count" : 1
+      },
+      "totalNumberOfStates" : 3,
+      "urls" : {
+        "http://web/" : [ "index" ],
+        "http://web/index.php/login" : [ "state2", "state4" ]
+      }
+    },
+    "failedEvents" : 18
+  },
+  "exitStatus" : "EXHAUSTED"
+}

@@ -1,0 +1,2555 @@
+{
+  "nodes" : [ {
+    "name" : "state53",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 53,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363464725,
+    "nearestState" : "index"
+  }, {
+    "name" : "state52",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 52,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363462986,
+    "nearestState" : "index"
+  }, {
+    "name" : "state9",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 9,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363423970,
+    "nearestState" : "index"
+  }, {
+    "name" : "state51",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 51,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363462371,
+    "nearestState" : "index"
+  }, {
+    "name" : "state50",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 50,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363461714,
+    "nearestState" : "index"
+  }, {
+    "name" : "state6",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 6,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363421955,
+    "nearestState" : "index"
+  }, {
+    "name" : "state5",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 5,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363416043,
+    "nearestState" : "index"
+  }, {
+    "name" : "state8",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 8,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363423321,
+    "nearestState" : "index"
+  }, {
+    "name" : "state7",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 7,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363422626,
+    "nearestState" : "index"
+  }, {
+    "name" : "state2",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 2,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363413344,
+    "nearestState" : "index"
+  }, {
+    "name" : "state1",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 1,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363412466,
+    "nearestState" : "index"
+  }, {
+    "name" : "state4",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 4,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363414844,
+    "nearestState" : "index"
+  }, {
+    "name" : "state3",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 3,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363414134,
+    "nearestState" : "index"
+  }, {
+    "name" : "state57",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 57,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363468316,
+    "nearestState" : "index"
+  }, {
+    "name" : "state56",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 56,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363467549,
+    "nearestState" : "index"
+  }, {
+    "name" : "state54",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 54,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363465317,
+    "nearestState" : "index"
+  }, {
+    "name" : "state59",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 59,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363470675,
+    "nearestState" : "index"
+  }, {
+    "name" : "state58",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 58,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363468953,
+    "nearestState" : "index"
+  }, {
+    "name" : "state42",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 42,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363453255,
+    "nearestState" : "index"
+  }, {
+    "name" : "state41",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 41,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363452651,
+    "nearestState" : "index"
+  }, {
+    "name" : "state40",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 40,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363451009,
+    "nearestState" : "index"
+  }, {
+    "name" : "index",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 0,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363411425,
+    "nearestState" : "null"
+  }, {
+    "name" : "state46",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 46,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363457054,
+    "nearestState" : "index"
+  }, {
+    "name" : "state45",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 45,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363456297,
+    "nearestState" : "index"
+  }, {
+    "name" : "state44",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 44,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363455647,
+    "nearestState" : "index"
+  }, {
+    "name" : "state43",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 43,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363453989,
+    "nearestState" : "index"
+  }, {
+    "name" : "state49",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 49,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363460063,
+    "nearestState" : "index"
+  }, {
+    "name" : "state48",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 48,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363459470,
+    "nearestState" : "index"
+  }, {
+    "name" : "state47",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 47,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363458834,
+    "nearestState" : "index"
+  }, {
+    "name" : "state31",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 31,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363442277,
+    "nearestState" : "index"
+  }, {
+    "name" : "state30",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 30,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363441688,
+    "nearestState" : "index"
+  }, {
+    "name" : "state101",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 101,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363517022,
+    "nearestState" : "index"
+  }, {
+    "name" : "state100",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 100,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363516023,
+    "nearestState" : "index"
+  }, {
+    "name" : "state103",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 103,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363518685,
+    "nearestState" : "index"
+  }, {
+    "name" : "state102",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 102,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363517960,
+    "nearestState" : "index"
+  }, {
+    "name" : "state105",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 105,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363520222,
+    "nearestState" : "index"
+  }, {
+    "name" : "state104",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 104,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363519343,
+    "nearestState" : "index"
+  }, {
+    "name" : "state107",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 107,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363521573,
+    "nearestState" : "index"
+  }, {
+    "name" : "state106",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 106,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363520972,
+    "nearestState" : "index"
+  }, {
+    "name" : "state35",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 35,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363446773,
+    "nearestState" : "index"
+  }, {
+    "name" : "state109",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 109,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363522858,
+    "nearestState" : "index"
+  }, {
+    "name" : "state34",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 34,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363445152,
+    "nearestState" : "index"
+  }, {
+    "name" : "state108",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 108,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363522240,
+    "nearestState" : "index"
+  }, {
+    "name" : "state33",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 33,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363444555,
+    "nearestState" : "index"
+  }, {
+    "name" : "state32",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 32,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363442916,
+    "nearestState" : "index"
+  }, {
+    "name" : "state39",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 39,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363450373,
+    "nearestState" : "index"
+  }, {
+    "name" : "state38",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 38,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363449759,
+    "nearestState" : "index"
+  }, {
+    "name" : "state37",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 37,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363448078,
+    "nearestState" : "index"
+  }, {
+    "name" : "state36",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 36,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363447439,
+    "nearestState" : "index"
+  }, {
+    "name" : "state20",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 20,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363431206,
+    "nearestState" : "index"
+  }, {
+    "name" : "state121",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 121,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363530525,
+    "nearestState" : "index"
+  }, {
+    "name" : "state120",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 120,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363529808,
+    "nearestState" : "index"
+  }, {
+    "name" : "state112",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 112,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363524685,
+    "nearestState" : "index"
+  }, {
+    "name" : "state111",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 111,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363524052,
+    "nearestState" : "index"
+  }, {
+    "name" : "state29",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 29,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363440002,
+    "nearestState" : "index"
+  }, {
+    "name" : "state116",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 116,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363527225,
+    "nearestState" : "index"
+  }, {
+    "name" : "state115",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 115,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363526529,
+    "nearestState" : "index"
+  }, {
+    "name" : "state118",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 118,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363528564,
+    "nearestState" : "index"
+  }, {
+    "name" : "state117",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 117,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363527877,
+    "nearestState" : "index"
+  }, {
+    "name" : "state24",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 24,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363435770,
+    "nearestState" : "index"
+  }, {
+    "name" : "state23",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 23,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363434124,
+    "nearestState" : "index"
+  }, {
+    "name" : "state119",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 119,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363529214,
+    "nearestState" : "index"
+  }, {
+    "name" : "state22",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 22,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363433506,
+    "nearestState" : "index"
+  }, {
+    "name" : "state21",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 21,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363432868,
+    "nearestState" : "index"
+  }, {
+    "name" : "state28",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 28,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363439407,
+    "nearestState" : "index"
+  }, {
+    "name" : "state27",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 27,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363438808,
+    "nearestState" : "index"
+  }, {
+    "name" : "state26",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 26,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363437057,
+    "nearestState" : "index"
+  }, {
+    "name" : "state25",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 25,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363436359,
+    "nearestState" : "index"
+  }, {
+    "name" : "state93",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 93,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363504502,
+    "nearestState" : "index"
+  }, {
+    "name" : "state92",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 92,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363503825,
+    "nearestState" : "index"
+  }, {
+    "name" : "state91",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 91,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363502190,
+    "nearestState" : "index"
+  }, {
+    "name" : "state90",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 90,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363501584,
+    "nearestState" : "index"
+  }, {
+    "name" : "state97",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 97,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363507965,
+    "nearestState" : "index"
+  }, {
+    "name" : "state96",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 96,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363507371,
+    "nearestState" : "index"
+  }, {
+    "name" : "state95",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 95,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363506751,
+    "nearestState" : "index"
+  }, {
+    "name" : "state94",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 94,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363505106,
+    "nearestState" : "index"
+  }, {
+    "name" : "state130",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 130,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363566639,
+    "nearestState" : "index"
+  }, {
+    "name" : "state132",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 132,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363575746,
+    "nearestState" : "index"
+  }, {
+    "name" : "state131",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 131,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363570441,
+    "nearestState" : "index"
+  }, {
+    "name" : "state123",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 123,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363534748,
+    "nearestState" : "index"
+  }, {
+    "name" : "state122",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 122,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363531432,
+    "nearestState" : "index"
+  }, {
+    "name" : "state19",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 19,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363430584,
+    "nearestState" : "index"
+  }, {
+    "name" : "state125",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 125,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363545331,
+    "nearestState" : "index"
+  }, {
+    "name" : "state18",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 18,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363429990,
+    "nearestState" : "index"
+  }, {
+    "name" : "state124",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 124,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363541045,
+    "nearestState" : "index"
+  }, {
+    "name" : "state127",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 127,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363555224,
+    "nearestState" : "index"
+  }, {
+    "name" : "state126",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 126,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363550034,
+    "nearestState" : "index"
+  }, {
+    "name" : "state129",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 129,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363563631,
+    "nearestState" : "index"
+  }, {
+    "name" : "state128",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 128,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363560239,
+    "nearestState" : "index"
+  }, {
+    "name" : "state13",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 13,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363426765,
+    "nearestState" : "index"
+  }, {
+    "name" : "state12",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 12,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363426113,
+    "nearestState" : "index"
+  }, {
+    "name" : "state11",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 11,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363425312,
+    "nearestState" : "index"
+  }, {
+    "name" : "state99",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 99,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363510262,
+    "nearestState" : "index"
+  }, {
+    "name" : "state10",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 10,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363424664,
+    "nearestState" : "index"
+  }, {
+    "name" : "state98",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 98,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363509642,
+    "nearestState" : "index"
+  }, {
+    "name" : "state17",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 17,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363429332,
+    "nearestState" : "index"
+  }, {
+    "name" : "state16",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 16,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363428709,
+    "nearestState" : "index"
+  }, {
+    "name" : "state15",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 15,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363428069,
+    "nearestState" : "index"
+  }, {
+    "name" : "state14",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 14,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363427470,
+    "nearestState" : "index"
+  }, {
+    "name" : "state82",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 82,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363493279,
+    "nearestState" : "index"
+  }, {
+    "name" : "state81",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 81,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363492668,
+    "nearestState" : "index"
+  }, {
+    "name" : "state80",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 80,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363491043,
+    "nearestState" : "index"
+  }, {
+    "name" : "state86",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 86,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363498028,
+    "nearestState" : "index"
+  }, {
+    "name" : "state85",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 85,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363496235,
+    "nearestState" : "index"
+  }, {
+    "name" : "state84",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 84,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363495614,
+    "nearestState" : "index"
+  }, {
+    "name" : "state83",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 83,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363493894,
+    "nearestState" : "index"
+  }, {
+    "name" : "state134",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 134,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363582827,
+    "nearestState" : "index"
+  }, {
+    "name" : "state133",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 133,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363581117,
+    "nearestState" : "index"
+  }, {
+    "name" : "state136",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 136,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363592235,
+    "nearestState" : "index"
+  }, {
+    "name" : "state135",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 135,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363583630,
+    "nearestState" : "index"
+  }, {
+    "name" : "state88",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 88,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363499362,
+    "nearestState" : "index"
+  }, {
+    "name" : "state87",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 87,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363498742,
+    "nearestState" : "index"
+  }, {
+    "name" : "state71",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 71,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363482299,
+    "nearestState" : "index"
+  }, {
+    "name" : "state70",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 70,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363481683,
+    "nearestState" : "index"
+  }, {
+    "name" : "state75",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 75,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363486938,
+    "nearestState" : "index"
+  }, {
+    "name" : "state74",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 74,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363485268,
+    "nearestState" : "index"
+  }, {
+    "name" : "state73",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 73,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363484639,
+    "nearestState" : "index"
+  }, {
+    "name" : "state72",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 72,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363482954,
+    "nearestState" : "index"
+  }, {
+    "name" : "state79",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 79,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363490444,
+    "nearestState" : "index"
+  }, {
+    "name" : "state78",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 78,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363489816,
+    "nearestState" : "index"
+  }, {
+    "name" : "state77",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 77,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363488168,
+    "nearestState" : "index"
+  }, {
+    "name" : "state76",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 76,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363487523,
+    "nearestState" : "index"
+  }, {
+    "name" : "state60",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 60,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363471300,
+    "nearestState" : "index"
+  }, {
+    "name" : "state64",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 64,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363475879,
+    "nearestState" : "index"
+  }, {
+    "name" : "state63",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 63,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363474184,
+    "nearestState" : "index"
+  }, {
+    "name" : "state62",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 62,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363473555,
+    "nearestState" : "index"
+  }, {
+    "name" : "state61",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 61,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363471903,
+    "nearestState" : "index"
+  }, {
+    "name" : "state157",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 157,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363702725,
+    "nearestState" : "state136"
+  }, {
+    "name" : "state68",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 68,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363479351,
+    "nearestState" : "index"
+  }, {
+    "name" : "state67",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 67,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363478755,
+    "nearestState" : "index"
+  }, {
+    "name" : "state66",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 66,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363477107,
+    "nearestState" : "index"
+  }, {
+    "name" : "state65",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 65,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363476522,
+    "nearestState" : "index"
+  }, {
+    "name" : "state69",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 829,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 0,
+    "id" : 69,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778363479987,
+    "nearestState" : "index"
+  } ],
+  "links" : [ ]
+}

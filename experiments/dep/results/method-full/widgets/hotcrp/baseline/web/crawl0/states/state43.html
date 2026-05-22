@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state43</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://web/settings.php/tags'>http://web/settings.php/tags</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>26</td>
+				</tr>
+				<tr>
+					<th>Nearest State</th>
+					<td>index</td>
+				</tr>
+				<tr>
+					<th>Distance to nearest State</th>
+					<td>1.0</td>
+				</tr>
+				<tr>
+					<th>Has Near Duplicate</th>
+					<td>false</td>
+				</tr>
+				<tr>
+					<th>Cluster</th>
+					<td>-1</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>-</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state43.png' /> 
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_site']/H1[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: 21px; top: 1px; width: 91px; height: 18px; border: 2px solid #00FFFF;  cursor: pointer;" onclick="location.href='state14.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 281px; top: 6px; width: 139px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 428px; top: 6px; width: 36px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[3]" class='hovers'
+				style="position: absolute; z-index: 10; left: 485px; top: 6px; width: 27px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[4]" class='hovers'
+				style="position: absolute; z-index: 10; left: 533px; top: 6px; width: 47px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 92px; width: 38px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 114px; width: 52px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 135px; width: 58px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 157px; width: 71px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[5]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 178px; width: 93px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[6]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 199px; width: 48px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[7]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 221px; width: 70px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[9]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 267px; width: 55px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 178px; top: 349px; width: 30px; height: 17px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 182px; top: 453px; width: 29px; height: 17px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 204px; top: 539px; width: 132px; height: 17px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 306px; top: 557px; width: 30px; height: 17px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/P[2]/SPAN[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 375px; top: 1379px; width: 32px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'trackgroup0']/DIV[1]/DIV[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[7]/DIV[1]/LABEL[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 347px; top: 1600px; width: 104px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'settings_track_add']" class='hovers'
+				style="position: absolute; z-index: 10; left: 178px; top: 1669px; width: 78px; height: 28px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 524px; top: 37px; width: 55px; height: 25px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 448px; top: 112px; width: 115px; height: 31px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[1]/DIV[2]/INPUT[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 367px; top: 112px; width: 68px; height: 31px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[8]/DIV[1]/INPUT[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 448px; top: 1725px; width: 115px; height: 31px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[8]/DIV[2]/INPUT[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 367px; top: 1725px; width: 68px; height: 31px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+&lt;meta name=&quot;google&quot; content=&quot;notranslate&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../stylesheets/style.css?mtime=1778089704&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;../images/review24.png&quot;&gt;
+&lt;title&gt;Settings - Tags &amp;amp; tracks - hotcrp&lt;/title&gt;
+&lt;/head&gt;
+&lt;body id=&quot;settings&quot;&gt;
+&lt;div id=&quot;prebody&quot;&gt;&lt;div id=&quot;header&quot;&gt;&lt;div id=&quot;header_site&quot; class=&quot;header_site_page&quot;&gt;&lt;h1&gt;&lt;a class=&quot;qq&quot; href=&quot;../&quot;&gt;&lt;span class=&quot;header-site-name&quot;&gt;hotcrp&lt;/span&gt; Home&lt;/a&gt;&lt;/h1&gt;&lt;/div&gt;&lt;div id=&quot;header_right&quot;&gt;&lt;a class=&quot;q&quot; href=&quot;../profile.php&quot;&gt;&lt;strong&gt;jaekpot@localhost.com&lt;/strong&gt;&lt;/a&gt; &amp;nbsp; &lt;a href=&quot;../profile.php&quot;&gt;Profile&lt;/a&gt; &lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt; &lt;a href=&quot;../help.php/chair&quot;&gt;Help&lt;/a&gt; &lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt; &lt;a href=&quot;../?signout=1&amp;amp;post=1b0e5dbd3758&quot; class=&quot;nw&quot;&gt;Sign out&lt;/a&gt;&lt;div id=&quot;maindeadline&quot; class=&quot;hidden&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;header_page&quot;&gt;&lt;h1&gt;Settings &amp;nbsp;∕&amp;nbsp; &lt;strong&gt;Tags &amp;amp; tracks&lt;/strong&gt;&lt;/h1&gt;&lt;/div&gt;&lt;table class=&quot;vbar&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;vbar gopaper&quot;&gt;&lt;form method=&quot;get&quot; action=&quot;../paper.php&quot; accept-charset=&quot;UTF-8&quot; class=&quot;gopaper&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;p&quot; value=&quot;&quot; id=&quot;quicksearchq&quot; size=&quot;10&quot; placeholder=&quot;(All)&quot; class=&quot;papersearch&quot; autocomplete=&quot;off&quot; style=&quot;width: 72px;&quot;&gt;&amp;nbsp; &lt;input type=&quot;submit&quot; class=&quot;btn&quot; value=&quot;Search&quot;&gt;&lt;/form&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;  &lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;initialmsgs&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;body&quot; class=&quot;body&quot;&gt;
+&lt;!--[if lt IE 9]&gt;&lt;script src=&quot;../scripts/jquery-1.12.4.min.js?mtime=1778089704&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;
+&lt;!--[if !IE|gte IE 9]--&gt;&lt;script src=&quot;../scripts/jquery-3.3.1.min.js?mtime=1778089704&quot;&gt;&lt;/script&gt;&lt;!--[endif]--&gt;
+&lt;script&gt;siteurl=&quot;..\/&quot;;siteurl_suffix=&quot;.php&quot;;siteurl_postvalue=&quot;1b0e5dbd3758&quot;;siteurl_cookie_params=&quot;&quot;;assetsurl=&quot;..\/&quot;;hotcrp_user={&quot;email&quot;:&quot;jaekpot@localhost.com&quot;,&quot;is_pclike&quot;:true,&quot;cid&quot;:1};&lt;/script&gt;&lt;script src=&quot;../scripts/script.js?mtime=1778089704&quot;&gt;&lt;/script&gt;
+&lt;script&gt;hotcrp_load.time(240,0);hotcrp_deadlines.init({&quot;now&quot;:1778370904,&quot;email&quot;:&quot;jaekpot@localhost.com&quot;,&quot;is_admin&quot;:true,&quot;sub&quot;:{&quot;open&quot;:false,&quot;sub&quot;:0,&quot;blind&quot;:true},&quot;rev&quot;:{&quot;blind&quot;:true},&quot;revs&quot;:{&quot;unnamed&quot;:{},&quot;R1&quot;:{},&quot;R2&quot;:{},&quot;R3&quot;:{}}})&lt;/script&gt;&lt;script src=&quot;../scripts/settings.js?mtime=1778089704&quot;&gt;&lt;/script&gt;
+&lt;form method=&quot;post&quot; action=&quot;../settings.php/tags?post=1b0e5dbd3758&quot; enctype=&quot;multipart/form-data&quot; accept-charset=&quot;UTF-8&quot; id=&quot;settingsform&quot;&gt;&lt;div class=&quot;leftmenu-menu-container&quot;&gt;&lt;div class=&quot;leftmenu-list&quot;&gt;&lt;div class=&quot;leftmenu-item ui js-click-child&quot;&gt;&lt;a href=&quot;../settings.php/basics&quot;&gt;Basics&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;leftmenu-item ui js-click-child&quot;&gt;&lt;a href=&quot;../settings.php/users&quot;&gt;Accounts&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;leftmenu-item ui js-click-child&quot;&gt;&lt;a href=&quot;../settings.php/msg&quot;&gt;Messages&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;leftmenu-item ui js-click-child&quot;&gt;&lt;a href=&quot;../settings.php/submissions&quot;&gt;Submissions&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;leftmenu-item ui js-click-child&quot;&gt;&lt;a href=&quot;../settings.php/subform&quot;&gt;Submission form&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;leftmenu-item ui js-click-child&quot;&gt;&lt;a href=&quot;../settings.php/reviews&quot;&gt;Reviews&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;leftmenu-item ui js-click-child&quot;&gt;&lt;a href=&quot;../settings.php/reviewform&quot;&gt;Review form&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;leftmenu-item-on&quot;&gt;Tags &amp;amp; tracks&lt;/div&gt;&lt;div class=&quot;leftmenu-item ui js-click-child&quot;&gt;&lt;a href=&quot;../settings.php/decisions&quot;&gt;Decisions&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;leftmenu-content-container&quot;&gt;&lt;div class=&quot;leftmenu-content&quot;&gt;&lt;div class=&quot;aab aabr aabig&quot;&gt;&lt;div class=&quot;aabut&quot;&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-primary&quot; name=&quot;update&quot; value=&quot;Save changes&quot;&gt;&lt;/div&gt;&lt;div class=&quot;aabut&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;cancel&quot; class=&quot;btn&quot; value=&quot;Cancel&quot;&gt;&lt;/div&gt;&lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;&lt;h3 class=&quot;settings&quot;&gt;Tags&lt;/h3&gt;
+&lt;div class=&quot;settings-g&quot;&gt;&lt;div class=&quot;f-i&quot;&gt;&lt;label for=&quot;tag_chair&quot;&gt;Read-only tags&lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;tag_chair&quot; value=&quot;accept pcpaper reject&quot; id=&quot;tag_chair&quot; class=&quot;need-tagcompletion&quot; size=&quot;50&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 471px; max-width: 640px; width: 471px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_chair&quot; value=&quot;1&quot;&gt;&lt;div class=&quot;f-h&quot;&gt;PC members can see these tags, but only administrators can change them.&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;f-i&quot;&gt;&lt;label for=&quot;tag_approval&quot;&gt;Approval voting tags&lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;tag_approval&quot; value=&quot;&quot; id=&quot;tag_approval&quot; class=&quot;need-tagcompletion&quot; size=&quot;50&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 471px; max-width: 640px; width: 471px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_approval&quot; value=&quot;1&quot;&gt;&lt;div class=&quot;f-h&quot;&gt;&lt;a href=&quot;../help.php/votetags&quot;&gt;Help&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;f-i&quot;&gt;&lt;label for=&quot;tag_vote&quot;&gt;Allotment voting tags&lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;tag_vote&quot; value=&quot;&quot; id=&quot;tag_vote&quot; class=&quot;need-tagcompletion&quot; size=&quot;50&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 471px; max-width: 640px; width: 471px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_vote&quot; value=&quot;1&quot;&gt;&lt;div class=&quot;f-h&quot;&gt;&ldquo;vote#10&rdquo; declares an allotment of 10 votes per PC member. (&lt;a href=&quot;../help.php/votetags&quot;&gt;Help&lt;/a&gt;)&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;f-i&quot;&gt;&lt;label for=&quot;tag_rank&quot;&gt;Ranking tags&lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;tag_rank&quot; value=&quot;&quot; id=&quot;tag_rank&quot; size=&quot;50&quot; class=&quot;&quot; style=&quot;min-width: 471px; max-width: 640px; width: 471px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_rank&quot; value=&quot;1&quot;&gt;&lt;div class=&quot;f-h&quot;&gt;The &lt;a href=&quot;../offline.php&quot;&gt;offline reviewing page&lt;/a&gt; will expose support for uploading rankings by this tag. (&lt;a href=&quot;../help.php/ranking&quot;&gt;Help&lt;/a&gt;)&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;settings-g&quot;&gt;&lt;div class=&quot;checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_seeall&quot; value=&quot;1&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;tag_seeall&quot; value=&quot;1&quot; id=&quot;cbtag_seeall&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;label for=&quot;cbtag_seeall&quot;&gt;PC can see tags for conflicted papers&lt;/label&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color&quot; value=&quot;1&quot;&gt;&lt;h3 class=&quot;settings g&quot;&gt;Colors and styles&lt;/h3&gt;&lt;p class=&quot;settingtext&quot;&gt;Papers tagged with a style name, or with an associated tag, appear in that style in lists. This also applies to PC tags.&lt;/p&gt;&lt;table id=&quot;foldtag_color&quot; class=&quot;demargin&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th class=&quot;settings-simplehead&quot; style=&quot;min-width:8rem&quot;&gt;Style name&lt;/th&gt;&lt;th class=&quot;settings-simplehead&quot;&gt;Tags&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr class=&quot;redtag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;red&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_red&quot; value=&quot;&quot; id=&quot;tag_color_red&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_red&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;orangetag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;orange&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_orange&quot; value=&quot;&quot; id=&quot;tag_color_orange&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_orange&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;yellowtag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;yellow&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_yellow&quot; value=&quot;&quot; id=&quot;tag_color_yellow&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_yellow&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;greentag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;green&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_green&quot; value=&quot;&quot; id=&quot;tag_color_green&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_green&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;bluetag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;blue&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_blue&quot; value=&quot;&quot; id=&quot;tag_color_blue&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_blue&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;purpletag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;purple&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_purple&quot; value=&quot;&quot; id=&quot;tag_color_purple&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_purple&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;graytag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;gray&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_gray&quot; value=&quot;&quot; id=&quot;tag_color_gray&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_gray&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;whitetag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;white&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_white&quot; value=&quot;&quot; id=&quot;tag_color_white&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_white&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;boldtag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;bold&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_bold&quot; value=&quot;&quot; id=&quot;tag_color_bold&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_bold&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;italictag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;italic&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_italic&quot; value=&quot;&quot; id=&quot;tag_color_italic&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_italic&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;underlinetag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;underline&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_underline&quot; value=&quot;&quot; id=&quot;tag_color_underline&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_underline&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;strikethroughtag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;strikethrough&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_strikethrough&quot; value=&quot;&quot; id=&quot;tag_color_strikethrough&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_strikethrough&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;bigtag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;big&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_big&quot; value=&quot;&quot; id=&quot;tag_color_big&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_big&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;smalltag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;small&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_small&quot; value=&quot;&quot; id=&quot;tag_color_small&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_small&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;dimtag&quot;&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;td class=&quot;lxcaption taghl&quot;&gt;dim&lt;/td&gt;&lt;td class=&quot;lentry&quot; style=&quot;font-size:1rem&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;tag_color_dim&quot; value=&quot;&quot; id=&quot;tag_color_dim&quot; class=&quot;need-tagcompletion&quot; size=&quot;40&quot; autocomplete=&quot;off&quot; style=&quot;min-width: 381px; max-width: 640px; width: 381px;&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tag_color_dim&quot; value=&quot;1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;remargin-left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;settings&quot; id=&quot;tracks&quot;&gt;Tracks&lt;/h3&gt;
+&lt;p class=&quot;settingtext&quot;&gt;Tracks control the PC members allowed to view or review different sets of submissions. &lt;span class=&quot;nw&quot;&gt;(&lt;a href=&quot;../help.php/tracks&quot;&gt;Help&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;&lt;input type=&quot;hidden&quot; name=&quot;has_tracks&quot; value=&quot;1&quot;&gt;&lt;div class=&quot;smg&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;trackgroup0&quot; class=&quot;mg has-fold fold3o hidden&quot;&gt;&lt;div class=&quot;settings-tracks&quot;&gt;&lt;label for=&quot;name_track0&quot;&gt;For submissions with tag &amp;nbsp;&lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;name_track0&quot; value=&quot;&quot; id=&quot;name_track0&quot; placeholder=&quot;(tag)&quot; class=&quot;settings-track-name&quot;&gt;:&lt;div class=&quot;entryi wide has-fold foldc fx3&quot;&gt;&lt;label for=&quot;view_track0&quot;&gt;Who can see these submissions?&lt;/label&gt;&lt;span class=&quot;strut&quot;&gt;&lt;select name=&quot;view_track0&quot; id=&quot;view_track0&quot; class=&quot;js-track-perm&quot; data-default-value=&quot;&quot;&gt;&lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Whole PC&lt;/option&gt;&lt;option value=&quot;+&quot;&gt;PC members with tag&lt;/option&gt;&lt;option value=&quot;-&quot;&gt;PC members without tag&lt;/option&gt;&lt;option value=&quot;none&quot;&gt;Administrators only&lt;/option&gt;&lt;/select&gt;&lt;/span&gt; &amp;nbsp;&lt;input type=&quot;text&quot; name=&quot;view_tag_track0&quot; value=&quot;&quot; id=&quot;view_tag_track0&quot; class=&quot;fx settings-track-perm-tag&quot; placeholder=&quot;(tag)&quot;&gt;&lt;/div&gt;&lt;div class=&quot;entryi wide has-fold foldc fx3&quot;&gt;&lt;label for=&quot;viewrev_track0&quot;&gt;Who can see reviews?&lt;/label&gt;&lt;span class=&quot;strut&quot;&gt;&lt;select name=&quot;viewrev_track0&quot; id=&quot;viewrev_track0&quot; class=&quot;js-track-perm&quot; data-default-value=&quot;&quot;&gt;&lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Whole PC&lt;/option&gt;&lt;option value=&quot;+&quot;&gt;PC members with tag&lt;/option&gt;&lt;option value=&quot;-&quot;&gt;PC members without tag&lt;/option&gt;&lt;option value=&quot;none&quot;&gt;Administrators only&lt;/option&gt;&lt;/select&gt;&lt;/span&gt; &amp;nbsp;&lt;input type=&quot;text&quot; name=&quot;viewrev_tag_track0&quot; value=&quot;&quot; id=&quot;viewrev_tag_track0&quot; class=&quot;fx settings-track-perm-tag&quot; placeholder=&quot;(tag)&quot;&gt;&lt;div class=&quot;f-h&quot;&gt;&lt;span class=&quot;fx&quot;&gt;This setting constrains all users including co-reviewers.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;entryi wide fn3&quot;&gt;&lt;a href=&quot;&quot; class=&quot;ui js-foldup&quot; data-fold-target=&quot;3&quot;&gt;Show all permissions&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div id=&quot;trackgroup1&quot; class=&quot;mg has-fold fold3c&quot;&gt;&lt;div class=&quot;settings-tracks&quot;&gt;For submissions not on other tracks:&lt;input type=&quot;hidden&quot; name=&quot;name_track1&quot; value=&quot;_&quot;&gt;&lt;div class=&quot;entryi wide has-fold foldc&quot;&gt;&lt;label for=&quot;view_track1&quot;&gt;Who can see these submissions?&lt;/label&gt;&lt;span class=&quot;strut&quot;&gt;&lt;select name=&quot;view_track1&quot; id=&quot;view_track1&quot; class=&quot;js-track-perm&quot; data-default-value=&quot;&quot;&gt;&lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Whole PC&lt;/option&gt;&lt;option value=&quot;+&quot;&gt;PC members with tag&lt;/option&gt;&lt;option value=&quot;-&quot;&gt;PC members without tag&lt;/option&gt;&lt;option value=&quot;none&quot;&gt;Administrators only&lt;/option&gt;&lt;/select&gt;&lt;/span&gt; &amp;nbsp;&lt;input type=&quot;text&quot; name=&quot;view_tag_track1&quot; value=&quot;&quot; id=&quot;view_tag_track1&quot; class=&quot;fx settings-track-perm-tag&quot; placeholder=&quot;(tag)&quot;&gt;&lt;/div&gt;&lt;div class=&quot;entryi wide has-fold foldc&quot;&gt;&lt;label for=&quot;viewrev_track1&quot;&gt;Who can see reviews?&lt;/label&gt;&lt;span class=&quot;strut&quot;&gt;&lt;select name=&quot;viewrev_track1&quot; id=&quot;viewrev_track1&quot; class=&quot;js-track-perm&quot; data-default-value=&quot;&quot;&gt;&lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Whole PC&lt;/option&gt;&lt;option value=&quot;+&quot;&gt;PC members with tag&lt;/option&gt;&lt;option value=&quot;-&quot;&gt;PC members without tag&lt;/option&gt;&lt;option value=&quot;none&quot;&gt;Administrators only&lt;/option&gt;&lt;/select&gt;&lt;/span&gt; &amp;nbsp;&lt;input type=&quot;text&quot; name=&quot;viewrev_tag_track1&quot; value=&quot;&quot; id=&quot;viewrev_tag_track1&quot; class=&quot;fx settings-track-perm-tag&quot; placeholder=&quot;(tag)&quot;&gt;&lt;div class=&quot;f-h&quot;&gt;&lt;span class=&quot;fx&quot;&gt;This setting constrains all users including co-reviewers.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;settings-tracks&quot;&gt;General permissions:&lt;div class=&quot;entryi wide has-fold foldc fx3&quot;&gt;&lt;label for=&quot;viewtracker_track1&quot;&gt;Who can see the &lt;a href=&quot;../help.php/chair#meeting&quot;&gt;meeting tracker&lt;/a&gt;?&lt;/label&gt;&lt;span class=&quot;strut&quot;&gt;&lt;select name=&quot;viewtracker_track1&quot; id=&quot;viewtracker_track1&quot; class=&quot;js-track-perm&quot; data-default-value=&quot;&quot;&gt;&lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Whole PC&lt;/option&gt;&lt;option value=&quot;+&quot;&gt;PC members with tag&lt;/option&gt;&lt;option value=&quot;-&quot;&gt;PC members without tag&lt;/option&gt;&lt;option value=&quot;none&quot;&gt;Administrators only&lt;/option&gt;&lt;/select&gt;&lt;/span&gt; &amp;nbsp;&lt;input type=&quot;text&quot; name=&quot;viewtracker_tag_track1&quot; value=&quot;&quot; id=&quot;viewtracker_tag_track1&quot; class=&quot;fx settings-track-perm-tag&quot; placeholder=&quot;(tag)&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;button type=&quot;button&quot; class=&quot;btn ui js-settings-add-track&quot; id=&quot;settings_track_add&quot; value=&quot;1&quot;&gt;Add track&lt;/button&gt;&lt;div class=&quot;aab aabr aabig&quot;&gt;&lt;div class=&quot;aabut&quot;&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-primary&quot; name=&quot;update&quot; value=&quot;Save changes&quot;&gt;&lt;/div&gt;&lt;div class=&quot;aabut&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;cancel&quot; class=&quot;btn&quot; value=&quot;Cancel&quot;&gt;&lt;/div&gt;&lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/form&gt;
+&lt;/div&gt;
+&lt;div id=&quot;footer&quot;&gt;&lt;div id=&quot;footer_crp&quot;&gt;&lt;a href=&quot;http://read.seas.harvard.edu/~kohler/hotcrp/&quot;&gt;HotCRP&lt;/a&gt; v2.102&lt;/div&gt;
+  &lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;
+&lt;script&gt;suggest($(&quot;.need-tagcompletion&quot;), taghelp_tset);$(document).on(&quot;change&quot;, &quot;select.js-track-perm&quot;, function (event) { foldup.call(this, event, {f: this.selectedIndex == 0 || this.selectedIndex == 3}) });hiliter_children(&quot;#settingsform&quot;, true)&lt;/script&gt;
+
+&lt;!--1778370904.69ffc958917ef6.94943596.serialized--&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;accept pcpaper reject  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 14.6667px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 19.8001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 12.2223px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 16.5001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_site']/H1[1]/A[1]</td>
+							<td><a href="state14.html">state14</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[3]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[4]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[5]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[6]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[7]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[9]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/P[2]/SPAN[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'trackgroup0']/DIV[1]/DIV[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[7]/DIV[1]/LABEL[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'settings_track_add']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[1]/DIV[2]/INPUT[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[8]/DIV[1]/INPUT[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[8]/DIV[2]/INPUT[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>

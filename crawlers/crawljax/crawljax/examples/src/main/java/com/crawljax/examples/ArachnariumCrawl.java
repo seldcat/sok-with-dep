@@ -15,6 +15,7 @@ import com.crawljax.core.configuration.CrawljaxConfiguration;
 import com.crawljax.core.configuration.CrawljaxConfiguration.CrawljaxConfigurationBuilder;
 import com.crawljax.plugins.crawloverview.CrawlOverview;
 import com.crawljax.core.state.StateFlowGraph;
+import com.crawljax.core.state.StateVertexFactory;
 
 import com.crawljax.stateabstractions.dom.DOMConfiguration.Mode;
 
@@ -22,6 +23,8 @@ import com.crawljax.stateabstractions.visual.imagehashes.BlockMeanImageHashState
 import com.crawljax.stateabstractions.visual.imagehashes.PerceptualImageHashStateVertexFactory;
 import com.crawljax.stateabstractions.visual.ColorHistogramStateVertexFactory;
 import com.crawljax.stateabstractions.dom.RTEDStateVertexFactory;
+import com.crawljax.examples.stateabstractions.dep.DepAwareStateVertexFactory;
+import com.crawljax.examples.stateabstractions.dep.DepOnlyStateVertexFactory;
 import com.crawljax.examples.stateabstractions.python.PythonStateVertexFactory;
 import com.crawljax.examples.stateabstractions.dom.JAEKStateVertexFactory;
 import com.crawljax.examples.stateabstractions.dom.SimHashStateVertexFactory;
@@ -114,10 +117,12 @@ class ArachnariumCrawl implements Callable<Integer> {
     private boolean captureResources = false;
     @Option(names = {"--save-screenshots"}, description = "save state screenshots", negatable = true,
   		defaultValue = "true", fallbackValue = "true")
-    private boolean saveScreenshots;
-    @Option(names = {"--report-skeleton"}, description = "copy report skeleton", negatable = true,
-  		defaultValue = "true", fallbackValue = "true")
-    private boolean copySkeleton;
+	    private boolean saveScreenshots;
+	    @Option(names = {"--report-skeleton"}, description = "copy report skeleton", negatable = true,
+		    defaultValue = "true", fallbackValue = "true")
+	    private boolean copySkeleton;
+    @Option(names = {"--compare-deps"}, description = "also compare DEP signatures when deciding state equivalence")
+    private boolean compareDeps = false;
 
 	/**
 	 * Run this method to start the crawl.
@@ -175,68 +180,77 @@ class ArachnariumCrawl implements Callable<Integer> {
         	default:
         		builder.crawlRules().setCrawlPriorityMode(CrawlPriorityMode.OLDEST_FIRST);
         }
+        StateVertexFactory stateVertexFactory;
         switch (algorithm.toLowerCase()) {
             case "rted":
-                builder.setStateVertexFactory(new RTEDStateVertexFactory(threshold));
+                stateVertexFactory = new RTEDStateVertexFactory(threshold);
                 break;
             case "simhash":
-                builder.setStateVertexFactory(new SimHashStateVertexFactory(threshold, Mode.STRIPPED_DOM));
+                stateVertexFactory = new SimHashStateVertexFactory(threshold, Mode.STRIPPED_DOM);
                 break;
             case "tlsh":
-                builder.setStateVertexFactory(new TLSHStateVertexFactory(threshold, Mode.ORIGINAL_DOM));
+                stateVertexFactory = new TLSHStateVertexFactory(threshold, Mode.ORIGINAL_DOM);
                 break;
             case "jaek":
                 builder.addPlugin(new JaekPlugin());
-                builder.setStateVertexFactory(new JAEKStateVertexFactory(threshold, 1.0, 1.0, 1.0));
+                stateVertexFactory = new JAEKStateVertexFactory(threshold, 1.0, 1.0, 1.0);
                 break;
             case "colorhist":
-                builder.setStateVertexFactory(new ColorHistogramStateVertexFactory());
+                stateVertexFactory = new ColorHistogramStateVertexFactory();
                 break;
             case "phash":
-                builder.setStateVertexFactory(new PerceptualImageHashStateVertexFactory());
+                stateVertexFactory = new PerceptualImageHashStateVertexFactory();
                 break;
             case "blockmeanhash":
-                builder.setStateVertexFactory(new BlockMeanImageHashStateVertexFactory());
+                stateVertexFactory = new BlockMeanImageHashStateVertexFactory();
                 break;
             case "pdiff":
-                builder.setStateVertexFactory(new PDiffStateVertexFactory(threshold));
+                stateVertexFactory = new PDiffStateVertexFactory(threshold);
                 break;
             case "sift":
-                builder.setStateVertexFactory(new SIFTStateVertexFactory(threshold));
+                stateVertexFactory = new SIFTStateVertexFactory(threshold);
                 break;
             case "ssim":
-                builder.setStateVertexFactory(new SSIMStateVertexFactory(threshold));
+                stateVertexFactory = new SSIMStateVertexFactory(threshold);
                 break;
             case "apted":
-                builder.setStateVertexFactory(new PythonStateVertexFactory("APTEDState", threshold, false));
+                stateVertexFactory = new PythonStateVertexFactory("APTEDState", threshold, false);
                 break;
             case "apted_pruned":
-                builder.setStateVertexFactory(new PythonStateVertexFactory("APTEDState", threshold, true));
+                stateVertexFactory = new PythonStateVertexFactory("APTEDState", threshold, true);
                 break;
             case "general_paths":
-                builder.setStateVertexFactory(new PythonStateVertexFactory("GeneralPathsState"));
+                stateVertexFactory = new PythonStateVertexFactory("GeneralPathsState");
                 break;
             case "widgets":
-                builder.setStateVertexFactory(new PythonStateVertexFactory("WidgetsState"));
+                stateVertexFactory = new PythonStateVertexFactory("WidgetsState");
                 break;
             case "domstreq":
-                builder.setStateVertexFactory(new PythonStateVertexFactory("DOMStrEqState"));
+                stateVertexFactory = new PythonStateVertexFactory("DOMStrEqState");
                 break;
             case "procrawl":
-                builder.setStateVertexFactory(new PythonStateVertexFactory("ProcrawlState"));
+                stateVertexFactory = new PythonStateVertexFactory("ProcrawlState");
                 break;
             case "url_path":
-                builder.setStateVertexFactory(new PythonStateVertexFactory("UrlState", false, false));
+                stateVertexFactory = new PythonStateVertexFactory("UrlState", false, false);
                 break;
             case "url_query":
-                builder.setStateVertexFactory(new PythonStateVertexFactory("UrlState", false, true));
+                stateVertexFactory = new PythonStateVertexFactory("UrlState", false, true);
                 break;
             case "url_full":
-                builder.setStateVertexFactory(new PythonStateVertexFactory("UrlState", true, false));
+                stateVertexFactory = new PythonStateVertexFactory("UrlState", true, false);
+                break;
+            case "dep_only":
+                stateVertexFactory = new DepOnlyStateVertexFactory();
                 break;
             default:
                 throw new Exception("algorithm is not implemented");
         }
+        if (compareDeps) {
+            LOG.warn("DEP-aware state equivalence is enabled");
+            stateVertexFactory = new DepAwareStateVertexFactory(stateVertexFactory);
+        }
+        builder.setStateVertexFactory(stateVertexFactory);
 
 		// click these elements
 		builder.crawlRules().clickDefaultElements();

@@ -1,0 +1,388 @@
+{
+  "nodes" : [ {
+    "name" : "state13",
+    "url" : "http://web/installation/index.php",
+    "candidateElements" : [ {
+      "top" : 175,
+      "left" : 20,
+      "xpath" : "//LI[@id = 'site']/A[1]",
+      "width" : 138,
+      "height" : 38
+    }, {
+      "top" : 175,
+      "left" : 159,
+      "xpath" : "//LI[@id = 'database']/A[1]",
+      "width" : 114,
+      "height" : 38
+    }, {
+      "top" : 233,
+      "left" : 512,
+      "xpath" : "//DIV[@id = 'container-installation']/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    }, {
+      "top" : 233,
+      "left" : 200,
+      "xpath" : "//DIV[@id = 'jform_language_chzn']/A[1]",
+      "width" : 220,
+      "height" : 28
+    }, {
+      "top" : 1060,
+      "left" : 512,
+      "xpath" : "//FORM[@id = 'adminForm']/DIV[3]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 5,
+    "id" : 13,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778531584461,
+    "nearestState" : "state7"
+  }, {
+    "name" : "index",
+    "url" : "http://web/",
+    "candidateElements" : [ {
+      "top" : 175,
+      "left" : 20,
+      "xpath" : "//LI[@id = 'site']/A[1]",
+      "width" : 138,
+      "height" : 38
+    }, {
+      "top" : 175,
+      "left" : 159,
+      "xpath" : "//LI[@id = 'database']/A[1]",
+      "width" : 114,
+      "height" : 38
+    }, {
+      "top" : 233,
+      "left" : 512,
+      "xpath" : "//DIV[@id = 'container-installation']/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    }, {
+      "top" : 233,
+      "left" : 200,
+      "xpath" : "//DIV[@id = 'jform_language_chzn']/A[1]",
+      "width" : 220,
+      "height" : 28
+    }, {
+      "top" : 1060,
+      "left" : 512,
+      "xpath" : "//FORM[@id = 'adminForm']/DIV[3]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 4,
+    "id" : 0,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778531556316,
+    "nearestState" : "null"
+  }, {
+    "name" : "state33",
+    "url" : "http://web/installation/index.php",
+    "candidateElements" : [ {
+      "top" : 175,
+      "left" : 20,
+      "xpath" : "//LI[@id = 'site']/A[1]",
+      "width" : 138,
+      "height" : 38
+    }, {
+      "top" : 175,
+      "left" : 159,
+      "xpath" : "//LI[@id = 'database']/A[1]",
+      "width" : 114,
+      "height" : 38
+    }, {
+      "top" : 233,
+      "left" : 512,
+      "xpath" : "//DIV[@id = 'container-installation']/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    }, {
+      "top" : 233,
+      "left" : 200,
+      "xpath" : "//DIV[@id = 'jform_language_chzn']/A[1]",
+      "width" : 220,
+      "height" : 28
+    }, {
+      "top" : 1060,
+      "left" : 512,
+      "xpath" : "//FORM[@id = 'adminForm']/DIV[3]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 4,
+    "id" : 33,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778531621142,
+    "nearestState" : "state17"
+  }, {
+    "name" : "state7",
+    "url" : "http://web/installation/index.php#",
+    "candidateElements" : [ {
+      "top" : 175,
+      "left" : 20,
+      "xpath" : "//LI[@id = 'site']/A[1]",
+      "width" : 138,
+      "height" : 38
+    }, {
+      "top" : 175,
+      "left" : 159,
+      "xpath" : "//LI[@id = 'database']/A[1]",
+      "width" : 114,
+      "height" : 38
+    }, {
+      "top" : 233,
+      "left" : 512,
+      "xpath" : "//DIV[@id = 'container-installation']/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    }, {
+      "top" : 233,
+      "left" : 200,
+      "xpath" : "//DIV[@id = 'jform_language_chzn']/A[1]",
+      "width" : 220,
+      "height" : 28
+    }, {
+      "top" : 1060,
+      "left" : 512,
+      "xpath" : "//FORM[@id = 'adminForm']/DIV[3]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 5,
+    "id" : 7,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778531575141,
+    "nearestState" : "index"
+  }, {
+    "name" : "state17",
+    "url" : "http://web/installation/index.php#",
+    "candidateElements" : [ {
+      "top" : 175,
+      "left" : 20,
+      "xpath" : "//LI[@id = 'site']/A[1]",
+      "width" : 138,
+      "height" : 38
+    }, {
+      "top" : 175,
+      "left" : 159,
+      "xpath" : "//LI[@id = 'database']/A[1]",
+      "width" : 114,
+      "height" : 38
+    }, {
+      "top" : 233,
+      "left" : 512,
+      "xpath" : "//DIV[@id = 'container-installation']/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    }, {
+      "top" : 233,
+      "left" : 200,
+      "xpath" : "//DIV[@id = 'jform_language_chzn']/A[1]",
+      "width" : 220,
+      "height" : 28
+    }, {
+      "top" : 1060,
+      "left" : 512,
+      "xpath" : "//FORM[@id = 'adminForm']/DIV[3]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    } ],
+    "fanIn" : 10,
+    "fanOut" : 2,
+    "id" : 17,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778531592143,
+    "nearestState" : "index"
+  }, {
+    "name" : "state3",
+    "url" : "http://web/installation/index.php#",
+    "candidateElements" : [ {
+      "top" : 175,
+      "left" : 20,
+      "xpath" : "//LI[@id = 'site']/A[1]",
+      "width" : 138,
+      "height" : 38
+    }, {
+      "top" : 175,
+      "left" : 159,
+      "xpath" : "//LI[@id = 'database']/A[1]",
+      "width" : 114,
+      "height" : 38
+    }, {
+      "top" : 233,
+      "left" : 512,
+      "xpath" : "//DIV[@id = 'container-installation']/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    }, {
+      "top" : 233,
+      "left" : 200,
+      "xpath" : "//DIV[@id = 'jform_language_chzn']/A[1]",
+      "width" : 220,
+      "height" : 28
+    }, {
+      "top" : 1060,
+      "left" : 512,
+      "xpath" : "//FORM[@id = 'adminForm']/DIV[3]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 30
+    } ],
+    "fanIn" : 5,
+    "fanOut" : 1,
+    "id" : 3,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778531565845,
+    "nearestState" : "index"
+  } ],
+  "links" : [ {
+    "source" : 0,
+    "target" : 3,
+    "text" : "2 Database",
+    "element" : "Element{node=[A: null], tag=A, text=2 Database, attributes={href=#, onclick=Install.submitform();}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 7,
+    "text" : "English (United States)",
+    "element" : "Element{node=[A: null], tag=A, text=English (United States), attributes={class=chzn-single}}",
+    "eventType" : "click"
+  }, {
+    "source" : 7,
+    "target" : 3,
+    "text" : "1 Configuration",
+    "element" : "Element{node=[A: null], tag=A, text=1 Configuration, attributes={href=#, onclick=return Install.goToPage('site')}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 3,
+    "text" : "Next",
+    "element" : "Element{node=[A: null], tag=A, text=Next, attributes={class=btn btn-primary, href=#, onclick=Install.submitform();, rel=next, title=Next}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 13,
+    "text" : "English (United States)",
+    "element" : "Element{node=[A: null], tag=A, text=English (United States), attributes={class=chzn-single}}",
+    "eventType" : "click"
+  }, {
+    "source" : 13,
+    "target" : 0,
+    "text" : "1 Configuration",
+    "element" : "Element{node=[A: null], tag=A, text=1 Configuration, attributes={href=#, onclick=return Install.goToPage('site')}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 3,
+    "text" : "Next",
+    "element" : "Element{node=[A: null], tag=A, text=Next, attributes={class=btn btn-primary, href=#, onclick=Install.submitform();, rel=next, title=Next}}",
+    "eventType" : "click"
+  }, {
+    "source" : 7,
+    "target" : 17,
+    "text" : "2 Database",
+    "element" : "Element{node=[A: null], tag=A, text=2 Database, attributes={href=#, onclick=Install.submitform();}}",
+    "eventType" : "click"
+  }, {
+    "source" : 17,
+    "target" : 3,
+    "text" : "1 Configuration",
+    "element" : "Element{node=[A: null], tag=A, text=1 Configuration, attributes={href=#, onclick=return Install.goToPage('site')}}",
+    "eventType" : "click"
+  }, {
+    "source" : 7,
+    "target" : 17,
+    "text" : "Next",
+    "element" : "Element{node=[A: null], tag=A, text=Next, attributes={class=btn btn-primary, href=#, onclick=Install.submitform();, rel=next, title=Next}}",
+    "eventType" : "click"
+  }, {
+    "source" : 17,
+    "target" : 7,
+    "text" : "English (United States)",
+    "element" : "Element{node=[A: null], tag=A, text=English (United States), attributes={class=chzn-single}}",
+    "eventType" : "click"
+  }, {
+    "source" : 7,
+    "target" : 17,
+    "text" : "English (United States)",
+    "element" : "Element{node=[A: null], tag=A, text=English (United States), attributes={class=chzn-single}}",
+    "eventType" : "click"
+  }, {
+    "source" : 7,
+    "target" : 17,
+    "text" : "Next",
+    "element" : "Element{node=[A: null], tag=A, text=Next, attributes={class=btn btn-primary, href=#, onclick=Install.submitform();, rel=next, title=Next}}",
+    "eventType" : "click"
+  }, {
+    "source" : 13,
+    "target" : 17,
+    "text" : "2 Database",
+    "element" : "Element{node=[A: null], tag=A, text=2 Database, attributes={href=#, onclick=Install.submitform();}}",
+    "eventType" : "click"
+  }, {
+    "source" : 13,
+    "target" : 17,
+    "text" : "Next",
+    "element" : "Element{node=[A: null], tag=A, text=Next, attributes={class=btn btn-primary, href=#, onclick=Install.submitform();, rel=next, title=Next}}",
+    "eventType" : "click"
+  }, {
+    "source" : 13,
+    "target" : 33,
+    "text" : "English (United States)",
+    "element" : "Element{node=[A: null], tag=A, text=English (United States), attributes={class=chzn-single}}",
+    "eventType" : "click"
+  }, {
+    "source" : 33,
+    "target" : 0,
+    "text" : "1 Configuration",
+    "element" : "Element{node=[A: null], tag=A, text=1 Configuration, attributes={href=#, onclick=return Install.goToPage('site')}}",
+    "eventType" : "click"
+  }, {
+    "source" : 13,
+    "target" : 17,
+    "text" : "Next",
+    "element" : "Element{node=[A: null], tag=A, text=Next, attributes={class=btn btn-primary, href=#, onclick=Install.submitform();, rel=next, title=Next}}",
+    "eventType" : "click"
+  }, {
+    "source" : 33,
+    "target" : 17,
+    "text" : "2 Database",
+    "element" : "Element{node=[A: null], tag=A, text=2 Database, attributes={href=#, onclick=Install.submitform();}}",
+    "eventType" : "click"
+  }, {
+    "source" : 33,
+    "target" : 17,
+    "text" : "Next",
+    "element" : "Element{node=[A: null], tag=A, text=Next, attributes={class=btn btn-primary, href=#, onclick=Install.submitform();, rel=next, title=Next}}",
+    "eventType" : "click"
+  }, {
+    "source" : 33,
+    "target" : 17,
+    "text" : "Next",
+    "element" : "Element{node=[A: null], tag=A, text=Next, attributes={class=btn btn-primary, href=#, onclick=Install.submitform();, rel=next, title=Next}}",
+    "eventType" : "click"
+  } ]
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state67</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://web/?post=3542be5ceaa4'>http://web/?post=3542be5ceaa4</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>8</td>
+				</tr>
+				<tr>
+					<th>Nearest State</th>
+					<td>index</td>
+				</tr>
+				<tr>
+					<th>Distance to nearest State</th>
+					<td>0.0</td>
+				</tr>
+				<tr>
+					<th>Has Near Duplicate</th>
+					<td>false</td>
+				</tr>
+				<tr>
+					<th>Cluster</th>
+					<td>-1</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>-</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state67.png' /> 
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_site']/H1[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: 21px; top: 1px; width: 68px; height: 25px; border: 2px solid #00FFFF;  cursor: pointer;" onclick="location.href='state11.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 362px; top: 170px; width: 130px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 262px; top: 287px; width: 127px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 112px; top: 387px; width: 102px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 332px; top: 211px; width: 121px; height: 28px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 258px; top: 211px; width: 62px; height: 28px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//INPUT[@id = 'signin_signin']" class='hovers'
+				style="position: absolute; z-index: 10; left: 328px; top: 348px; width: 61px; height: 28px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//INPUT[@id = 'signin_signin']" class='hovers'
+				style="position: absolute; z-index: 10; left: 328px; top: 348px; width: 61px; height: 28px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+&lt;meta name=&quot;google&quot; content=&quot;notranslate&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;stylesheets/style.css?mtime=1778089704&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;images/review24.png&quot;&gt;
+&lt;title&gt;Sign in - hotcrp&lt;/title&gt;
+&lt;/head&gt;
+&lt;body id=&quot;home&quot;&gt;
+&lt;div id=&quot;prebody&quot;&gt;&lt;div id=&quot;header&quot;&gt;&lt;div id=&quot;header_site&quot; class=&quot;header_site_home&quot;&gt;&lt;h1&gt;&lt;a class=&quot;qq&quot; href=&quot;/&quot;&gt;&lt;span class=&quot;header-site-name&quot;&gt;hotcrp&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/div&gt;&lt;div id=&quot;header_right&quot;&gt;&lt;div id=&quot;maindeadline&quot; class=&quot;hidden&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;header_page&quot;&gt;&lt;h1&gt;Sign in&lt;/h1&gt;&lt;/div&gt;&lt;table class=&quot;vbar&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;vbar gopaper&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;  &lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;initialmsgs&quot;&gt;
+&lt;div class=&quot;merror&quot;&gt;Enter your email address.&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;body&quot; class=&quot;body&quot;&gt;
+&lt;div class=&quot;homeside&quot;&gt;&lt;noscript&gt;&lt;div class=&quot;homeinside&quot;&gt;&lt;strong&gt;This site requires JavaScript.&lt;/strong&gt; Many features will work without JavaScript, but not all.&lt;br /&gt;&lt;a class=&quot;small&quot; href=&quot;https://github.com/kohler/hotcrp/&quot;&gt;Report bad compatibility problems&lt;/a&gt;&lt;/div&gt;&lt;/noscript&gt;&lt;div class=&quot;homeinside&quot;&gt;&lt;h4&gt;Conference information&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;users.php?t=pc&quot;&gt;Program committee&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;homegrp&quot;&gt;
+Welcome to the hotcrp submissions site.&lt;/div&gt;&lt;div class=&quot;homegrp&quot;&gt;Sign in to submit or review papers.&lt;/div&gt;&lt;hr class=&quot;home&quot;&gt;
+&lt;div class=&quot;homegrp foldo&quot; id=&quot;homeacct&quot;&gt;&lt;form method=&quot;post&quot; action=&quot;/?post=3542be5ceaa4&quot; enctype=&quot;multipart/form-data&quot; accept-charset=&quot;UTF-8&quot;&gt;&lt;div class=&quot;f-contain&quot;&gt;&lt;div class=&quot;f-i has-error&quot;&gt;&lt;label for=&quot;signin_email&quot;&gt;Email&lt;/label&gt;&lt;input type=&quot;email&quot; name=&quot;email&quot; value=&quot;&quot; size=&quot;36&quot; id=&quot;signin_email&quot; class=&quot;fullw&quot; autocomplete=&quot;username&quot; tabindex=&quot;1&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;f-i fx&quot;&gt;&lt;div class=&quot;floatright&quot;&gt;&lt;a href=&quot;&quot; class=&quot;n x small ui js-forgot-password&quot;&gt;Forgot your password?&lt;/a&gt;&lt;/div&gt;&lt;label for=&quot;signin_password&quot;&gt;Password&lt;/label&gt;&lt;input type=&quot;password&quot; name=&quot;password&quot; value=&quot;&quot; size=&quot;36&quot; id=&quot;signin_password&quot; class=&quot;fullw&quot; autocomplete=&quot;current-password&quot; tabindex=&quot;1&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;popup-actions&quot;&gt;&lt;input type=&quot;submit&quot; id=&quot;signin_signin&quot; class=&quot;btn btn-primary&quot; name=&quot;signin&quot; value=&quot;Sign in&quot;&gt;&lt;/div&gt;&lt;p class=&quot;hint&quot;&gt;New to the site? &lt;a href=&quot;&quot; class=&quot;ui js-create-account&quot;&gt;Create an account&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/form&gt;&lt;/div&gt;
+&lt;hr class=&quot;home&quot;&gt;&lt;div class=&quot;homegrp&quot; id=&quot;homeau&quot;&gt;&lt;h4&gt;Submissions: &amp;nbsp;&lt;/h4&gt; &lt;span class=&quot;deadline&quot;&gt;The site is not open for submissions at the moment.&lt;/span&gt;&lt;/div&gt;
+&lt;hr class=&quot;c&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;footer&quot;&gt;&lt;div id=&quot;footer_crp&quot;&gt;&lt;a href=&quot;http://read.seas.harvard.edu/~kohler/hotcrp/&quot;&gt;HotCRP&lt;/a&gt;&lt;!-- Version 2.102 --&gt;&lt;/div&gt;
+  &lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;
+&lt;!--[if lt IE 9]&gt;&lt;script src=&quot;scripts/jquery-1.12.4.min.js?mtime=1778089704&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;
+&lt;!--[if !IE|gte IE 9]--&gt;&lt;script src=&quot;scripts/jquery-3.3.1.min.js?mtime=1778089704&quot;&gt;&lt;/script&gt;&lt;!--[endif]--&gt;
+&lt;script&gt;siteurl=&quot;&quot;;siteurl_suffix=&quot;.php&quot;;siteurl_postvalue=&quot;3542be5ceaa4&quot;;siteurl_cookie_params=&quot;&quot;;assetsurl=&quot;&quot;;hotcrp_user={};&lt;/script&gt;&lt;script src=&quot;scripts/script.js?mtime=1778089704&quot;&gt;&lt;/script&gt;
+&lt;script&gt;hotcrp_load.time(240,0);hotcrp_deadlines.init({&quot;now&quot;:1778379006,&quot;email&quot;:null,&quot;sub&quot;:{&quot;open&quot;:false,&quot;sub&quot;:0,&quot;blind&quot;:true}});focus_within($(&quot;#login&quot;));window.scroll(0,0)&lt;/script&gt;
+
+&lt;!--1778379006.69ffe8fec8c092.08993212.serialized--&gt;&lt;div class=&quot;popupbg&quot; style=&quot;display: block;&quot;&gt;&lt;div class=&quot;popupo popupcenter&quot; style=&quot;max-width: 25rem; left: 119px; top: 86px;&quot;&gt;&lt;form enctype=&quot;multipart/form-data&quot; accept-charset=&quot;UTF-8&quot; action=&quot;index.php?post=3542be5ceaa4&amp;amp;signin=1&amp;amp;action=forgot&quot; method=&quot;post&quot;&gt;&lt;p&gt;Enter your email and we&rsquo;ll send you instructions for signing in.&lt;/p&gt;&lt;div class=&quot;f-i&quot;&gt;&lt;label for=&quot;forgotpassword_email&quot;&gt;Email&lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;email&quot; size=&quot;36&quot; class=&quot;fullw&quot; autocomplete=&quot;username&quot; id=&quot;forgotpassword_email&quot;&gt;&lt;/div&gt;&lt;div class=&quot;popup-actions&quot;&gt;&lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Reset password&lt;/button&gt;&lt;button type=&quot;button&quot; name=&quot;cancel&quot; class=&quot;btn&quot;&gt;Cancel&lt;/button&gt;&lt;/div&gt;&lt;/form&gt;&lt;div class=&quot;popup-bottom&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_site']/H1[1]/A[1]</td>
+							<td><a href="state11.html">state11</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//INPUT[@id = 'signin_signin']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//INPUT[@id = 'signin_signin']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>

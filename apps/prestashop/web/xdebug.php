@@ -1,4 +1,8 @@
 <?php
+if (PHP_SAPI === 'cli') {
+    return;
+}
+
 xdebug_start_code_coverage();
 function save_coverage()
 {

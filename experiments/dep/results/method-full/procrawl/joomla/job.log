@@ -1,0 +1,169 @@
+Timeout is 360
+21:56:43.501 [main] WARN  c.crawljax.examples.ArachnariumCrawl - screenshot saving is false
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 42770
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+21:58:06.950 [pool-1-thread-2] ERROR com.crawljax.forms.FormHandler - Could not input element values
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'crawljax-dep-comparison-dsppx', ip: '10.244.0.199', os.name: 'Linux', os.arch: 'amd64', os.version: '6.12.76-linuxkit', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01f86ed314093acc5e0d00fd9caff4de, clearElement {id=5a5085e4-a027-40aa-be69-077726fd1008}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /tmp/.com.google.Chrome.dV49cJ}, goog:chromeOptions: {debuggerAddress: localhost:42635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:42635/devtoo..., se:cdpVersion: 85.0.4183.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (01f86ed314093acc5e0d00fd9caff4de)] -> id: jform_site_name]
+Session ID: 01f86ed314093acc5e0d00fd9caff4de
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:126)
+	at com.crawljax.forms.FormHandler.handleText(FormHandler.java:126)
+	at com.crawljax.forms.FormHandler.setInputElementValue(FormHandler.java:66)
+	at com.crawljax.forms.FormHandler.handleFormElements(FormHandler.java:214)
+	at com.crawljax.core.Crawler.handleInputElements(Crawler.java:343)
+	at com.crawljax.core.Crawler.crawlThroughActions(Crawler.java:447)
+	at com.crawljax.core.Crawler.execute(Crawler.java:170)
+	at com.crawljax.core.CrawlTaskConsumer.handleTask(CrawlTaskConsumer.java:78)
+	at com.crawljax.core.CrawlTaskConsumer.pollAndHandleCrawlTasks(CrawlTaskConsumer.java:70)
+	at com.crawljax.core.CrawlTaskConsumer.call(CrawlTaskConsumer.java:46)
+	at com.crawljax.core.CrawlTaskConsumer.call(CrawlTaskConsumer.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+java.lang.NullPointerException
+	at com.crawljax.core.state.InMemoryStateFlowGraph.getShortestPath(InMemoryStateFlowGraph.java:267)
+	at com.crawljax.core.Crawler.shortestPathTo(Crawler.java:249)
+	at com.crawljax.core.Crawler.reachFromHome(Crawler.java:211)
+	at com.crawljax.core.Crawler.execute(Crawler.java:162)
+	at com.crawljax.core.CrawlTaskConsumer.handleTask(CrawlTaskConsumer.java:78)
+	at com.crawljax.core.CrawlTaskConsumer.pollAndHandleCrawlTasks(CrawlTaskConsumer.java:70)
+	at com.crawljax.core.CrawlTaskConsumer.call(CrawlTaskConsumer.java:46)
+	at com.crawljax.core.CrawlTaskConsumer.call(CrawlTaskConsumer.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+java.lang.NullPointerException
+	at com.crawljax.core.state.InMemoryStateFlowGraph.getShortestPath(InMemoryStateFlowGraph.java:267)
+	at com.crawljax.core.Crawler.shortestPathTo(Crawler.java:249)
+	at com.crawljax.core.Crawler.reachFromHome(Crawler.java:211)
+	at com.crawljax.core.Crawler.execute(Crawler.java:162)
+	at com.crawljax.core.CrawlTaskConsumer.handleTask(CrawlTaskConsumer.java:78)
+	at com.crawljax.core.CrawlTaskConsumer.pollAndHandleCrawlTasks(CrawlTaskConsumer.java:70)
+	at com.crawljax.core.CrawlTaskConsumer.call(CrawlTaskConsumer.java:46)
+	at com.crawljax.core.CrawlTaskConsumer.call(CrawlTaskConsumer.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+22:16:54.184 [pool-1-thread-2] ERROR com.crawljax.forms.FormHandler - Could not input element values
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'crawljax-dep-comparison-dsppx', ip: '10.244.0.199', os.name: 'Linux', os.arch: 'amd64', os.version: '6.12.76-linuxkit', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01f86ed314093acc5e0d00fd9caff4de, sendKeysToElement {id=77c82c01-d331-41ca-af6a-6b70a4c1d04e, value=[Ljava.lang.CharSequence;@2b9181d6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /tmp/.com.google.Chrome.dV49cJ}, goog:chromeOptions: {debuggerAddress: localhost:42635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:42635/devtoo..., se:cdpVersion: 85.0.4183.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (01f86ed314093acc5e0d00fd9caff4de)] -> id: jform_site_metadesc]
+Session ID: 01f86ed314093acc5e0d00fd9caff4de
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
+	at com.crawljax.forms.FormHandler.handleText(FormHandler.java:127)
+	at com.crawljax.forms.FormHandler.setInputElementValue(FormHandler.java:66)
+	at com.crawljax.forms.FormHandler.handleFormElements(FormHandler.java:214)
+	at com.crawljax.core.Crawler.handleInputElements(Crawler.java:343)
+	at com.crawljax.core.Crawler.crawlThroughActions(Crawler.java:447)
+	at com.crawljax.core.Crawler.execute(Crawler.java:170)
+	at com.crawljax.core.CrawlTaskConsumer.handleTask(CrawlTaskConsumer.java:78)
+	at com.crawljax.core.CrawlTaskConsumer.pollAndHandleCrawlTasks(CrawlTaskConsumer.java:70)
+	at com.crawljax.core.CrawlTaskConsumer.call(CrawlTaskConsumer.java:46)
+	at com.crawljax.core.CrawlTaskConsumer.call(CrawlTaskConsumer.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Timeout is 360
+22:16:58.620 [main] WARN  c.crawljax.examples.ArachnariumCrawl - DEP-aware state equivalence is enabled
+22:16:58.623 [main] WARN  c.crawljax.examples.ArachnariumCrawl - screenshot saving is false
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 46215
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1778366361.242][SEVERE]: Timed out receiving message from renderer: 30.000
+22:39:18.244 [pool-1-thread-2] ERROR com.crawljax.core.plugin.Plugins - Plugin Crawl overview plugin caused an error while running. Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'crawljax-dep-comparison-dsppx', ip: '10.244.0.199', os.name: 'Linux', os.arch: 'amd64', os.version: '6.12.76-linuxkit', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03eb6929833435a4ffbb5845a8eeb73b, getPageSource {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /tmp/.com.google.Chrome.OgcYLa}, goog:chromeOptions: {debuggerAddress: localhost:34483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34483/devtoo..., se:cdpVersion: 85.0.4183.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 03eb6929833435a4ffbb5845a8eeb73b
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'crawljax-dep-comparison-dsppx', ip: '10.244.0.199', os.name: 'Linux', os.arch: 'amd64', os.version: '6.12.76-linuxkit', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03eb6929833435a4ffbb5845a8eeb73b, getPageSource {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /tmp/.com.google.Chrome.OgcYLa}, goog:chromeOptions: {debuggerAddress: localhost:34483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34483/devtoo..., se:cdpVersion: 85.0.4183.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 03eb6929833435a4ffbb5845a8eeb73b
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:429)
+	at com.crawljax.browser.WebDriverBackedEmbeddedBrowser.getUnStrippedDom(WebDriverBackedEmbeddedBrowser.java:353)
+	at com.crawljax.plugins.crawloverview.CrawlOverview.onNewState(CrawlOverview.java:110)
+	at com.crawljax.core.plugin.Plugins.runOnNewStatePlugins(Plugins.java:185)
+	at com.crawljax.core.state.StateMachine.switchToStateAndCheckIfClone(StateMachine.java:152)
+	at com.crawljax.core.Crawler.inspectNewDom(Crawler.java:530)
+	at com.crawljax.core.Crawler.inspectNewState(Crawler.java:505)
+	at com.crawljax.core.Crawler.crawlThroughActions(Crawler.java:452)
+	at com.crawljax.core.Crawler.execute(Crawler.java:170)
+	at com.crawljax.core.CrawlTaskConsumer.handleTask(CrawlTaskConsumer.java:78)
+	at com.crawljax.core.CrawlTaskConsumer.pollAndHandleCrawlTasks(CrawlTaskConsumer.java:70)
+	at com.crawljax.core.CrawlTaskConsumer.call(CrawlTaskConsumer.java:46)
+	at com.crawljax.core.CrawlTaskConsumer.call(CrawlTaskConsumer.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request interrupted
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:70)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:119)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	... 19 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+	... 29 common frames omitted

@@ -1,0 +1,1036 @@
+{
+  "nodes" : [ {
+    "name" : "index",
+    "url" : "http://web/",
+    "candidateElements" : [ {
+      "top" : 17,
+      "left" : 4,
+      "xpath" : "//H1[@id = 'title']/A[1]",
+      "width" : 275,
+      "height" : 41
+    }, {
+      "top" : 74,
+      "left" : 82,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 142,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 61,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 210,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 60,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 277,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 682,
+      "xpath" : "//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 312,
+      "left" : 42,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/H4[1]/A[1]",
+      "width" : 118,
+      "height" : 16
+    }, {
+      "top" : 348,
+      "left" : 42,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/H4[2]/A[1]",
+      "width" : 163,
+      "height" : 16
+    }, {
+      "top" : 384,
+      "left" : 42,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/H4[3]/A[1]",
+      "width" : 154,
+      "height" : 16
+    }, {
+      "top" : 598,
+      "left" : 364,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]",
+      "width" : 32,
+      "height" : 14
+    }, {
+      "top" : 598,
+      "left" : 405,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]",
+      "width" : 34,
+      "height" : 14
+    }, {
+      "top" : 598,
+      "left" : 500,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]",
+      "width" : 90,
+      "height" : 14
+    }, {
+      "top" : 533,
+      "left" : 42,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/FORM[1]/INPUT[4]",
+      "width" : 72,
+      "height" : 21
+    } ],
+    "fanIn" : 9,
+    "fanOut" : 11,
+    "id" : 0,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101665200,
+    "nearestState" : "null"
+  }, {
+    "name" : "state8",
+    "url" : "http://web/pictures/recent.php",
+    "candidateElements" : [ {
+      "top" : 17,
+      "left" : 4,
+      "xpath" : "//H1[@id = 'title']/A[1]",
+      "width" : 275,
+      "height" : 41
+    }, {
+      "top" : 74,
+      "left" : 82,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 142,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 61,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 210,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 60,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 277,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 682,
+      "xpath" : "//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 320,
+      "left" : 124,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 14
+    }, {
+      "top" : 320,
+      "left" : 303,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 128,
+      "height" : 14
+    }, {
+      "top" : 320,
+      "left" : 482,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 128,
+      "height" : 14
+    }, {
+      "top" : 320,
+      "left" : 662,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 128,
+      "height" : 14
+    }, {
+      "top" : 477,
+      "left" : 124,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 14
+    }, {
+      "top" : 477,
+      "left" : 303,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 128,
+      "height" : 14
+    }, {
+      "top" : 477,
+      "left" : 482,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[3]/A[1]",
+      "width" : 128,
+      "height" : 14
+    }, {
+      "top" : 477,
+      "left" : 662,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[4]/A[1]",
+      "width" : 128,
+      "height" : 14
+    }, {
+      "top" : 634,
+      "left" : 124,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[3]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 14
+    }, {
+      "top" : 695,
+      "left" : 364,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]",
+      "width" : 32,
+      "height" : 14
+    }, {
+      "top" : 695,
+      "left" : 405,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]",
+      "width" : 34,
+      "height" : 14
+    }, {
+      "top" : 695,
+      "left" : 500,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]",
+      "width" : 90,
+      "height" : 14
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 12,
+    "id" : 8,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101672045,
+    "nearestState" : "index"
+  }, {
+    "name" : "state3",
+    "url" : "http://web/users/login.php",
+    "candidateElements" : [ {
+      "top" : 17,
+      "left" : 4,
+      "xpath" : "//H1[@id = 'title']/A[1]",
+      "width" : 275,
+      "height" : 41
+    }, {
+      "top" : 74,
+      "left" : 82,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 142,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 61,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 210,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 60,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 277,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 682,
+      "xpath" : "//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 268,
+      "left" : 139,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/TABLE[1]/TBODY[1]/TR[3]/TD[2]/A[1]",
+      "width" : 45,
+      "height" : 14
+    }, {
+      "top" : 332,
+      "left" : 364,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]",
+      "width" : 32,
+      "height" : 14
+    }, {
+      "top" : 332,
+      "left" : 405,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]",
+      "width" : 34,
+      "height" : 14
+    }, {
+      "top" : 332,
+      "left" : 500,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]",
+      "width" : 90,
+      "height" : 14
+    }, {
+      "top" : 265,
+      "left" : 47,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/TABLE[1]/TBODY[1]/TR[3]/TD[1]/INPUT[1]",
+      "width" : 44,
+      "height" : 21
+    } ],
+    "fanIn" : 17,
+    "fanOut" : 7,
+    "id" : 3,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101667717,
+    "nearestState" : "index"
+  }, {
+    "name" : "state29",
+    "url" : "http://web/calendar.php",
+    "candidateElements" : [ {
+      "top" : 17,
+      "left" : 4,
+      "xpath" : "//H1[@id = 'title']/A[1]",
+      "width" : 275,
+      "height" : 41
+    }, {
+      "top" : 74,
+      "left" : 82,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 142,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 61,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 210,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 60,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 277,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 682,
+      "xpath" : "//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 277,
+      "left" : 42,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/P[3]/A[1]",
+      "width" : 121,
+      "height" : 14
+    }, {
+      "top" : 337,
+      "left" : 364,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]",
+      "width" : 32,
+      "height" : 14
+    }, {
+      "top" : 337,
+      "left" : 405,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]",
+      "width" : 34,
+      "height" : 14
+    }, {
+      "top" : 337,
+      "left" : 500,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]",
+      "width" : 90,
+      "height" : 14
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 29,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101688504,
+    "nearestState" : "index"
+  }, {
+    "name" : "state24",
+    "url" : "http://web/admin/index.php?page=home",
+    "candidateElements" : [ {
+      "top" : 54,
+      "left" : 8,
+      "xpath" : "/HTML[1]/BODY[1]/A[1]",
+      "width" : 120,
+      "height" : 17
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 24,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101685010,
+    "nearestState" : "index"
+  }, {
+    "name" : "state35",
+    "url" : "http://web/tos.php",
+    "candidateElements" : [ {
+      "top" : 17,
+      "left" : 4,
+      "xpath" : "//H1[@id = 'title']/A[1]",
+      "width" : 275,
+      "height" : 41
+    }, {
+      "top" : 74,
+      "left" : 82,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 142,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 61,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 210,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 60,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 277,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 682,
+      "xpath" : "//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 5053,
+      "left" : 364,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]",
+      "width" : 32,
+      "height" : 14
+    }, {
+      "top" : 5053,
+      "left" : 405,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]",
+      "width" : 34,
+      "height" : 14
+    }, {
+      "top" : 5053,
+      "left" : 500,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]",
+      "width" : 90,
+      "height" : 14
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 35,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101692694,
+    "nearestState" : "index"
+  }, {
+    "name" : "state12",
+    "url" : "http://web/guestbook.php",
+    "candidateElements" : [ {
+      "top" : 17,
+      "left" : 4,
+      "xpath" : "//H1[@id = 'title']/A[1]",
+      "width" : 275,
+      "height" : 41
+    }, {
+      "top" : 74,
+      "left" : 82,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 142,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 61,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 210,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 60,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 277,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 682,
+      "xpath" : "//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 561,
+      "left" : 364,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]",
+      "width" : 32,
+      "height" : 14
+    }, {
+      "top" : 561,
+      "left" : 405,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]",
+      "width" : 34,
+      "height" : 14
+    }, {
+      "top" : 561,
+      "left" : 500,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]",
+      "width" : 90,
+      "height" : 14
+    }, {
+      "top" : 514,
+      "left" : 42,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/FORM[1]/INPUT[2]",
+      "width" : 57,
+      "height" : 21
+    } ],
+    "fanIn" : 3,
+    "fanOut" : 3,
+    "id" : 12,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101675429,
+    "nearestState" : "index"
+  }, {
+    "name" : "state23",
+    "url" : "http://web/admin/index.php?page=login",
+    "candidateElements" : [ {
+      "top" : 96,
+      "left" : 8,
+      "xpath" : "/HTML[1]/BODY[1]/FORM[1]/INPUT[3]",
+      "width" : 55,
+      "height" : 21
+    }, {
+      "top" : 96,
+      "left" : 8,
+      "xpath" : "/HTML[1]/BODY[1]/FORM[1]/INPUT[3]",
+      "width" : 55,
+      "height" : 21
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 1,
+    "id" : 23,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101684284,
+    "nearestState" : "index"
+  }, {
+    "name" : "state17",
+    "url" : "http://web/users/register.php",
+    "candidateElements" : [ {
+      "top" : 17,
+      "left" : 4,
+      "xpath" : "//H1[@id = 'title']/A[1]",
+      "width" : 275,
+      "height" : 41
+    }, {
+      "top" : 74,
+      "left" : 82,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 142,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 61,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 210,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 60,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 277,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 682,
+      "xpath" : "//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 205,
+      "left" : 224,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/P[1]/A[1]",
+      "width" : 159,
+      "height" : 14
+    }, {
+      "top" : 508,
+      "left" : 364,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]",
+      "width" : 32,
+      "height" : 14
+    }, {
+      "top" : 508,
+      "left" : 405,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]",
+      "width" : 34,
+      "height" : 14
+    }, {
+      "top" : 508,
+      "left" : 500,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]",
+      "width" : 90,
+      "height" : 14
+    }, {
+      "top" : 441,
+      "left" : 47,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/TABLE[1]/TBODY[1]/TR[6]/TD[1]/INPUT[1]",
+      "width" : 112,
+      "height" : 21
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 17,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101679405,
+    "nearestState" : "index"
+  }, {
+    "name" : "state27",
+    "url" : "http://web/users/sample.php?userid=1",
+    "candidateElements" : [ {
+      "top" : 17,
+      "left" : 4,
+      "xpath" : "//H1[@id = 'title']/A[1]",
+      "width" : 275,
+      "height" : 41
+    }, {
+      "top" : 74,
+      "left" : 82,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 142,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 61,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 210,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 60,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 277,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 682,
+      "xpath" : "//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 320,
+      "left" : 124,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 14
+    }, {
+      "top" : 381,
+      "left" : 364,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]",
+      "width" : 32,
+      "height" : 14
+    }, {
+      "top" : 381,
+      "left" : 405,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]",
+      "width" : 34,
+      "height" : 14
+    }, {
+      "top" : 381,
+      "left" : 500,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]",
+      "width" : 90,
+      "height" : 14
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 27,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101686917,
+    "nearestState" : "index"
+  }, {
+    "name" : "state37",
+    "url" : "http://web/piccheck.php",
+    "candidateElements" : [ {
+      "top" : 17,
+      "left" : 4,
+      "xpath" : "//H1[@id = 'title']/A[1]",
+      "width" : 275,
+      "height" : 41
+    }, {
+      "top" : 74,
+      "left" : 82,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 142,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 61,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 210,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 60,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 277,
+      "xpath" : "//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 27
+    }, {
+      "top" : 74,
+      "left" : 682,
+      "xpath" : "//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 27
+    }, {
+      "top" : 265,
+      "left" : 364,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]",
+      "width" : 32,
+      "height" : 14
+    }, {
+      "top" : 265,
+      "left" : 405,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]",
+      "width" : 34,
+      "height" : 14
+    }, {
+      "top" : 265,
+      "left" : 500,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]",
+      "width" : 90,
+      "height" : 14
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 37,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101694278,
+    "nearestState" : "index"
+  }, {
+    "name" : "state25",
+    "url" : "http://web/admin/index.php?page=create",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 25,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778101685629,
+    "nearestState" : "index"
+  } ],
+  "links" : [ {
+    "source" : 0,
+    "target" : 3,
+    "text" : "Home",
+    "element" : "Element{node=[A: null], tag=A, text=Home, attributes={href=/users/home.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 0,
+    "text" : "WackoPicko.com",
+    "element" : "Element{node=[A: null], tag=A, text=WackoPicko.com, attributes={href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 3,
+    "text" : "Upload",
+    "element" : "Element{node=[A: null], tag=A, text=Upload, attributes={href=/pictures/upload.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 8,
+    "text" : "Recent",
+    "element" : "Element{node=[A: null], tag=A, text=Recent, attributes={href=/pictures/recent.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 0,
+    "text" : "WackoPicko.com",
+    "element" : "Element{node=[A: null], tag=A, text=WackoPicko.com, attributes={href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 8,
+    "text" : "Recent",
+    "element" : "Element{node=[A: null], tag=A, text=Recent, attributes={href=/pictures/recent.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 3,
+    "text" : "Home",
+    "element" : "Element{node=[A: null], tag=A, text=Home, attributes={href=/users/home.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 12,
+    "text" : "Guestbook",
+    "element" : "Element{node=[A: null], tag=A, text=Guestbook, attributes={href=/guestbook.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 12,
+    "target" : 0,
+    "text" : "WackoPicko.com",
+    "element" : "Element{node=[A: null], tag=A, text=WackoPicko.com, attributes={href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 12,
+    "text" : "Guestbook",
+    "element" : "Element{node=[A: null], tag=A, text=Guestbook, attributes={href=/guestbook.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 12,
+    "target" : 3,
+    "text" : "Home",
+    "element" : "Element{node=[A: null], tag=A, text=Home, attributes={href=/users/home.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 17,
+    "text" : "Register",
+    "element" : "Element{node=[A: null], tag=A, text=Register, attributes={href=/users/register.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 17,
+    "target" : 0,
+    "text" : "WackoPicko.com",
+    "element" : "Element{node=[A: null], tag=A, text=WackoPicko.com, attributes={href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 3,
+    "text" : "Login",
+    "element" : "Element{node=[A: null], tag=A, text=Login, attributes={href=/users/login.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 0,
+    "text" : "Home",
+    "element" : "Element{node=[A: null], tag=A, text=Home, attributes={href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 17,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={href=/users/register.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 17,
+    "target" : 3,
+    "text" : "Home",
+    "element" : "Element{node=[A: null], tag=A, text=Home, attributes={href=/users/home.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 23,
+    "text" : "Admin",
+    "element" : "Element{node=[A: null], tag=A, text=Admin, attributes={href=/admin/index.php?page=login}}",
+    "eventType" : "click"
+  }, {
+    "source" : 23,
+    "target" : 24,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={type=submit, value=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 24,
+    "target" : 25,
+    "text" : "Create a new user!",
+    "element" : "Element{node=[A: null], tag=A, text=Create a new user!, attributes={href=/admin/index.php?page=create}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 27,
+    "text" : "Check out a sample user!",
+    "element" : "Element{node=[A: null], tag=A, text=Check out a sample user!, attributes={href=/users/sample.php?userid=1}}",
+    "eventType" : "click"
+  }, {
+    "source" : 27,
+    "target" : 0,
+    "text" : "WackoPicko.com",
+    "element" : "Element{node=[A: null], tag=A, text=WackoPicko.com, attributes={href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 29,
+    "text" : "What is going on today?",
+    "element" : "Element{node=[A: null], tag=A, text=What is going on today?, attributes={href=/calendar.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 29,
+    "target" : 0,
+    "text" : "WackoPicko.com",
+    "element" : "Element{node=[A: null], tag=A, text=WackoPicko.com, attributes={href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 23,
+    "text" : "Admin",
+    "element" : "Element{node=[A: null], tag=A, text=Admin, attributes={href=/admin/index.php?page=login}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 35,
+    "text" : "Terms of Service",
+    "element" : "Element{node=[A: null], tag=A, text=Terms of Service, attributes={href=/tos.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 35,
+    "target" : 0,
+    "text" : "WackoPicko.com",
+    "element" : "Element{node=[A: null], tag=A, text=WackoPicko.com, attributes={href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 37,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={type=submit, value=Send File}}",
+    "eventType" : "click"
+  }, {
+    "source" : 37,
+    "target" : 0,
+    "text" : "WackoPicko.com",
+    "element" : "Element{node=[A: null], tag=A, text=WackoPicko.com, attributes={href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 35,
+    "text" : "Terms of Service",
+    "element" : "Element{node=[A: null], tag=A, text=Terms of Service, attributes={href=/tos.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 35,
+    "target" : 3,
+    "text" : "Home",
+    "element" : "Element{node=[A: null], tag=A, text=Home, attributes={href=/users/home.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 3,
+    "text" : "Upload",
+    "element" : "Element{node=[A: null], tag=A, text=Upload, attributes={href=/pictures/upload.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 12,
+    "text" : "Guestbook",
+    "element" : "Element{node=[A: null], tag=A, text=Guestbook, attributes={href=/guestbook.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 12,
+    "target" : 3,
+    "text" : "Upload",
+    "element" : "Element{node=[A: null], tag=A, text=Upload, attributes={href=/pictures/upload.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 3,
+    "text" : "Login",
+    "element" : "Element{node=[A: null], tag=A, text=Login, attributes={href=/users/login.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 3,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=/pictures/view.php?picid=15}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 3,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=/pictures/view.php?picid=14}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 3,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=/pictures/view.php?picid=13}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 3,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=/pictures/view.php?picid=12}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 3,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=/pictures/view.php?picid=11}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 3,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=/pictures/view.php?picid=10}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 3,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=/pictures/view.php?picid=9}}",
+    "eventType" : "click"
+  } ]
+}

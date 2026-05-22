@@ -1,0 +1,1476 @@
+{
+  "nodes" : [ {
+    "name" : "state53",
+    "url" : "http://web/index.php?signin=1&action=new",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 3,
+    "fanOut" : 5,
+    "id" : 53,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537645262,
+    "nearestState" : "index"
+  }, {
+    "name" : "state41",
+    "url" : "http://web/index.php?signin=1&action=forgot",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 4,
+    "fanOut" : 5,
+    "id" : 41,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537622813,
+    "nearestState" : "index"
+  }, {
+    "name" : "state6",
+    "url" : "http://web/",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 214,
+      "left" : 335,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+      "width" : 119,
+      "height" : 26
+    }, {
+      "top" : 214,
+      "left" : 261,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+      "width" : 60,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 6,
+    "id" : 6,
+    "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537577477,
+    "nearestState" : "index"
+  }, {
+    "name" : "index",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 5,
+    "id" : 0,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537562855,
+    "nearestState" : "null"
+  }, {
+    "name" : "state8",
+    "url" : "http://web/",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 236,
+      "left" : 341,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+      "width" : 113,
+      "height" : 26
+    }, {
+      "top" : 236,
+      "left" : 267,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 6,
+    "id" : 8,
+    "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537581363,
+    "nearestState" : "index"
+  }, {
+    "name" : "state2",
+    "url" : "http://web/",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 34,
+    "fanOut" : 4,
+    "id" : 2,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537565749,
+    "nearestState" : "index"
+  }, {
+    "name" : "state4",
+    "url" : "http://web/users.php?t=pc",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    }, {
+      "top" : 86,
+      "left" : 30,
+      "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[1]/A[1]",
+      "width" : 44,
+      "height" : 14
+    }, {
+      "top" : 86,
+      "left" : 248,
+      "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[2]/A[1]",
+      "width" : 56,
+      "height" : 14
+    } ],
+    "fanIn" : 15,
+    "fanOut" : 3,
+    "id" : 4,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537570056,
+    "nearestState" : "index"
+  }, {
+    "name" : "state120",
+    "url" : "http://web/index.php?signin=1&action=forgot",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 236,
+      "left" : 341,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+      "width" : 113,
+      "height" : 26
+    }, {
+      "top" : 236,
+      "left" : 267,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 120,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778538665434,
+    "nearestState" : "state8"
+  }, {
+    "name" : "state101",
+    "url" : "http://web/index.php?signin=1&action=forgot",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 214,
+      "left" : 335,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+      "width" : 119,
+      "height" : 26
+    }, {
+      "top" : 214,
+      "left" : 261,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+      "width" : 60,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 6,
+    "id" : 101,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537729123,
+    "nearestState" : "state6"
+  }, {
+    "name" : "state114",
+    "url" : "http://web/index.php?signin=1&action=new",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 214,
+      "left" : 335,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+      "width" : 119,
+      "height" : 26
+    }, {
+      "top" : 214,
+      "left" : 261,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+      "width" : 60,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 114,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778538653153,
+    "nearestState" : "state6"
+  }, {
+    "name" : "state18",
+    "url" : "http://web/users.php?t=pc&sort=3",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    }, {
+      "top" : 86,
+      "left" : 30,
+      "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[1]/A[1]",
+      "width" : 33,
+      "height" : 14
+    }, {
+      "top" : 86,
+      "left" : 248,
+      "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[2]/A[1]",
+      "width" : 67,
+      "height" : 14
+    } ],
+    "fanIn" : 3,
+    "fanOut" : 3,
+    "id" : 18,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537591068,
+    "nearestState" : "index"
+  }, {
+    "name" : "state146",
+    "url" : "http://web/index.php?signin=1&action=forgot",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 146,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778539003992,
+    "nearestState" : "index"
+  }, {
+    "name" : "state127",
+    "url" : "http://web/index.php?signin=1&action=new",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 236,
+      "left" : 341,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+      "width" : 113,
+      "height" : 26
+    }, {
+      "top" : 236,
+      "left" : 267,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 127,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778538677579,
+    "nearestState" : "state8"
+  }, {
+    "name" : "state24",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 236,
+      "left" : 341,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+      "width" : 113,
+      "height" : 26
+    }, {
+      "top" : 236,
+      "left" : 267,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 6,
+    "id" : 24,
+    "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537597406,
+    "nearestState" : "state8"
+  }, {
+    "name" : "state67",
+    "url" : "http://web/users.php?t=pc&sort=3R",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    }, {
+      "top" : 86,
+      "left" : 30,
+      "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[1]/A[1]",
+      "width" : 33,
+      "height" : 14
+    }, {
+      "top" : 86,
+      "left" : 248,
+      "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[2]/A[1]",
+      "width" : 67,
+      "height" : 14
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 3,
+    "id" : 67,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537668194,
+    "nearestState" : "index"
+  }, {
+    "name" : "state10",
+    "url" : "http://web/?post=.empty",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 6,
+    "fanOut" : 4,
+    "id" : 10,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537584775,
+    "nearestState" : "index"
+  }, {
+    "name" : "state21",
+    "url" : "http://web/index.php",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 214,
+      "left" : 335,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+      "width" : 119,
+      "height" : 26
+    }, {
+      "top" : 214,
+      "left" : 261,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+      "width" : 60,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 6,
+    "id" : 21,
+    "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537593724,
+    "nearestState" : "state6"
+  }, {
+    "name" : "state32",
+    "url" : "http://web/?post=.empty",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 236,
+      "left" : 341,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+      "width" : 113,
+      "height" : 26
+    }, {
+      "top" : 236,
+      "left" : 267,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 6,
+    "id" : 32,
+    "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537606373,
+    "nearestState" : "state8"
+  }, {
+    "name" : "state28",
+    "url" : "http://web/?post=.empty",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 66,
+      "height" : 23
+    }, {
+      "top" : 119,
+      "left" : 365,
+      "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 128,
+      "height" : 16
+    }, {
+      "top" : 235,
+      "left" : 265,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 125,
+      "height" : 14
+    }, {
+      "top" : 336,
+      "left" : 115,
+      "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+      "width" : 100,
+      "height" : 14
+    }, {
+      "top" : 214,
+      "left" : 335,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+      "width" : 119,
+      "height" : 26
+    }, {
+      "top" : 214,
+      "left" : 261,
+      "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+      "width" : 60,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    }, {
+      "top" : 297,
+      "left" : 331,
+      "xpath" : "//INPUT[@id = 'signin_signin']",
+      "width" : 59,
+      "height" : 26
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 6,
+    "id" : 28,
+    "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 0.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537601874,
+    "nearestState" : "state6"
+  }, {
+    "name" : "state14",
+    "url" : "http://web/users.php?t=pc&sort=1R",
+    "candidateElements" : [ {
+      "top" : 4,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+      "width" : 89,
+      "height" : 16
+    }, {
+      "top" : 86,
+      "left" : 30,
+      "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[1]/A[1]",
+      "width" : 44,
+      "height" : 14
+    }, {
+      "top" : 86,
+      "left" : 248,
+      "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[2]/A[1]",
+      "width" : 56,
+      "height" : 14
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 3,
+    "id" : 14,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778537588092,
+    "nearestState" : "index"
+  } ],
+  "links" : [ {
+    "source" : 0,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 2,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 4,
+    "target" : 2,
+    "text" : "hotcrp Home",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 2,
+    "target" : 6,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 2,
+    "target" : 8,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 2,
+    "target" : 10,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary, id=signin_signin, name=signin, type=submit, value=Sign in}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 4,
+    "target" : 14,
+    "text" : "Name",
+    "element" : "Element{node=[A: null], tag=A, text=Name, attributes={class=pl_sort pl_sorting_fwd, href=users.php?t=pc&sort=1R, rel=nofollow}}",
+    "eventType" : "click"
+  }, {
+    "source" : 14,
+    "target" : 2,
+    "text" : "hotcrp Home",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 4,
+    "target" : 18,
+    "text" : "Affiliation",
+    "element" : "Element{node=[A: null], tag=A, text=Affiliation, attributes={class=pl_sort, href=users.php?t=pc&sort=3, rel=nofollow}}",
+    "eventType" : "click"
+  }, {
+    "source" : 18,
+    "target" : 2,
+    "text" : "hotcrp Home",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 21,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 21,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 24,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 24,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 10,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary, id=signin_signin, name=signin, type=submit, value=Sign in}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 28,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 28,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 32,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 32,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 2,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 2,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 41,
+    "text" : "Reset password",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Reset password, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 41,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 2,
+    "text" : "Cancel",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 2,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 2,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 53,
+    "text" : "Create account",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Create account, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 53,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 2,
+    "text" : "Cancel",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 14,
+    "target" : 4,
+    "text" : "Name",
+    "element" : "Element{node=[A: null], tag=A, text=Name, attributes={class=pl_sort pl_sorting_rev, href=users.php?t=pc&sort=1N, rel=nofollow}}",
+    "eventType" : "click"
+  }, {
+    "source" : 14,
+    "target" : 18,
+    "text" : "Affiliation",
+    "element" : "Element{node=[A: null], tag=A, text=Affiliation, attributes={class=pl_sort, href=users.php?t=pc&sort=3, rel=nofollow}}",
+    "eventType" : "click"
+  }, {
+    "source" : 18,
+    "target" : 4,
+    "text" : "Name",
+    "element" : "Element{node=[A: null], tag=A, text=Name, attributes={class=pl_sort, href=users.php?t=pc&sort=1, rel=nofollow}}",
+    "eventType" : "click"
+  }, {
+    "source" : 18,
+    "target" : 67,
+    "text" : "Affiliation",
+    "element" : "Element{node=[A: null], tag=A, text=Affiliation, attributes={class=pl_sort pl_sorting_fwd, href=users.php?t=pc&sort=3R, rel=nofollow}}",
+    "eventType" : "click"
+  }, {
+    "source" : 67,
+    "target" : 2,
+    "text" : "hotcrp Home",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 21,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 21,
+    "target" : 2,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 21,
+    "target" : 2,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 21,
+    "target" : 41,
+    "text" : "Reset password",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Reset password, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 41,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 21,
+    "target" : 0,
+    "text" : "Cancel",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 24,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 24,
+    "target" : 2,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 24,
+    "target" : 2,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 24,
+    "target" : 53,
+    "text" : "Create account",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Create account, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 53,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 24,
+    "target" : 0,
+    "text" : "Cancel",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 28,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 28,
+    "target" : 2,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 28,
+    "target" : 2,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 28,
+    "target" : 41,
+    "text" : "Reset password",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Reset password, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 41,
+    "target" : 101,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 101,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 28,
+    "target" : 10,
+    "text" : "Cancel",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 32,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 32,
+    "target" : 2,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 32,
+    "target" : 2,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 32,
+    "target" : 53,
+    "text" : "Create account",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Create account, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 53,
+    "target" : 114,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 114,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 32,
+    "target" : 10,
+    "text" : "Cancel",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 41,
+    "target" : 120,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 120,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 41,
+    "target" : 10,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary, id=signin_signin, name=signin, type=submit, value=Sign in}}",
+    "eventType" : "click"
+  }, {
+    "source" : 53,
+    "target" : 127,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 127,
+    "target" : 2,
+    "text" : "hotcrp",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 53,
+    "target" : 10,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary, id=signin_signin, name=signin, type=submit, value=Sign in}}",
+    "eventType" : "click"
+  }, {
+    "source" : 67,
+    "target" : 4,
+    "text" : "Name",
+    "element" : "Element{node=[A: null], tag=A, text=Name, attributes={class=pl_sort, href=users.php?t=pc&sort=1, rel=nofollow}}",
+    "eventType" : "click"
+  }, {
+    "source" : 67,
+    "target" : 18,
+    "text" : "Affiliation",
+    "element" : "Element{node=[A: null], tag=A, text=Affiliation, attributes={class=pl_sort pl_sorting_rev, href=users.php?t=pc&sort=3N, rel=nofollow}}",
+    "eventType" : "click"
+  }, {
+    "source" : 101,
+    "target" : 4,
+    "text" : "Program committee",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "source" : 101,
+    "target" : 2,
+    "text" : "Forgot your password?",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 101,
+    "target" : 2,
+    "text" : "Create an account",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "source" : 101,
+    "target" : 41,
+    "text" : "Reset password",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Reset password, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 101,
+    "target" : 146,
+    "text" : "Cancel",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  } ]
+}

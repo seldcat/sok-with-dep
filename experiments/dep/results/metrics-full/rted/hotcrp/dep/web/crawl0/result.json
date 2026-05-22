@@ -1,0 +1,1510 @@
+{
+  "states" : {
+    "state91" : {
+      "name" : "state91",
+      "url" : "http://web/index.php?signin=1&action=forgot",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 214,
+        "left" : 335,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 119,
+        "height" : 26
+      }, {
+        "top" : 214,
+        "left" : 261,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 60,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 6,
+      "id" : 91,
+      "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533577005,
+      "nearestState" : "state6"
+    },
+    "state30" : {
+      "name" : "state30",
+      "url" : "http://web/?post=.empty",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 236,
+        "left" : 341,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 113,
+        "height" : 26
+      }, {
+        "top" : 236,
+        "left" : 267,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 6,
+      "id" : 30,
+      "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533472649,
+      "nearestState" : "state8"
+    },
+    "state51" : {
+      "name" : "state51",
+      "url" : "http://web/index.php?signin=1&action=new",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 5,
+      "fanOut" : 5,
+      "id" : 51,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533512402,
+      "nearestState" : "index"
+    },
+    "state6" : {
+      "name" : "state6",
+      "url" : "http://web/",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 214,
+        "left" : 335,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 119,
+        "height" : 26
+      }, {
+        "top" : 214,
+        "left" : 261,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 60,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 6,
+      "id" : 6,
+      "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.14666666666666667,
+      "cluster" : -1,
+      "timeAdded" : 1778533445993,
+      "nearestState" : "index"
+    },
+    "index" : {
+      "name" : "index",
+      "url" : "http://web/index.php",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 5,
+      "id" : 0,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533433410,
+      "nearestState" : "null"
+    },
+    "state8" : {
+      "name" : "state8",
+      "url" : "http://web/",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 236,
+        "left" : 341,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 113,
+        "height" : 26
+      }, {
+        "top" : 236,
+        "left" : 267,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 6,
+      "id" : 8,
+      "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.013157894736842105,
+      "cluster" : -1,
+      "timeAdded" : 1778533449367,
+      "nearestState" : "state6"
+    },
+    "state2" : {
+      "name" : "state2",
+      "url" : "http://web/",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 36,
+      "fanOut" : 4,
+      "id" : 2,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533441239,
+      "nearestState" : "index"
+    },
+    "state4" : {
+      "name" : "state4",
+      "url" : "http://web/users.php?t=pc",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 86,
+        "left" : 30,
+        "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[1]/A[1]",
+        "width" : 44,
+        "height" : 14
+      }, {
+        "top" : 86,
+        "left" : 248,
+        "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[2]/A[1]",
+        "width" : 56,
+        "height" : 14
+      } ],
+      "fanIn" : 15,
+      "fanOut" : 1,
+      "id" : 4,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.7807017543859649,
+      "cluster" : -1,
+      "timeAdded" : 1778533443387,
+      "nearestState" : "index"
+    },
+    "state110" : {
+      "name" : "state110",
+      "url" : "http://web/index.php?signin=1&action=forgot",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 236,
+        "left" : 341,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 113,
+        "height" : 26
+      }, {
+        "top" : 236,
+        "left" : 267,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 6,
+      "id" : 110,
+      "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533614350,
+      "nearestState" : "state8"
+    },
+    "state19" : {
+      "name" : "state19",
+      "url" : "http://web/index.php",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 214,
+        "left" : 335,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 119,
+        "height" : 26
+      }, {
+        "top" : 214,
+        "left" : 261,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 60,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 6,
+      "id" : 19,
+      "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533459605,
+      "nearestState" : "state6"
+    },
+    "state104" : {
+      "name" : "state104",
+      "url" : "http://web/index.php?signin=1&action=new",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 214,
+        "left" : 335,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 119,
+        "height" : 26
+      }, {
+        "top" : 214,
+        "left" : 261,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 60,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 6,
+      "id" : 104,
+      "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533602053,
+      "nearestState" : "state6"
+    },
+    "state117" : {
+      "name" : "state117",
+      "url" : "http://web/index.php?signin=1&action=new",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 236,
+        "left" : 341,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 113,
+        "height" : 26
+      }, {
+        "top" : 236,
+        "left" : 267,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 3,
+      "id" : 117,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533625233,
+      "nearestState" : "state8"
+    },
+    "state22" : {
+      "name" : "state22",
+      "url" : "http://web/index.php",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 236,
+        "left" : 341,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 113,
+        "height" : 26
+      }, {
+        "top" : 236,
+        "left" : 267,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 6,
+      "id" : 22,
+      "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533463451,
+      "nearestState" : "state8"
+    },
+    "state10" : {
+      "name" : "state10",
+      "url" : "http://web/?post=.empty",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 6,
+      "fanOut" : 4,
+      "id" : 10,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533452443,
+      "nearestState" : "index"
+    },
+    "state39" : {
+      "name" : "state39",
+      "url" : "http://web/index.php?signin=1&action=forgot",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 7,
+      "fanOut" : 5,
+      "id" : 39,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533489472,
+      "nearestState" : "index"
+    },
+    "state26" : {
+      "name" : "state26",
+      "url" : "http://web/?post=.empty",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 214,
+        "left" : 335,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 119,
+        "height" : 26
+      }, {
+        "top" : 214,
+        "left" : 261,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 60,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 6,
+      "id" : 26,
+      "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778533467981,
+      "nearestState" : "state6"
+    }
+  },
+  "edges" : [ {
+    "from" : "index",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state2",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state2",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state2",
+    "to" : "state6",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state6",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state2",
+    "to" : "state8",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state8",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state2",
+    "to" : "state10",
+    "text" : "",
+    "id" : "xpath //INPUT[@id = 'signin_signin']",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary, id=signin_signin, name=signin, type=submit, value=Sign in}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state10",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state10",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state19",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state19",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state22",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state22",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state10",
+    "text" : "",
+    "id" : "xpath //INPUT[@id = 'signin_signin']",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary, id=signin_signin, name=signin, type=submit, value=Sign in}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state10",
+    "to" : "state26",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state26",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state10",
+    "to" : "state30",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state30",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state6",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state6",
+    "to" : "state2",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state6",
+    "to" : "state2",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state6",
+    "to" : "state39",
+    "text" : "Reset password",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Reset password, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state39",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state6",
+    "to" : "state2",
+    "text" : "Cancel",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state8",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state8",
+    "to" : "state2",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state8",
+    "to" : "state2",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state8",
+    "to" : "state51",
+    "text" : "Create account",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Create account, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state51",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state8",
+    "to" : "state2",
+    "text" : "Cancel",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state19",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state19",
+    "to" : "state2",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state19",
+    "to" : "state2",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state19",
+    "to" : "state39",
+    "text" : "Reset password",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Reset password, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state39",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state19",
+    "to" : "index",
+    "text" : "Cancel",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state22",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state22",
+    "to" : "state2",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state22",
+    "to" : "state2",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state22",
+    "to" : "state51",
+    "text" : "Create account",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Create account, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state51",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state22",
+    "to" : "index",
+    "text" : "Cancel",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state26",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state26",
+    "to" : "state2",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state26",
+    "to" : "state2",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state26",
+    "to" : "state39",
+    "text" : "Reset password",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Reset password, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state39",
+    "to" : "state91",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state91",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state26",
+    "to" : "state10",
+    "text" : "Cancel",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state30",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state30",
+    "to" : "state2",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state30",
+    "to" : "state2",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state30",
+    "to" : "state51",
+    "text" : "Create account",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Create account, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state51",
+    "to" : "state104",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state104",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state30",
+    "to" : "state10",
+    "text" : "Cancel",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state39",
+    "to" : "state110",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state110",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state39",
+    "to" : "state10",
+    "text" : "",
+    "id" : "xpath //INPUT[@id = 'signin_signin']",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary, id=signin_signin, name=signin, type=submit, value=Sign in}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state51",
+    "to" : "state117",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state117",
+    "to" : "state2",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state51",
+    "to" : "state10",
+    "text" : "",
+    "id" : "xpath //INPUT[@id = 'signin_signin']",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary, id=signin_signin, name=signin, type=submit, value=Sign in}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state91",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state91",
+    "to" : "state2",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state91",
+    "to" : "state2",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state91",
+    "to" : "state39",
+    "text" : "Reset password",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Reset password, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state91",
+    "to" : "state39",
+    "text" : "Cancel",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state104",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state104",
+    "to" : "state2",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state104",
+    "to" : "state2",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state104",
+    "to" : "state39",
+    "text" : "Reset password",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Reset password, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state104",
+    "to" : "state51",
+    "text" : "Cancel",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state110",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state110",
+    "to" : "state2",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state110",
+    "to" : "state2",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state110",
+    "to" : "state51",
+    "text" : "Create account",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Create account, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state110",
+    "to" : "state39",
+    "text" : "Cancel",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state117",
+    "to" : "state4",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state117",
+    "to" : "state2",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  } ],
+  "statistics" : {
+    "duration" : "4 minutes 48 seconds",
+    "crawlPaths" : 70,
+    "averageDomSize" : "3.372 kB",
+    "edges" : 81,
+    "startDate" : "2026-05-11 21:03:41 UTC",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "state4",
+        "count" : 1
+      },
+      "leastFanIn" : {
+        "id" : "state91",
+        "count" : 1
+      },
+      "mostFanOut" : {
+        "id" : "state91",
+        "count" : 6
+      },
+      "mostFanIn" : {
+        "id" : "state2",
+        "count" : 36
+      },
+      "totalNumberOfStates" : 16,
+      "urls" : {
+        "http://web/index.php?signin=1&action=forgot" : [ "state91", "state110", "state39" ],
+        "http://web/?post=.empty" : [ "state30", "state10", "state26" ],
+        "http://web/index.php?signin=1&action=new" : [ "state51", "state104", "state117" ],
+        "http://web/" : [ "state6", "state8", "state2" ],
+        "http://web/index.php" : [ "index", "state19", "state22" ],
+        "http://web/users.php?t=pc" : [ "state4" ]
+      }
+    },
+    "failedEvents" : 18
+  },
+  "exitStatus" : "MAX_TIME"
+}

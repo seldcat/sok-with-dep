@@ -1,0 +1,42 @@
+[
+  {
+    "app": "addressbook",
+    "status": "complete",
+    "seconds": 698.2
+  },
+  {
+    "app": "hotcrp",
+    "status": "complete",
+    "seconds": 699.3
+  },
+  {
+    "app": "owncloud",
+    "status": "complete",
+    "seconds": 2904.9
+  },
+  {
+    "app": "phpbb2",
+    "status": "complete",
+    "seconds": 1157.1
+  },
+  {
+    "app": "scarf",
+    "status": "complete",
+    "seconds": 101.7
+  },
+  {
+    "app": "vanilla",
+    "status": "complete",
+    "seconds": 1169.0
+  },
+  {
+    "app": "wackopicko",
+    "status": "complete",
+    "seconds": 1592.9
+  },
+  {
+    "app": "joomla",
+    "status": "failed",
+    "error": "Command '['kubectl', '-n', 'sotk-dep-joomla', 'wait', '--for=condition=complete', 'job/crawljax-dep-comparison', '--timeout=30m']' returned non-zero exit status 1."
+  }
+]

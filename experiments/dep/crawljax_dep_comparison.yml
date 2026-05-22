@@ -1,0 +1,9 @@
+experiments:
+  -
+    crawler: crawlers/crawljax
+    app: apps/wackopicko
+    args: -t 5 -a url_full --nav bfs --app wackopicko --no-save-screenshots --url http://web/index.php
+  -
+    crawler: crawlers/crawljax
+    app: apps/wackopicko
+    args: -t 5 -a url_full --nav bfs --app wackopicko --compare-deps --no-save-screenshots --url http://web/index.php

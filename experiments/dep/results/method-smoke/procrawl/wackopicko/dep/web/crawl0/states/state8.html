@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state8</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://web/pictures/recent.php'>http://web/pictures/recent.php</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>2</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>4</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>18</td>
+				</tr>
+				<tr>
+					<th>Nearest State</th>
+					<td>index</td>
+				</tr>
+				<tr>
+					<th>Distance to nearest State</th>
+					<td>1.0</td>
+				</tr>
+				<tr>
+					<th>Has Near Duplicate</th>
+					<td>false</td>
+				</tr>
+				<tr>
+					<th>Cluster</th>
+					<td>-1</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>-</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state8.png' /> 
+								<div rel="tooltip" data-original-title="//H1[@id = 'title']/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: 1px; top: 14px; width: 277px; height: 43px; border: 2px solid #00FFFF;  cursor: pointer;" onclick="location.href='index.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: 79px; top: 71px; width: 55px; height: 29px; border: 2px solid #00FFFF;  cursor: pointer;" onclick="location.href='state3.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: 139px; top: 71px; width: 63px; height: 29px; border: 2px solid #00FFFF;  cursor: pointer;" onclick="location.href='state3.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 207px; top: 71px; width: 62px; height: 29px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: 274px; top: 71px; width: 85px; height: 29px; border: 2px solid green;  cursor: pointer;" onclick="location.href='state12.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 679px; top: 71px; width: 55px; height: 29px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 121px; top: 317px; width: 130px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 300px; top: 317px; width: 130px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 479px; top: 317px; width: 130px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 659px; top: 317px; width: 130px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 121px; top: 474px; width: 130px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 300px; top: 474px; width: 130px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 479px; top: 474px; width: 130px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 659px; top: 474px; width: 130px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[3]/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 121px; top: 631px; width: 130px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 361px; top: 692px; width: 34px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 402px; top: 692px; width: 36px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 497px; top: 692px; width: 92px; height: 16px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;html&gt;&lt;head&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/blueprint/screen.css&quot; type=&quot;text/css&quot; media=&quot;screen, projection&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/blueprint/print.css&quot; type=&quot;text/css&quot; media=&quot;print&quot;&gt;
+    &lt;!--[if IE]&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/blueprint/ie.css&quot; type=&quot;text/css&quot; media=&quot;screen, projection&quot;&gt;&lt;![endif]--&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/stylings.css&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;
+    &lt;title&gt;WackoPicko.com&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;container &quot; style=&quot;border: 2px solid #5c95cf;&quot;&gt;
+      &lt;div class=&quot;column span-24 first last&quot;&gt;
+	&lt;h1 id=&quot;title&quot;&gt;&lt;a href=&quot;/&quot;&gt;WackoPicko.com&lt;/a&gt;&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div id=&quot;menu&quot;&gt;
+	&lt;div class=&quot;column prepend-1 span-14 first&quot;&gt;
+	  &lt;ul class=&quot;menu&quot;&gt;
+	    &lt;li class=&quot;&quot;&gt;&lt;a href=&quot;/users/home.php&quot;&gt;&lt;span&gt;Home&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class=&quot;&quot;&gt;&lt;a href=&quot;/pictures/upload.php&quot;&gt;&lt;span&gt;Upload&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class=&quot;current&quot;&gt;&lt;a href=&quot;/pictures/recent.php&quot;&gt;&lt;span&gt;Recent&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;&quot;&gt;&lt;a href=&quot;/guestbook.php&quot;&gt;&lt;span&gt;Guestbook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+
+      	  &lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;column prepend-1 span-7 first last&quot;&gt;
+	  &lt;ul class=&quot;menu top_login&quot;&gt;
+      	    &lt;li&gt;&lt;a href=&quot;/users/login.php&quot;&gt;&lt;span&gt;Login&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+      	  &lt;/ul&gt;
+	&lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+      &lt;div class=&quot;column span-24 first last&quot; id=&quot;search_bar_blue&quot;&gt;
+	&lt;div class=&quot;column prepend-17 span-7 first last&quot; id=&quot;search_box&quot;&gt;
+	  &lt;form action=&quot;/pictures/search.php&quot; method=&quot;get&quot; style=&quot;display:inline;&quot;&gt;
+	    &lt;input id=&quot;query2&quot; name=&quot;query&quot; size=&quot;15&quot; style=&quot;padding: 2px; font-size: 16px; text-decoration:none;border:none;vertical-align:middle;&quot; type=&quot;text&quot; value=&quot;&quot;&gt;
+	    &lt;input src=&quot;/images/search_button_white.gif&quot; type=&quot;image&quot; style=&quot;border: 0pt none ; position: relative; top: 0px;vertical-align:middle;margin-left: 1em;&quot;&gt;
+	  &lt;/form&gt;
+	&lt;/div&gt;
+      &lt;/div&gt;
+   
+&lt;div class=&quot;column prepend-1 span-24 first last&quot;&gt;
+&lt;h2&gt;Recently uploaded pictures&lt;/h2&gt;
+
+
+   &lt;div class=&quot;column prepend-1 span-21 first last&quot; style=&quot;margin-bottom: 2em;&quot;&gt;
+      &lt;ul class=&quot;thumbnail-pic-list&quot;&gt;
+&lt;li&gt;
+&lt;a href=&quot;/pictures/view.php?picid=15&quot;&gt;&lt;img src=&quot;/upload/flowers/flweofoee.128_128.jpg&quot; height=&quot;128&quot; width=&quot;128&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/pictures/view.php?picid=14&quot;&gt;&lt;img src=&quot;/upload/house/hodjjgld.128_128.jpg&quot; height=&quot;128&quot; width=&quot;128&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/pictures/view.php?picid=13&quot;&gt;&lt;img src=&quot;/upload/house/our_house.128_128.jpg&quot; height=&quot;128&quot; width=&quot;128&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/pictures/view.php?picid=12&quot;&gt;&lt;img src=&quot;/upload/waterfall/Waterfall.128_128.jpg&quot; height=&quot;128&quot; width=&quot;128&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;column prepend-1 span-21 first last&quot; style=&quot;margin-bottom: 2em;&quot;&gt;
+&lt;ul class=&quot;thumbnail-pic-list&quot;&gt;
+	 &lt;li&gt;
+&lt;a href=&quot;/pictures/view.php?picid=11&quot;&gt;&lt;img src=&quot;/upload/house/My_House.128_128.jpg&quot; height=&quot;128&quot; width=&quot;128&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/pictures/view.php?picid=10&quot;&gt;&lt;img src=&quot;/upload/flowers/flowers.128_128.jpg&quot; height=&quot;128&quot; width=&quot;128&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/pictures/view.php?picid=9&quot;&gt;&lt;img src=&quot;/upload/toga/togasfs.128_128.jpg&quot; height=&quot;128&quot; width=&quot;128&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/pictures/view.php?picid=8&quot;&gt;&lt;img src=&quot;/upload/toga/togas.128_128.jpg&quot; height=&quot;128&quot; width=&quot;128&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;column prepend-1 span-21 first last&quot; style=&quot;margin-bottom: 2em;&quot;&gt;
+&lt;ul class=&quot;thumbnail-pic-list&quot;&gt;
+	 &lt;li&gt;
+&lt;a href=&quot;/pictures/view.php?picid=7&quot;&gt;&lt;img src=&quot;/upload/doggie/Dog.jpg.128_128.jpg&quot; height=&quot;128&quot; width=&quot;128&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+       &lt;div class=&quot;column span-24 first last&quot; id=&quot;footer&quot;&gt;
+	&lt;ul&gt;
+	  &lt;li&gt;&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt; |&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/admin/index.php?page=login&quot;&gt;Admin&lt;/a&gt; |&lt;/li&gt;
+	  &lt;li&gt;&lt;a href=&quot;mailto:contact@wackopicko.com&quot;&gt;Contact&lt;/a&gt; |&lt;/li&gt;
+	  &lt;li&gt;&lt;a href=&quot;/tos.php&quot;&gt;Terms of Service&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+   
+&lt;!--69fe2cb4e337c5.94264208.serialized--&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>//H1[@id = 'title']/A[1]</td>
+							<td><a href="index.html">index</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[1]/A[1]</td>
+							<td><a href="state3.html">state3</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[2]/A[1]</td>
+							<td><a href="state3.html">state3</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'menu']/DIV[1]/UL[1]/LI[4]/A[1]</td>
+							<td><a href="state12.html">state12</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'menu']/DIV[2]/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[1]/UL[1]/LI[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[2]/UL[1]/LI[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[4]/DIV[3]/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'footer']/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'footer']/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'footer']/UL[1]/LI[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>

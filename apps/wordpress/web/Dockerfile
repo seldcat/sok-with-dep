@@ -1,4 +1,4 @@
-FROM bitnami/wordpress:5.1.0
+FROM bitnamilegacy/wordpress:5.1.0
 
 COPY docker-php-ext-enable /usr/bin/
 
@@ -7,7 +7,7 @@ ENV PHP_INI_DIR=/opt/bitnami/php/etc/
 RUN sed -i s/deb.debian.org/archive.debian.org/g /etc/apt/sources.list \
     && sed -i 's|security.debian.org|archive.debian.org/debian-security/|g' /etc/apt/sources.list \ 
     && sed -i 's|httpredir.debian.org/debian|archive.debian.org/debian|g' /etc/apt/sources.list \ 
-    && apt update && apt install -y autoconf gcc make \
+    && apt -o Acquire::AllowInsecureRepositories=true update && apt install -y --allow-unauthenticated autoconf gcc make \
     && pecl install xdebug-3.1.3 \
     && chmod +x /usr/bin/docker-php-ext-enable \
     && docker-php-ext-enable xdebug \

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state32</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://web/'>http://web/</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>3</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>3</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>38</td>
+				</tr>
+				<tr>
+					<th>Nearest State</th>
+					<td>index</td>
+				</tr>
+				<tr>
+					<th>Distance to nearest State</th>
+					<td>11.0</td>
+				</tr>
+				<tr>
+					<th>Has Near Duplicate</th>
+					<td>false</td>
+				</tr>
+				<tr>
+					<th>Cluster</th>
+					<td>-1</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>-</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state32.png' /> 
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_site']/H1[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 1px; width: 68px; height: 25px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: 281px; top: 6px; width: 139px; height: 16px; border: 2px solid green;  cursor: pointer;" onclick="location.href='state34.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[2]" class='hovers'
+				style="position: absolute; z-index: 20; left: 428px; top: 6px; width: 36px; height: 16px; border: 2px solid green;  cursor: pointer;" onclick="location.href='state34.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[3]" class='hovers'
+				style="position: absolute; z-index: 20; left: 485px; top: 6px; width: 27px; height: 16px; border: 2px solid green;  cursor: pointer;" onclick="location.href='state39.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[4]" class='hovers'
+				style="position: absolute; z-index: 10; left: 533px; top: 6px; width: 47px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'initialmsgs']/DIV[1]/P[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 44px; top: 254px; width: 209px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'initialmsgs']/DIV[1]/P[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 305px; top: 296px; width: 243px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'initialmsgs']/DIV[1]/P[4]/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 44px; top: 315px; width: 127px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 362px; top: 394px; width: 55px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 362px; top: 413px; width: 40px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 362px; top: 432px; width: 86px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 362px; top: 451px; width: 29px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[5]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 362px; top: 470px; width: 66px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[2]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 362px; top: 519px; width: 130px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homelist']/FORM[1]/H4[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 366px; width: 51px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homerev']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 257px; top: 634px; width: 64px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homerev']/SMALL[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 375px; top: 655px; width: 38px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homerev']/SMALL[1]/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 426px; top: 655px; width: 40px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homerev']/SPAN[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 220px; top: 693px; width: 112px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 722px; width: 17px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 35px; top: 722px; width: 97px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/A[3]" class='hovers'
+				style="position: absolute; z-index: 10; left: 157px; top: 722px; width: 131px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/A[4]" class='hovers'
+				style="position: absolute; z-index: 10; left: 314px; top: 722px; width: 110px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/A[5]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 722px; width: 548px; height: 37px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 35px; top: 792px; width: 18px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 58px; top: 792px; width: 330px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 546px; top: 792px; width: 13px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 27px; top: 816px; width: 26px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[2]/TD[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 58px; top: 816px; width: 246px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[2]/TD[3]/DIV[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 546px; top: 816px; width: 13px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[3]/TD[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 27px; top: 840px; width: 26px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[3]/TD[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 58px; top: 840px; width: 411px; height: 36px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[3]/TD[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 546px; top: 840px; width: 13px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homeactivity']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 890px; width: 17px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homeactivity']/H4[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 35px; top: 890px; width: 105px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homeau']/STRONG[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 129px; top: 934px; width: 118px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 524px; top: 32px; width: 55px; height: 25px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'homelist']/FORM[1]/INPUT[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 583px; width: 62px; height: 28px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+&lt;meta name=&quot;google&quot; content=&quot;notranslate&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;stylesheets/style.css?mtime=1778089704&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;images/review24.png&quot;&gt;
+&lt;title&gt;hotcrp&lt;/title&gt;
+&lt;/head&gt;
+&lt;body id=&quot;home&quot;&gt;
+&lt;div id=&quot;prebody&quot;&gt;&lt;div id=&quot;header&quot;&gt;&lt;div id=&quot;header_site&quot; class=&quot;header_site_home&quot;&gt;&lt;h1&gt;&lt;a class=&quot;qq&quot; href=&quot;/&quot;&gt;&lt;span class=&quot;header-site-name&quot;&gt;hotcrp&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/div&gt;&lt;div id=&quot;header_right&quot;&gt;&lt;a class=&quot;q&quot; href=&quot;profile.php&quot;&gt;&lt;strong&gt;jaekpot@localhost.com&lt;/strong&gt;&lt;/a&gt; &amp;nbsp; &lt;a href=&quot;profile.php&quot;&gt;Profile&lt;/a&gt; &lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt; &lt;a href=&quot;help.php&quot;&gt;Help&lt;/a&gt; &lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt; &lt;a href=&quot;/?signout=1&amp;amp;post=3542be5ceaa4&quot; class=&quot;nw&quot;&gt;Sign out&lt;/a&gt;&lt;div id=&quot;maindeadline&quot; class=&quot;hidden&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr class=&quot;c&quot;&gt;&lt;table class=&quot;vbar&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;vbar gopaper&quot;&gt;&lt;form method=&quot;get&quot; action=&quot;paper.php&quot; accept-charset=&quot;UTF-8&quot; class=&quot;gopaper&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;p&quot; value=&quot;&quot; id=&quot;quicksearchq&quot; size=&quot;10&quot; placeholder=&quot;(All)&quot; class=&quot;papersearch&quot; autocomplete=&quot;off&quot; style=&quot;width: 72px;&quot;&gt;&amp;nbsp; &lt;input type=&quot;submit&quot; class=&quot;btn&quot; value=&quot;Search&quot;&gt;&lt;/form&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;  &lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;initialmsgs&quot;&gt;
+&lt;div class=&quot;msg msg-warning&quot;&gt;&lt;p&gt;&lt;span class=&quot;error&quot;&gt;Error:&lt;/span&gt; PHP&rsquo;s &lt;code&gt;upload_max_filesize&lt;/code&gt; setting, which is &lt;code&gt;2M&lt;/code&gt;, will limit submissions to at most 2097152&amp;nbsp;bytes. Usually a larger limit, such as &lt;code&gt;10M&lt;/code&gt;, is appropriate. Change this setting in HotCRP&rsquo;s &lt;code&gt;.htaccess&lt;/code&gt; and &lt;code&gt;.user.ini&lt;/code&gt; files, change it in your global &lt;code&gt;php.ini&lt;/code&gt; file, or silence this message by setting &lt;code&gt;$Opt[&quot;upload_max_filesize&quot;] = &quot;2M&quot;&lt;/code&gt; in &lt;code&gt;conf/options.php&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;PHP&rsquo;s systemwide &lt;code&gt;session.gc_maxlifetime&lt;/code&gt; setting, which is 1440 seconds, is less than HotCRP&rsquo;s preferred session expiration time, which is 86400 seconds.  You should update &lt;code&gt;session.gc_maxlifetime&lt;/code&gt; in the &lt;code&gt;php.ini&lt;/code&gt; file or users may be booted off the system earlier than you expect.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;settings.php/basics&quot;&gt;Set the conference abbreviation&lt;/a&gt; to a short name for your conference, such as &ldquo;OSDI &rsquo;14&rdquo;.&lt;/p&gt;&lt;p&gt;PC review assignments have changed.&amp;nbsp; &lt;a href=&quot;mail.php?template=newpcrev&quot;&gt;Send review assignment notifications&lt;/a&gt; &lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt; &lt;a href=&quot;/?clearnewpcrev=1646267323&amp;amp;post=3542be5ceaa4&quot;&gt;Clear this message&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;body&quot; class=&quot;body&quot;&gt;
+&lt;div id=&quot;clock_drift_container&quot;&gt;&lt;/div&gt;&lt;div class=&quot;homeside&quot;&gt;&lt;noscript&gt;&lt;div class=&quot;homeinside&quot;&gt;&lt;strong&gt;This site requires JavaScript.&lt;/strong&gt; Many features will work without JavaScript, but not all.&lt;br /&gt;&lt;a class=&quot;small&quot; href=&quot;https://github.com/kohler/hotcrp/&quot;&gt;Report bad compatibility problems&lt;/a&gt;&lt;/div&gt;&lt;/noscript&gt;&lt;div class=&quot;homeinside&quot;&gt;&lt;h4&gt;Administration&lt;/h4&gt;&lt;ul style=&quot;margin-bottom:0.75em&quot;&gt;&lt;li&gt;&lt;a href=&quot;settings.php&quot;&gt;Settings&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;users.php?t=all&quot;&gt;Users&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;autoassign.php&quot;&gt;Assignments&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;mail.php&quot;&gt;Mail&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;log.php&quot;&gt;Action log&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Conference information&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;users.php?t=pc&quot;&gt;Program committee&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;homegrp&quot; id=&quot;homelist&quot;&gt;&lt;form method=&quot;get&quot; action=&quot;search.php&quot; accept-charset=&quot;UTF-8&quot;&gt;&lt;h4&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php&quot;&gt;Search&lt;/a&gt;: &amp;nbsp;&amp;nbsp;&lt;/h4&gt;&lt;input type=&quot;text&quot; name=&quot;q&quot; value=&quot;&quot; id=&quot;homeq&quot; size=&quot;32&quot; title=&quot;Enter paper numbers or search terms&quot; class=&quot;papersearch&quot; placeholder=&quot;(All)&quot; autocomplete=&quot;off&quot;&gt; &amp;nbsp;in&amp;nbsp; &lt;select name=&quot;t&quot; data-default-value=&quot;s&quot;&gt;&lt;option value=&quot;s&quot; selected=&quot;selected&quot;&gt;Submitted papers&lt;/option&gt;&lt;option value=&quot;all&quot;&gt;All papers&lt;/option&gt;&lt;option value=&quot;r&quot;&gt;Your reviews&lt;/option&gt;&lt;option value=&quot;rout&quot;&gt;Your incomplete reviews&lt;/option&gt;&lt;option value=&quot;req&quot;&gt;Your review requests&lt;/option&gt;&lt;/select&gt;
+    &amp;nbsp; &lt;input type=&quot;submit&quot; class=&quot;btn&quot; value=&quot;Search&quot;&gt;&lt;/form&gt;&lt;/div&gt;
+&lt;hr class=&quot;home&quot;&gt;
+&lt;div class=&quot;homegrp&quot; id=&quot;homerev&quot;&gt;
+&lt;h4&gt;Reviews: &amp;nbsp;&lt;/h4&gt; You have submitted 0 of &lt;a href=&quot;search.php?q=&amp;amp;t=r&quot;&gt;3 reviews&lt;/a&gt;.&lt;br&gt;
+ The average PC member has submitted 0.0 reviews.&amp;nbsp; &lt;small class=&quot;nw&quot;&gt;(&lt;a href=&quot;users.php?t=pc&amp;amp;score%5B%5D=0&quot;&gt;details&lt;/a&gt;&lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt;&lt;a href=&quot;graph.php/procrastination&quot;&gt;graphs&lt;/a&gt;)&lt;/small&gt;&lt;br&gt;
+ &lt;span class=&quot;deadline&quot;&gt;The site is not open for reviewing.&lt;/span&gt;&lt;br&gt;
+  &lt;span class=&quot;hint&quot;&gt;As an administrator, you may review &lt;a href=&quot;search.php?q=&amp;amp;t=s&quot;&gt;any submitted paper&lt;/a&gt;.&lt;/span&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;div id=&quot;foldre&quot; class=&quot;homegrp foldo&quot;&gt;&lt;a class=&quot;ui q js-foldup&quot; href=&quot;#&quot;&gt;&lt;span class=&quot;expander&quot;&gt;&lt;span class=&quot;in0 fx&quot;&gt;&lt;svg class=&quot;licon&quot; width=&quot;0.75em&quot; height=&quot;0.75em&quot; viewBox=&quot;0 0 16 16&quot; preserveAspectRatio=&quot;none&quot;&gt;&lt;path d=&quot;M1 1L8 15L15 1z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span class=&quot;in1 fn&quot;&gt;&lt;svg class=&quot;licon&quot; width=&quot;0.75em&quot; height=&quot;0.75em&quot; viewBox=&quot;0 0 16 16&quot; preserveAspectRatio=&quot;none&quot;&gt;&lt;path d=&quot;M1 1L15 8L1 15z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;search.php?q=re%3Ame&quot; title=&quot;Search in your reviews (more display and download options)&quot;&gt;&lt;strong&gt;Your Reviews&lt;/strong&gt;&lt;/a&gt; &lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt; &lt;a href=&quot;reviewprefs.php&quot;&gt;Review preferences&lt;/a&gt; &lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt; &lt;a href=&quot;offline.php&quot;&gt;Offline reviewing&lt;/a&gt; &lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt; &lt;a href=&quot;mail.php?monreq=1&quot;&gt;Monitor requested reviews&lt;/a&gt;&lt;div class=&quot;fx&quot;&gt;&lt;div class=&quot;g&quot;&gt;&lt;/div&gt;&lt;table class=&quot;pltable pltable_reviewerhome has-hotlist has-fold fold5c fold7c fold8c&quot; data-hotlist=&quot;{&amp;quot;ids&amp;quot;:&amp;quot;2'13'16&amp;quot;,&amp;quot;listid&amp;quot;:&amp;quot;p\/s\/re%3Ame&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;Your reviews&amp;quot;,&amp;quot;urlbase&amp;quot;:&amp;quot;search.php?t=s&amp;quot;}&quot;&gt;
+&lt;!--[if lt IE 9]&gt;&lt;script src=&quot;scripts/jquery-1.12.4.min.js?mtime=1778089704&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;
+&lt;!--[if !IE|gte IE 9]--&gt;&lt;script src=&quot;scripts/jquery-3.3.1.min.js?mtime=1778089704&quot;&gt;&lt;/script&gt;&lt;!--[endif]--&gt;
+&lt;script&gt;siteurl=&quot;&quot;;siteurl_suffix=&quot;.php&quot;;siteurl_postvalue=&quot;3542be5ceaa4&quot;;siteurl_cookie_params=&quot;&quot;;assetsurl=&quot;&quot;;hotcrp_user={&quot;email&quot;:&quot;jaekpot@localhost.com&quot;,&quot;is_pclike&quot;:true,&quot;cid&quot;:1};&lt;/script&gt;&lt;script src=&quot;scripts/script.js?mtime=1778089704&quot;&gt;&lt;/script&gt;
+&lt;script&gt;hotcrp_load.time(240,0);hotcrp_deadlines.init({&quot;now&quot;:1778378792,&quot;email&quot;:&quot;jaekpot@localhost.com&quot;,&quot;is_admin&quot;:true,&quot;sub&quot;:{&quot;open&quot;:false,&quot;sub&quot;:0,&quot;blind&quot;:true},&quot;rev&quot;:{&quot;blind&quot;:true},&quot;revs&quot;:{&quot;unnamed&quot;:{},&quot;R1&quot;:{},&quot;R2&quot;:{},&quot;R3&quot;:{}}})&lt;/script&gt; &lt;thead class=&quot;pltable&quot;&gt;
+  &lt;tr class=&quot;pl_headrow&quot;&gt;&lt;th class=&quot;pl plh pl_id&quot;&gt;ID&lt;/th&gt;&lt;th class=&quot;pl plh pl_title&quot;&gt;Title&lt;/th&gt;&lt;th class=&quot;pl plh pl_revtype&quot;&gt;Review&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;
+ &lt;/thead&gt;
+  &lt;tbody class=&quot;pltable&quot;&gt;
+  &lt;tr class=&quot;pl k0&quot; data-pid=&quot;2&quot;&gt;&lt;td class=&quot;pl pl_id&quot;&gt;&lt;a href=&quot;review.php/2?r=4&quot; class=&quot;pnum taghl&quot;&gt;#2&lt;/a&gt;&lt;/td&gt;&lt;td class=&quot;pl pl_title&quot;&gt;&lt;a href=&quot;review.php/2?r=4&quot; class=&quot;ptitle taghl&quot;&gt;Small Forwarding Tables for Fast Routing Lookups&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;doc.php/hotcrp-paper2.pdf&quot; class=&quot;q&quot;&gt;&lt;img src=&quot;images/pdf.png&quot; alt=&quot;[PDF]&quot; class=&quot;sdlimg&quot;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td class=&quot;pl pl_revtype&quot;&gt;&lt;a href=&quot;review.php?r=4&quot;&gt;&lt;span class=&quot;rto rt4n&quot; title=&quot;Primary review (not started)&quot;&gt;&lt;span class=&quot;rti&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr class=&quot;pl k1&quot; data-pid=&quot;13&quot;&gt;&lt;td class=&quot;pl pl_id&quot;&gt;&lt;a href=&quot;review.php/13?r=37&quot; class=&quot;pnum taghl&quot;&gt;#13&lt;/a&gt;&lt;/td&gt;&lt;td class=&quot;pl pl_title&quot;&gt;&lt;a href=&quot;review.php/13?r=37&quot; class=&quot;ptitle taghl&quot;&gt;End-to-end Internet Packet Dynamics&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;doc.php/hotcrp-paper13.pdf&quot; class=&quot;q&quot;&gt;&lt;img src=&quot;images/pdf.png&quot; alt=&quot;[PDF]&quot; class=&quot;sdlimg&quot;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td class=&quot;pl pl_revtype&quot;&gt;&lt;div class=&quot;pl_revtype hasrev hasround&quot;&gt;&lt;a href=&quot;review.php?r=37&quot;&gt;&lt;span class=&quot;rto rt4n&quot; title=&quot;Primary review (not started)&quot;&gt;&lt;span class=&quot;rti&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span class=&quot;revround&quot; title=&quot;Review round&quot;&gt;&amp;nbsp;R1&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr class=&quot;pl k0&quot; data-pid=&quot;16&quot;&gt;&lt;td class=&quot;pl pl_id&quot;&gt;&lt;a href=&quot;review.php/16?r=46&quot; class=&quot;pnum taghl&quot;&gt;#16&lt;/a&gt;&lt;/td&gt;&lt;td class=&quot;pl pl_title&quot;&gt;&lt;a href=&quot;review.php/16?r=46&quot; class=&quot;ptitle taghl&quot;&gt;Potential Benefits of Delta Encoding and Data Compression for HTTP&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;doc.php/hotcrp-paper16.pdf&quot; class=&quot;q&quot;&gt;&lt;img src=&quot;images/pdf.png&quot; alt=&quot;[PDF]&quot; class=&quot;sdlimg&quot;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td class=&quot;pl pl_revtype&quot;&gt;&lt;a href=&quot;review.php?r=46&quot;&gt;&lt;span class=&quot;rto rt4n&quot; title=&quot;Primary review (not started)&quot;&gt;&lt;span class=&quot;rti&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;&lt;div class=&quot;homegrp has-fold fold20c&quot; id=&quot;homeactivity&quot; data-fold-session=&quot;foldhomeactivity&quot;&gt;&lt;a data-fold-target=&quot;20&quot; class=&quot;ui q js-foldup&quot; href=&quot;#&quot;&gt;&lt;span class=&quot;expander&quot;&gt;&lt;span class=&quot;in0 fx20&quot;&gt;&lt;svg class=&quot;licon&quot; width=&quot;0.75em&quot; height=&quot;0.75em&quot; viewBox=&quot;0 0 16 16&quot; preserveAspectRatio=&quot;none&quot;&gt;&lt;path d=&quot;M1 1L8 15L15 1z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span class=&quot;in1 fn20&quot;&gt;&lt;svg class=&quot;licon&quot; width=&quot;0.75em&quot; height=&quot;0.75em&quot; viewBox=&quot;0 0 16 16&quot; preserveAspectRatio=&quot;none&quot;&gt;&lt;path d=&quot;M1 1L15 8L1 15z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href=&quot;&quot; class=&quot;x homeactivity ui js-foldup&quot; data-fold-target=&quot;20&quot;&gt;Recent activity&lt;span class=&quot;fx20&quot;&gt;:&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr class=&quot;home&quot;&gt;
+&lt;div class=&quot;homegrp&quot; id=&quot;homeau&quot;&gt;&lt;h4&gt;Submissions: &amp;nbsp;&lt;/h4&gt; &lt;strong&gt;&lt;a href=&quot;paper.php/new&quot;&gt;New submission&lt;/a&gt;&lt;/strong&gt; &lt;span class=&quot;deadline&quot;&gt;(No deadline)&lt;/span&gt;&lt;br&gt;
+&lt;span class=&quot;hint&quot;&gt;As an administrator, you can start a submission regardless of deadlines and on behalf of others.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;deadline&quot;&gt;The site is not open for submissions at the moment.&lt;/span&gt;&lt;/div&gt;
+&lt;hr class=&quot;c&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;footer&quot;&gt;&lt;div id=&quot;footer_crp&quot;&gt;&lt;a href=&quot;http://read.seas.harvard.edu/~kohler/hotcrp/&quot;&gt;HotCRP&lt;/a&gt; v2.102&lt;/div&gt;
+  &lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;
+&lt;script&gt;$(&quot;#homeactivity&quot;).on(&quot;fold&quot;, function(e,opts) { opts.f || unfold_events(this); })&lt;/script&gt;
+
+&lt;!--1778378792.69ffe8287be9a2.50256137.serialized--&gt;&lt;div style=&quot;position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 12.2223px; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 16.5001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;&quot;&gt;  &lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_site']/H1[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[1]</td>
+							<td><a href="state34.html">state34</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[2]</td>
+							<td><a href="state34.html">state34</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[3]</td>
+							<td><a href="state39.html">state39</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[4]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'initialmsgs']/DIV[1]/P[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'initialmsgs']/DIV[1]/P[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'initialmsgs']/DIV[1]/P[4]/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[5]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[2]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homelist']/FORM[1]/H4[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homerev']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homerev']/SMALL[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homerev']/SMALL[1]/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homerev']/SPAN[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/A[3]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/A[4]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/A[5]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[2]/TD[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[2]/TD[3]/DIV[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[3]/TD[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[3]/TD[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[3]/TD[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homeactivity']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homeactivity']/H4[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homeau']/STRONG[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'homelist']/FORM[1]/INPUT[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>

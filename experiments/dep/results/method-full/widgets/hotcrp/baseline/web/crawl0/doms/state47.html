@@ -1,0 +1,124 @@
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="google" content="notranslate">
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css?mtime=1778089704">
+<link rel="icon" type="image/png" href="images/review24.png">
+<title>Mail - hotcrp</title>
+</head>
+<body id="mail">
+<div id="prebody"><div id="header"><div id="header_site" class="header_site_page"><h1><a class="qq" href="/"><span class="header-site-name">hotcrp</span> Home</a></h1></div><div id="header_right"><a class="q" href="profile.php"><strong>jaekpot@localhost.com</strong></a> &nbsp; <a href="profile.php">Profile</a> <span class="barsep">·</span> <a href="help.php">Help</a> <span class="barsep">·</span> <a href="/?signout=1&amp;post=1b0e5dbd3758" class="nw">Sign out</a><div id="maindeadline" class="hidden"></div></div><div id="header_page"><h1>Mail</h1></div><table class="vbar"><tbody><tr><td class="vbar gopaper"><form method="get" action="paper.php" accept-charset="UTF-8" class="gopaper"><input type="text" name="p" value="" id="quicksearchq" size="10" placeholder="(All)" class="papersearch" autocomplete="off" style="width: 72px;">&nbsp; <input type="submit" class="btn" value="Search"></form></td></tr></tbody></table>  <hr class="c"></div>
+<div id="initialmsgs">
+</div>
+</div>
+<div id="body" class="body">
+<form method="post" action="mail.php?check=1&amp;post=1b0e5dbd3758" enctype="multipart/form-data" accept-charset="UTF-8"><input type="submit" class="hidden" name="default" value="1">
+
+<div class="aa" style="padding-left:8px">
+  <strong>Template:</strong> &nbsp;<select name="template" data-default-value="newpcrev"><option value="genericmailtool">Generic</option><option value="acceptnotify">Accept notification</option><option value="rejectnotify">Reject notification</option><option value="reviewremind">Review reminder</option><option value="myreviewremind">Personalized review reminder</option><option value="newpcrev" selected="selected">Review assignment notification</option></select> &nbsp;<input type="submit" id="loadtmpl" name="loadtmpl" class="btn" value="Load"> &nbsp;
+ <span class="hint">Templates are mail texts tailored for common conference tasks.</span>
+</div>
+
+<div class="mail" style="float:left;margin:4px 1em 12px 0"><table id="foldpsel" class="fold8c fold9o fold10o">
+<tbody><tr><td class="mhnp nw"><label for="recipients">To:</label></td><td class="mhdd"><select name="recipients" id="recipients" data-default-value="newpcrev"><option value="s">Contact authors of submitted papers</option><option value="unsub">Contact authors of unsubmitted papers</option><option value="au">All contact authors</option><optgroup label="Reviewers"><option value="rev">Reviewers</option><option value="crev">Reviewers with complete reviews</option><option value="uncrev">Reviewers with incomplete reviews</option><option value="allcrev">Reviewers with no incomplete reviews</option><option value="pcrev">PC reviewers</option><option value="uncpcrev">PC reviewers with incomplete reviews</option><option value="newpcrev" selected="selected" class="mail-want-since">PC reviewers with new review assignments</option></optgroup><option value="myextrev">Your requested reviewers</option><option value="uncmyextrev">Your requested reviewers with incomplete reviews</option><optgroup label="Program committee"><option value="pc" class="mail-want-no-papers">Program committee</option><option value="pc:blue" class="mail-want-no-papers">#blue program committee</option><option value="pc:red" class="mail-want-no-papers">#red program committee</option></optgroup><option value="all" class="mail-want-no-papers">All users</option></select><div class="g"></div>
+<table class="fx9"><tbody><tr><td class="nw"><input type="checkbox" name="plimit" value="1" id="plimit">&nbsp;</td><td><label for="plimit">Choose papers</label><span class="fx8">:&nbsp; <input type="text" name="q" value="" id="q" placeholder="(All)" class="papersearch" size="36" autocomplete="off"> &nbsp;in&nbsp; <select name="t" id="t" data-default-value="s"><option value="s" selected="selected">Submitted papers</option><option value="unsub">Unsubmitted papers</option><option value="all">All papers</option><option value="req">Your review requests</option></select> &nbsp;<input type="submit" name="psearch" class="btn" value="Search"></span></td></tr></tbody></table>
+<div class="fx10" style="margin-top:0.35em">Assignments since:&nbsp; <input type="text" name="newrev_since" value="" placeholder="(all)" size="30"></div><div class="fx9 g"></div></td></tr>
+  <tr><td class="mhnp nw"><label for="cc">Cc:</label></td><td class="mhdp"><input type="text" name="cc" value="Christian Huitema <huitema@bellcore.com>" size="64" class="textlite-tt" id="cc"></td></tr>
+
+  <tr><td class="mhnp nw"><label for="replyto">Reply-To:</label></td><td class="mhdp"><input type="text" name="replyto" value="" size="64" class="textlite-tt" id="replyto"><div class="g"></div></td></tr>
+
+  <tr><td class="mhnp nw"><label for="subject">Subject:</label></td><td class="mhdp"><tt>[hotcrp]&nbsp;</tt><input type="text" name="subject" value="New review assignments
+" size="64" class="textlite-tt" id="subject"></td></tr>
+
+ <tr><td></td><td class="mhb">
+<textarea name="emailBody" class="tt" rows="20" cols="80" spellcheck="true">Dear %NAME%,
+
+You have been assigned new reviews for hotcrp.
+
+             Site: http://web/
+     Your reviews: http://web/search.php?q=re:me
+  New assignments: %NEWASSIGNMENTS%
+
+Thank you for your help -- we appreciate that reviewing is hard work.
+
+Contact Christian Huitema &lt;huitema@bellcore.com&gt; with any questions or concerns.
+
+- hotcrp Submissions
+</textarea></td></tr>
+</tbody></table></div>
+
+<div class="aa" style="clear:both">
+<input type="submit" class="btn" value="Prepare mail"> &nbsp; <span class="hint">You’ll be able to review the mails before they are sent.</span>
+</div>
+
+
+<div id="mailref">Keywords enclosed in percent signs, such as <code>%NAME%</code> or <code>%REVIEWDEADLINE%</code>, are expanded for each mail.  Use the following syntax:
+<div class="g"></div>
+<div class="ctable">
+<dl class="ctelt" style="padding-bottom:12px">
+<dt><code>%URL%</code></dt>
+    <dd>Site URL.</dd>
+<dt><code>%LOGINURL%</code></dt>
+    <dd>URL for recipient to log in to the site.</dd>
+<dt><code>%NUMSUBMITTED%</code></dt>
+    <dd>Number of papers submitted.</dd>
+<dt><code>%NUMACCEPTED%</code></dt>
+    <dd>Number of papers accepted.</dd>
+<dt><code>%NAME%</code></dt>
+    <dd>Full name of recipient.</dd>
+<dt><code>%FIRST%</code>, <code>%LAST%</code></dt>
+    <dd>First and last names, if any, of recipient.</dd>
+<dt><code>%EMAIL%</code></dt>
+    <dd>Email address of recipient.</dd>
+<dt><code>%REVIEWDEADLINE%</code></dt>
+    <dd>Reviewing deadline appropriate for recipient.</dd>
+</dl><dl class="ctelt" style="padding-bottom:12px">
+<dt><code>%NUMBER%</code></dt>
+    <dd>Paper number relevant for mail.</dd>
+<dt><code>%TITLE%</code></dt>
+    <dd>Paper title.</dd>
+<dt><code>%TITLEHINT%</code></dt>
+    <dd>First couple words of paper title (useful for mail subject).</dd>
+<dt><code>%OPT(AUTHORS)%</code></dt>
+    <dd>Paper authors (if recipient is allowed to see the authors).</dd>
+</dl><dl class="ctelt" style="padding-bottom:12px">
+<dt><code>%REVIEWS%</code></dt>
+    <dd>Pretty-printed paper reviews.</dd>
+<dt><code>%COMMENTS%</code></dt>
+    <dd>Pretty-printed paper comments, if any.</dd>
+<dt><code>%COMMENTS(<i>tag</i>)%</code></dt>
+    <dd>Comments tagged #<code><i>tag</i></code>, if any.</dd>
+</dl><dl class="ctelt" style="padding-bottom:12px">
+<dt><code>%IF(SHEPHERD)%...%ENDIF%</code></dt>
+    <dd>Include text if a shepherd is assigned.</dd>
+<dt><code>%SHEPHERD%</code></dt>
+    <dd>Shepherd name and email, if any.</dd>
+<dt><code>%SHEPHERDNAME%</code></dt>
+    <dd>Shepherd name, if any.</dd>
+<dt><code>%SHEPHERDEMAIL%</code></dt>
+    <dd>Shepherd email, if any.</dd>
+</dl><dl class="ctelt" style="padding-bottom:12px">
+<dt><code>%IF(#<i>tag</i>)%...%ENDIF%</code></dt>
+    <dd>Include text if paper has tag <code><i>tag</i></code>.</dd>
+<dt><code>%TAGVALUE(<i>tag</i>)%</code></dt>
+    <dd>Value of paper’s <code><i>tag</i></code>.</dd>
+</dl>
+</div></div>
+
+</form>
+</div>
+<div id="footer"><div id="footer_crp"><a href="http://read.seas.harvard.edu/~kohler/hotcrp/">HotCRP</a> v2.102</div>
+  <hr class="c"></div>
+<!--[if lt IE 9]><script src="scripts/jquery-1.12.4.min.js?mtime=1778089704"></script><![endif]-->
+<!--[if !IE|gte IE 9]--><script src="scripts/jquery-3.3.1.min.js?mtime=1778089704"></script><!--[endif]-->
+<script>siteurl="";siteurl_suffix=".php";siteurl_postvalue="1b0e5dbd3758";siteurl_cookie_params="";assetsurl="";hotcrp_user={"email":"jaekpot@localhost.com","is_pclike":true,"cid":1};</script><script src="scripts/script.js?mtime=1778089704"></script>
+<script>hotcrp_load.time(240,0);hotcrp_deadlines.init({"now":1778370927,"email":"jaekpot@localhost.com","is_admin":true,"sub":{"open":false,"sub":0,"blind":true},"rev":{"blind":true},"revs":{"unnamed":{},"R1":{},"R2":{},"R3":{}}});function mail_recipients_fold(event) {
+    var plimit = $$("plimit");
+    foldup.call(this, null, {f: !!plimit && !plimit.checked, n: 8});
+    var sopt = $(this).find("option[value='" + this.value + "']");
+    foldup.call(this, null, {f: sopt.hasClass("mail-want-no-papers"), n: 9});
+    foldup.call(this, null, {f: !sopt.hasClass("mail-want-since"), n: 10});
+}
+$("#recipients, #plimit").on("change", mail_recipients_fold);
+$(function () { $("#recipients").trigger("change"); })</script>
+
+<!--1778370932.69ffc974cc8c55.50444009.serialized--><div style="position: absolute; top: -10000px; left: -10000px; width: auto; font-size: 12.2223px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, verdana, tahoma, sans-serif; font-weight: 400; line-height: 16.5001px; resize: none; overflow-wrap: break-word; white-space: pre-wrap; display: table-cell; padding-left: 12px;">  </div></body></html>

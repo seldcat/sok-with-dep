@@ -1,0 +1,80 @@
+{
+  "states" : {
+    "index" : {
+      "name" : "index",
+      "url" : "http://web/",
+      "candidateElements" : [ {
+        "top" : 175,
+        "left" : 20,
+        "xpath" : "//LI[@id = 'site']/A[1]",
+        "width" : 138,
+        "height" : 38
+      }, {
+        "top" : 175,
+        "left" : 159,
+        "xpath" : "//LI[@id = 'database']/A[1]",
+        "width" : 114,
+        "height" : 38
+      }, {
+        "top" : 233,
+        "left" : 512,
+        "xpath" : "//DIV[@id = 'container-installation']/DIV[1]/DIV[1]/A[1]",
+        "width" : 73,
+        "height" : 30
+      }, {
+        "top" : 233,
+        "left" : 200,
+        "xpath" : "//DIV[@id = 'jform_language_chzn']/A[1]",
+        "width" : 220,
+        "height" : 28
+      }, {
+        "top" : 1060,
+        "left" : 512,
+        "xpath" : "//FORM[@id = 'adminForm']/DIV[3]/DIV[1]/DIV[1]/A[1]",
+        "width" : 73,
+        "height" : 30
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 0,
+      "id" : 0,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778534785426,
+      "nearestState" : "null"
+    }
+  },
+  "edges" : [ ],
+  "statistics" : {
+    "duration" : "7 seconds",
+    "crawlPaths" : 0,
+    "averageDomSize" : "12.795 kB",
+    "edges" : 0,
+    "startDate" : "2026-05-11 21:26:17 UTC",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "mostFanOut" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "mostFanIn" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "totalNumberOfStates" : 1,
+      "urls" : {
+        "http://web/" : [ "index" ]
+      }
+    },
+    "failedEvents" : 0
+  },
+  "exitStatus" : "EXHAUSTED"
+}

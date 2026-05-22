@@ -1,0 +1,2853 @@
+{
+  "states" : {
+    "state60" : {
+      "name" : "state60",
+      "url" : "http://web/autoassign.php",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 9,
+        "left" : 284,
+        "xpath" : "//DIV[@id = 'header_right']/A[1]",
+        "width" : 137,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 431,
+        "xpath" : "//DIV[@id = 'header_right']/A[2]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 488,
+        "xpath" : "//DIV[@id = 'header_right']/A[3]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 536,
+        "xpath" : "//DIV[@id = 'header_right']/A[4]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 98,
+        "left" : 30,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/A[1]",
+        "width" : 60,
+        "height" : 14
+      }, {
+        "top" : 98,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[2]/A[1]",
+        "width" : 40,
+        "height" : 14
+      }, {
+        "top" : 98,
+        "left" : 170,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[3]/A[1]",
+        "width" : 47,
+        "height" : 14
+      }, {
+        "top" : 98,
+        "left" : 237,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[4]/A[1]",
+        "width" : 64,
+        "height" : 14
+      }, {
+        "top" : 179,
+        "left" : 531,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 60,
+        "height" : 14
+      }, {
+        "top" : 195,
+        "left" : 531,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[2]/A[1]",
+        "width" : 45,
+        "height" : 62
+      }, {
+        "top" : 259,
+        "left" : 531,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[3]/A[1]",
+        "width" : 40,
+        "height" : 46
+      }, {
+        "top" : 307,
+        "left" : 531,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[4]/A[1]",
+        "width" : 48,
+        "height" : 30
+      }, {
+        "top" : 339,
+        "left" : 531,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[5]/A[1]",
+        "width" : 38,
+        "height" : 30
+      }, {
+        "top" : 769,
+        "left" : 287,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 769,
+        "left" : 312,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[2]",
+        "width" : 33,
+        "height" : 16
+      }, {
+        "top" : 769,
+        "left" : 353,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[3]",
+        "width" : 36,
+        "height" : 16
+      }, {
+        "top" : 769,
+        "left" : 397,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[4]",
+        "width" : 73,
+        "height" : 16
+      }, {
+        "top" : 769,
+        "left" : 478,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[5]",
+        "width" : 29,
+        "height" : 16
+      }, {
+        "top" : 769,
+        "left" : 516,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[6]",
+        "width" : 19,
+        "height" : 16
+      }, {
+        "top" : 818,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[1]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 858,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[2]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 898,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[3]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 938,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[4]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 978,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[5]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1018,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[6]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1058,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[7]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1098,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[8]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1138,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[9]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1178,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[10]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1218,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[11]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1258,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[12]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1298,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[13]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1338,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[14]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1378,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[15]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1418,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[16]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1458,
+        "left" : 70,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[17]/LABEL[1]/SPAN[3]/A[1]",
+        "width" : 43,
+        "height" : 11
+      }, {
+        "top" : 1543,
+        "left" : 227,
+        "xpath" : "//TABLE[@id = 'bptable']/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 34,
+        "height" : 16
+      }, {
+        "top" : 1543,
+        "left" : 281,
+        "xpath" : "//TABLE[@id = 'bptable']/TBODY[1]/TR[1]/TD[2]/A[2]",
+        "width" : 41,
+        "height" : 16
+      }, {
+        "top" : 40,
+        "left" : 527,
+        "xpath" : "//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]",
+        "width" : 53,
+        "height" : 23
+      }, {
+        "top" : 202,
+        "left" : 168,
+        "xpath" : "//INPUT[@id = 'requery']",
+        "width" : 37,
+        "height" : 26
+      }, {
+        "top" : 1829,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'autoassignform']/DIV[3]/DIV[4]/INPUT[1]",
+        "width" : 159,
+        "height" : 29
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 60,
+      "failedEvents" : [ "xpath //DIV[@id = 'header_site']/H1[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778371112145,
+      "nearestState" : "index"
+    },
+    "state5" : {
+      "name" : "state5",
+      "url" : "http://web/",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 214,
+        "left" : 335,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+        "width" : 119,
+        "height" : 26
+      }, {
+        "top" : 214,
+        "left" : 261,
+        "xpath" : "//BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+        "width" : 60,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 6,
+      "id" : 5,
+      "failedEvents" : [ "xpath //INPUT[@id = 'signin_signin']", "xpath //INPUT[@id = 'signin_signin']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778370832719,
+      "nearestState" : "index"
+    },
+    "index" : {
+      "name" : "index",
+      "url" : "http://web/index.php",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 119,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 235,
+        "left" : 265,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 125,
+        "height" : 14
+      }, {
+        "top" : 336,
+        "left" : 115,
+        "xpath" : "//DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+        "width" : 100,
+        "height" : 14
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      }, {
+        "top" : 297,
+        "left" : 331,
+        "xpath" : "//INPUT[@id = 'signin_signin']",
+        "width" : 59,
+        "height" : 26
+      } ],
+      "fanIn" : 8,
+      "fanOut" : 4,
+      "id" : 0,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778370827541,
+      "nearestState" : "null"
+    },
+    "state3" : {
+      "name" : "state3",
+      "url" : "http://web/users.php?t=pc",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 86,
+        "left" : 30,
+        "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[1]/A[1]",
+        "width" : 44,
+        "height" : 14
+      }, {
+        "top" : 86,
+        "left" : 248,
+        "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[2]/A[1]",
+        "width" : 56,
+        "height" : 14
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 3,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778370830205,
+      "nearestState" : "index"
+    },
+    "state19" : {
+      "name" : "state19",
+      "url" : "http://web/help.php",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 9,
+        "left" : 284,
+        "xpath" : "//DIV[@id = 'header_right']/A[1]",
+        "width" : 137,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 431,
+        "xpath" : "//DIV[@id = 'header_right']/A[2]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 488,
+        "xpath" : "//DIV[@id = 'header_right']/A[3]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 536,
+        "xpath" : "//DIV[@id = 'header_right']/A[4]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 128,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/DIV[3]/A[1]",
+        "width" : 72,
+        "height" : 14
+      }, {
+        "top" : 150,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/DIV[4]/A[1]",
+        "width" : 39,
+        "height" : 14
+      }, {
+        "top" : 171,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/DIV[5]/A[1]",
+        "width" : 94,
+        "height" : 14
+      }, {
+        "top" : 193,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/DIV[6]/A[1]",
+        "width" : 26,
+        "height" : 14
+      }, {
+        "top" : 214,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/DIV[7]/A[1]",
+        "width" : 78,
+        "height" : 14
+      }, {
+        "top" : 235,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/DIV[8]/A[1]",
+        "width" : 81,
+        "height" : 14
+      }, {
+        "top" : 257,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/DIV[9]/A[1]",
+        "width" : 80,
+        "height" : 14
+      }, {
+        "top" : 278,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/DIV[10]/A[1]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 300,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/DIV[11]/A[1]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 321,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/DIV[1]/DIV[1]/DIV[12]/A[1]",
+        "width" : 51,
+        "height" : 14
+      }, {
+        "top" : 160,
+        "left" : 181,
+        "xpath" : "//DIV[@id = 'helpcontent']/DL[1]/DT[1]/STRONG[1]/A[1]",
+        "width" : 93,
+        "height" : 16
+      }, {
+        "top" : 205,
+        "left" : 181,
+        "xpath" : "//DIV[@id = 'helpcontent']/DL[1]/DT[2]/STRONG[1]/A[1]",
+        "width" : 49,
+        "height" : 16
+      }, {
+        "top" : 250,
+        "left" : 181,
+        "xpath" : "//DIV[@id = 'helpcontent']/DL[1]/DT[3]/STRONG[1]/A[1]",
+        "width" : 121,
+        "height" : 16
+      }, {
+        "top" : 296,
+        "left" : 181,
+        "xpath" : "//DIV[@id = 'helpcontent']/DL[1]/DT[4]/STRONG[1]/A[1]",
+        "width" : 33,
+        "height" : 16
+      }, {
+        "top" : 360,
+        "left" : 181,
+        "xpath" : "//DIV[@id = 'helpcontent']/DL[1]/DT[5]/STRONG[1]/A[1]",
+        "width" : 103,
+        "height" : 16
+      }, {
+        "top" : 405,
+        "left" : 181,
+        "xpath" : "//DIV[@id = 'helpcontent']/DL[1]/DT[6]/STRONG[1]/A[1]",
+        "width" : 104,
+        "height" : 16
+      }, {
+        "top" : 451,
+        "left" : 181,
+        "xpath" : "//DIV[@id = 'helpcontent']/DL[1]/DT[7]/STRONG[1]/A[1]",
+        "width" : 103,
+        "height" : 16
+      }, {
+        "top" : 496,
+        "left" : 181,
+        "xpath" : "//DIV[@id = 'helpcontent']/DL[1]/DT[8]/STRONG[1]/A[1]",
+        "width" : 45,
+        "height" : 16
+      }, {
+        "top" : 541,
+        "left" : 181,
+        "xpath" : "//DIV[@id = 'helpcontent']/DL[1]/DT[9]/STRONG[1]/A[1]",
+        "width" : 58,
+        "height" : 16
+      }, {
+        "top" : 586,
+        "left" : 181,
+        "xpath" : "//DIV[@id = 'helpcontent']/DL[1]/DT[10]/STRONG[1]/A[1]",
+        "width" : 66,
+        "height" : 16
+      }, {
+        "top" : 40,
+        "left" : 527,
+        "xpath" : "//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]",
+        "width" : 53,
+        "height" : 23
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 2,
+      "id" : 19,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778370860935,
+      "nearestState" : "index"
+    },
+    "state13" : {
+      "name" : "state13",
+      "url" : "http://web/profile.php?redirect=1",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 9,
+        "left" : 284,
+        "xpath" : "//DIV[@id = 'header_right']/A[1]",
+        "width" : 137,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 431,
+        "xpath" : "//DIV[@id = 'header_right']/A[2]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 488,
+        "xpath" : "//DIV[@id = 'header_right']/A[3]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 536,
+        "xpath" : "//DIV[@id = 'header_right']/A[4]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 98,
+        "left" : 30,
+        "xpath" : "//FORM[@id = 'profile-form']/DIV[1]/DIV[1]/A[1]",
+        "width" : 68,
+        "height" : 14
+      }, {
+        "top" : 98,
+        "left" : 118,
+        "xpath" : "//FORM[@id = 'profile-form']/DIV[1]/DIV[2]/A[1]",
+        "width" : 70,
+        "height" : 14
+      }, {
+        "top" : 98,
+        "left" : 209,
+        "xpath" : "//FORM[@id = 'profile-form']/DIV[1]/DIV[3]/A[1]",
+        "width" : 65,
+        "height" : 14
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'foldpassword']/DIV[1]/DIV[5]/SPAN[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 1434,
+        "left" : 79,
+        "xpath" : "//DIV[@id = 'foldaccount']/DIV[7]/P[1]/A[1]",
+        "width" : 58,
+        "height" : 15
+      }, {
+        "top" : 536,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'foldpassword']/BUTTON[1]",
+        "width" : 132,
+        "height" : 26
+      }, {
+        "top" : 40,
+        "left" : 527,
+        "xpath" : "//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[3]",
+        "width" : 53,
+        "height" : 23
+      }, {
+        "top" : 1495,
+        "left" : 468,
+        "xpath" : "//DIV[@id = 'foldaccount']/DIV[8]/DIV[1]/INPUT[1]",
+        "width" : 113,
+        "height" : 29
+      }, {
+        "top" : 1495,
+        "left" : 387,
+        "xpath" : "//DIV[@id = 'foldaccount']/DIV[8]/DIV[2]/INPUT[1]",
+        "width" : 66,
+        "height" : 29
+      }, {
+        "top" : 1495,
+        "left" : 150,
+        "xpath" : "//DIV[@id = 'foldaccount']/DIV[8]/DIV[3]/INPUT[1]",
+        "width" : 201,
+        "height" : 29
+      } ],
+      "fanIn" : 6,
+      "fanOut" : 8,
+      "id" : 13,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778370847650,
+      "nearestState" : "index"
+    },
+    "state34" : {
+      "name" : "state34",
+      "url" : "http://web/profile.php/new",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 9,
+        "left" : 284,
+        "xpath" : "//DIV[@id = 'header_right']/A[1]",
+        "width" : 137,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 431,
+        "xpath" : "//DIV[@id = 'header_right']/A[2]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 488,
+        "xpath" : "//DIV[@id = 'header_right']/A[3]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 536,
+        "xpath" : "//DIV[@id = 'header_right']/A[4]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 98,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'profile-form']/DIV[1]/DIV[1]/A[1]",
+        "width" : 61,
+        "height" : 14
+      }, {
+        "top" : 98,
+        "left" : 106,
+        "xpath" : "//FORM[@id = 'profile-form']/DIV[1]/DIV[2]/A[1]",
+        "width" : 76,
+        "height" : 14
+      }, {
+        "top" : 98,
+        "left" : 202,
+        "xpath" : "//FORM[@id = 'profile-form']/DIV[1]/DIV[3]/A[1]",
+        "width" : 64,
+        "height" : 14
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'foldaccount']/DIV[6]/P[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'foldbulk']/DIV[2]/FORM[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'foldbulk']/DIV[2]/FORM[1]/DIV[1]/DIV[1]/DIV[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'foldbulk']/DIV[2]/FORM[1]/DIV[1]/DIV[1]/DIV[3]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 40,
+        "left" : 527,
+        "xpath" : "//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[3]",
+        "width" : 53,
+        "height" : 23
+      }, {
+        "top" : 802,
+        "left" : 461,
+        "xpath" : "//DIV[@id = 'foldaccount']/DIV[7]/DIV[1]/INPUT[1]",
+        "width" : 119,
+        "height" : 29
+      }, {
+        "top" : 802,
+        "left" : 381,
+        "xpath" : "//DIV[@id = 'foldaccount']/DIV[7]/DIV[2]/INPUT[1]",
+        "width" : 66,
+        "height" : 29
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'foldbulk']/DIV[2]/FORM[1]/DIV[1]/DIV[4]/INPUT[1]",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 2,
+      "id" : 34,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778370887332,
+      "nearestState" : "index"
+    },
+    "state45" : {
+      "name" : "state45",
+      "url" : "http://web/settings.php/basics",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 9,
+        "left" : 284,
+        "xpath" : "//DIV[@id = 'header_right']/A[1]",
+        "width" : 137,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 431,
+        "xpath" : "//DIV[@id = 'header_right']/A[2]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 488,
+        "xpath" : "//DIV[@id = 'header_right']/A[3]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 536,
+        "xpath" : "//DIV[@id = 'header_right']/A[4]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 120,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[2]/A[1]",
+        "width" : 50,
+        "height" : 14
+      }, {
+        "top" : 142,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[3]/A[1]",
+        "width" : 56,
+        "height" : 14
+      }, {
+        "top" : 163,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[4]/A[1]",
+        "width" : 69,
+        "height" : 14
+      }, {
+        "top" : 185,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[5]/A[1]",
+        "width" : 91,
+        "height" : 14
+      }, {
+        "top" : 206,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[6]/A[1]",
+        "width" : 46,
+        "height" : 14
+      }, {
+        "top" : 228,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[7]/A[1]",
+        "width" : 68,
+        "height" : 14
+      }, {
+        "top" : 249,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[8]/A[1]",
+        "width" : 73,
+        "height" : 14
+      }, {
+        "top" : 270,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[9]/A[1]",
+        "width" : 53,
+        "height" : 14
+      }, {
+        "top" : 911,
+        "left" : 181,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[8]/DIV[1]/A[1]",
+        "width" : 50,
+        "height" : 15
+      }, {
+        "top" : 40,
+        "left" : 527,
+        "xpath" : "//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]",
+        "width" : 53,
+        "height" : 23
+      }, {
+        "top" : 115,
+        "left" : 451,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]",
+        "width" : 113,
+        "height" : 29
+      }, {
+        "top" : 115,
+        "left" : 370,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[1]/DIV[2]/INPUT[1]",
+        "width" : 66,
+        "height" : 29
+      }, {
+        "top" : 975,
+        "left" : 451,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[9]/DIV[1]/INPUT[1]",
+        "width" : 113,
+        "height" : 29
+      }, {
+        "top" : 975,
+        "left" : 370,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[9]/DIV[2]/INPUT[1]",
+        "width" : 66,
+        "height" : 29
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 2,
+      "id" : 45,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778370916719,
+      "nearestState" : "index"
+    },
+    "state56" : {
+      "name" : "state56",
+      "url" : "http://web/mergeaccounts.php",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 9,
+        "left" : 284,
+        "xpath" : "//DIV[@id = 'header_right']/A[1]",
+        "width" : 137,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 431,
+        "xpath" : "//DIV[@id = 'header_right']/A[2]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 488,
+        "xpath" : "//DIV[@id = 'header_right']/A[3]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 536,
+        "xpath" : "//DIV[@id = 'header_right']/A[4]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 40,
+        "left" : 527,
+        "xpath" : "//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]",
+        "width" : 53,
+        "height" : 23
+      }, {
+        "top" : 422,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'body']/FORM[1]/DIV[4]/DIV[1]/INPUT[1]",
+        "width" : 118,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 56,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778371014007,
+      "nearestState" : "index"
+    },
+    "state43" : {
+      "name" : "state43",
+      "url" : "http://web/settings.php/tags",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 9,
+        "left" : 284,
+        "xpath" : "//DIV[@id = 'header_right']/A[1]",
+        "width" : 137,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 431,
+        "xpath" : "//DIV[@id = 'header_right']/A[2]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 488,
+        "xpath" : "//DIV[@id = 'header_right']/A[3]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 536,
+        "xpath" : "//DIV[@id = 'header_right']/A[4]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 95,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[1]/A[1]",
+        "width" : 36,
+        "height" : 14
+      }, {
+        "top" : 117,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[2]/A[1]",
+        "width" : 50,
+        "height" : 14
+      }, {
+        "top" : 138,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[3]/A[1]",
+        "width" : 56,
+        "height" : 14
+      }, {
+        "top" : 160,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[4]/A[1]",
+        "width" : 69,
+        "height" : 14
+      }, {
+        "top" : 181,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[5]/A[1]",
+        "width" : 91,
+        "height" : 14
+      }, {
+        "top" : 202,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[6]/A[1]",
+        "width" : 46,
+        "height" : 14
+      }, {
+        "top" : 224,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[7]/A[1]",
+        "width" : 68,
+        "height" : 14
+      }, {
+        "top" : 270,
+        "left" : 24,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[1]/DIV[1]/DIV[9]/A[1]",
+        "width" : 53,
+        "height" : 14
+      }, {
+        "top" : 352,
+        "left" : 181,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/A[1]",
+        "width" : 28,
+        "height" : 15
+      }, {
+        "top" : 456,
+        "left" : 185,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/A[1]",
+        "width" : 27,
+        "height" : 15
+      }, {
+        "top" : 542,
+        "left" : 207,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/A[1]",
+        "width" : 130,
+        "height" : 15
+      }, {
+        "top" : 560,
+        "left" : 309,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/A[2]",
+        "width" : 28,
+        "height" : 15
+      }, {
+        "top" : 1382,
+        "left" : 378,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/P[2]/SPAN[1]/A[1]",
+        "width" : 30,
+        "height" : 16
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'trackgroup0']/DIV[1]/DIV[3]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 1603,
+        "left" : 350,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[7]/DIV[1]/LABEL[1]/A[1]",
+        "width" : 102,
+        "height" : 16
+      }, {
+        "top" : 1672,
+        "left" : 181,
+        "xpath" : "//BUTTON[@id = 'settings_track_add']",
+        "width" : 76,
+        "height" : 26
+      }, {
+        "top" : 40,
+        "left" : 527,
+        "xpath" : "//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]",
+        "width" : 53,
+        "height" : 23
+      }, {
+        "top" : 115,
+        "left" : 451,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]",
+        "width" : 113,
+        "height" : 29
+      }, {
+        "top" : 115,
+        "left" : 370,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[1]/DIV[2]/INPUT[1]",
+        "width" : 66,
+        "height" : 29
+      }, {
+        "top" : 1728,
+        "left" : 451,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[8]/DIV[1]/INPUT[1]",
+        "width" : 113,
+        "height" : 29
+      }, {
+        "top" : 1728,
+        "left" : 370,
+        "xpath" : "//FORM[@id = 'settingsform']/DIV[2]/DIV[1]/DIV[8]/DIV[2]/INPUT[1]",
+        "width" : 66,
+        "height" : 29
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 43,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778370904801,
+      "nearestState" : "index"
+    },
+    "state14" : {
+      "name" : "state14",
+      "url" : "http://web/",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 66,
+        "height" : 23
+      }, {
+        "top" : 9,
+        "left" : 284,
+        "xpath" : "//DIV[@id = 'header_right']/A[1]",
+        "width" : 137,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 431,
+        "xpath" : "//DIV[@id = 'header_right']/A[2]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 488,
+        "xpath" : "//DIV[@id = 'header_right']/A[3]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 536,
+        "xpath" : "//DIV[@id = 'header_right']/A[4]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 257,
+        "left" : 47,
+        "xpath" : "//DIV[@id = 'initialmsgs']/DIV[1]/P[3]/A[1]",
+        "width" : 207,
+        "height" : 16
+      }, {
+        "top" : 299,
+        "left" : 308,
+        "xpath" : "//DIV[@id = 'initialmsgs']/DIV[1]/P[4]/A[1]",
+        "width" : 241,
+        "height" : 16
+      }, {
+        "top" : 318,
+        "left" : 47,
+        "xpath" : "//DIV[@id = 'initialmsgs']/DIV[1]/P[4]/A[2]",
+        "width" : 125,
+        "height" : 16
+      }, {
+        "top" : 397,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[1]/A[1]",
+        "width" : 53,
+        "height" : 16
+      }, {
+        "top" : 416,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[2]/A[1]",
+        "width" : 38,
+        "height" : 16
+      }, {
+        "top" : 435,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[3]/A[1]",
+        "width" : 84,
+        "height" : 16
+      }, {
+        "top" : 454,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[4]/A[1]",
+        "width" : 27,
+        "height" : 16
+      }, {
+        "top" : 473,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[5]/A[1]",
+        "width" : 64,
+        "height" : 16
+      }, {
+        "top" : 522,
+        "left" : 365,
+        "xpath" : "//DIV[@id = 'body']/DIV[2]/DIV[1]/UL[2]/LI[1]/A[1]",
+        "width" : 128,
+        "height" : 16
+      }, {
+        "top" : 369,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'homelist']/FORM[1]/H4[1]/A[1]",
+        "width" : 49,
+        "height" : 16
+      }, {
+        "top" : 637,
+        "left" : 260,
+        "xpath" : "//DIV[@id = 'homerev']/A[1]",
+        "width" : 62,
+        "height" : 16
+      }, {
+        "top" : 658,
+        "left" : 378,
+        "xpath" : "//DIV[@id = 'homerev']/SMALL[1]/A[1]",
+        "width" : 36,
+        "height" : 14
+      }, {
+        "top" : 658,
+        "left" : 429,
+        "xpath" : "//DIV[@id = 'homerev']/SMALL[1]/A[2]",
+        "width" : 38,
+        "height" : 14
+      }, {
+        "top" : 696,
+        "left" : 223,
+        "xpath" : "//DIV[@id = 'homerev']/SPAN[2]/A[1]",
+        "width" : 110,
+        "height" : 14
+      }, {
+        "top" : 725,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'foldre']/A[1]",
+        "width" : 15,
+        "height" : 16
+      }, {
+        "top" : 725,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'foldre']/A[2]",
+        "width" : 95,
+        "height" : 16
+      }, {
+        "top" : 725,
+        "left" : 160,
+        "xpath" : "//DIV[@id = 'foldre']/A[3]",
+        "width" : 129,
+        "height" : 16
+      }, {
+        "top" : 725,
+        "left" : 317,
+        "xpath" : "//DIV[@id = 'foldre']/A[4]",
+        "width" : 108,
+        "height" : 16
+      }, {
+        "top" : 725,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'foldre']/A[5]",
+        "width" : 546,
+        "height" : 35
+      }, {
+        "top" : 795,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 795,
+        "left" : 61,
+        "xpath" : "//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 328,
+        "height" : 16
+      }, {
+        "top" : 795,
+        "left" : 549,
+        "xpath" : "//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[3]/A[1]",
+        "width" : 11,
+        "height" : 16
+      }, {
+        "top" : 819,
+        "left" : 30,
+        "xpath" : "//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/A[1]",
+        "width" : 24,
+        "height" : 16
+      }, {
+        "top" : 819,
+        "left" : 61,
+        "xpath" : "//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[2]/TD[2]/A[1]",
+        "width" : 244,
+        "height" : 16
+      }, {
+        "top" : 819,
+        "left" : 549,
+        "xpath" : "//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[2]/TD[3]/DIV[1]/A[1]",
+        "width" : 11,
+        "height" : 16
+      }, {
+        "top" : 843,
+        "left" : 30,
+        "xpath" : "//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[3]/TD[1]/A[1]",
+        "width" : 24,
+        "height" : 16
+      }, {
+        "top" : 843,
+        "left" : 61,
+        "xpath" : "//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[3]/TD[2]/A[1]",
+        "width" : 409,
+        "height" : 34
+      }, {
+        "top" : 843,
+        "left" : 549,
+        "xpath" : "//DIV[@id = 'foldre']/DIV[1]/TABLE[1]/TBODY[1]/TR[3]/TD[3]/A[1]",
+        "width" : 11,
+        "height" : 16
+      }, {
+        "top" : 893,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'homeactivity']/A[1]",
+        "width" : 15,
+        "height" : 16
+      }, {
+        "top" : 893,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'homeactivity']/H4[1]/A[1]",
+        "width" : 103,
+        "height" : 16
+      }, {
+        "top" : 937,
+        "left" : 132,
+        "xpath" : "//DIV[@id = 'homeau']/STRONG[1]/A[1]",
+        "width" : 116,
+        "height" : 16
+      }, {
+        "top" : 35,
+        "left" : 527,
+        "xpath" : "//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]",
+        "width" : 53,
+        "height" : 23
+      }, {
+        "top" : 586,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'homelist']/FORM[1]/INPUT[2]",
+        "width" : 60,
+        "height" : 26
+      } ],
+      "fanIn" : 9,
+      "fanOut" : 9,
+      "id" : 14,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778370851804,
+      "nearestState" : "index"
+    },
+    "state47" : {
+      "name" : "state47",
+      "url" : "http://web/mail.php?template=newpcrev",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 9,
+        "left" : 284,
+        "xpath" : "//DIV[@id = 'header_right']/A[1]",
+        "width" : 137,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 431,
+        "xpath" : "//DIV[@id = 'header_right']/A[2]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 488,
+        "xpath" : "//DIV[@id = 'header_right']/A[3]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 536,
+        "xpath" : "//DIV[@id = 'header_right']/A[4]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 40,
+        "left" : 527,
+        "xpath" : "//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]",
+        "width" : 53,
+        "height" : 23
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'body']/FORM[1]/INPUT[1]",
+        "width" : 24,
+        "height" : 22
+      }, {
+        "top" : 97,
+        "left" : 324,
+        "xpath" : "//INPUT[@id = 'loadtmpl']",
+        "width" : 47,
+        "height" : 26
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TABLE[@id = 'foldpsel']/TBODY[1]/TR[1]/TD[2]/TABLE[1]/TBODY[1]/TR[1]/TD[2]/SPAN[1]/INPUT[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 701,
+        "left" : 28,
+        "xpath" : "//DIV[@id = 'body']/FORM[1]/DIV[3]/INPUT[1]",
+        "width" : 97,
+        "height" : 26
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 47,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778370934017,
+      "nearestState" : "index"
+    },
+    "state58" : {
+      "name" : "state58",
+      "url" : "http://web/users.php?t=all",
+      "candidateElements" : [ {
+        "top" : 4,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 9,
+        "left" : 284,
+        "xpath" : "//DIV[@id = 'header_right']/A[1]",
+        "width" : 137,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 431,
+        "xpath" : "//DIV[@id = 'header_right']/A[2]",
+        "width" : 34,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 488,
+        "xpath" : "//DIV[@id = 'header_right']/A[3]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 9,
+        "left" : 536,
+        "xpath" : "//DIV[@id = 'header_right']/A[4]",
+        "width" : 45,
+        "height" : 14
+      }, {
+        "top" : 130,
+        "left" : 158,
+        "xpath" : "//TABLE[@id = 'contactsform']/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/DIV[1]/A[1]",
+        "width" : 84,
+        "height" : 14
+      }, {
+        "top" : 130,
+        "left" : 262,
+        "xpath" : "//TABLE[@id = 'contactsform']/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[2]/DIV[1]/A[1]",
+        "width" : 83,
+        "height" : 14
+      }, {
+        "top" : 168,
+        "left" : 90,
+        "xpath" : "//DIV[@id = 'body']/DIV[2]/P[1]/A[1]",
+        "width" : 121,
+        "height" : 26
+      }, {
+        "top" : 261,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[2]/A[1]",
+        "width" : 44,
+        "height" : 14
+      }, {
+        "top" : 261,
+        "left" : 218,
+        "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[3]/A[1]",
+        "width" : 33,
+        "height" : 14
+      }, {
+        "top" : 261,
+        "left" : 423,
+        "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[4]/A[1]",
+        "width" : 69,
+        "height" : 15
+      }, {
+        "top" : 261,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/THEAD[1]/TR[1]/TH[5]/A[1]",
+        "width" : 41,
+        "height" : 14
+      }, {
+        "top" : 1941,
+        "left" : 156,
+        "xpath" : "//TD[@id = 'plact']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/A[1]",
+        "width" : 64,
+        "height" : 14
+      }, {
+        "top" : 1941,
+        "left" : 260,
+        "xpath" : "//TD[@id = 'plact']/TABLE[2]/TBODY[1]/TR[1]/TD[1]/A[1]",
+        "width" : 54,
+        "height" : 14
+      }, {
+        "top" : 1941,
+        "left" : 338,
+        "xpath" : "//TD[@id = 'plact']/TABLE[3]/TBODY[1]/TR[1]/TD[1]/A[1]",
+        "width" : 20,
+        "height" : 14
+      }, {
+        "top" : 1941,
+        "left" : 381,
+        "xpath" : "//TD[@id = 'plact']/TABLE[4]/TBODY[1]/TR[1]/TD[1]/A[1]",
+        "width" : 36,
+        "height" : 14
+      }, {
+        "top" : 285,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 83,
+        "height" : 16
+      }, {
+        "top" : 285,
+        "left" : 143,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[1]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 285,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[1]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 285,
+        "left" : 606,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[1]/TD[5]/DIV[1]/A[2]",
+        "width" : 17,
+        "height" : 16
+      }, {
+        "top" : 312,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[3]/TD[2]/A[1]",
+        "width" : 95,
+        "height" : 34
+      }, {
+        "top" : 330,
+        "left" : 154,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[3]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 312,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[3]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 357,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[5]/TD[2]/A[1]",
+        "width" : 77,
+        "height" : 16
+      }, {
+        "top" : 357,
+        "left" : 136,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[5]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 357,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[5]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 384,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[7]/TD[2]/A[1]",
+        "width" : 112,
+        "height" : 16
+      }, {
+        "top" : 384,
+        "left" : 172,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[7]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 384,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[7]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 411,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[9]/TD[2]/A[1]",
+        "width" : 116,
+        "height" : 16
+      }, {
+        "top" : 429,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[9]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 456,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[11]/TD[2]/A[1]",
+        "width" : 101,
+        "height" : 16
+      }, {
+        "top" : 456,
+        "left" : 185,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[11]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 477,
+        "left" : 92,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[12]/TD[2]/DIV[2]/A[1]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 499,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[13]/TD[2]/A[1]",
+        "width" : 111,
+        "height" : 16
+      }, {
+        "top" : 499,
+        "left" : 170,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[13]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 499,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[13]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 526,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[15]/TD[2]/A[1]",
+        "width" : 94,
+        "height" : 16
+      }, {
+        "top" : 526,
+        "left" : 153,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[15]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 526,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[15]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 553,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[17]/TD[2]/A[1]",
+        "width" : 121,
+        "height" : 16
+      }, {
+        "top" : 553,
+        "left" : 181,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[17]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 553,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[17]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 580,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[19]/TD[2]/A[1]",
+        "width" : 98,
+        "height" : 16
+      }, {
+        "top" : 580,
+        "left" : 182,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[19]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 580,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[19]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 601,
+        "left" : 92,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[20]/TD[2]/DIV[2]/A[1]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 623,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[21]/TD[2]/A[1]",
+        "width" : 84,
+        "height" : 16
+      }, {
+        "top" : 623,
+        "left" : 144,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[21]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 650,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[23]/TD[2]/A[1]",
+        "width" : 114,
+        "height" : 16
+      }, {
+        "top" : 650,
+        "left" : 174,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[23]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 650,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[23]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 677,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[25]/TD[2]/A[1]",
+        "width" : 108,
+        "height" : 16
+      }, {
+        "top" : 677,
+        "left" : 167,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[25]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 677,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[25]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 704,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[27]/TD[2]/A[1]",
+        "width" : 115,
+        "height" : 16
+      }, {
+        "top" : 722,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[27]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 704,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[27]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 743,
+        "left" : 92,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[28]/TD[2]/DIV[2]/A[1]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 765,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[29]/TD[2]/A[1]",
+        "width" : 147,
+        "height" : 16
+      }, {
+        "top" : 783,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[29]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 765,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[29]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 810,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[31]/TD[2]/A[1]",
+        "width" : 125,
+        "height" : 16
+      }, {
+        "top" : 810,
+        "left" : 185,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[31]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 810,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[31]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 837,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[33]/TD[2]/A[1]",
+        "width" : 132,
+        "height" : 16
+      }, {
+        "top" : 876,
+        "left" : 92,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[34]/TD[2]/DIV[2]/A[1]",
+        "width" : 62,
+        "height" : 14
+      }, {
+        "top" : 898,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[35]/TD[2]/A[1]",
+        "width" : 65,
+        "height" : 16
+      }, {
+        "top" : 898,
+        "left" : 125,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[35]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 898,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[35]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 925,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[37]/TD[2]/A[1]",
+        "width" : 116,
+        "height" : 34
+      }, {
+        "top" : 943,
+        "left" : 132,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[37]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 925,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[37]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 964,
+        "left" : 92,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[38]/TD[2]/DIV[2]/A[1]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 986,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[39]/TD[2]/A[1]",
+        "width" : 106,
+        "height" : 16
+      }, {
+        "top" : 986,
+        "left" : 166,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[39]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 986,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[39]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1013,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[41]/TD[2]/A[1]",
+        "width" : 95,
+        "height" : 16
+      }, {
+        "top" : 1013,
+        "left" : 154,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[41]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1013,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[41]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1040,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[43]/TD[2]/A[1]",
+        "width" : 90,
+        "height" : 16
+      }, {
+        "top" : 1040,
+        "left" : 174,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[43]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1040,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[43]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1061,
+        "left" : 92,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[44]/TD[2]/DIV[2]/A[1]",
+        "width" : 25,
+        "height" : 14
+      }, {
+        "top" : 1083,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[45]/TD[2]/A[1]",
+        "width" : 77,
+        "height" : 16
+      }, {
+        "top" : 1083,
+        "left" : 137,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[45]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1083,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[45]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 1110,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[47]/TD[2]/A[1]",
+        "width" : 78,
+        "height" : 16
+      }, {
+        "top" : 1110,
+        "left" : 138,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[47]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1110,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[47]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1110,
+        "left" : 606,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[47]/TD[5]/DIV[1]/A[2]",
+        "width" : 17,
+        "height" : 16
+      }, {
+        "top" : 1137,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[49]/TD[2]/A[1]",
+        "width" : 76,
+        "height" : 16
+      }, {
+        "top" : 1137,
+        "left" : 160,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[49]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1164,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[51]/TD[2]/A[1]",
+        "width" : 116,
+        "height" : 16
+      }, {
+        "top" : 1164,
+        "left" : 176,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[51]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1164,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[51]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 1191,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[53]/TD[2]/A[1]",
+        "width" : 115,
+        "height" : 16
+      }, {
+        "top" : 1209,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[53]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1236,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[54]/TD[2]/A[1]",
+        "width" : 90,
+        "height" : 16
+      }, {
+        "top" : 1236,
+        "left" : 174,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[54]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1236,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[54]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1254,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[54]/TD[5]/DIV[1]/A[2]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1254,
+        "left" : 606,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[54]/TD[5]/DIV[1]/A[3]",
+        "width" : 17,
+        "height" : 16
+      }, {
+        "top" : 1279,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[56]/TD[2]/A[1]",
+        "width" : 75,
+        "height" : 16
+      }, {
+        "top" : 1279,
+        "left" : 159,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[56]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1279,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[56]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1306,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[58]/TD[2]/A[1]",
+        "width" : 86,
+        "height" : 16
+      }, {
+        "top" : 1306,
+        "left" : 146,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[58]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1306,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[58]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1333,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[60]/TD[2]/A[1]",
+        "width" : 119,
+        "height" : 16
+      }, {
+        "top" : 1333,
+        "left" : 179,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[60]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1333,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[60]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 1360,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[62]/TD[2]/A[1]",
+        "width" : 81,
+        "height" : 16
+      }, {
+        "top" : 1360,
+        "left" : 165,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[62]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1381,
+        "left" : 92,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[63]/TD[2]/DIV[2]/A[1]",
+        "width" : 30,
+        "height" : 14
+      }, {
+        "top" : 1403,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[64]/TD[2]/A[1]",
+        "width" : 85,
+        "height" : 16
+      }, {
+        "top" : 1403,
+        "left" : 169,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[64]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1430,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[66]/TD[2]/A[1]",
+        "width" : 97,
+        "height" : 16
+      }, {
+        "top" : 1430,
+        "left" : 181,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[66]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1457,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[68]/TD[2]/A[1]",
+        "width" : 63,
+        "height" : 16
+      }, {
+        "top" : 1457,
+        "left" : 122,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[68]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1457,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[68]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1484,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[70]/TD[2]/A[1]",
+        "width" : 89,
+        "height" : 16
+      }, {
+        "top" : 1484,
+        "left" : 148,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[70]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1484,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[70]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1511,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[72]/TD[2]/A[1]",
+        "width" : 82,
+        "height" : 16
+      }, {
+        "top" : 1511,
+        "left" : 166,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[72]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1538,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[74]/TD[2]/A[1]",
+        "width" : 60,
+        "height" : 16
+      }, {
+        "top" : 1538,
+        "left" : 120,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[74]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1538,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[74]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1538,
+        "left" : 606,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[74]/TD[5]/DIV[1]/A[2]",
+        "width" : 17,
+        "height" : 16
+      }, {
+        "top" : 1565,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[76]/TD[2]/A[1]",
+        "width" : 72,
+        "height" : 16
+      }, {
+        "top" : 1565,
+        "left" : 155,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[76]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1565,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[76]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 1586,
+        "left" : 92,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[77]/TD[2]/DIV[2]/A[1]",
+        "width" : 30,
+        "height" : 14
+      }, {
+        "top" : 1586,
+        "left" : 126,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[77]/TD[2]/DIV[2]/A[2]",
+        "width" : 24,
+        "height" : 14
+      }, {
+        "top" : 1608,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[78]/TD[2]/A[1]",
+        "width" : 111,
+        "height" : 16
+      }, {
+        "top" : 1608,
+        "left" : 170,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[78]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1608,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[78]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1635,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[80]/TD[2]/A[1]",
+        "width" : 88,
+        "height" : 16
+      }, {
+        "top" : 1635,
+        "left" : 148,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[80]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1635,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[80]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1662,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[82]/TD[2]/A[1]",
+        "width" : 92,
+        "height" : 16
+      }, {
+        "top" : 1662,
+        "left" : 186,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[82]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1662,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[82]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1680,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[82]/TD[5]/DIV[1]/A[2]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1680,
+        "left" : 606,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[82]/TD[5]/DIV[1]/A[3]",
+        "width" : 17,
+        "height" : 16
+      }, {
+        "top" : 1705,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[84]/TD[2]/A[1]",
+        "width" : 93,
+        "height" : 16
+      }, {
+        "top" : 1705,
+        "left" : 152,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[84]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1705,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[84]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 1732,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[86]/TD[2]/A[1]",
+        "width" : 73,
+        "height" : 16
+      }, {
+        "top" : 1732,
+        "left" : 133,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[86]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1732,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[86]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 1759,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[88]/TD[2]/A[1]",
+        "width" : 69,
+        "height" : 16
+      }, {
+        "top" : 1759,
+        "left" : 129,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[88]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1759,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[88]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 1786,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[90]/TD[2]/A[1]",
+        "width" : 102,
+        "height" : 16
+      }, {
+        "top" : 1786,
+        "left" : 161,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[90]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1786,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[90]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1813,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[92]/TD[2]/A[1]",
+        "width" : 74,
+        "height" : 16
+      }, {
+        "top" : 1813,
+        "left" : 134,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[92]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1813,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[92]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1840,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[94]/TD[2]/A[1]",
+        "width" : 92,
+        "height" : 16
+      }, {
+        "top" : 1840,
+        "left" : 151,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[94]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1840,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[94]/TD[5]/DIV[1]/A[1]",
+        "width" : 8,
+        "height" : 16
+      }, {
+        "top" : 1867,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[96]/TD[2]/A[1]",
+        "width" : 83,
+        "height" : 16
+      }, {
+        "top" : 1867,
+        "left" : 143,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[96]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 1867,
+        "left" : 582,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[96]/TD[5]/DIV[1]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 1867,
+        "left" : 606,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[96]/TD[5]/DIV[1]/A[2]",
+        "width" : 17,
+        "height" : 16
+      }, {
+        "top" : 1894,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[98]/TD[2]/A[1]",
+        "width" : 112,
+        "height" : 16
+      }, {
+        "top" : 1912,
+        "left" : 56,
+        "xpath" : "//TABLE[@id = 'foldul']/TBODY[1]/TR[98]/TD[2]/A[2]",
+        "width" : 18,
+        "height" : 16
+      }, {
+        "top" : 40,
+        "left" : 527,
+        "xpath" : "//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[3]",
+        "width" : 53,
+        "height" : 23
+      }, {
+        "top" : 97,
+        "left" : 430,
+        "xpath" : "//TABLE[@id = 'contactsform']/TBODY[1]/TR[1]/TD[1]/DIV[1]/DIV[1]/FORM[1]/INPUT[1]",
+        "width" : 34,
+        "height" : 26
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TABLE[@id = 'contactsform']/TBODY[1]/TR[1]/TD[1]/DIV[1]/DIV[2]/FORM[1]/TABLE[1]/TBODY[1]/TR[1]/TD[3]/INPUT[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TD[@id = 'plact']/TABLE[2]/TBODY[1]/TR[1]/TD[2]/INPUT[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TD[@id = 'plact']/TABLE[3]/TBODY[1]/TR[1]/TD[2]/INPUT[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TD[@id = 'plact']/TABLE[4]/TBODY[1]/TR[1]/TD[2]/INPUT[1]",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 58,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778371029819,
+      "nearestState" : "index"
+    }
+  },
+  "edges" : [ {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state3",
+    "to" : "index",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state5",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "index",
+    "text" : "hotcrp",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state5",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state3",
+    "text" : "Program committee",
+    "id" : "xpath //DIV[@id = 'body']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Program committee, attributes={href=users.php?t=pc}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state13",
+    "text" : "",
+    "id" : "xpath //INPUT[@id = 'signin_signin']",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary, id=signin_signin, name=signin, type=submit, value=Sign in}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state13",
+    "to" : "state14",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state13",
+    "text" : "jaekpot@localhost.com",
+    "id" : "xpath //DIV[@id = 'header_right']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=jaekpot@localhost.com, attributes={class=q, href=profile.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state13",
+    "to" : "state19",
+    "text" : "Help",
+    "id" : "xpath //DIV[@id = 'header_right']/A[3]",
+    "element" : "Element{node=[A: null], tag=A, text=Help, attributes={href=help.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state19",
+    "to" : "state14",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state13",
+    "text" : "Profile",
+    "id" : "xpath //DIV[@id = 'header_right']/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=Profile, attributes={href=profile.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state13",
+    "to" : "index",
+    "text" : "Sign out",
+    "id" : "xpath //DIV[@id = 'header_right']/A[4]",
+    "element" : "Element{node=[A: null], tag=A, text=Sign out, attributes={class=nw, href=/?signout=1&post=1b0e5dbd3758}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "index",
+    "text" : "Forgot your password?",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot your password?, attributes={class=n x small ui js-forgot-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "index",
+    "text" : "Create an account",
+    "id" : "xpath //DIV[@id = 'homeacct']/FORM[1]/DIV[1]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create an account, attributes={class=ui js-create-account, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "index",
+    "text" : "Reset password",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Reset password, attributes={class=btn btn-primary, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "index",
+    "text" : "Cancel",
+    "id" : "xpath //BODY[@id = 'home']/DIV[4]/DIV[1]/FORM[1]/DIV[2]/BUTTON[2]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={class=btn, name=cancel, type=button}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state13",
+    "to" : "state34",
+    "text" : "New account",
+    "id" : "xpath //FORM[@id = 'profile-form']/DIV[1]/DIV[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=New account, attributes={href=profile.php/new}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state34",
+    "to" : "state14",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=../}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state19",
+    "text" : "Help",
+    "id" : "xpath //DIV[@id = 'header_right']/A[3]",
+    "element" : "Element{node=[A: null], tag=A, text=Help, attributes={href=help.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state19",
+    "to" : "state13",
+    "text" : "jaekpot@localhost.com",
+    "id" : "xpath //DIV[@id = 'header_right']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=jaekpot@localhost.com, attributes={class=q, href=profile.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state13",
+    "to" : "state34",
+    "text" : "Bulk update",
+    "id" : "xpath //FORM[@id = 'profile-form']/DIV[1]/DIV[3]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Bulk update, attributes={href=profile.php/new#bulk}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state34",
+    "to" : "state13",
+    "text" : "jaekpot@localhost.com",
+    "id" : "xpath //DIV[@id = 'header_right']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=jaekpot@localhost.com, attributes={class=q, href=../profile.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state13",
+    "to" : "state14",
+    "text" : "Show passwordHide password",
+    "id" : "xpath //DIV[@id = 'foldpassword']/DIV[1]/DIV[5]/SPAN[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Show passwordHide password, attributes={class=ui js-plaintext-password, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "index",
+    "text" : "Sign out",
+    "id" : "xpath //DIV[@id = 'header_right']/A[4]",
+    "element" : "Element{node=[A: null], tag=A, text=Sign out, attributes={class=nw, href=/?signout=1&post=1b0e5dbd3758}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state13",
+    "to" : "state43",
+    "text" : "tag colors",
+    "id" : "xpath //DIV[@id = 'foldaccount']/DIV[7]/P[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=tag colors, attributes={href=settings.php/tags}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state43",
+    "to" : "state14",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=../}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state45",
+    "text" : "Set the conference abbreviation",
+    "id" : "xpath //DIV[@id = 'initialmsgs']/DIV[1]/P[3]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Set the conference abbreviation, attributes={href=settings.php/basics}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state45",
+    "to" : "state14",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=../}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state47",
+    "text" : "Send review assignment notifications",
+    "id" : "xpath //DIV[@id = 'initialmsgs']/DIV[1]/P[4]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Send review assignment notifications, attributes={href=mail.php?template=newpcrev}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state47",
+    "to" : "state14",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state45",
+    "text" : "Settings",
+    "id" : "xpath //DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Settings, attributes={href=settings.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state45",
+    "to" : "state13",
+    "text" : "jaekpot@localhost.com",
+    "id" : "xpath //DIV[@id = 'header_right']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=jaekpot@localhost.com, attributes={class=q, href=../profile.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state13",
+    "to" : "state56",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'foldaccount']/DIV[8]/DIV[3]/INPUT[1]",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn, name=merge, type=submit, value=Merge with another account}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state56",
+    "to" : "state14",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state58",
+    "text" : "Users",
+    "id" : "xpath //DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Users, attributes={href=users.php?t=all}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state58",
+    "to" : "state14",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state60",
+    "text" : "Assignments",
+    "id" : "xpath //DIV[@id = 'body']/DIV[2]/DIV[1]/UL[1]/LI[3]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Assignments, attributes={href=autoassign.php}}",
+    "eventType" : "click"
+  } ],
+  "statistics" : {
+    "duration" : "4 minutes 54 seconds",
+    "crawlPaths" : 9,
+    "averageDomSize" : "12.862 kB",
+    "edges" : 38,
+    "startDate" : "2026-05-09 23:53:35 UTC",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "state60",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "state60",
+        "count" : 1
+      },
+      "mostFanOut" : {
+        "id" : "state14",
+        "count" : 9
+      },
+      "mostFanIn" : {
+        "id" : "state14",
+        "count" : 9
+      },
+      "totalNumberOfStates" : 13,
+      "urls" : {
+        "http://web/autoassign.php" : [ "state60" ],
+        "http://web/" : [ "state5", "state14" ],
+        "http://web/index.php" : [ "index" ],
+        "http://web/users.php?t=pc" : [ "state3" ],
+        "http://web/help.php" : [ "state19" ],
+        "http://web/profile.php?redirect=1" : [ "state13" ],
+        "http://web/profile.php/new" : [ "state34" ],
+        "http://web/settings.php/basics" : [ "state45" ],
+        "http://web/mergeaccounts.php" : [ "state56" ],
+        "http://web/settings.php/tags" : [ "state43" ],
+        "http://web/mail.php?template=newpcrev" : [ "state47" ],
+        "http://web/users.php?t=all" : [ "state58" ]
+      }
+    },
+    "failedEvents" : 3
+  },
+  "exitStatus" : "MAX_TIME"
+}

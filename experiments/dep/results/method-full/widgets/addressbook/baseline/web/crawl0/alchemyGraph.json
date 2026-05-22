@@ -1,0 +1,1069 @@
+{
+  "nodes" : [ {
+    "name" : "state20",
+    "url" : "http://web/addressbook-mod/addressbook/register/agent_add_form.php",
+    "candidateElements" : [ ],
+    "fanIn" : 3,
+    "fanOut" : 0,
+    "id" : 20,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370852569,
+    "nearestState" : "index"
+  }, {
+    "name" : "state6",
+    "url" : "http://web/addressbook-mod/addressbook/register/login.php",
+    "candidateElements" : [ {
+      "top" : 220,
+      "left" : 239,
+      "xpath" : "//FORM[@id = 'form']/DIV[1]/P[2]/A[1]",
+      "width" : 127,
+      "height" : 17
+    }, {
+      "top" : 253,
+      "left" : 194,
+      "xpath" : "//FORM[@id = 'form']/DIV[1]/P[3]/FONT[1]/A[1]",
+      "width" : 215,
+      "height" : 15
+    }, {
+      "top" : 352,
+      "left" : 302,
+      "xpath" : "//FORM[@id = 'form']/DIV[1]/P[6]/FONT[1]/A[1]",
+      "width" : 0,
+      "height" : 0
+    }, {
+      "top" : 185,
+      "left" : 273,
+      "xpath" : "//FORM[@id = 'form']/DIV[1]/P[1]/FONT[1]/STRONG[1]/INPUT[1]",
+      "width" : 57,
+      "height" : 21
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 4,
+    "id" : 6,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370829681,
+    "nearestState" : "index"
+  }, {
+    "name" : "index",
+    "url" : "http://web/addressbook-mod/addressbook/index.php",
+    "candidateElements" : [ {
+      "top" : 89,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/A[1]",
+      "width" : 340,
+      "height" : 14
+    }, {
+      "top" : 233,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'content']/A[1]",
+      "width" : 110,
+      "height" : 14
+    }, {
+      "top" : 233,
+      "left" : 119,
+      "xpath" : "//DIV[@id = 'content']/A[2]",
+      "width" : 113,
+      "height" : 14
+    }, {
+      "top" : 198,
+      "left" : 0,
+      "xpath" : "//FORM[@id = 'LoginForm']/INPUT[3]",
+      "width" : 49,
+      "height" : 21
+    }, {
+      "top" : 198,
+      "left" : 0,
+      "xpath" : "//FORM[@id = 'LoginForm']/INPUT[3]",
+      "width" : 49,
+      "height" : 21
+    } ],
+    "fanIn" : 7,
+    "fanOut" : 3,
+    "id" : 0,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370823038,
+    "nearestState" : "null"
+  }, {
+    "name" : "state5",
+    "url" : "http://web/addressbook-mod/addressbook/register/email_password.php",
+    "candidateElements" : [ {
+      "top" : 174,
+      "left" : 212,
+      "xpath" : "//FORM[@id = 'form']/DIV[1]/P[2]/A[1]",
+      "width" : 179,
+      "height" : 17
+    }, {
+      "top" : 207,
+      "left" : 302,
+      "xpath" : "//FORM[@id = 'form']/DIV[1]/P[3]/FONT[1]/A[1]",
+      "width" : 0,
+      "height" : 0
+    }, {
+      "top" : 275,
+      "left" : 302,
+      "xpath" : "//FORM[@id = 'form']/DIV[1]/P[6]/FONT[1]/A[1]",
+      "width" : 0,
+      "height" : 0
+    }, {
+      "top" : 139,
+      "left" : 273,
+      "xpath" : "//FORM[@id = 'form']/DIV[1]/P[1]/FONT[1]/STRONG[1]/INPUT[1]",
+      "width" : 57,
+      "height" : 21
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 3,
+    "id" : 5,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370828873,
+    "nearestState" : "index"
+  }, {
+    "name" : "state8",
+    "url" : "http://web/addressbook-mod/addressbook/register/user_add_errors.php?pw_insecure=&email_already_in_use=&username_already_in_use=&bad_email=104&username_too_short=&email=&password=",
+    "candidateElements" : [ {
+      "top" : 89,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/A[1]",
+      "width" : 340,
+      "height" : 14
+    }, {
+      "top" : 236,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'content']/FORM[1]/INPUT[3]",
+      "width" : 64,
+      "height" : 21
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 8,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370832656,
+    "nearestState" : "index"
+  }, {
+    "name" : "state3",
+    "url" : "http://web/addressbook-mod/addressbook/register/user_add.php",
+    "candidateElements" : [ {
+      "top" : 89,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/A[1]",
+      "width" : 340,
+      "height" : 14
+    }, {
+      "top" : 206,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'content']/FORM[1]/INPUT[3]",
+      "width" : 64,
+      "height" : 21
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 3,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370827027,
+    "nearestState" : "index"
+  }, {
+    "name" : "state35",
+    "url" : "http://web/addressbook-mod/addressbook/birthdays.php?group=[none]",
+    "candidateElements" : [ {
+      "top" : 5,
+      "left" : 743,
+      "xpath" : "//DIV[@id = 'top']/FORM[1]/A[1]",
+      "width" : 37,
+      "height" : 14
+    }, {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/H1[1]/A[1]",
+      "width" : 0,
+      "height" : 0
+    }, {
+      "top" : 89,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/A[1]",
+      "width" : 340,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[1]/A[1]",
+      "width" : 38,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 41,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[2]/A[1]",
+      "width" : 54,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 98,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[3]/A[1]",
+      "width" : 45,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 146,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 232,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[5]/A[1]",
+      "width" : 47,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 282,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[6]/A[1]",
+      "width" : 74,
+      "height" : 14
+    }, {
+      "top" : 224,
+      "left" : 606,
+      "xpath" : "//TABLE[@id = 'birthdays']/TBODY[1]/TR[2]/TD[7]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 224,
+      "left" : 642,
+      "xpath" : "//TABLE[@id = 'birthdays']/TBODY[1]/TR[2]/TD[8]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 224,
+      "left" : 679,
+      "xpath" : "//TABLE[@id = 'birthdays']/TBODY[1]/TR[2]/TD[9]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 245,
+      "left" : 606,
+      "xpath" : "//TABLE[@id = 'birthdays']/TBODY[1]/TR[3]/TD[7]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 245,
+      "left" : 642,
+      "xpath" : "//TABLE[@id = 'birthdays']/TBODY[1]/TR[3]/TD[8]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 245,
+      "left" : 679,
+      "xpath" : "//TABLE[@id = 'birthdays']/TBODY[1]/TR[3]/TD[9]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 352,
+      "left" : 96,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[2]",
+      "width" : 33,
+      "height" : 14
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 35,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370872694,
+    "nearestState" : "index"
+  }, {
+    "name" : "state46",
+    "url" : "http://web/addressbook-mod/addressbook/view.php?group=[none]&all&print&phones",
+    "candidateElements" : [ {
+      "top" : 248,
+      "left" : 98,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[2]",
+      "width" : 33,
+      "height" : 14
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 46,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370897439,
+    "nearestState" : "index"
+  }, {
+    "name" : "state10",
+    "url" : "http://web/addressbook-mod/addressbook/",
+    "candidateElements" : [ {
+      "top" : 5,
+      "left" : 743,
+      "xpath" : "//DIV[@id = 'top']/FORM[1]/A[1]",
+      "width" : 37,
+      "height" : 14
+    }, {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/H1[1]/A[1]",
+      "width" : 0,
+      "height" : 0
+    }, {
+      "top" : 89,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/A[1]",
+      "width" : 340,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[1]/A[1]",
+      "width" : 38,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 41,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[2]/A[1]",
+      "width" : 54,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 98,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[3]/A[1]",
+      "width" : 45,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 146,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 232,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[5]/A[1]",
+      "width" : 47,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 282,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[6]/A[1]",
+      "width" : 74,
+      "height" : 14
+    }, {
+      "top" : 246,
+      "left" : 44,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[1]/TH[2]/A[1]",
+      "width" : 34,
+      "height" : 14
+    }, {
+      "top" : 246,
+      "left" : 154,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[1]/TH[3]/A[1]",
+      "width" : 32,
+      "height" : 14
+    }, {
+      "top" : 246,
+      "left" : 299,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[1]/TH[4]/A[1]",
+      "width" : 49,
+      "height" : 14
+    }, {
+      "top" : 246,
+      "left" : 445,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[1]/TH[5]/A[1]",
+      "width" : 54,
+      "height" : 14
+    }, {
+      "top" : 246,
+      "left" : 566,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[1]/TH[6]/A[1]",
+      "width" : 61,
+      "height" : 14
+    }, {
+      "top" : 296,
+      "left" : 651,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[2]/TD[7]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 296,
+      "left" : 677,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[2]/TD[8]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 296,
+      "left" : 704,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[2]/TD[9]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 357,
+      "left" : 651,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[3]/TD[7]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 357,
+      "left" : 677,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[3]/TD[8]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 357,
+      "left" : 704,
+      "xpath" : "//TABLE[@id = 'maintable']/TBODY[1]/TR[3]/TD[9]/A[1]",
+      "width" : 16,
+      "height" : 14
+    }, {
+      "top" : 531,
+      "left" : 96,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[2]",
+      "width" : 33,
+      "height" : 14
+    }, {
+      "top" : 424,
+      "left" : 656,
+      "xpath" : "//DIV[@id = 'content']/FORM[2]/DIV[4]/INPUT[1]",
+      "width" : 55,
+      "height" : 21
+    }, {
+      "top" : 424,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'content']/FORM[2]/DIV[1]/INPUT[1]",
+      "width" : 87,
+      "height" : 21
+    }, {
+      "top" : 424,
+      "left" : 87,
+      "xpath" : "//DIV[@id = 'content']/FORM[2]/DIV[2]/INPUT[1]",
+      "width" : 55,
+      "height" : 21
+    } ],
+    "fanIn" : 6,
+    "fanOut" : 12,
+    "id" : 10,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370834540,
+    "nearestState" : "index"
+  }, {
+    "name" : "state32",
+    "url" : "http://web/addressbook-mod/addressbook/group.php",
+    "candidateElements" : [ {
+      "top" : 5,
+      "left" : 743,
+      "xpath" : "//DIV[@id = 'top']/FORM[1]/A[1]",
+      "width" : 37,
+      "height" : 14
+    }, {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/H1[1]/A[1]",
+      "width" : 0,
+      "height" : 0
+    }, {
+      "top" : 89,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/A[1]",
+      "width" : 340,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[1]/A[1]",
+      "width" : 38,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 41,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[2]/A[1]",
+      "width" : 54,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 98,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[3]/A[1]",
+      "width" : 45,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 146,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 232,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[5]/A[1]",
+      "width" : 47,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 282,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[6]/A[1]",
+      "width" : 74,
+      "height" : 14
+    }, {
+      "top" : 338,
+      "left" : 96,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[2]",
+      "width" : 33,
+      "height" : 14
+    }, {
+      "top" : 224,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'content']/FORM[1]/INPUT[2]",
+      "width" : 80,
+      "height" : 21
+    }, {
+      "top" : 224,
+      "left" : 83,
+      "xpath" : "//DIV[@id = 'content']/FORM[1]/INPUT[3]",
+      "width" : 108,
+      "height" : 21
+    }, {
+      "top" : 224,
+      "left" : 195,
+      "xpath" : "//DIV[@id = 'content']/FORM[1]/INPUT[4]",
+      "width" : 77,
+      "height" : 21
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 32,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370868988,
+    "nearestState" : "index"
+  }, {
+    "name" : "state54",
+    "url" : "http://web/addressbook-mod/addressbook/view.php?id=639",
+    "candidateElements" : [ {
+      "top" : 5,
+      "left" : 743,
+      "xpath" : "//DIV[@id = 'top']/FORM[1]/A[1]",
+      "width" : 37,
+      "height" : 14
+    }, {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/H1[1]/A[1]",
+      "width" : 0,
+      "height" : 0
+    }, {
+      "top" : 89,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/A[1]",
+      "width" : 340,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[1]/A[1]",
+      "width" : 38,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 41,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[2]/A[1]",
+      "width" : 54,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 98,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[3]/A[1]",
+      "width" : 45,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 146,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 232,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[5]/A[1]",
+      "width" : 47,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 282,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[6]/A[1]",
+      "width" : 74,
+      "height" : 14
+    }, {
+      "top" : 663,
+      "left" : 96,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[2]",
+      "width" : 33,
+      "height" : 14
+    }, {
+      "top" : 528,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'content']/FORM[1]/INPUT[2]",
+      "width" : 55,
+      "height" : 21
+    }, {
+      "top" : 549,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'content']/FORM[2]/INPUT[2]",
+      "width" : 43,
+      "height" : 21
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 54,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370914440,
+    "nearestState" : "index"
+  }, {
+    "name" : "state28",
+    "url" : "http://web/addressbook-mod/addressbook/register/checklogin.php",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 28,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370863444,
+    "nearestState" : "index"
+  }, {
+    "name" : "state39",
+    "url" : "http://web/addressbook-mod/addressbook/notes.htm",
+    "candidateElements" : [ {
+      "top" : 21,
+      "left" : 16,
+      "xpath" : "/HTML[1]/BODY[1]/H1[1]/A[1]",
+      "width" : 0,
+      "height" : 14
+    }, {
+      "top" : 166,
+      "left" : 16,
+      "xpath" : "/HTML[1]/BODY[1]/A[2]",
+      "width" : 70,
+      "height" : 14
+    }, {
+      "top" : 166,
+      "left" : 95,
+      "xpath" : "/HTML[1]/BODY[1]/A[3]",
+      "width" : 57,
+      "height" : 14
+    }, {
+      "top" : 166,
+      "left" : 162,
+      "xpath" : "/HTML[1]/BODY[1]/A[4]",
+      "width" : 38,
+      "height" : 14
+    }, {
+      "top" : 166,
+      "left" : 209,
+      "xpath" : "/HTML[1]/BODY[1]/A[5]",
+      "width" : 55,
+      "height" : 14
+    }, {
+      "top" : 196,
+      "left" : 16,
+      "xpath" : "/HTML[1]/BODY[1]/H3[1]/A[1]",
+      "width" : 0,
+      "height" : 14
+    }, {
+      "top" : 268,
+      "left" : 16,
+      "xpath" : "/HTML[1]/BODY[1]/H3[2]/A[1]",
+      "width" : 0,
+      "height" : 14
+    }, {
+      "top" : 326,
+      "left" : 16,
+      "xpath" : "/HTML[1]/BODY[1]/H3[3]/A[1]",
+      "width" : 0,
+      "height" : 14
+    }, {
+      "top" : 1090,
+      "left" : 16,
+      "xpath" : "/HTML[1]/BODY[1]/H3[7]/A[1]",
+      "width" : 0,
+      "height" : 14
+    }, {
+      "top" : 1200,
+      "left" : 16,
+      "xpath" : "/HTML[1]/BODY[1]/H3[8]/A[1]",
+      "width" : 0,
+      "height" : 14
+    }, {
+      "top" : 1300,
+      "left" : 16,
+      "xpath" : "/HTML[1]/BODY[1]/H3[9]/A[1]",
+      "width" : 0,
+      "height" : 14
+    }, {
+      "top" : 1461,
+      "left" : 16,
+      "xpath" : "/HTML[1]/BODY[1]/H3[10]/A[1]",
+      "width" : 0,
+      "height" : 14
+    }, {
+      "top" : 1497,
+      "left" : 195,
+      "xpath" : "/HTML[1]/BODY[1]/CENTER[1]/B[1]/A[1]",
+      "width" : 0,
+      "height" : 14
+    }, {
+      "top" : 1419,
+      "left" : 109,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/FORM[1]/INPUT[1]",
+      "width" : 99,
+      "height" : 21
+    } ],
+    "fanIn" : 3,
+    "fanOut" : 0,
+    "id" : 39,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/H1[1]/A[1]", "xpath /HTML[1]/BODY[1]/H3[1]/A[1]", "xpath /HTML[1]/BODY[1]/H3[2]/A[1]", "xpath /HTML[1]/BODY[1]/H3[3]/A[1]", "xpath /HTML[1]/BODY[1]/H3[7]/A[1]", "xpath /HTML[1]/BODY[1]/H3[8]/A[1]", "xpath /HTML[1]/BODY[1]/H3[9]/A[1]", "xpath /HTML[1]/BODY[1]/H3[10]/A[1]", "xpath /HTML[1]/BODY[1]/CENTER[1]/B[1]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370877991,
+    "nearestState" : "index"
+  }, {
+    "name" : "state16",
+    "url" : "http://web/addressbook-mod/addressbook/edit.php?group=[none]",
+    "candidateElements" : [ {
+      "top" : 5,
+      "left" : 743,
+      "xpath" : "//DIV[@id = 'top']/FORM[1]/A[1]",
+      "width" : 37,
+      "height" : 14
+    }, {
+      "top" : 422,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/H1[1]/A[1]",
+      "width" : 0,
+      "height" : 0
+    }, {
+      "top" : 89,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'header']/A[1]",
+      "width" : 340,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[1]/A[1]",
+      "width" : 38,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 41,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[2]/A[1]",
+      "width" : 54,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 98,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[3]/A[1]",
+      "width" : 45,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 146,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[4]/A[1]",
+      "width" : 83,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 232,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[5]/A[1]",
+      "width" : 47,
+      "height" : 14
+    }, {
+      "top" : 105,
+      "left" : 282,
+      "xpath" : "//DIV[@id = 'nav']/UL[1]/LI[6]/A[1]",
+      "width" : 74,
+      "height" : 14
+    }, {
+      "top" : 1123,
+      "left" : 96,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[2]",
+      "width" : 33,
+      "height" : 14
+    }, {
+      "top" : 1009,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'content']/FORM[1]/INPUT[20]",
+      "width" : 48,
+      "height" : 21
+    } ],
+    "fanIn" : 3,
+    "fanOut" : 4,
+    "id" : 16,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370844798,
+    "nearestState" : "index"
+  }, {
+    "name" : "state38",
+    "url" : "http://web/addressbook-mod/addressbook/view.php?group=[none]&all&print",
+    "candidateElements" : [ {
+      "top" : 500,
+      "left" : 98,
+      "xpath" : "//DIV[@id = 'footer']/UL[1]/LI[1]/A[2]",
+      "width" : 33,
+      "height" : 14
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 38,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1778370876343,
+    "nearestState" : "index"
+  } ],
+  "links" : [ {
+    "source" : 0,
+    "target" : 3,
+    "text" : "CREATE ACCOUNT",
+    "element" : "Element{node=[A: null], tag=A, text=CREATE ACCOUNT, attributes={href=register}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 0,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=..}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 5,
+    "text" : "RESET PASSWORD",
+    "element" : "Element{node=[A: null], tag=A, text=RESET PASSWORD, attributes={href=register/email_password.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 5,
+    "target" : 6,
+    "text" : "I remember now. Back to Login",
+    "element" : "Element{node=[A: null], tag=A, text=I remember now. Back to Login, attributes={href=login.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 3,
+    "text" : "Create a new account",
+    "element" : "Element{node=[A: null], tag=A, text=Create a new account, attributes={href=user_add.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 8,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={type=submit, value=Sign-Up}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 0,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=..}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 10,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={type=submit, value=Login}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 0,
+    "text" : "Logout",
+    "element" : "Element{node=[A: null], tag=A, text=Logout, attributes={href=#, onclick=document.logout.submit();}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 16,
+    "text" : "add new",
+    "element" : "Element{node=[A: null], tag=A, text=add new, attributes={href=edit.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 16,
+    "target" : 0,
+    "text" : "Logout",
+    "element" : "Element{node=[A: null], tag=A, text=Logout, attributes={href=#, onclick=document.logout.submit();}}",
+    "eventType" : "click"
+  }, {
+    "source" : 5,
+    "target" : 20,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=agent_add_form.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 5,
+    "target" : 20,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={name=submit, type=submit, value=Submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 5,
+    "text" : "Forgot Password / Change Password",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot Password / Change Password, attributes={href=email_password.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 20,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=agent_add_form.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 28,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={name=submit, type=submit, value=Submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 32,
+    "text" : "groups",
+    "element" : "Element{node=[A: null], tag=A, text=groups, attributes={href=group.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 32,
+    "target" : 0,
+    "text" : "Logout",
+    "element" : "Element{node=[A: null], tag=A, text=Logout, attributes={href=#, onclick=document.logout.submit();}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 35,
+    "text" : "next birthdays",
+    "element" : "Element{node=[A: null], tag=A, text=next birthdays, attributes={href=birthdays.php}}",
+    "eventType" : "click"
+  }, {
+    "source" : 35,
+    "target" : 0,
+    "text" : "Logout",
+    "element" : "Element{node=[A: null], tag=A, text=Logout, attributes={href=#, onclick=document.logout.submit();}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 38,
+    "text" : "print all",
+    "element" : "Element{node=[A: null], tag=A, text=print all, attributes={href=view.php?all&print}}",
+    "eventType" : "click"
+  }, {
+    "source" : 38,
+    "target" : 39,
+    "text" : "v8.2.5",
+    "element" : "Element{node=[A: null], tag=A, text=v8.2.5, attributes={href=notes.htm}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 46,
+    "text" : "print phones",
+    "element" : "Element{node=[A: null], tag=A, text=print phones, attributes={href=view.php?all&print&phones}}",
+    "eventType" : "click"
+  }, {
+    "source" : 46,
+    "target" : 39,
+    "text" : "v8.2.5",
+    "element" : "Element{node=[A: null], tag=A, text=v8.2.5, attributes={href=notes.htm}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 54,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=view.php?id=639}}",
+    "eventType" : "click"
+  }, {
+    "source" : 54,
+    "target" : 0,
+    "text" : "Logout",
+    "element" : "Element{node=[A: null], tag=A, text=Logout, attributes={href=#, onclick=document.logout.submit();}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 16,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=edit.php?id=639}}",
+    "eventType" : "click"
+  }, {
+    "source" : 16,
+    "target" : 10,
+    "text" : "Address Book",
+    "element" : "Element{node=[A: null], tag=A, text=Address Book, attributes={href=.}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 54,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=view.php?id=640}}",
+    "eventType" : "click"
+  }, {
+    "source" : 54,
+    "target" : 10,
+    "text" : "Address Book",
+    "element" : "Element{node=[A: null], tag=A, text=Address Book, attributes={href=.}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 16,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=edit.php?id=640}}",
+    "eventType" : "click"
+  }, {
+    "source" : 16,
+    "target" : 10,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=.}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 39,
+    "text" : "v8.2.5",
+    "element" : "Element{node=[A: null], tag=A, text=v8.2.5, attributes={href=notes.htm}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 32,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={name=add, type=submit, value=Add to}}",
+    "eventType" : "click"
+  }, {
+    "source" : 32,
+    "target" : 10,
+    "text" : "Address Book",
+    "element" : "Element{node=[A: null], tag=A, text=Address Book, attributes={href=.}}",
+    "eventType" : "click"
+  }, {
+    "source" : 16,
+    "target" : 10,
+    "text" : "home",
+    "element" : "Element{node=[A: null], tag=A, text=home, attributes={href=./}}",
+    "eventType" : "click"
+  } ]
+}

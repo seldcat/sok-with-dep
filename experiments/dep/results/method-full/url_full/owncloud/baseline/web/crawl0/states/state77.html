@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state77</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://web/index.php/apps/files?dir=//Documents&fileid=11'>http://web/index.php/apps/files?dir=//Documents&fileid=11</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>75</td>
+				</tr>
+				<tr>
+					<th>Nearest State</th>
+					<td>index</td>
+				</tr>
+				<tr>
+					<th>Distance to nearest State</th>
+					<td>1.0</td>
+				</tr>
+				<tr>
+					<th>Has Near Duplicate</th>
+					<td>false</td>
+				</tr>
+				<tr>
+					<th>Cluster</th>
+					<td>-1</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>-</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state77.png' /> 
+								<div rel="tooltip" data-original-title="//DIV[@id = 'notification']/DIV[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: 481px; top: 40px; width: 18px; height: 18px; border: 2px solid green;  cursor: pointer;" onclick="location.href='state78.html'"></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'owncloud']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 153px; height: 47px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 12px; top: -3px; width: 64px; height: 47px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'logout']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 42px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 86px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 130px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 174px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 218px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 262px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 253px; width: 251px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 332px; top: 137px; width: 89px; height: 32px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 419px; top: 137px; width: 89px; height: 32px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 506px; top: 137px; width: 89px; height: 32px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-sidebar']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 578px; top: 47px; width: 28px; height: 28px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 41px; top: 42px; width: 111px; height: 48px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'controls']/DIV[1]/DIV[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 150px; top: 42px; width: 114px; height: 48px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'controls']/DIV[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 276px; top: 47px; width: 40px; height: 38px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'headerName-container']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 97px; top: 86px; width: 514px; height: 52px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//SPAN[@id = 'selectedActionsList']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//SPAN[@id = 'selectedActionsList']/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//SPAN[@id = 'selectedActionsList']/A[3]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TH[@id = 'headerSize']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'modified']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TH[@id = 'headerDate']/SPAN[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 137px; width: 48px; height: 52px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 93px; top: 137px; width: 518px; height: 52px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'headerName-container']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 97px; top: 86px; width: 514px; height: 52px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TH[@id = 'headerSize']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'modified']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TH[@id = 'headerDate']/SPAN[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'headerName-container']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 97px; top: 86px; width: 514px; height: 52px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'modified']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'modified']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TH[@id = 'headerExpiration']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'headerName-container']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 97px; top: 86px; width: 514px; height: 52px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'modified']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'modified']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TH[@id = 'headerExpiration']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'headerName-container']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 97px; top: 86px; width: 514px; height: 52px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'modified']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'modified']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TH[@id = 'headerExpiration']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'headerName-container']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 97px; top: 86px; width: 514px; height: 52px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TH[@id = 'headerSize']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'modified']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'headerName-container']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 97px; top: 86px; width: 514px; height: 52px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//SPAN[@id = 'selectedActionsList']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//SPAN[@id = 'selectedActionsList']/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//SPAN[@id = 'selectedActionsList']/A[3]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'modified']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TH[@id = 'headerDate']/SPAN[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'closeWizard']" class='hovers'
+				style="position: absolute; z-index: 10; left: 465px; top: 53px; width: 58px; height: 63px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/A[2]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 12px; top: 14px; width: 16px; height: 12px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-settings-header']/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 297px; width: 251px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxPrevious']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 30px; height: 67px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxNext']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 30px; height: 67px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxSlideshow']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 27px; height: 14px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxClose']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 40px; height: 21px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 332px; top: 296px; width: 41px; height: 32px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//INPUT[@id = 'show-more']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 127px; height: 32px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'uploadprogresswrapper']/INPUT[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 27px; height: 38px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/A[2]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 12px; top: 14px; width: 16px; height: 12px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-settings-header']/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 297px; width: 251px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxPrevious']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 30px; height: 67px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxNext']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 30px; height: 67px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxSlideshow']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 27px; height: 14px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxClose']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 40px; height: 21px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;html class=&quot;ng-csp&quot; data-placeholder-focus=&quot;false&quot; lang=&quot;en&quot;&gt;&lt;head data-user=&quot;jAEkPot&quot; data-user-displayname=&quot;jAEkPot&quot; data-requesttoken=&quot;GhEmMXx6IiY3UA5IKzwyDHkmC1UzYgM7UQZlGRoQWiY=:5tQsLHtig1b9mKEI3Rc7E5PZfDR/MY+sgnxvdmrM5iY=&quot;&gt;
+		&lt;meta charset=&quot;utf-8&quot;&gt;
+		&lt;title&gt;Documents - Files - ownCloud&lt;/title&gt;
+		&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+		&lt;meta name=&quot;referrer&quot; content=&quot;never&quot;&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0&quot;&gt;
+					&lt;meta name=&quot;apple-itunes-app&quot; content=&quot;app-id=1359583808&quot;&gt;
+				&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+		&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;
+		&lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;ownCloud&quot;&gt;
+		&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+		&lt;meta name=&quot;theme-color&quot; content=&quot;#041e42&quot;&gt;
+		&lt;link rel=&quot;icon&quot; href=&quot;/core/img/favicon.ico&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;/core/img/favicon-touch.png&quot;&gt;
+		&lt;link rel=&quot;mask-icon&quot; sizes=&quot;any&quot; href=&quot;/core/img/favicon-mask.svg&quot; color=&quot;#041e42&quot;&gt;
+		&lt;link rel=&quot;manifest&quot; href=&quot;/core/img/manifest.json&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/vendor/select2/select2.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/styles.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/inputs.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/header.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/icons.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/fonts.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/apps.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/global.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/fixes.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/multiselect.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/mobile.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/vendor/jquery-ui/themes/base/jquery-ui.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/jquery-ui-fixes.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/tooltip.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/share.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/files_versions/css/versions.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/firstrunwizard/css/colorbox.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/firstrunwizard/css/firstrunwizard.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/notifications/css/styles.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/jquery.ocdialog.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/files/css/files.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/files/css/upload.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/files/css/mobile.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/files/css/detailsView.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/files_sharing/css/sharedfilelist.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/files_trashbin/css/trash.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/comments/css/comments.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/files_sharing/css/sharetabview.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/systemtags.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/systemtags/css/systemtagsfilelist.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+									&lt;script src=&quot;/index.php/core/js/oc.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/jquery/dist/jquery.min.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/jquery-migrate/jquery-migrate.min.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/jquery-ui/ui/jquery-ui.custom.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/underscore/underscore.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/moment/min/moment-with-locales.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/handlebars/handlebars.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/blueimp-md5/js/md5.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/bootstrap/js/tooltip.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/backbone/backbone.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/es6-promise/es6-promise.auto.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/davclient.js/lib/client.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/clipboard/dist/clipboard.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/bowser/src/bowser.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/jquery.ocdialog.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-dialogs.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/js.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/l10n.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/octemplate.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/eventsource.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/config.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/search/js/search.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-requesttoken.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/apps.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/mimetype.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/mimetypelist.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/snapjs/dist/latest/snap.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/select2/select2.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-backbone.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-backbone-webdav.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/placeholder.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/jquery.avatar.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_mediaviewer/js/files_mediaviewer_init.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/shareconfigmodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharemodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharescollection.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/shareitemmodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogresharerinfoview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinklistview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinkshareview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogmailview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinksocialview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinkexpirationview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogshareelistview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/share.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/user.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/firstrunwizard/js/jquery.colorbox.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/firstrunwizard/js/firstrunwizard.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/notifications/js/app.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/notifications/js/notification.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/files/fileinfo.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/files/client.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/app.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/file-upload.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/newfilemenu.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/jquery.fileupload.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/jquery-visibility.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/fileinfomodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/filesummary.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/breadcrumb.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/filelist.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/search.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/favoritesfilelist.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/tagsplugin.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/favoritesplugin.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/filelockplugin.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/detailfileinfoview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/detailtabview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/mainfileinfodetailview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/detailsview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/locktabview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/fileactions.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/fileactionsmenu.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/fileactionsapplicationselectmenu.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/files.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/keyboardshortcuts.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/navigation.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_sharing/js/app.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_sharing/js/sharedfilelist.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_trashbin/js/app.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_trashbin/js/filelist.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/comments/js/app.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/comments/js/commentmodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/comments/js/commentcollection.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/comments/js/commentsummarymodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/comments/js/commentstabview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/comments/js/filesplugin.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/comments/js/activitytabviewplugin.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_sharing/js/share.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_sharing/js/sharetabview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_sharing/js/sharedialogview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_sharing/js/external.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_versions/js/versionmodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_versions/js/versioncollection.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_versions/js/versionstabview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_versions/js/filesplugin.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/firstrunwizard/js/activate.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/select2-toggleselect.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/systemtags/systemtags.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/systemtags/systemtagmodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/systemtags/systemtagsmappingcollection.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/systemtags/systemtagscollection.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/systemtags/systemtagsinputfield.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/systemtags/systemtagslist.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/systemtags/js/app.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/systemtags/js/systemtagsfilelist.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/systemtags/js/filesplugin.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/systemtags/js/systemtagstabview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/systemtags/js/systemtagsinfoview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;/head&gt;
+	&lt;body id=&quot;body-user&quot;&gt;
+		&lt;noscript&gt;
+	&lt;div id=&quot;nojavascript&quot;&gt;
+		&lt;div&gt;
+			This application requires JavaScript for correct operation. Please &lt;a href=&quot;http://enable-javascript.com/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;enable JavaScript&lt;/a&gt; and reload the page.		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/noscript&gt;
+		&lt;div id=&quot;notification-container&quot;&gt;
+			&lt;div id=&quot;notification&quot; style=&quot;display: inline-block;&quot;&gt;&lt;div class=&quot;row&quot;&gt;Failed to request notifications. Please try to refresh the page manually.&lt;/div&gt;&lt;div class=&quot;row type-error closeable&quot;&gt;Encountered problem accessing the folder //Documents&lt;a class=&quot;action close icon-close&quot; href=&quot;#&quot; alt=&quot;Dismiss&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;header role=&quot;banner&quot;&gt;
+			&lt;div id=&quot;header&quot;&gt;
+				&lt;a href=&quot;/index.php&quot; id=&quot;owncloud&quot; tabindex=&quot;1&quot;&gt;
+					&lt;h1 class=&quot;logo-icon&quot;&gt;
+						ownCloud					&lt;/h1&gt;
+				&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;header-appname-container menutoggle&quot; tabindex=&quot;2&quot;&gt;
+					&lt;button class=&quot;burger&quot;&gt;
+						Menu					&lt;/button&gt;
+					&lt;h1 class=&quot;header-appname&quot;&gt;
+						Files					&lt;/h1&gt;
+				&lt;/a&gt;
+				&lt;div id=&quot;logo-claim&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+				&lt;div id=&quot;settings&quot;&gt;
+					&lt;div id=&quot;expand&quot; tabindex=&quot;6&quot; role=&quot;link&quot; class=&quot;menutoggle&quot;&gt;
+												&lt;div class=&quot;avatardiv&quot; style=&quot;display: none&quot;&gt;
+													&lt;/div&gt;
+												&lt;span id=&quot;expandDisplayName&quot;&gt;jAEkPot&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div id=&quot;expanddiv&quot; class=&quot;menu&quot;&gt;
+					&lt;ul&gt;
+											&lt;li&gt;
+							&lt;a href=&quot;/index.php/settings/personal&quot;&gt;
+								&lt;img alt=&quot;&quot; src=&quot;/settings/img/admin.svg&quot;&gt;
+								Settings							&lt;/a&gt;
+						&lt;/li&gt;
+											&lt;li&gt;
+							&lt;a href=&quot;/index.php/settings/users&quot;&gt;
+								&lt;img alt=&quot;&quot; src=&quot;/settings/img/users.svg&quot;&gt;
+								Users							&lt;/a&gt;
+						&lt;/li&gt;
+											&lt;li&gt;
+							&lt;a id=&quot;logout&quot; href=&quot;http://web/index.php/logout?requesttoken=GhEmMXx6IiY3UA5IKzwyDHkmC1UzYgM7UQZlGRoQWiY%3D:5tQsLHtig1b9mKEI3Rc7E5PZfDR/MY%2BsgnxvdmrM5iY%3D&quot;&gt;
+								&lt;img alt=&quot;&quot; src=&quot;/core/img/actions/logout.svg&quot;&gt;
+								Log out							&lt;/a&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;notifications hidden&quot;&gt;&lt;div class=&quot;notifications-button menutoggle&quot;&gt;&lt;img class=&quot;svg&quot; alt=&quot;Notifications&quot; src=&quot;/apps/notifications/img/notifications.svg&quot;&gt;&lt;/div&gt;&lt;div class=&quot;notification-container menu&quot;&gt;&lt;div class=&quot;emptycontent&quot;&gt;&lt;h2&gt;No notifications&lt;/h2&gt;&lt;/div&gt;&lt;div class=&quot;notification-wrapper&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;form class=&quot;searchbox&quot; action=&quot;#&quot; method=&quot;post&quot; role=&quot;search&quot; novalidate=&quot;&quot;&gt;
+					&lt;label for=&quot;searchbox&quot; class=&quot;hidden-visually&quot;&gt;
+						Search					&lt;/label&gt;
+					&lt;input id=&quot;searchbox&quot; type=&quot;search&quot; name=&quot;query&quot; value=&quot;&quot; required=&quot;&quot; autocomplete=&quot;off&quot; tabindex=&quot;5&quot;&gt;
+				&lt;/form&gt;
+			&lt;/div&gt;
+		&lt;/header&gt;
+
+		&lt;nav role=&quot;navigation&quot;&gt;
+			&lt;div id=&quot;navigation&quot; class=&quot;menu&quot; style=&quot;display: none;&quot;&gt;
+				&lt;div id=&quot;apps&quot;&gt;
+					&lt;ul&gt;
+											&lt;li data-id=&quot;files&quot;&gt;
+							&lt;a href=&quot;/index.php/apps/files/&quot; tabindex=&quot;3&quot; class=&quot;active&quot;&gt;
+								&lt;img class=&quot;app-icon&quot; alt=&quot;&quot; src=&quot;/apps/files/img/app.svg&quot;&gt;
+								&lt;div class=&quot;icon-loading-dark&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+								&lt;span&gt;
+									Files								&lt;/span&gt;
+							&lt;/a&gt;
+						&lt;/li&gt;
+											&lt;li data-id=&quot;market&quot;&gt;
+							&lt;a href=&quot;/index.php/apps/market/&quot; tabindex=&quot;3&quot;&gt;
+								&lt;img class=&quot;app-icon&quot; alt=&quot;&quot; src=&quot;/apps/market/img/market.svg&quot;&gt;
+								&lt;div class=&quot;icon-loading-dark&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+								&lt;span&gt;
+									Market								&lt;/span&gt;
+							&lt;/a&gt;
+						&lt;/li&gt;
+										&lt;/ul&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/nav&gt;
+
+		&lt;div id=&quot;content-wrapper&quot;&gt;
+			&lt;div id=&quot;content&quot; class=&quot;app-files&quot; role=&quot;main&quot;&gt;
+				&lt;div id=&quot;app-navigation&quot;&gt;
+	&lt;ul class=&quot;with-icon&quot;&gt;
+				&lt;li data-id=&quot;files&quot; class=&quot;nav-files active&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;nav-icon-files svg&quot;&gt;
+				All files			&lt;/a&gt;
+		&lt;/li&gt;
+				&lt;li data-id=&quot;favorites&quot; class=&quot;nav-favorites&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;nav-icon-favorites svg&quot;&gt;
+				Favorites			&lt;/a&gt;
+		&lt;/li&gt;
+				&lt;li data-id=&quot;sharingin&quot; class=&quot;nav-sharingin&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;nav-icon-sharingin svg&quot;&gt;
+				Shared with you			&lt;/a&gt;
+		&lt;/li&gt;
+				&lt;li data-id=&quot;sharingout&quot; class=&quot;nav-sharingout&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;nav-icon-sharingout svg&quot;&gt;
+				Shared with others			&lt;/a&gt;
+		&lt;/li&gt;
+				&lt;li data-id=&quot;sharinglinks&quot; class=&quot;nav-sharinglinks&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;nav-icon-sharinglinks svg&quot;&gt;
+				Shared by link			&lt;/a&gt;
+		&lt;/li&gt;
+				&lt;li data-id=&quot;systemtagsfilter&quot; class=&quot;nav-systemtagsfilter&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;nav-icon-systemtagsfilter svg&quot;&gt;
+				Tags			&lt;/a&gt;
+		&lt;/li&gt;
+				&lt;li data-id=&quot;trashbin&quot; class=&quot;nav-trashbin&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;nav-icon-trashbin svg&quot;&gt;
+				Deleted files			&lt;/a&gt;
+		&lt;/li&gt;
+			&lt;/ul&gt;
+	&lt;div id=&quot;app-settings&quot;&gt;
+		&lt;div id=&quot;app-settings-header&quot;&gt;
+			&lt;button class=&quot;settings-button&quot; data-apps-slide-toggle=&quot;#app-settings-content&quot;&gt;
+				Settings			&lt;/button&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;app-settings-content&quot;&gt;
+			&lt;div id=&quot;files-setting-showhidden&quot;&gt;
+				&lt;input class=&quot;checkbox&quot; id=&quot;showhiddenfilesToggle&quot; checked=&quot;checked&quot; type=&quot;checkbox&quot;&gt;
+				&lt;label for=&quot;showhiddenfilesToggle&quot;&gt;Show hidden files&lt;/label&gt;
+			&lt;/div&gt;
+			&lt;label for=&quot;webdavurl&quot;&gt;WebDAV&lt;/label&gt;
+			&lt;input id=&quot;webdavurl&quot; type=&quot;text&quot; readonly=&quot;readonly&quot; value=&quot;http://web/remote.php/dav/files/jAEkPot/&quot;&gt;
+			&lt;em&gt;Use this address to &lt;a href=&quot;https://doc.owncloud.com/server/10.10/go.php?to=user-webdav&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;access your Files via WebDAV&lt;/a&gt;&lt;/em&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;app-content&quot;&gt;&lt;div id=&quot;app-navigation-toggle&quot; class=&quot;icon-menu&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+		&lt;div id=&quot;app-sidebar&quot; class=&quot;detailsView scroll-container disappear&quot;&gt;	&lt;div class=&quot;detailFileInfoContainer&quot;&gt;	&lt;div class=&quot;mainFileInfoView&quot;&gt;&lt;/div&gt;&lt;div class=&quot;systemTagsInfoView hidden&quot;&gt;&lt;div class=&quot;system-tag-list&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;		&lt;ul class=&quot;tabHeaders&quot;&gt;				&lt;li class=&quot;tabHeader selected&quot; data-tabid=&quot;commentsTabView&quot; data-tabindex=&quot;0&quot;&gt;			&lt;a href=&quot;#&quot;&gt;Comments&lt;/a&gt;		&lt;/li&gt;				&lt;li class=&quot;tabHeader hidden&quot; data-tabid=&quot;lockTabView&quot; data-tabindex=&quot;1&quot;&gt;			&lt;a href=&quot;#&quot;&gt;Locks&lt;/a&gt;		&lt;/li&gt;				&lt;li class=&quot;tabHeader&quot; data-tabid=&quot;shareTabView&quot; data-tabindex=&quot;2&quot;&gt;			&lt;a href=&quot;#&quot;&gt;Sharing&lt;/a&gt;		&lt;/li&gt;				&lt;li class=&quot;tabHeader&quot; data-tabid=&quot;systemTagsTabView&quot; data-tabindex=&quot;3&quot;&gt;			&lt;a href=&quot;#&quot;&gt;Tags&lt;/a&gt;		&lt;/li&gt;				&lt;li class=&quot;tabHeader hidden&quot; data-tabid=&quot;versionsTabView&quot; data-tabindex=&quot;4&quot;&gt;			&lt;a href=&quot;#&quot;&gt;Versions&lt;/a&gt;		&lt;/li&gt;			&lt;/ul&gt;		&lt;div class=&quot;tabsContainer&quot;&gt;	&lt;div id=&quot;commentsTabView&quot; class=&quot;tab commentsTabView&quot;&gt;&lt;div class=&quot;newCommentRow comment&quot; data-id=&quot;&quot;&gt;    &lt;div class=&quot;authorRow&quot;&gt;                &lt;div class=&quot;avatar&quot; data-username=&quot;jAEkPot&quot; style=&quot;height: 28px; width: 28px; background-color: rgb(185, 185, 185); color: rgb(255, 255, 255); font-weight: normal; text-align: center; line-height: 28px; font-size: 15.4px;&quot;&gt;X&lt;/div&gt;                &lt;div class=&quot;author&quot;&gt;jAEkPot&lt;/div&gt;    &lt;/div&gt;    &lt;form class=&quot;newCommentForm&quot;&gt;        &lt;textarea class=&quot;message&quot; placeholder=&quot;Type in a new comment...&quot;&gt;&lt;/textarea&gt;        &lt;input class=&quot;submit&quot; type=&quot;submit&quot; value=&quot;Post&quot;&gt;        &lt;div class=&quot;submitLoading icon-loading-small hidden&quot;&gt;&lt;/div&gt;    &lt;/form&gt;&lt;/div&gt;&lt;ul class=&quot;comments&quot;&gt;&lt;/ul&gt;&lt;div class=&quot;empty hidden&quot;&gt;No other comments available&lt;/div&gt;&lt;input type=&quot;button&quot; class=&quot;showMore hidden&quot; value=&quot;More comments...&quot; name=&quot;show-more&quot; id=&quot;show-more&quot;&gt;&lt;div class=&quot;loading hidden&quot; style=&quot;height: 50px&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;	&lt;a class=&quot;close icon-close&quot; href=&quot;#&quot; alt=&quot;Close&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;div id=&quot;app-content-files&quot; class=&quot;viewcontainer hide-hidden-files has-favorites has-comments&quot; style=&quot;min-height: initial;&quot;&gt;
+	&lt;div id=&quot;controls&quot; style=&quot;width: 604px; min-width: 604px;&quot;&gt;&lt;div class=&quot;breadcrumb&quot;&gt;&lt;div class=&quot;crumb svg ui-droppable&quot; data-dir=&quot;/&quot;&gt;&lt;a href=&quot;/index.php/apps/files?dir=/&quot;&gt;&lt;div class=&quot;nav-icon-files img&quot;&gt;All files&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;crumb svg last&quot; data-dir=&quot;/Documents&quot;&gt;&lt;a href=&quot;/index.php/apps/files?dir=/Documents&quot;&gt;&lt;div&gt;Documents&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+		&lt;div class=&quot;actions creatable&quot; style=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;button new&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;&lt;span class=&quot;icon icon-add&quot;&gt;&lt;/span&gt;&lt;span class=&quot;hidden-visually&quot;&gt;New&lt;/span&gt;&lt;/a&gt;
+			&lt;div id=&quot;uploadprogresswrapper&quot;&gt;
+				&lt;div id=&quot;uploadprogressbar&quot;&gt;
+					&lt;em class=&quot;label outer&quot; style=&quot;display:none&quot;&gt;&lt;span class=&quot;desktop&quot;&gt;Uploading...&lt;/span&gt;&lt;span class=&quot;mobile&quot;&gt;...&lt;/span&gt;&lt;/em&gt;
+				&lt;/div&gt;
+				&lt;input type=&quot;button&quot; class=&quot;stop icon-close&quot; style=&quot;display:none&quot; value=&quot;&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;file_action_panel&quot; activeaction=&quot;false&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;notCreatable notPublic hidden&quot;&gt;
+			You don&rsquo;t have permission to upload or create files here		&lt;/div&gt;
+		&lt;input type=&quot;hidden&quot; name=&quot;permissions&quot; value=&quot;31&quot; id=&quot;permissions&quot;&gt;
+	&lt;input type=&quot;hidden&quot; id=&quot;free_space&quot; value=&quot;&quot;&gt;
+		&lt;input type=&quot;hidden&quot; class=&quot;max_human_file_size&quot; value=&quot;(max )&quot;&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;emptycontent&quot; class=&quot;hidden&quot;&gt;
+	&lt;div class=&quot;icon-folder&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No files in here&lt;/h2&gt;
+	&lt;p class=&quot;uploadmessage hidden&quot;&gt;Upload some content or sync with your devices!&lt;/p&gt;
+	&lt;p class=&quot;nouploadmessage hidden&quot;&gt;You don&rsquo;t have permission to upload or create files here&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;nofilterresults emptycontent hidden&quot;&gt;
+	&lt;div class=&quot;icon-search&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No entries found in this folder&lt;/h2&gt;
+	&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;table id=&quot;filestable&quot; data-allow-public-upload=&quot;yes&quot; data-preview-x=&quot;32&quot; data-preview-y=&quot;32&quot; class=&quot;has-controls&quot;&gt;
+	&lt;thead style=&quot;width: 604px;&quot;&gt;
+		&lt;tr&gt;
+			&lt;th id=&quot;headerName&quot; class=&quot;column-name&quot;&gt;
+				&lt;div id=&quot;headerName-container&quot;&gt;
+					&lt;input type=&quot;checkbox&quot; id=&quot;select_all_files&quot; class=&quot;select-all checkbox&quot;&gt;
+					&lt;label for=&quot;select_all_files&quot;&gt;
+						&lt;span class=&quot;hidden-visually&quot;&gt;Select all&lt;/span&gt;
+					&lt;/label&gt;
+					&lt;a class=&quot;name sort columntitle&quot; data-sort=&quot;name&quot;&gt;&lt;span&gt;Name&lt;/span&gt;&lt;span class=&quot;sort-indicator icon-triangle-n&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;span id=&quot;selectedActionsList&quot; class=&quot;selectedActions hidden&quot;&gt;
+						&lt;a href=&quot;&quot; class=&quot;download&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;
+							&lt;span class=&quot;icon icon-download&quot;&gt;&lt;/span&gt;
+							&lt;span&gt;Download&lt;/span&gt;
+						&lt;/a&gt;
+						&lt;a href=&quot;&quot; class=&quot;download mobile button&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;
+							&lt;span class=&quot;icon icon-download &quot;&gt;&lt;/span&gt;
+						&lt;/a&gt;
+						&lt;a href=&quot;&quot; class=&quot;delete-selected mobile button&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;
+							&lt;span class=&quot;icon icon-delete&quot;&gt;&lt;/span&gt;
+						&lt;/a&gt;
+					&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerSize&quot; class=&quot;column-size&quot;&gt;
+				&lt;a class=&quot;size sort columntitle&quot; data-sort=&quot;size&quot;&gt;&lt;span&gt;Size&lt;/span&gt;&lt;span class=&quot;sort-indicator hidden icon-triangle-s&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerDate&quot; class=&quot;column-mtime&quot;&gt;
+				&lt;a id=&quot;modified&quot; class=&quot;columntitle&quot; data-sort=&quot;mtime&quot;&gt;&lt;span&gt;Modified&lt;/span&gt;&lt;span class=&quot;sort-indicator hidden icon-triangle-s&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;span class=&quot;selectedActions hidden&quot;&gt;&lt;a href=&quot;&quot; class=&quot;delete-selected&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;
+						&lt;span class=&quot;icon icon-delete&quot;&gt;&lt;/span&gt;
+						&lt;span&gt;Delete&lt;/span&gt;
+					&lt;/a&gt;&lt;/span&gt;
+			&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody id=&quot;fileList&quot;&gt;&lt;tr data-id=&quot;12&quot; data-type=&quot;file&quot; data-size=&quot;36227&quot; data-file=&quot;Example.odt&quot; data-mime=&quot;application/vnd.oasis.opendocument.text&quot; data-mtime=&quot;1778360335000&quot; data-etag=&quot;b693461317dcd94e7fdb3b5af1c578ff&quot; data-permissions=&quot;27&quot; data-path=&quot;/Documents&quot; data-share-permissions=&quot;19&quot;&gt;&lt;td class=&quot;filename ui-draggable&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;action action-favorite &quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;&lt;span class=&quot;icon icon-star&quot;&gt;&lt;/span&gt;&lt;span class=&quot;hidden-visually&quot;&gt;Favorite&lt;/span&gt;&lt;/a&gt;&lt;input id=&quot;select-files-12&quot; type=&quot;checkbox&quot; class=&quot;selectCheckBox checkbox&quot;&gt;&lt;label for=&quot;select-files-12&quot;&gt;&lt;div class=&quot;thumbnail&quot; style=&quot;background-image:url(/core/img/filetypes/x-office-document.svg); background-size: 32px;&quot;&gt;&lt;/div&gt;&lt;span class=&quot;hidden-visually&quot;&gt;Select&lt;/span&gt;&lt;/label&gt;&lt;a class=&quot;name&quot; href=&quot;/remote.php/webdav/Documents/Example.odt&quot;&gt;&lt;span class=&quot;nametext&quot;&gt;&lt;span class=&quot;innernametext&quot;&gt;Example&lt;/span&gt;&lt;span class=&quot;extension&quot;&gt;.odt&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;fileactions&quot;&gt;&lt;a class=&quot;action action-share permanent&quot; href=&quot;#&quot; data-action=&quot;Share&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;&lt;span class=&quot;icon icon-shared&quot;&gt;&lt;/span&gt;&lt;span class=&quot;hidden-visually&quot;&gt;Share&lt;/span&gt;&lt;/a&gt;&lt;a class=&quot;action action-menu permanent&quot; href=&quot;#&quot; data-action=&quot;menu&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;&lt;span class=&quot;icon icon-more&quot;&gt;&lt;/span&gt;&lt;span class=&quot;hidden-visually&quot;&gt;Actions&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td class=&quot;filesize&quot; style=&quot;color:rgb(160,160,160)&quot;&gt;35 KB&lt;/td&gt;&lt;td class=&quot;date&quot;&gt;&lt;span class=&quot;modified&quot; title=&quot;&quot; style=&quot;color:rgb(0,0,0)&quot; data-original-title=&quot;May 9, 2026 8:58 PM&quot;&gt;2 minutes ago&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
+	&lt;tfoot&gt;
+	&lt;tr class=&quot;summary&quot;&gt;&lt;td&gt;&lt;span class=&quot;info&quot;&gt;&lt;span class=&quot;dirinfo hidden&quot;&gt;0 folders&lt;/span&gt;&lt;span class=&quot;connector hidden&quot;&gt; and &lt;/span&gt;&lt;span class=&quot;fileinfo&quot;&gt;1 file&lt;/span&gt;&lt;span class=&quot;hiddeninfo hidden&quot;&gt; (including 0 hidden)&lt;/span&gt;&lt;span class=&quot;filter hidden&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;filesize&quot;&gt;35 KB&lt;/td&gt;&lt;td class=&quot;date&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;
+&lt;/table&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;dir&quot; id=&quot;dir&quot; value=&quot;//Documents&quot;&gt;
+&lt;div class=&quot;hiddenuploadfield&quot;&gt;
+	&lt;input type=&quot;file&quot; id=&quot;file_upload_start&quot; class=&quot;hiddenuploadfield&quot; name=&quot;files[]&quot; multiple=&quot;multiple&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;editor&quot;&gt;&lt;/div&gt;&lt;!-- FIXME Do not use this div in your app! It is deprecated and will be removed in the future! --&gt;
+&lt;div id=&quot;uploadsize-message&quot; title=&quot;Upload too large&quot;&gt;
+	&lt;p&gt;
+	The files you are trying to upload exceed the maximum size for file uploads on this server.	&lt;/p&gt;
+&lt;/div&gt;
+	&lt;/div&gt;
+		&lt;div id=&quot;app-content-favorites&quot; class=&quot;hidden viewcontainer&quot; style=&quot;min-height: initial;&quot;&gt;
+	&lt;div id=&quot;notification&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;emptycontent&quot; class=&quot;hidden&quot;&gt;
+	&lt;div class=&quot;icon-starred&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No favorites&lt;/h2&gt;
+	&lt;p&gt;Files and folders you mark as favorite will show up here&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;input type=&quot;hidden&quot; name=&quot;dir&quot; value=&quot;&quot; id=&quot;dir&quot;&gt;
+
+&lt;div class=&quot;nofilterresults hidden&quot;&gt;
+	&lt;div class=&quot;icon-search&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No entries found in this folder&lt;/h2&gt;
+	&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;table id=&quot;filestable&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th id=&quot;headerName&quot; class=&quot;hidden column-name&quot;&gt;
+				&lt;div id=&quot;headerName-container&quot;&gt;
+					&lt;a class=&quot;name sort columntitle&quot; data-sort=&quot;name&quot;&gt;&lt;span&gt;Name&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerSize&quot; class=&quot;hidden column-size&quot;&gt;
+				&lt;a class=&quot;size sort columntitle&quot; data-sort=&quot;size&quot;&gt;&lt;span&gt;Size&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerDate&quot; class=&quot;hidden column-mtime&quot;&gt;
+				&lt;a id=&quot;modified&quot; class=&quot;columntitle&quot; data-sort=&quot;mtime&quot;&gt;&lt;span&gt;Modified&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;span class=&quot;selectedActions&quot;&gt;&lt;a href=&quot;&quot; class=&quot;delete-selected&quot;&gt;
+						Delete						&lt;img class=&quot;svg&quot; alt=&quot;Delete&quot; src=&quot;/core/img/actions/delete.svg&quot;&gt;
+					&lt;/a&gt;&lt;/span&gt;
+			&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody id=&quot;fileList&quot;&gt;
+	&lt;/tbody&gt;
+	&lt;tfoot&gt;
+	&lt;/tfoot&gt;
+&lt;/table&gt;
+
+	&lt;/div&gt;
+		&lt;div id=&quot;app-content-sharingin&quot; class=&quot;hidden viewcontainer&quot; style=&quot;min-height: initial;&quot;&gt;
+	&lt;div id=&quot;notification&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;emptycontent&quot; class=&quot;hidden&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;nofilterresults hidden&quot;&gt;
+	&lt;div class=&quot;icon-search&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No entries found in this folder&lt;/h2&gt;
+	&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;table id=&quot;filestable&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th id=&quot;headerName&quot; class=&quot;hidden column-name&quot;&gt;
+				&lt;div id=&quot;headerName-container&quot;&gt;
+					&lt;a class=&quot;name sort columntitle&quot; data-sort=&quot;name&quot;&gt;&lt;span&gt;Name&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerState&quot; class=&quot;hidden column-sharestate&quot;&gt;
+				&lt;a id=&quot;modified&quot; class=&quot;columntitle&quot; data-sort=&quot;sharestate&quot;&gt;&lt;span&gt;State&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerDate&quot; class=&quot;hidden column-mtime&quot;&gt;
+				&lt;a id=&quot;modified&quot; class=&quot;columntitle&quot; data-sort=&quot;mtime&quot;&gt;&lt;span&gt;Share time&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerExpiration&quot; class=&quot;hidden column-expiration&quot;&gt;
+				&lt;a class=&quot;columntitle&quot;&gt;&lt;span&gt;Expiration date&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody id=&quot;fileList&quot;&gt;
+	&lt;/tbody&gt;
+	&lt;tfoot&gt;
+	&lt;/tfoot&gt;
+&lt;/table&gt;
+	&lt;/div&gt;
+		&lt;div id=&quot;app-content-sharingout&quot; class=&quot;hidden viewcontainer&quot; style=&quot;min-height: initial;&quot;&gt;
+	&lt;div id=&quot;notification&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;emptycontent&quot; class=&quot;hidden&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;nofilterresults hidden&quot;&gt;
+	&lt;div class=&quot;icon-search&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No entries found in this folder&lt;/h2&gt;
+	&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;table id=&quot;filestable&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th id=&quot;headerName&quot; class=&quot;hidden column-name&quot;&gt;
+				&lt;div id=&quot;headerName-container&quot;&gt;
+					&lt;a class=&quot;name sort columntitle&quot; data-sort=&quot;name&quot;&gt;&lt;span&gt;Name&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerState&quot; class=&quot;hidden column-sharestate&quot;&gt;
+				&lt;a id=&quot;modified&quot; class=&quot;columntitle&quot; data-sort=&quot;sharestate&quot;&gt;&lt;span&gt;State&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerDate&quot; class=&quot;hidden column-mtime&quot;&gt;
+				&lt;a id=&quot;modified&quot; class=&quot;columntitle&quot; data-sort=&quot;mtime&quot;&gt;&lt;span&gt;Share time&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerExpiration&quot; class=&quot;hidden column-expiration&quot;&gt;
+				&lt;a class=&quot;columntitle&quot;&gt;&lt;span&gt;Expiration date&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody id=&quot;fileList&quot;&gt;
+	&lt;/tbody&gt;
+	&lt;tfoot&gt;
+	&lt;/tfoot&gt;
+&lt;/table&gt;
+	&lt;/div&gt;
+		&lt;div id=&quot;app-content-sharinglinks&quot; class=&quot;hidden viewcontainer&quot; style=&quot;min-height: initial;&quot;&gt;
+	&lt;div id=&quot;notification&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;emptycontent&quot; class=&quot;hidden&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;nofilterresults hidden&quot;&gt;
+	&lt;div class=&quot;icon-search&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No entries found in this folder&lt;/h2&gt;
+	&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;table id=&quot;filestable&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th id=&quot;headerName&quot; class=&quot;hidden column-name&quot;&gt;
+				&lt;div id=&quot;headerName-container&quot;&gt;
+					&lt;a class=&quot;name sort columntitle&quot; data-sort=&quot;name&quot;&gt;&lt;span&gt;Name&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerState&quot; class=&quot;hidden column-sharestate&quot;&gt;
+				&lt;a id=&quot;modified&quot; class=&quot;columntitle&quot; data-sort=&quot;sharestate&quot;&gt;&lt;span&gt;State&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerDate&quot; class=&quot;hidden column-mtime&quot;&gt;
+				&lt;a id=&quot;modified&quot; class=&quot;columntitle&quot; data-sort=&quot;mtime&quot;&gt;&lt;span&gt;Share time&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerExpiration&quot; class=&quot;hidden column-expiration&quot;&gt;
+				&lt;a class=&quot;columntitle&quot;&gt;&lt;span&gt;Expiration date&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody id=&quot;fileList&quot;&gt;
+	&lt;/tbody&gt;
+	&lt;tfoot&gt;
+	&lt;/tfoot&gt;
+&lt;/table&gt;
+	&lt;/div&gt;
+		&lt;div id=&quot;app-content-systemtagsfilter&quot; class=&quot;hidden viewcontainer&quot; style=&quot;min-height: initial;&quot;&gt;
+	&lt;div id=&quot;controls&quot;&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;emptycontent&quot; class=&quot;hidden&quot;&gt;
+	&lt;div class=&quot;icon-folder&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No files in here&lt;/h2&gt;
+	&lt;p class=&quot;uploadmessage hidden&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;nofilterresults emptycontent hidden&quot;&gt;
+	&lt;div class=&quot;icon-search&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No entries found in this folder&lt;/h2&gt;
+	&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;table id=&quot;filestable&quot; data-preview-x=&quot;32&quot; data-preview-y=&quot;32&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th id=&quot;headerName&quot; class=&quot;hidden column-name&quot;&gt;
+				&lt;div id=&quot;headerName-container&quot;&gt;
+					&lt;a class=&quot;name sort columntitle&quot; data-sort=&quot;name&quot;&gt;&lt;span&gt;Name&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerSize&quot; class=&quot;hidden column-size&quot;&gt;
+				&lt;a class=&quot;size sort columntitle&quot; data-sort=&quot;size&quot;&gt;&lt;span&gt;Size&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerDate&quot; class=&quot;hidden column-mtime&quot;&gt;
+				&lt;a id=&quot;modified&quot; class=&quot;columntitle&quot; data-sort=&quot;mtime&quot;&gt;&lt;span&gt;Modified&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody id=&quot;fileList&quot;&gt;
+	&lt;/tbody&gt;
+	&lt;tfoot&gt;
+	&lt;/tfoot&gt;
+&lt;/table&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;dir&quot; id=&quot;dir&quot; value=&quot;&quot;&gt;
+
+	&lt;/div&gt;
+		&lt;div id=&quot;app-content-trashbin&quot; class=&quot;hidden viewcontainer&quot; style=&quot;min-height: initial;&quot;&gt;
+	&lt;div id=&quot;controls&quot;&gt;
+	&lt;div id=&quot;file_action_panel&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;notification&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;emptycontent&quot; class=&quot;hidden&quot;&gt;
+	&lt;div class=&quot;icon-delete&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No deleted files&lt;/h2&gt;
+	&lt;p&gt;You will be able to recover deleted files from here&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;input type=&quot;hidden&quot; name=&quot;dir&quot; value=&quot;&quot; id=&quot;dir&quot;&gt;
+
+&lt;div class=&quot;nofilterresults hidden&quot;&gt;
+	&lt;div class=&quot;icon-search&quot;&gt;&lt;/div&gt;
+	&lt;h2&gt;No entries found in this folder&lt;/h2&gt;
+	&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;table id=&quot;filestable&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th id=&quot;headerName&quot; class=&quot;hidden column-name&quot;&gt;
+				&lt;div id=&quot;headerName-container&quot;&gt;
+					&lt;input type=&quot;checkbox&quot; id=&quot;select_all_trash&quot; class=&quot;select-all checkbox&quot;&gt;
+					&lt;label for=&quot;select_all_trash&quot;&gt;
+						&lt;span class=&quot;hidden-visually&quot;&gt;Select all&lt;/span&gt;
+					&lt;/label&gt;
+					&lt;a class=&quot;name sort columntitle&quot; data-sort=&quot;name&quot;&gt;&lt;span&gt;Name&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;span id=&quot;selectedActionsList&quot; class=&quot;selectedActions&quot;&gt;
+						&lt;a href=&quot;&quot; class=&quot;undelete&quot;&gt;
+							&lt;span class=&quot;icon icon-history&quot;&gt;&lt;/span&gt;
+							&lt;span&gt;Restore&lt;/span&gt;
+						&lt;/a&gt;
+						&lt;a href=&quot;&quot; class=&quot;undelete mobile button&quot;&gt;
+							&lt;span class=&quot;icon icon-history&quot;&gt;&lt;/span&gt;
+						&lt;/a&gt;
+						&lt;a href=&quot;&quot; class=&quot;delete-selected mobile button&quot;&gt;
+							&lt;span class=&quot;icon icon-delete&quot;&gt;&lt;/span&gt;
+						&lt;/a&gt;
+					&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/th&gt;
+			&lt;th id=&quot;headerDate&quot; class=&quot;hidden column-mtime&quot;&gt;
+				&lt;a id=&quot;modified&quot; class=&quot;columntitle&quot; data-sort=&quot;mtime&quot;&gt;&lt;span&gt;Deleted&lt;/span&gt;&lt;span class=&quot;sort-indicator&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;span class=&quot;selectedActions&quot;&gt;
+					&lt;a href=&quot;&quot; class=&quot;delete-selected&quot;&gt;
+						&lt;span class=&quot;icon icon-delete&quot;&gt;&lt;/span&gt;
+						&lt;span&gt;Delete&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/span&gt;
+			&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody id=&quot;fileList&quot;&gt;
+	&lt;/tbody&gt;
+	&lt;tfoot&gt;
+	&lt;/tfoot&gt;
+&lt;/table&gt;
+	&lt;/div&gt;
+		&lt;div id=&quot;searchresults&quot; class=&quot;hidden&quot;&gt;&lt;div id=&quot;status&quot;&gt;&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&quot;template&quot;&gt;
+			&lt;td class=&quot;icon&quot;&gt;&lt;/td&gt;
+			&lt;td class=&quot;info&quot;&gt;
+				&lt;a class=&quot;link&quot;&gt;
+					&lt;div class=&quot;name&quot;&gt;&lt;/div&gt;
+				&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- closing app-content --&gt;
+
+&lt;!-- config hints for javascript --&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;filesApp&quot; id=&quot;filesApp&quot; value=&quot;1&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;usedSpacePercent&quot; id=&quot;usedSpacePercent&quot; value=&quot;0&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;owner&quot; id=&quot;owner&quot; value=&quot;jAEkPot&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;ownerDisplayName&quot; id=&quot;ownerDisplayName&quot; value=&quot;jAEkPot&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;fileNotFound&quot; id=&quot;fileNotFound&quot; value=&quot;0&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;mailNotificationEnabled&quot; id=&quot;mailNotificationEnabled&quot; value=&quot;no&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;mailPublicNotificationEnabled&quot; id=&quot;mailPublicNotificationEnabled&quot; value=&quot;no&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;socialShareEnabled&quot; id=&quot;socialShareEnabled&quot; value=&quot;yes&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;allowShareWithLink&quot; id=&quot;allowShareWithLink&quot; value=&quot;yes&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;defaultFileSorting&quot; id=&quot;defaultFileSorting&quot; value=&quot;name&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;defaultFileSortingDirection&quot; id=&quot;defaultFileSortingDirection&quot; value=&quot;asc&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;showHiddenFiles&quot; id=&quot;showHiddenFiles&quot; value=&quot;0&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+
+&lt;!--1778360467.69ffa0936df825.12595857.serialized--&gt;&lt;div id=&quot;cboxOverlay&quot; style=&quot;opacity: 0.4; cursor: pointer; visibility: visible;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;colorbox&quot; class=&quot;&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: block; visibility: visible; top: 36px; left: 96px; position: absolute; width: 428px; height: 272px;&quot;&gt;&lt;div id=&quot;cboxWrapper&quot; style=&quot;height: 272px; width: 428px;&quot;&gt;&lt;div&gt;&lt;div id=&quot;cboxTopLeft&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxTopCenter&quot; style=&quot;float: left; width: 428px;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxTopRight&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;clear: left;&quot;&gt;&lt;div id=&quot;cboxMiddleLeft&quot; style=&quot;float: left; height: 252px;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxContent&quot; style=&quot;float: left; width: 428px; height: 252px;&quot;&gt;&lt;div id=&quot;cboxLoadedContent&quot; style=&quot;width: 428px; overflow: auto; height: 252px;&quot;&gt;&lt;div id=&quot;firstrunwizard&quot;&gt;
+
+&lt;a id=&quot;closeWizard&quot; class=&quot;close&quot;&gt;
+	&lt;img class=&quot;svg&quot; src=&quot;/core/img/actions/close.svg&quot;&gt;
+&lt;/a&gt;
+&lt;h1&gt;A safe home for all your data&lt;/h1&gt;
+&lt;p&gt;Access &amp;amp; share your files, calendars, contacts, mail &amp;amp; more from any device, on your terms&lt;/p&gt;
+
+&lt;h2&gt;Get the apps to sync your files&lt;/h2&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;https://owncloud.com/desktop-app/&quot;&gt;
+	&lt;img src=&quot;/core/img/desktopapp.svg&quot; alt=&quot;Desktop client&quot;&gt;
+&lt;/a&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;https://play.google.com/store/apps/details?id=com.owncloud.android&quot;&gt;
+	&lt;img src=&quot;/core/img/googleplay.png&quot; alt=&quot;Android app&quot; style=&quot;height:60px&quot;&gt;
+&lt;/a&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;https://apps.apple.com/app/id1359583808&quot;&gt;
+	&lt;img src=&quot;/core/img/appstore.svg&quot; alt=&quot;iOS app&quot; style=&quot;height:60px&quot;&gt;
+&lt;/a&gt;
+
+&lt;h2&gt;Connect your desktop apps to ownCloud&lt;/h2&gt;
+&lt;a target=&quot;_blank&quot; class=&quot;button&quot; href=&quot;https://doc.owncloud.com/server/10.10/go.php?to=user-sync-calendars&quot;&gt;
+	&lt;img class=&quot;appsmall appsmall-calendar svg&quot; alt=&quot;&quot; src=&quot;/core/img/places/calendar-dark.svg&quot;&gt;
+	Connect your Calendar&lt;/a&gt;
+&lt;a target=&quot;_blank&quot; class=&quot;button&quot; href=&quot;https://doc.owncloud.com/server/10.10/go.php?to=user-sync-contacts&quot;&gt;
+	&lt;img class=&quot;appsmall appsmall-contacts svg&quot; alt=&quot;&quot; src=&quot;/core/img/places/contacts-dark.svg&quot;&gt;
+	Connect your Contacts&lt;/a&gt;
+&lt;a target=&quot;_blank&quot; class=&quot;button&quot; href=&quot;https://doc.owncloud.com/server/10.10/go.php?to=user-webdav&quot;&gt;
+	&lt;img class=&quot;appsmall svg&quot; alt=&quot;&quot; src=&quot;/apps/files/img/folder.svg&quot;&gt;
+	Access files via WebDAV&lt;/a&gt;
+
+&lt;p class=&quot;footnote&quot;&gt;
+&copy; 2026 &lt;a href=&quot;https://owncloud.com&quot; target=&quot;_blank&quot;&gt;ownCloud&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;!--1778360467.69ffa093b7c1d5.56189935.serialized--&gt;&lt;/div&gt;&lt;div id=&quot;cboxTitle&quot; style=&quot;float: left; display: block;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxCurrent&quot; style=&quot;float: left; display: none;&quot;&gt;&lt;/div&gt;&lt;button type=&quot;button&quot; id=&quot;cboxPrevious&quot; style=&quot;display: none;&quot;&gt;&lt;/button&gt;&lt;button type=&quot;button&quot; id=&quot;cboxNext&quot; style=&quot;display: none;&quot;&gt;&lt;/button&gt;&lt;button type=&quot;button&quot; id=&quot;cboxSlideshow&quot; style=&quot;display: none;&quot;&gt;&lt;/button&gt;&lt;div id=&quot;cboxLoadingOverlay&quot; style=&quot;float: left; display: none;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxLoadingGraphic&quot; style=&quot;float: left; display: none;&quot;&gt;&lt;/div&gt;&lt;button type=&quot;button&quot; id=&quot;cboxClose&quot;&gt;close&lt;/button&gt;&lt;/div&gt;&lt;div id=&quot;cboxMiddleRight&quot; style=&quot;float: left; height: 252px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;clear: left;&quot;&gt;&lt;div id=&quot;cboxBottomLeft&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxBottomCenter&quot; style=&quot;float: left; width: 428px;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxBottomRight&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; width: 9999px; visibility: hidden; max-width: none; display: none;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;dummy-fileactions hidden&quot;&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'notification']/DIV[2]/A[1]</td>
+							<td><a href="state78.html">state78</a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'owncloud']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'logout']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-sidebar']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'controls']/DIV[1]/DIV[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'controls']/DIV[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'headerName-container']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//SPAN[@id = 'selectedActionsList']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//SPAN[@id = 'selectedActionsList']/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//SPAN[@id = 'selectedActionsList']/A[3]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TH[@id = 'headerSize']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'modified']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TH[@id = 'headerDate']/SPAN[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'headerName-container']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TH[@id = 'headerSize']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'modified']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TH[@id = 'headerDate']/SPAN[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'headerName-container']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'modified']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'modified']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TH[@id = 'headerExpiration']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'headerName-container']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'modified']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'modified']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TH[@id = 'headerExpiration']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'headerName-container']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'modified']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'modified']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TH[@id = 'headerExpiration']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'headerName-container']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TH[@id = 'headerSize']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'modified']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'headerName-container']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//SPAN[@id = 'selectedActionsList']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//SPAN[@id = 'selectedActionsList']/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//SPAN[@id = 'selectedActionsList']/A[3]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'modified']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TH[@id = 'headerDate']/SPAN[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'closeWizard']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/A[2]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-settings-header']/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxPrevious']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxNext']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxSlideshow']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxClose']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//INPUT[@id = 'show-more']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'uploadprogresswrapper']/INPUT[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/A[2]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-settings-header']/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxPrevious']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxNext']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxSlideshow']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxClose']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>

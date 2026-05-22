@@ -1,0 +1,52 @@
+[
+  {
+    "app": "hotcrp",
+    "status": "complete",
+    "seconds": 132.2
+  },
+  {
+    "app": "addressbook",
+    "status": "complete",
+    "seconds": 205.2
+  },
+  {
+    "app": "joomla",
+    "status": "complete",
+    "seconds": 150.3
+  },
+  {
+    "app": "phpbb2",
+    "status": "complete",
+    "seconds": 122.7
+  },
+  {
+    "app": "owncloud",
+    "status": "complete",
+    "seconds": 208.0
+  },
+  {
+    "app": "scarf",
+    "status": "complete",
+    "seconds": 105.4
+  },
+  {
+    "app": "vanilla",
+    "status": "complete",
+    "seconds": 97.9
+  },
+  {
+    "app": "wackopicko",
+    "status": "complete",
+    "seconds": 201.6
+  },
+  {
+    "app": "prestashop",
+    "status": "failed",
+    "error": "Command '['kubectl', '-n', 'sotk-dep-prestashop', 'wait', '--for=condition=complete', 'job/crawljax-dep-comparison', '--timeout=45m']' returned non-zero exit status 1."
+  },
+  {
+    "app": "wordpress",
+    "status": "failed",
+    "error": "Command '['kubectl', '-n', 'sotk-dep-wordpress', 'wait', '--for=condition=complete', 'job/crawljax-dep-comparison', '--timeout=45m']' returned non-zero exit status 1."
+  }
+]

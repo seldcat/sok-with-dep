@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state136</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://web/index.php/settings/personal?sectionid=sharing'>http://web/index.php/settings/personal?sectionid=sharing</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>26</td>
+				</tr>
+				<tr>
+					<th>Nearest State</th>
+					<td>index</td>
+				</tr>
+				<tr>
+					<th>Distance to nearest State</th>
+					<td>1.0</td>
+				</tr>
+				<tr>
+					<th>Has Near Duplicate</th>
+					<td>false</td>
+				</tr>
+				<tr>
+					<th>Cluster</th>
+					<td>-1</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>-</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state136.png' /> 
+								<div rel="tooltip" data-original-title="//A[@id = 'owncloud']" class='hovers'
+				style="position: absolute; z-index: 20; left: -3px; top: -3px; width: 153px; height: 47px; border: 2px solid #00FFFF;  cursor: pointer;" onclick="location.href='state63.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 12px; top: -3px; width: 90px; height: 47px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'logout']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 87px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 131px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 175px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 219px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 263px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[9]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 396px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[10]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 440px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[11]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 484px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[12]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 528px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[13]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 572px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-navigation']/UL[1]/LI[14]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 616px; width: 244px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/A[2]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 12px; top: 14px; width: 16px; height: 12px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxPrevious']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxNext']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxSlideshow']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/A[2]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 12px; top: 14px; width: 16px; height: 12px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxPrevious']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxNext']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxSlideshow']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;html class=&quot;ng-csp&quot; data-placeholder-focus=&quot;false&quot; lang=&quot;en&quot;&gt;&lt;head data-user=&quot;jAEkPot&quot; data-user-displayname=&quot;ndhmlSzN&quot; data-requesttoken=&quot;OyMnEyVVIRkHMw0JSiEvDBw5PDoeWEVICSsLO2h8Cj4=:hDcxt1otoEjn0KMy/OoSOan+zfbH2JDGw5AtJWicE/4=&quot;&gt;
+		&lt;meta charset=&quot;utf-8&quot;&gt;
+		&lt;title&gt;
+			Settings - ownCloud		&lt;/title&gt;
+		&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+		&lt;meta name=&quot;referrer&quot; content=&quot;never&quot;&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0&quot;&gt;
+					&lt;meta name=&quot;apple-itunes-app&quot; content=&quot;app-id=1359583808&quot;&gt;
+				&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+		&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;
+		&lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;Settings&quot;&gt;
+		&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+		&lt;meta name=&quot;theme-color&quot; content=&quot;#041e42&quot;&gt;
+		&lt;link rel=&quot;icon&quot; href=&quot;/core/img/favicon.ico&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;/core/img/favicon-touch.png&quot;&gt;
+		&lt;link rel=&quot;mask-icon&quot; sizes=&quot;any&quot; href=&quot;/core/img/favicon-mask.svg&quot; color=&quot;#041e42&quot;&gt;
+		&lt;link rel=&quot;manifest&quot; href=&quot;/core/img/manifest.json&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/vendor/select2/select2.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/styles.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/inputs.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/header.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/icons.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/fonts.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/apps.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/global.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/fixes.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/multiselect.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/mobile.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/vendor/jquery-ui/themes/base/jquery-ui.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/jquery-ui-fixes.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/tooltip.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/share.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/files_versions/css/versions.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/firstrunwizard/css/colorbox.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/firstrunwizard/css/firstrunwizard.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/notifications/css/styles.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/jquery.ocdialog.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/settings/css/settings.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+									&lt;script src=&quot;/index.php/core/js/oc.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/jquery/dist/jquery.min.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/jquery-migrate/jquery-migrate.min.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/jquery-ui/ui/jquery-ui.custom.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/underscore/underscore.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/moment/min/moment-with-locales.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/handlebars/handlebars.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/blueimp-md5/js/md5.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/bootstrap/js/tooltip.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/backbone/backbone.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/es6-promise/es6-promise.auto.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/davclient.js/lib/client.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/clipboard/dist/clipboard.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/bowser/src/bowser.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/jquery.ocdialog.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-dialogs.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/js.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/l10n.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/octemplate.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/eventsource.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/config.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/search/js/search.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-requesttoken.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/apps.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/mimetype.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/mimetypelist.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/snapjs/dist/latest/snap.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/select2/select2.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-backbone.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-backbone-webdav.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/placeholder.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/jquery.avatar.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_mediaviewer/js/files_mediaviewer_init.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/shareconfigmodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharemodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharescollection.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/shareitemmodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogresharerinfoview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinklistview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinkshareview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogmailview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinksocialview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinkexpirationview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogshareelistview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/share.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/user.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/firstrunwizard/js/jquery.colorbox.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/firstrunwizard/js/firstrunwizard.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/notifications/js/app.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/notifications/js/notification.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/files/fileinfo.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/files/client.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_sharing/js/settings-personal.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/settings/js/settings.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/settings/js/personal.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files/js/jquery.fileupload.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/multiselect.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;/head&gt;
+	&lt;body id=&quot;body-settings&quot;&gt;
+		&lt;noscript&gt;
+	&lt;div id=&quot;nojavascript&quot;&gt;
+		&lt;div&gt;
+			This application requires JavaScript for correct operation. Please &lt;a href=&quot;http://enable-javascript.com/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;enable JavaScript&lt;/a&gt; and reload the page.		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/noscript&gt;
+		&lt;div id=&quot;notification-container&quot;&gt;
+			&lt;div id=&quot;notification&quot; style=&quot;display: inline-block;&quot;&gt;&lt;div class=&quot;row&quot;&gt;Failed to request notifications. Please try to refresh the page manually.&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;header role=&quot;banner&quot;&gt;
+			&lt;div id=&quot;header&quot;&gt;
+				&lt;a href=&quot;/index.php&quot; id=&quot;owncloud&quot; tabindex=&quot;1&quot;&gt;
+					&lt;h1 class=&quot;logo-icon&quot;&gt;
+						ownCloud					&lt;/h1&gt;
+				&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;header-appname-container menutoggle&quot; tabindex=&quot;2&quot;&gt;
+					&lt;button class=&quot;burger&quot;&gt;
+						Menu					&lt;/button&gt;
+					&lt;h1 class=&quot;header-appname&quot;&gt;
+						Settings					&lt;/h1&gt;
+				&lt;/a&gt;
+				&lt;div id=&quot;logo-claim&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+				&lt;div id=&quot;settings&quot;&gt;
+					&lt;div id=&quot;expand&quot; tabindex=&quot;6&quot; role=&quot;link&quot; class=&quot;menutoggle&quot;&gt;
+												&lt;div class=&quot;avatardiv&quot; style=&quot;display: none&quot;&gt;
+													&lt;/div&gt;
+												&lt;span id=&quot;expandDisplayName&quot;&gt;ndhmlSzN&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div id=&quot;expanddiv&quot; class=&quot;menu&quot;&gt;
+					&lt;ul&gt;
+											&lt;li&gt;
+							&lt;a href=&quot;/index.php/settings/personal&quot; class=&quot;active&quot;&gt;
+								&lt;img alt=&quot;&quot; src=&quot;/settings/img/admin.svg&quot;&gt;
+								Settings							&lt;/a&gt;
+						&lt;/li&gt;
+											&lt;li&gt;
+							&lt;a href=&quot;/index.php/settings/users&quot;&gt;
+								&lt;img alt=&quot;&quot; src=&quot;/settings/img/users.svg&quot;&gt;
+								Users							&lt;/a&gt;
+						&lt;/li&gt;
+											&lt;li&gt;
+							&lt;a id=&quot;logout&quot; href=&quot;http://web/index.php/logout?requesttoken=OyMnEyVVIRkHMw0JSiEvDBw5PDoeWEVICSsLO2h8Cj4%3D:hDcxt1otoEjn0KMy/OoSOan%2BzfbH2JDGw5AtJWicE/4%3D&quot;&gt;
+								&lt;img alt=&quot;&quot; src=&quot;/core/img/actions/logout.svg&quot;&gt;
+								Log out							&lt;/a&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;notifications hidden&quot;&gt;&lt;div class=&quot;notifications-button menutoggle&quot;&gt;&lt;img class=&quot;svg&quot; alt=&quot;Notifications&quot; src=&quot;/apps/notifications/img/notifications.svg&quot;&gt;&lt;/div&gt;&lt;div class=&quot;notification-container menu&quot;&gt;&lt;div class=&quot;emptycontent&quot;&gt;&lt;h2&gt;No notifications&lt;/h2&gt;&lt;/div&gt;&lt;div class=&quot;notification-wrapper&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;form class=&quot;searchbox&quot; action=&quot;#&quot; method=&quot;post&quot; role=&quot;search&quot; novalidate=&quot;&quot;&gt;
+					&lt;label for=&quot;searchbox&quot; class=&quot;hidden-visually&quot;&gt;
+						Search					&lt;/label&gt;
+					&lt;input id=&quot;searchbox&quot; type=&quot;search&quot; name=&quot;query&quot; value=&quot;&quot; required=&quot;&quot; autocomplete=&quot;off&quot; tabindex=&quot;5&quot; style=&quot;display: none;&quot;&gt;
+				&lt;/form&gt;
+			&lt;/div&gt;
+		&lt;/header&gt;
+
+		&lt;nav role=&quot;navigation&quot;&gt;
+			&lt;div id=&quot;navigation&quot; class=&quot;menu&quot; style=&quot;display: none;&quot;&gt;
+				&lt;div id=&quot;apps&quot;&gt;
+					&lt;ul&gt;
+											&lt;li data-id=&quot;files&quot;&gt;
+							&lt;a href=&quot;/index.php/apps/files/&quot; tabindex=&quot;3&quot;&gt;
+								&lt;img class=&quot;app-icon&quot; alt=&quot;&quot; src=&quot;/apps/files/img/app.svg&quot;&gt;
+								&lt;div class=&quot;icon-loading-dark&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+								&lt;span&gt;
+									Files								&lt;/span&gt;
+							&lt;/a&gt;
+						&lt;/li&gt;
+											&lt;li data-id=&quot;market&quot;&gt;
+							&lt;a href=&quot;/index.php/apps/market/&quot; tabindex=&quot;3&quot;&gt;
+								&lt;img class=&quot;app-icon&quot; alt=&quot;&quot; src=&quot;/apps/market/img/market.svg&quot;&gt;
+								&lt;div class=&quot;icon-loading-dark&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+								&lt;span&gt;
+									Market								&lt;/span&gt;
+							&lt;/a&gt;
+						&lt;/li&gt;
+										&lt;/ul&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/nav&gt;
+
+		&lt;div id=&quot;content-wrapper&quot;&gt;
+			&lt;div id=&quot;content&quot; class=&quot;app-settings&quot; role=&quot;main&quot;&gt;
+				
+&lt;div id=&quot;app-navigation&quot;&gt;
+	&lt;ul class=&quot;with-icon&quot;&gt;
+		&lt;!-- Personal Navigation Settings --&gt;
+		&lt;li class=&quot;divider&quot;&gt;Personal&lt;/li&gt;
+				&lt;li class=&quot;&quot;&gt;
+							&lt;a class=&quot;svg  icon-user&quot; href=&quot;/index.php/settings/personal?sectionid=general&quot;&gt;General&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;li class=&quot;&quot;&gt;
+							&lt;a class=&quot;svg  icon-folder&quot; href=&quot;/index.php/settings/personal?sectionid=storage&quot;&gt;Storage&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;li class=&quot; active &quot;&gt;
+							&lt;a class=&quot;svg  active  icon-shared&quot; href=&quot;/index.php/settings/personal?sectionid=sharing&quot;&gt;Sharing&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;li class=&quot;&quot;&gt;
+							&lt;a class=&quot;svg  icon-shield&quot; href=&quot;/index.php/settings/personal?sectionid=security&quot;&gt;Security&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;li class=&quot;&quot;&gt;
+							&lt;a class=&quot;svg  icon-more&quot; href=&quot;/index.php/settings/personal?sectionid=additional&quot;&gt;Additional&lt;/a&gt;
+					&lt;/li&gt;
+		
+		&lt;!-- Admin Navigation Settings --&gt;
+					&lt;li class=&quot;divider&quot;&gt;Admin&lt;/li&gt;
+							&lt;li class=&quot;&quot;&gt;
+											&lt;a class=&quot;svg  icon-list&quot; href=&quot;/index.php/settings/admin?sectionid=apps&quot;&gt;Apps&lt;/a&gt;
+									&lt;/li&gt;
+							&lt;li class=&quot;&quot;&gt;
+											&lt;a class=&quot;svg  icon-settings&quot; href=&quot;/index.php/settings/admin?sectionid=general&quot;&gt;General&lt;/a&gt;
+									&lt;/li&gt;
+							&lt;li class=&quot;&quot;&gt;
+											&lt;a class=&quot;svg  icon-folder&quot; href=&quot;/index.php/settings/admin?sectionid=storage&quot;&gt;Storage&lt;/a&gt;
+									&lt;/li&gt;
+							&lt;li class=&quot;&quot;&gt;
+											&lt;a class=&quot;svg  icon-password&quot; href=&quot;/index.php/settings/admin?sectionid=encryption&quot;&gt;Encryption&lt;/a&gt;
+									&lt;/li&gt;
+							&lt;li class=&quot;&quot;&gt;
+											&lt;a class=&quot;svg  icon-shared&quot; href=&quot;/index.php/settings/admin?sectionid=sharing&quot;&gt;Sharing&lt;/a&gt;
+									&lt;/li&gt;
+							&lt;li class=&quot;&quot;&gt;
+											&lt;a class=&quot;svg  icon-info&quot; href=&quot;/index.php/settings/admin?sectionid=help&quot;&gt;Help &amp;amp; Tips&lt;/a&gt;
+									&lt;/li&gt;
+							&lt;li class=&quot;&quot;&gt;
+											&lt;a class=&quot;svg  icon-more&quot; href=&quot;/index.php/settings/admin?sectionid=additional&quot;&gt;Additional&lt;/a&gt;
+									&lt;/li&gt;
+						&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;app-content&quot;&gt;&lt;div id=&quot;app-navigation-toggle&quot; class=&quot;icon-menu&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+	        &lt;div id=&quot;OCA\Files_Sharing\Panels\Personal\PersonalPanel&quot;&gt;
+            
+&lt;form class=&quot;section&quot; id=&quot;files_sharing_settings&quot;&gt;
+	&lt;h2 class=&quot;app-name&quot;&gt;Sharing&lt;/h2&gt;
+						&lt;input type=&quot;checkbox&quot; name=&quot;auto_accept_share&quot; id=&quot;auto_accept_share_input&quot; class=&quot;checkbox&quot; value=&quot;1&quot; checked=&quot;checked&quot;&gt;
+				&lt;label for=&quot;auto_accept_share_input&quot;&gt;
+			Automatically accept new incoming local user shares		&lt;/label&gt;&lt;br&gt;
+						&lt;input type=&quot;checkbox&quot; name=&quot;allow_share_dialog_user_enumeration&quot; id=&quot;allow_share_dialog_user_enumeration_input&quot; class=&quot;checkbox&quot; value=&quot;1&quot; checked=&quot;checked&quot;&gt;
+				&lt;label for=&quot;allow_share_dialog_user_enumeration_input&quot;&gt;
+			Allow finding you via autocomplete in share dialog. If this is disabled the full username needs to be entered.		&lt;/label&gt;&lt;br&gt;
+	&lt;/form&gt;        &lt;/div&gt;
+	        &lt;div id=&quot;OCA\FederatedFileSharing\Panels\SharingPersonalPanel&quot;&gt;
+            
+&lt;div class=&quot;section&quot; id=&quot;files_sharing_settings&quot;&gt;
+	&lt;h2 class=&quot;app-name&quot;&gt;Federated Cloud Sharing&lt;/h2&gt;
+	&lt;p&gt;Nothing to configure.&lt;/p&gt;
+&lt;/div&gt;        &lt;/div&gt;
+	&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+
+&lt;!--1778362220.69ffa76c5de0d4.04891381.serialized--&gt;&lt;div id=&quot;cboxOverlay&quot; style=&quot;display: none;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;colorbox&quot; class=&quot;&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: none;&quot;&gt;&lt;div id=&quot;cboxWrapper&quot;&gt;&lt;div&gt;&lt;div id=&quot;cboxTopLeft&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxTopCenter&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxTopRight&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;clear: left;&quot;&gt;&lt;div id=&quot;cboxMiddleLeft&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxContent&quot; style=&quot;float: left;&quot;&gt;&lt;div id=&quot;cboxTitle&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxCurrent&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;button type=&quot;button&quot; id=&quot;cboxPrevious&quot;&gt;&lt;/button&gt;&lt;button type=&quot;button&quot; id=&quot;cboxNext&quot;&gt;&lt;/button&gt;&lt;button type=&quot;button&quot; id=&quot;cboxSlideshow&quot;&gt;&lt;/button&gt;&lt;div id=&quot;cboxLoadingOverlay&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxLoadingGraphic&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;cboxMiddleRight&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;clear: left;&quot;&gt;&lt;div id=&quot;cboxBottomLeft&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxBottomCenter&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxBottomRight&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>//A[@id = 'owncloud']</td>
+							<td><a href="state63.html">state63</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'logout']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[9]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[10]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[11]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[12]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[13]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-navigation']/UL[1]/LI[14]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/A[2]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxPrevious']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxNext']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxSlideshow']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/A[2]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxPrevious']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxNext']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxSlideshow']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>

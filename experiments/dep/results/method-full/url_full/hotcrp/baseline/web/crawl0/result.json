@@ -1,0 +1,84 @@
+{
+  "states" : {
+    "index" : {
+      "name" : "index",
+      "url" : "http://web/index.php",
+      "candidateElements" : [ {
+        "top" : 829,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 1,
+      "id" : 0,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778359867856,
+      "nearestState" : "null"
+    },
+    "state2" : {
+      "name" : "state2",
+      "url" : "http://web/",
+      "candidateElements" : [ {
+        "top" : 829,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'header_site']/H1[1]/A[1]",
+        "width" : 89,
+        "height" : 16
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 2,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778359876749,
+      "nearestState" : "index"
+    }
+  },
+  "edges" : [ {
+    "from" : "index",
+    "to" : "state2",
+    "text" : "hotcrp Home",
+    "id" : "xpath //DIV[@id = 'header_site']/H1[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=hotcrp Home, attributes={class=qq, href=/}}",
+    "eventType" : "click"
+  } ],
+  "statistics" : {
+    "duration" : "10 seconds",
+    "crawlPaths" : 0,
+    "averageDomSize" : "10.078 kB",
+    "edges" : 1,
+    "startDate" : "2026-05-09 20:50:57 UTC",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "state2",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "mostFanOut" : {
+        "id" : "index",
+        "count" : 1
+      },
+      "mostFanIn" : {
+        "id" : "state2",
+        "count" : 1
+      },
+      "totalNumberOfStates" : 2,
+      "urls" : {
+        "http://web/index.php" : [ "index" ],
+        "http://web/" : [ "state2" ]
+      }
+    },
+    "failedEvents" : 0
+  },
+  "exitStatus" : "EXHAUSTED"
+}

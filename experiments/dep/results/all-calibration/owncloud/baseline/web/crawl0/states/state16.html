@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state16</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://web/index.php/settings/users'>http://web/index.php/settings/users</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>2</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>2</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>22</td>
+				</tr>
+				<tr>
+					<th>Nearest State</th>
+					<td>index</td>
+				</tr>
+				<tr>
+					<th>Distance to nearest State</th>
+					<td>1.0</td>
+				</tr>
+				<tr>
+					<th>Has Near Duplicate</th>
+					<td>false</td>
+				</tr>
+				<tr>
+					<th>Cluster</th>
+					<td>-1</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>-</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state16.png' /> 
+								<div rel="tooltip" data-original-title="//A[@id = 'owncloud']" class='hovers'
+				style="position: absolute; z-index: 20; left: -3px; top: -3px; width: 153px; height: 47px; border: 2px solid #00FFFF;  cursor: pointer;" onclick="location.href='state4.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 12px; top: -3px; width: 74px; height: 47px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid #00FFFF;  cursor: pointer;" onclick="location.href='state11.html'"></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//A[@id = 'logout']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//LI[@id = 'newgroup-init']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 42px; width: 252px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//LI[@id = 'everyonegroup']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 86px; width: 252px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//UL[@id = 'usergrouplist']/LI[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 130px; width: 252px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/A[2]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 12px; top: 14px; width: 16px; height: 12px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-settings-header']/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 297px; width: 251px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxPrevious']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxNext']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxSlideshow']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//LI[@id = 'newgroup-form']/FORM[1]/INPUT[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'newuser']/INPUT[4]" class='hovers'
+				style="position: absolute; z-index: 10; left: 472px; top: 45px; width: 65px; height: 38px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/A[2]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 12px; top: 14px; width: 16px; height: 12px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'app-settings-header']/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: 297px; width: 251px; height: 46px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxPrevious']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxNext']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//BUTTON[@id = 'cboxSlideshow']" class='hovers'
+				style="position: absolute; z-index: 10; left: -3px; top: -3px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;html class=&quot;ng-csp&quot; data-placeholder-focus=&quot;false&quot; lang=&quot;en&quot;&gt;&lt;head data-user=&quot;jAEkPot&quot; data-user-displayname=&quot;BDLozhpp&quot; data-requesttoken=&quot;AmADPjReDwgKARE/JgohAQ0RWyFDLQRXcmtmBRQoESA=:fUoYS1k0HkDyQAj0jv+Q0eJeYSW6AoijeQDLufhCH+o=&quot;&gt;
+		&lt;meta charset=&quot;utf-8&quot;&gt;
+		&lt;title&gt;
+			Users - ownCloud		&lt;/title&gt;
+		&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+		&lt;meta name=&quot;referrer&quot; content=&quot;never&quot;&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0&quot;&gt;
+					&lt;meta name=&quot;apple-itunes-app&quot; content=&quot;app-id=1359583808&quot;&gt;
+				&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+		&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;
+		&lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;Users&quot;&gt;
+		&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+		&lt;meta name=&quot;theme-color&quot; content=&quot;#041e42&quot;&gt;
+		&lt;link rel=&quot;icon&quot; href=&quot;/core/img/favicon.ico&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;/core/img/favicon-touch.png&quot;&gt;
+		&lt;link rel=&quot;mask-icon&quot; sizes=&quot;any&quot; href=&quot;/core/img/favicon-mask.svg&quot; color=&quot;#041e42&quot;&gt;
+		&lt;link rel=&quot;manifest&quot; href=&quot;/core/img/manifest.json&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/vendor/select2/select2.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/styles.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/inputs.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/header.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/icons.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/fonts.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/apps.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/global.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/fixes.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/multiselect.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/mobile.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/vendor/jquery-ui/themes/base/jquery-ui.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/jquery-ui-fixes.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/tooltip.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/share.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/files_versions/css/versions.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/firstrunwizard/css/colorbox.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/firstrunwizard/css/firstrunwizard.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/apps/notifications/css/styles.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/core/css/jquery.ocdialog.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+					&lt;link rel=&quot;stylesheet&quot; href=&quot;/settings/css/settings.css?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;
+									&lt;script src=&quot;/index.php/core/js/oc.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/jquery/dist/jquery.min.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/jquery-migrate/jquery-migrate.min.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/jquery-ui/ui/jquery-ui.custom.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/underscore/underscore.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/moment/min/moment-with-locales.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/handlebars/handlebars.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/blueimp-md5/js/md5.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/bootstrap/js/tooltip.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/backbone/backbone.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/es6-promise/es6-promise.auto.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/davclient.js/lib/client.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/clipboard/dist/clipboard.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/bowser/src/bowser.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/jquery.ocdialog.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-dialogs.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/js.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/l10n.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/octemplate.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/eventsource.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/config.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/search/js/search.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-requesttoken.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/apps.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/mimetype.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/mimetypelist.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/snapjs/dist/latest/snap.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/vendor/select2/select2.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-backbone.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/oc-backbone-webdav.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/placeholder.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/jquery.avatar.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/backgroundjobs.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/files_mediaviewer/js/files_mediaviewer_init.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/shareconfigmodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharemodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharescollection.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/shareitemmodel.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogresharerinfoview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinklistview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinkshareview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogmailview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinksocialview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialoglinkexpirationview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogshareelistview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/sharedialogview.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/share.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/user.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/firstrunwizard/js/jquery.colorbox.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/firstrunwizard/js/firstrunwizard.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/notifications/js/app.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/apps/notifications/js/notification.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/files/fileinfo.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/files/client.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/settings/js/users/deleteHandler.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/settings/js/users/filter.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/settings/js/users/users.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/settings/js/users/groups.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/multiselect.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;/core/js/singleselect.js?v=1b466ba6ea8a2687b7f1df8ff0c34493&quot;&gt;&lt;/script&gt;
+					&lt;/head&gt;
+	&lt;body id=&quot;body-settings&quot;&gt;
+		&lt;noscript&gt;
+	&lt;div id=&quot;nojavascript&quot;&gt;
+		&lt;div&gt;
+			This application requires JavaScript for correct operation. Please &lt;a href=&quot;http://enable-javascript.com/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;enable JavaScript&lt;/a&gt; and reload the page.		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/noscript&gt;
+		&lt;div id=&quot;notification-container&quot;&gt;
+			&lt;div id=&quot;notification&quot; style=&quot;display: inline-block;&quot;&gt;&lt;div class=&quot;row&quot;&gt;Failed to request notifications. Please try to refresh the page manually.&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;header role=&quot;banner&quot;&gt;
+			&lt;div id=&quot;header&quot;&gt;
+				&lt;a href=&quot;/index.php&quot; id=&quot;owncloud&quot; tabindex=&quot;1&quot;&gt;
+					&lt;h1 class=&quot;logo-icon&quot;&gt;
+						ownCloud					&lt;/h1&gt;
+				&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;header-appname-container menutoggle&quot; tabindex=&quot;2&quot;&gt;
+					&lt;button class=&quot;burger&quot;&gt;
+						Menu					&lt;/button&gt;
+					&lt;h1 class=&quot;header-appname&quot;&gt;
+						Users					&lt;/h1&gt;
+				&lt;/a&gt;
+				&lt;div id=&quot;logo-claim&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+				&lt;div id=&quot;settings&quot;&gt;
+					&lt;div id=&quot;expand&quot; tabindex=&quot;6&quot; role=&quot;link&quot; class=&quot;menutoggle&quot;&gt;
+												&lt;div class=&quot;avatardiv&quot; style=&quot;display: none&quot;&gt;
+													&lt;/div&gt;
+												&lt;span id=&quot;expandDisplayName&quot;&gt;BDLozhpp&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div id=&quot;expanddiv&quot; class=&quot;menu&quot;&gt;
+					&lt;ul&gt;
+											&lt;li&gt;
+							&lt;a href=&quot;/index.php/settings/personal&quot;&gt;
+								&lt;img alt=&quot;&quot; src=&quot;/settings/img/admin.svg&quot;&gt;
+								Settings							&lt;/a&gt;
+						&lt;/li&gt;
+											&lt;li&gt;
+							&lt;a href=&quot;/index.php/settings/users&quot; class=&quot;active&quot;&gt;
+								&lt;img alt=&quot;&quot; src=&quot;/settings/img/users.svg&quot;&gt;
+								Users							&lt;/a&gt;
+						&lt;/li&gt;
+											&lt;li&gt;
+							&lt;a id=&quot;logout&quot; href=&quot;http://web/index.php/logout?requesttoken=AmADPjReDwgKARE/JgohAQ0RWyFDLQRXcmtmBRQoESA%3D:fUoYS1k0HkDyQAj0jv%2BQ0eJeYSW6AoijeQDLufhCH%2Bo%3D&quot;&gt;
+								&lt;img alt=&quot;&quot; src=&quot;/core/img/actions/logout.svg&quot;&gt;
+								Log out							&lt;/a&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;notifications hidden&quot;&gt;&lt;div class=&quot;notifications-button menutoggle&quot;&gt;&lt;img class=&quot;svg&quot; alt=&quot;Notifications&quot; src=&quot;/apps/notifications/img/notifications.svg&quot;&gt;&lt;/div&gt;&lt;div class=&quot;notification-container menu&quot;&gt;&lt;div class=&quot;emptycontent&quot;&gt;&lt;h2&gt;No notifications&lt;/h2&gt;&lt;/div&gt;&lt;div class=&quot;notification-wrapper&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;form class=&quot;searchbox&quot; action=&quot;#&quot; method=&quot;post&quot; role=&quot;search&quot; novalidate=&quot;&quot;&gt;
+					&lt;label for=&quot;searchbox&quot; class=&quot;hidden-visually&quot;&gt;
+						Search					&lt;/label&gt;
+					&lt;input id=&quot;searchbox&quot; type=&quot;search&quot; name=&quot;query&quot; value=&quot;&quot; required=&quot;&quot; autocomplete=&quot;off&quot; tabindex=&quot;5&quot;&gt;
+				&lt;/form&gt;
+			&lt;/div&gt;
+		&lt;/header&gt;
+
+		&lt;nav role=&quot;navigation&quot;&gt;
+			&lt;div id=&quot;navigation&quot; class=&quot;menu&quot; style=&quot;display: none;&quot;&gt;
+				&lt;div id=&quot;apps&quot;&gt;
+					&lt;ul&gt;
+											&lt;li data-id=&quot;files&quot;&gt;
+							&lt;a href=&quot;/index.php/apps/files/&quot; tabindex=&quot;3&quot;&gt;
+								&lt;img class=&quot;app-icon&quot; alt=&quot;&quot; src=&quot;/apps/files/img/app.svg&quot;&gt;
+								&lt;div class=&quot;icon-loading-dark&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+								&lt;span&gt;
+									Files								&lt;/span&gt;
+							&lt;/a&gt;
+						&lt;/li&gt;
+											&lt;li data-id=&quot;market&quot;&gt;
+							&lt;a href=&quot;/index.php/apps/market/&quot; tabindex=&quot;3&quot;&gt;
+								&lt;img class=&quot;app-icon&quot; alt=&quot;&quot; src=&quot;/apps/market/img/market.svg&quot;&gt;
+								&lt;div class=&quot;icon-loading-dark&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+								&lt;span&gt;
+									Market								&lt;/span&gt;
+							&lt;/a&gt;
+						&lt;/li&gt;
+										&lt;/ul&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/nav&gt;
+
+		&lt;div id=&quot;content-wrapper&quot;&gt;
+			&lt;div id=&quot;content&quot; class=&quot;app-settings&quot; role=&quot;main&quot;&gt;
+				
+&lt;div id=&quot;app-navigation&quot;&gt;
+	&lt;ul id=&quot;usergrouplist&quot; data-sort-groups=&quot;1&quot;&gt;
+	&lt;!-- Add new group --&gt;
+		&lt;li id=&quot;newgroup-init&quot;&gt;
+		&lt;a href=&quot;#&quot;&gt;
+			&lt;span&gt;Add Group&lt;/span&gt;
+		&lt;/a&gt;
+	&lt;/li&gt;
+		&lt;li id=&quot;newgroup-form&quot; style=&quot;display: none&quot;&gt;
+		&lt;form&gt;
+			&lt;input type=&quot;text&quot; id=&quot;newgroupname&quot; placeholder=&quot;Group...&quot;&gt;
+			&lt;input type=&quot;submit&quot; class=&quot;button icon-add&quot; value=&quot;&quot;&gt;
+		&lt;/form&gt;
+	&lt;/li&gt;
+	&lt;!-- Everyone --&gt;
+	&lt;li id=&quot;everyonegroup&quot; data-gid=&quot;_everyone&quot; data-usercount=&quot;&quot; class=&quot;isgroup&quot;&gt;
+		&lt;a href=&quot;#&quot;&gt;
+			&lt;span class=&quot;groupname&quot; title=&quot;Everyone&quot;&gt;
+				Everyone			&lt;/span&gt;
+			&lt;span class=&quot;usercount tag&quot; id=&quot;everyonecount&quot;&gt;
+			&lt;/span&gt;
+		&lt;/a&gt;
+		&lt;span class=&quot;utils&quot;&gt;
+		&lt;/span&gt;
+	&lt;/li&gt;
+
+	&lt;!-- The Admin Group --&gt;
+			&lt;li data-gid=&quot;admin&quot; data-usercount=&quot;1&quot; class=&quot;isgroup&quot;&gt;
+			&lt;a href=&quot;#&quot;&gt;
+				&lt;span class=&quot;groupname&quot; title=&quot;Admins&quot;&gt;
+					Admins				&lt;/span&gt;
+				&lt;span class=&quot;usercount tag&quot;&gt;
+					1				&lt;/span&gt;
+			&lt;/a&gt;
+			&lt;span class=&quot;utils&quot;&gt;
+			&lt;/span&gt;
+		&lt;/li&gt;
+	
+	&lt;!--List of Groups--&gt;
+	&lt;/ul&gt;
+	&lt;div id=&quot;app-settings&quot;&gt;
+		&lt;div id=&quot;app-settings-header&quot;&gt;
+			&lt;button class=&quot;settings-button&quot; tabindex=&quot;0&quot; data-apps-slide-toggle=&quot;#app-settings-content&quot;&gt;Settings&lt;/button&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;app-settings-content&quot;&gt;
+			&lt;div class=&quot;quota&quot;&gt;
+	&lt;!-- Default storage --&gt;
+	&lt;span&gt;Default Quota&lt;/span&gt;
+			&lt;select id=&quot;default_quota&quot; data-inputtitle=&quot;Please enter storage quota (ex: &amp;quot;512 MB&amp;quot; or &amp;quot;12 GB&amp;quot;)&quot; data-tipsy-gravity=&quot;s&quot;&gt;
+			&lt;option selected=&quot;selected&quot; value=&quot;none&quot;&gt;
+				Unlimited			&lt;/option&gt;
+												&lt;option value=&quot;1 GB&quot;&gt;
+						1 GB					&lt;/option&gt;
+																&lt;option value=&quot;5 GB&quot;&gt;
+						5 GB					&lt;/option&gt;
+																&lt;option value=&quot;10 GB&quot;&gt;
+						10 GB					&lt;/option&gt;
+													&lt;option data-new=&quot;&quot; value=&quot;other&quot;&gt;
+				Other				...
+			&lt;/option&gt;
+		&lt;/select&gt;
+		&lt;/div&gt;
+
+			&lt;div id=&quot;userlistoptions&quot;&gt;
+				&lt;p&gt;
+					&lt;input type=&quot;checkbox&quot; name=&quot;IsEnabled&quot; value=&quot;IsEnabled&quot; id=&quot;CheckboxIsEnabled&quot; class=&quot;checkbox&quot;&gt;
+					&lt;label for=&quot;CheckboxIsEnabled&quot;&gt;
+						Show enabled/disabled option					&lt;/label&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;input type=&quot;checkbox&quot; name=&quot;StorageLocation&quot; value=&quot;StorageLocation&quot; id=&quot;CheckboxStorageLocation&quot; class=&quot;checkbox&quot;&gt;
+					&lt;label for=&quot;CheckboxStorageLocation&quot;&gt;
+						Show storage location					&lt;/label&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;input type=&quot;checkbox&quot; name=&quot;LastLogin&quot; value=&quot;LastLogin&quot; id=&quot;CheckboxLastLogin&quot; class=&quot;checkbox&quot;&gt;
+					&lt;label for=&quot;CheckboxLastLogin&quot;&gt;
+						Show last log in					&lt;/label&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;input type=&quot;checkbox&quot; name=&quot;UserBackend&quot; value=&quot;UserBackend&quot; id=&quot;CheckboxUserBackend&quot; class=&quot;checkbox&quot;&gt;
+					&lt;label for=&quot;CheckboxUserBackend&quot;&gt;
+						Show user backend					&lt;/label&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;input type=&quot;checkbox&quot; name=&quot;AddPasswordOnUserCreate&quot; value=&quot;AddPasswordOnUserCreate&quot; id=&quot;CheckBoxPasswordOnUserCreate&quot; class=&quot;checkbox&quot;&gt;
+					&lt;label for=&quot;CheckBoxPasswordOnUserCreate&quot;&gt;
+						Set password for new users					&lt;/label&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;input type=&quot;checkbox&quot; name=&quot;EmailAddress&quot; value=&quot;EmailAddress&quot; id=&quot;CheckboxEmailAddress&quot; class=&quot;checkbox&quot;&gt;
+					&lt;label for=&quot;CheckboxEmailAddress&quot;&gt;
+						Show email address					&lt;/label&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;input type=&quot;checkbox&quot; name=&quot;Password&quot; value=&quot;Password&quot; id=&quot;CheckboxPassword&quot; class=&quot;checkbox&quot; checked=&quot;checked&quot;&gt;
+					&lt;label for=&quot;CheckboxPassword&quot;&gt;
+						Show password field					&lt;/label&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;input type=&quot;checkbox&quot; name=&quot;Quota&quot; value=&quot;Quota&quot; id=&quot;CheckboxQuota&quot; class=&quot;checkbox&quot; checked=&quot;checked&quot;&gt;
+					&lt;label for=&quot;CheckboxQuota&quot;&gt;
+						Show quota field					&lt;/label&gt;
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;app-content&quot;&gt;&lt;div id=&quot;app-navigation-toggle&quot; class=&quot;icon-menu&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;controls&quot; style=&quot;width: 620px; min-width: 620px;&quot;&gt;
+	&lt;form id=&quot;newuser&quot; autocomplete=&quot;off&quot; autocapitalize=&quot;none&quot;&gt;
+		&lt;input id=&quot;newusername&quot; type=&quot;text&quot; placeholder=&quot;Username&quot; autocomplete=&quot;off&quot; autocorrect=&quot;off&quot;&gt;
+		&lt;input type=&quot;password&quot; id=&quot;newuserpassword&quot; style=&quot;display:none&quot; placeholder=&quot;Password&quot; autocomplete=&quot;new-password&quot; autocorrect=&quot;off&quot;&gt;
+		&lt;input id=&quot;newemail&quot; type=&quot;text&quot; placeholder=&quot;E-Mail&quot; autocomplete=&quot;off&quot; autocorrect=&quot;off&quot;&gt;
+		&lt;div class=&quot;groups&quot;&gt;&lt;div class=&quot;groupsListContainer multiselect button&quot; data-placeholder=&quot;Groups&quot;&gt;&lt;span class=&quot;title groupsList&quot;&gt;Groups&lt;/span&gt;&lt;span class=&quot;icon-triangle-s&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+		&lt;input type=&quot;submit&quot; class=&quot;button&quot; value=&quot;Create&quot;&gt;
+	&lt;/form&gt;
+	&lt;/div&gt;
+	&lt;table id=&quot;userlist&quot; class=&quot;hascontrols grid&quot; data-groups=&quot;[&amp;quot;admin&amp;quot;]&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+					&lt;th id=&quot;headerAvatar&quot; scope=&quot;col&quot;&gt;&lt;/th&gt;
+					&lt;th id=&quot;headerName&quot; scope=&quot;col&quot;&gt;Username&lt;/th&gt;
+			&lt;th id=&quot;headerDisplayName&quot; scope=&quot;col&quot;&gt;Full Name&lt;/th&gt;
+			&lt;th class=&quot;password&quot; id=&quot;headerPassword&quot; scope=&quot;col&quot; style=&quot;display: table-cell;&quot;&gt;Password&lt;/th&gt;
+			&lt;th class=&quot;mailAddress&quot; scope=&quot;col&quot;&gt;Email&lt;/th&gt;
+			&lt;th id=&quot;headerGroups&quot; scope=&quot;col&quot;&gt;Groups&lt;/th&gt;
+					&lt;th id=&quot;headerSubAdmins&quot; scope=&quot;col&quot;&gt;Group Admin for&lt;/th&gt;
+					&lt;th class=&quot;enabled&quot; scope=&quot;col&quot;&gt;Enabled&lt;/th&gt;
+			&lt;th class=&quot;quota&quot; id=&quot;headerQuota&quot; scope=&quot;col&quot; style=&quot;display: table-cell;&quot;&gt;Quota&lt;/th&gt;
+			&lt;th class=&quot;storageLocation&quot; scope=&quot;col&quot;&gt;Storage Location&lt;/th&gt;
+			&lt;th class=&quot;userBackend&quot; scope=&quot;col&quot;&gt;User Backend&lt;/th&gt;
+			&lt;th class=&quot;lastLogin&quot; scope=&quot;col&quot;&gt;Last Login&lt;/th&gt;
+			&lt;th id=&quot;headerResendInvitationEmail&quot;&gt;&amp;nbsp;&lt;/th&gt;
+			&lt;th id=&quot;headerRemove&quot;&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;!-- the following &lt;tr&gt; is used as a template for the JS part --&gt;
+		
+	&lt;tr style=&quot;display:none&quot;&gt;
+					&lt;td class=&quot;avatar&quot;&gt;&lt;div class=&quot;avatardiv&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+					&lt;th class=&quot;name&quot; scope=&quot;row&quot;&gt;&lt;/th&gt;
+			&lt;td class=&quot;displayName&quot;&gt;&lt;span&gt;&lt;/span&gt; &lt;img class=&quot;action&quot; src=&quot;/core/img/actions/rename.svg&quot; alt=&quot;change full name&quot; title=&quot;change full name&quot;&gt;
+			&lt;/td&gt;
+			&lt;td class=&quot;password&quot; style=&quot;display: table-cell;&quot;&gt;&lt;span&gt;●●●●●●●&lt;/span&gt; &lt;img class=&quot;action&quot; src=&quot;/core/img/actions/rename.svg&quot; alt=&quot;set new password&quot; title=&quot;set new password&quot;&gt;
+			&lt;/td&gt;
+			&lt;td class=&quot;mailAddress&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;div class=&quot;loading-small hidden&quot;&gt;&lt;/div&gt; &lt;img class=&quot;action&quot; src=&quot;/core/img/actions/rename.svg&quot; alt=&quot;change email address&quot; title=&quot;change email address&quot;&gt;
+			&lt;/td&gt;
+			&lt;td class=&quot;groups&quot;&gt;&lt;div class=&quot;groupsListContainer multiselect button&quot;&gt;&lt;span class=&quot;title groupsList&quot;&gt;&lt;/span&gt;&lt;span class=&quot;icon-triangle-s&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;/td&gt;
+					&lt;td class=&quot;subadmins&quot;&gt;&lt;div class=&quot;groupsListContainer multiselect button&quot;&gt;&lt;span class=&quot;title groupsList&quot;&gt;&lt;/span&gt;&lt;span class=&quot;icon-triangle-s&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;/td&gt;
+					&lt;td class=&quot;enabled&quot;&gt;
+				&lt;input type=&quot;checkbox&quot; class=&quot;isEnabled&quot; checked=&quot;checked&quot;&gt;
+			&lt;/td&gt;
+			&lt;td class=&quot;quota&quot; style=&quot;display: table-cell;&quot;&gt;
+				&lt;select class=&quot;quota-user&quot; data-inputtitle=&quot;Please enter storage quota (ex: &amp;quot;512 MB&amp;quot; or &amp;quot;12 GB&amp;quot;)&quot;&gt;
+					&lt;option value=&quot;default&quot;&gt;
+						Default					&lt;/option&gt;
+					&lt;option value=&quot;none&quot;&gt;
+						Unlimited					&lt;/option&gt;
+											&lt;option value=&quot;1 GB&quot;&gt;
+							1 GB						&lt;/option&gt;
+											&lt;option value=&quot;5 GB&quot;&gt;
+							5 GB						&lt;/option&gt;
+											&lt;option value=&quot;10 GB&quot;&gt;
+							10 GB						&lt;/option&gt;
+										&lt;option value=&quot;other&quot; data-new=&quot;&quot;&gt;
+						Other ...
+					&lt;/option&gt;
+				&lt;/select&gt;
+			&lt;/td&gt;
+			&lt;td class=&quot;storageLocation&quot;&gt;&lt;/td&gt;
+			&lt;td class=&quot;userBackend&quot;&gt;&lt;/td&gt;
+			&lt;td class=&quot;lastLogin&quot;&gt;&lt;/td&gt;
+			&lt;td class=&quot;resendInvitationEmail&quot;&gt;&lt;/td&gt;
+			&lt;td class=&quot;remove&quot;&gt;&lt;/td&gt;
+		&lt;/tr&gt;&lt;/tbody&gt;
+&lt;/table&gt;&lt;div class=&quot;loading&quot; style=&quot;height: 200px; visibility: visible;&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+
+&lt;!--1778101308.69fbac3c24f3d7.61546750.serialized--&gt;&lt;div id=&quot;cboxOverlay&quot; style=&quot;display: none;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;colorbox&quot; class=&quot;&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: none;&quot;&gt;&lt;div id=&quot;cboxWrapper&quot;&gt;&lt;div&gt;&lt;div id=&quot;cboxTopLeft&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxTopCenter&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxTopRight&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;clear: left;&quot;&gt;&lt;div id=&quot;cboxMiddleLeft&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxContent&quot; style=&quot;float: left;&quot;&gt;&lt;div id=&quot;cboxTitle&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxCurrent&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;button type=&quot;button&quot; id=&quot;cboxPrevious&quot;&gt;&lt;/button&gt;&lt;button type=&quot;button&quot; id=&quot;cboxNext&quot;&gt;&lt;/button&gt;&lt;button type=&quot;button&quot; id=&quot;cboxSlideshow&quot;&gt;&lt;/button&gt;&lt;div id=&quot;cboxLoadingOverlay&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxLoadingGraphic&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;cboxMiddleRight&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;clear: left;&quot;&gt;&lt;div id=&quot;cboxBottomLeft&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxBottomCenter&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;div id=&quot;cboxBottomRight&quot; style=&quot;float: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;input title=&quot;Please enter storage quota (ex: &amp;quot;512 MB&amp;quot; or &amp;quot;12 GB&amp;quot;)&quot; style=&quot;position: absolute; box-sizing: border-box; margin: 1px 0px 0px 1px; width: 94px; height: 30px; border: none; box-shadow: none; z-index: 1000; display: none;&quot;&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>//A[@id = 'owncloud']</td>
+							<td><a href="state4.html">state4</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]</td>
+							<td><a href="state11.html">state11</a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//A[@id = 'logout']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//LI[@id = 'newgroup-init']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//LI[@id = 'everyonegroup']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//UL[@id = 'usergrouplist']/LI[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/A[2]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-settings-header']/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxPrevious']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxNext']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxSlideshow']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//LI[@id = 'newgroup-form']/FORM[1]/INPUT[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'newuser']/INPUT[4]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/A[2]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'app-settings-header']/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxPrevious']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxNext']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//BUTTON[@id = 'cboxSlideshow']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>

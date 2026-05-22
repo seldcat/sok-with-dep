@@ -1,0 +1,62 @@
+url,method,req_headers,req_hash,resp_headers,resp_hash,status
+http://web/index.php,GET,"Accept:*/*
+User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+",cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e,"Server:Apache/2.4.25 (Debian)
+Date:Mon, 11 May 2026 22:48:20 GMT
+Content-Encoding:gzip
+Vary:Accept-Encoding
+Content-Length:373
+X-Powered-By:PHP/5.6.40
+Content-Type:text/html; charset=utf-8
+",50d87c17d9f81601fe673b0ad14914b280f5eb9bc11dfc0a41e44910ef4754f5e8059891079bf649c2ceaec844be68560d6d91da1e37d4783a550a070392de1a,200
+http://web/applications/dashboard/design/error.css,GET,"Accept:text/css,*/*;q=0.1
+User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+Referer:http://web/index.php
+",cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e,"Keep-Alive:timeout=5, max=99
+Server:Apache/2.4.25 (Debian)
+Connection:Keep-Alive
+Last-Modified:Wed, 06 May 2026 13:38:56 GMT
+Date:Mon, 11 May 2026 22:48:21 GMT
+Accept-Ranges:bytes
+ETag:""67f-651264905fc00-gzip""
+Content-Encoding:gzip
+Vary:Accept-Encoding
+Content-Length:793
+Content-Type:text/css
+",f5d59f0554fbaff5ad630dc37e730a70d31a16497822f9f09a9e170a8ebdf1cc2fef39d564ba52e8396bf9f6a3e43c6ef01534f18a9294b5d8db7493c6248653,200
+http://web/index.php,GET,"Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+Upgrade-Insecure-Requests:1
+",cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e,"Keep-Alive:timeout=5, max=100
+Server:Apache/2.4.25 (Debian)
+Connection:Keep-Alive
+Date:Mon, 11 May 2026 22:48:20 GMT
+Content-Encoding:gzip
+Vary:Accept-Encoding
+Content-Length:373
+X-Powered-By:PHP/5.6.40
+Content-Type:text/html; charset=utf-8
+",50d87c17d9f81601fe673b0ad14914b280f5eb9bc11dfc0a41e44910ef4754f5e8059891079bf649c2ceaec844be68560d6d91da1e37d4783a550a070392de1a,200
+http://web/applications/dashboard/design/images/slicesplash.jpg,GET,"Accept:image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+Referer:http://web/applications/dashboard/design/error.css
+",cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e,"Keep-Alive:timeout=5, max=98
+Server:Apache/2.4.25 (Debian)
+Connection:Keep-Alive
+Last-Modified:Wed, 06 May 2026 13:38:56 GMT
+Date:Mon, 11 May 2026 22:48:21 GMT
+Accept-Ranges:bytes
+ETag:""28cc-651264905fc00""
+Content-Length:10444
+Content-Type:image/jpeg
+",feadd1f300bf70b5158f73ae3fd9f52a9edc3bb34e69f88eb4387c6699287b3a9a41b35b3656ea4d4986fb87d51870f93c545266dda73ee39693f61f466e21fb,200
+http://web/favicon.ico,GET,"Accept:image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+Referer:http://web/index.php
+",cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e,"Keep-Alive:timeout=5, max=97
+Server:Apache/2.4.25 (Debian)
+Connection:Keep-Alive
+Date:Mon, 11 May 2026 22:48:21 GMT
+Content-Length:278
+Content-Type:text/html; charset=iso-8859-1
+",72260bade3915ee634888fb892a16f6664754df42b0dc039dc8eaf732e9582ffc7ce5d82b653b572a163810fd391f4e7eb068300e652f4d174b09935d8e168a3,404

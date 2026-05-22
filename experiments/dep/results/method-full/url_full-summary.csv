@@ -1,0 +1,17 @@
+run,crawl_dir,states,edges,states_with_dep,unique_dep,exit_status
+baseline,experiments/dep/results/method-full/url_full/addressbook/baseline/web/crawl0,9,16,6,19,EXHAUSTED
+baseline,experiments/dep/results/method-full/url_full/hotcrp/baseline/web/crawl0,2,1,0,0,EXHAUSTED
+baseline,experiments/dep/results/method-full/url_full/joomla/baseline/web/crawl0,3,3,3,13,EXHAUSTED
+baseline,experiments/dep/results/method-full/url_full/owncloud/baseline/web/crawl0,14,85,14,57,MAX_TIME
+baseline,experiments/dep/results/method-full/url_full/phpbb2/baseline/web/crawl0,1,0,0,0,EXHAUSTED
+baseline,experiments/dep/results/method-full/url_full/scarf/baseline/web/crawl0,1,0,0,0,EXHAUSTED
+baseline,experiments/dep/results/method-full/url_full/vanilla/baseline/web/crawl0,1,0,0,0,EXHAUSTED
+baseline,experiments/dep/results/method-full/url_full/wackopicko/baseline/web/crawl0,16,119,14,27,MAX_TIME
+dep,experiments/dep/results/method-full/url_full/addressbook/dep/web/crawl0,43,107,37,127,MAX_TIME
+dep,experiments/dep/results/method-full/url_full/hotcrp/dep/web/crawl0,2,1,0,0,EXHAUSTED
+dep,experiments/dep/results/method-full/url_full/joomla/dep/web/crawl0,52,30,52,53,MAX_TIME
+dep,experiments/dep/results/method-full/url_full/owncloud/dep/web/crawl0,8,41,8,57,MAX_TIME
+dep,experiments/dep/results/method-full/url_full/phpbb2/dep/web/crawl0,1,0,0,0,EXHAUSTED
+dep,experiments/dep/results/method-full/url_full/scarf/dep/web/crawl0,1,0,0,0,EXHAUSTED
+dep,experiments/dep/results/method-full/url_full/vanilla/dep/web/crawl0,1,0,0,0,EXHAUSTED
+dep,experiments/dep/results/method-full/url_full/wackopicko/dep/web/crawl0,16,119,14,27,MAX_TIME

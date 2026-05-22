@@ -1,0 +1,520 @@
+{
+  "url" : "http://web/index.php",
+  "basicAuthUrl" : null,
+  "browserConfig" : {
+    "browserType" : "CHROME",
+    "numberOfBrowsers" : 1,
+    "browserBuilder" : { },
+    "remoteHubUrl" : null,
+    "browserOptions" : {
+      "headless" : false,
+      "pixelDensity" : -1
+    },
+    "defaultBuilder" : true,
+    "langOrNull" : null
+  },
+  "plugins" : [ "CrawlOverview" ],
+  "proxyConfiguration" : {
+    "port" : -1,
+    "hostname" : "none",
+    "type" : "NOTHING"
+  },
+  "crawlRules" : {
+    "crawlEvents" : [ "click" ],
+    "invariants" : [ ],
+    "oracleComparators" : [ {
+      "preConditions" : [ ],
+      "id" : "SimpleComparator",
+      "oracle" : { }
+    } ],
+    "ignoredFrameIdentifiers" : [ ],
+    "preCrawlConfig" : {
+      "waitConditions" : [ ],
+      "crawlConditions" : [ ],
+      "includedElements" : [ {
+        "tagName" : "A",
+        "id" : "id1004095028",
+        "eventType" : "click",
+        "eventableCondition" : null,
+        "withXpathExpression" : null
+      }, {
+        "tagName" : "BUTTON",
+        "id" : "id1487470647",
+        "eventType" : "click",
+        "eventableCondition" : null,
+        "withXpathExpression" : null
+      }, {
+        "tagName" : "INPUT",
+        "id" : "id1948863195",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1948863195",
+          "conditions" : [ ],
+          "inXPath" : "//INPUT[@type='submit']",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "//INPUT[@type='submit']"
+      }, {
+        "tagName" : "INPUT",
+        "id" : "id1890187342",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1890187342",
+          "conditions" : [ ],
+          "inXPath" : "//INPUT[@type='button']",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "//INPUT[@type='button']"
+      } ],
+      "excludedElements" : [ ],
+      "filterAttributeNames" : [ "closure_hashcode_(\\w)*", "jquery[0-9]+" ]
+    },
+    "formFillMode" : "RANDOM",
+    "inputSpecification" : {
+      "formInputs" : {
+        "name adminname" : {
+          "type" : "TEXT",
+          "identification" : {
+            "how" : "name",
+            "value" : "adminname",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        },
+        "name password" : {
+          "type" : "PASSWORD",
+          "identification" : {
+            "how" : "name",
+            "value" : "password",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }
+      },
+      "forms" : [ {
+        "formInputs" : [ {
+          "type" : "TEXT",
+          "identification" : {
+            "how" : "name",
+            "value" : "adminname",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "PASSWORD",
+          "identification" : {
+            "how" : "name",
+            "value" : "password",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        } ]
+      } ],
+      "crawlElements" : [ {
+        "tagName" : "INPUT",
+        "id" : "id520022247",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id520022247",
+          "conditions" : [ ],
+          "inXPath" : "//INPUT[@value='submit']",
+          "linkedInputFields" : [ {
+            "type" : "TEXT",
+            "identification" : {
+              "how" : "name",
+              "value" : "adminname",
+              "webDriverBy" : {
+                "remoteParameters" : { }
+              }
+            },
+            "inputValues" : [ {
+              "value" : "admin",
+              "checked" : true
+            } ],
+            "eventable" : null
+          }, {
+            "type" : "PASSWORD",
+            "identification" : {
+              "how" : "name",
+              "value" : "password",
+              "webDriverBy" : {
+                "remoteParameters" : { }
+              }
+            },
+            "inputValues" : [ {
+              "value" : "admin",
+              "checked" : true
+            } ],
+            "eventable" : null
+          }, {
+            "type" : "TEXT",
+            "identification" : {
+              "how" : "name",
+              "value" : "adminname",
+              "webDriverBy" : {
+                "remoteParameters" : { }
+              }
+            },
+            "inputValues" : [ {
+              "value" : "admin",
+              "checked" : true
+            } ],
+            "eventable" : null
+          }, {
+            "type" : "PASSWORD",
+            "identification" : {
+              "how" : "name",
+              "value" : "password",
+              "webDriverBy" : {
+                "remoteParameters" : { }
+              }
+            },
+            "inputValues" : [ {
+              "value" : "admin",
+              "checked" : true
+            } ],
+            "eventable" : null
+          }, {
+            "type" : "TEXT",
+            "identification" : {
+              "how" : "name",
+              "value" : "adminname",
+              "webDriverBy" : {
+                "remoteParameters" : { }
+              }
+            },
+            "inputValues" : [ {
+              "value" : "admin",
+              "checked" : true
+            } ],
+            "eventable" : null
+          }, {
+            "type" : "PASSWORD",
+            "identification" : {
+              "how" : "name",
+              "value" : "password",
+              "webDriverBy" : {
+                "remoteParameters" : { }
+              }
+            },
+            "inputValues" : [ {
+              "value" : "admin",
+              "checked" : true
+            } ],
+            "eventable" : null
+          }, {
+            "type" : "TEXT",
+            "identification" : {
+              "how" : "name",
+              "value" : "adminname",
+              "webDriverBy" : {
+                "remoteParameters" : { }
+              }
+            },
+            "inputValues" : [ {
+              "value" : "admin",
+              "checked" : true
+            } ],
+            "eventable" : null
+          }, {
+            "type" : "PASSWORD",
+            "identification" : {
+              "how" : "name",
+              "value" : "password",
+              "webDriverBy" : {
+                "remoteParameters" : { }
+              }
+            },
+            "inputValues" : [ {
+              "value" : "admin",
+              "checked" : true
+            } ],
+            "eventable" : null
+          }, {
+            "type" : "TEXT",
+            "identification" : {
+              "how" : "name",
+              "value" : "adminname",
+              "webDriverBy" : {
+                "remoteParameters" : { }
+              }
+            },
+            "inputValues" : [ {
+              "value" : "admin",
+              "checked" : true
+            } ],
+            "eventable" : null
+          }, {
+            "type" : "PASSWORD",
+            "identification" : {
+              "how" : "name",
+              "value" : "password",
+              "webDriverBy" : {
+                "remoteParameters" : { }
+              }
+            },
+            "inputValues" : [ {
+              "value" : "admin",
+              "checked" : true
+            } ],
+            "eventable" : null
+          } ]
+        },
+        "withXpathExpression" : "//INPUT[@value='submit']"
+      } ]
+    },
+    "testInvariantsWhileCrawling" : true,
+    "clickOnce" : false,
+    "randomizeCandidateElements" : false,
+    "crawlHiddenAnchors" : true,
+    "waitAfterReloadUrl" : 500,
+    "waitAfterEvent" : 500,
+    "crawlPriorityMode" : "OLDEST_FIRST",
+    "crawlNearDuplicates" : true,
+    "delayNearDuplicateCrawling" : true,
+    "allCrawlElements" : [ {
+      "tagName" : "A",
+      "id" : "id1004095028",
+      "eventType" : "click",
+      "eventableCondition" : null,
+      "withXpathExpression" : null
+    }, {
+      "tagName" : "BUTTON",
+      "id" : "id1487470647",
+      "eventType" : "click",
+      "eventableCondition" : null,
+      "withXpathExpression" : null
+    }, {
+      "tagName" : "INPUT",
+      "id" : "id1948863195",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1948863195",
+        "conditions" : [ ],
+        "inXPath" : "//INPUT[@type='submit']",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "//INPUT[@type='submit']"
+    }, {
+      "tagName" : "INPUT",
+      "id" : "id1890187342",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1890187342",
+        "conditions" : [ ],
+        "inXPath" : "//INPUT[@type='button']",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "//INPUT[@type='button']"
+    }, {
+      "tagName" : "INPUT",
+      "id" : "id520022247",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id520022247",
+        "conditions" : [ ],
+        "inXPath" : "//INPUT[@value='submit']",
+        "linkedInputFields" : [ {
+          "type" : "TEXT",
+          "identification" : {
+            "how" : "name",
+            "value" : "adminname",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "PASSWORD",
+          "identification" : {
+            "how" : "name",
+            "value" : "password",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "TEXT",
+          "identification" : {
+            "how" : "name",
+            "value" : "adminname",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "PASSWORD",
+          "identification" : {
+            "how" : "name",
+            "value" : "password",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "TEXT",
+          "identification" : {
+            "how" : "name",
+            "value" : "adminname",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "PASSWORD",
+          "identification" : {
+            "how" : "name",
+            "value" : "password",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "TEXT",
+          "identification" : {
+            "how" : "name",
+            "value" : "adminname",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "PASSWORD",
+          "identification" : {
+            "how" : "name",
+            "value" : "password",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "TEXT",
+          "identification" : {
+            "how" : "name",
+            "value" : "adminname",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "PASSWORD",
+          "identification" : {
+            "how" : "name",
+            "value" : "password",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "TEXT",
+          "identification" : {
+            "how" : "name",
+            "value" : "adminname",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        }, {
+          "type" : "PASSWORD",
+          "identification" : {
+            "how" : "name",
+            "value" : "password",
+            "webDriverBy" : {
+              "remoteParameters" : { }
+            }
+          },
+          "inputValues" : [ {
+            "value" : "admin",
+            "checked" : true
+          } ],
+          "eventable" : null
+        } ]
+      },
+      "withXpathExpression" : "//INPUT[@value='submit']"
+    } ]
+  },
+  "maximumStates" : 0,
+  "maximumRuntime" : 300000,
+  "maximumDepth" : 0,
+  "stateVertexFactory" : { },
+  "siteDir" : "/opt/crawljax/out/web",
+  "outputDir" : "/opt/crawljax/out/web/crawl0"
+}

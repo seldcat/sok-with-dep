@@ -1,0 +1,135 @@
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="google" content="notranslate">
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css?mtime=1778089704">
+<link rel="icon" type="image/png" href="images/review24.png">
+<title>Assignments - Automatic - hotcrp</title>
+<style></style></head>
+<body id="autoassign">
+<div id="prebody"><div id="header"><div id="header_site" class="header_site_page"><h1><a class="qq" href="/"><span class="header-site-name">hotcrp</span> Home</a></h1></div><div id="header_right"><a class="q" href="profile.php"><strong>jaekpot@localhost.com</strong></a> &nbsp; <a href="profile.php">Profile</a> <span class="barsep">·</span> <a href="help.php">Help</a> <span class="barsep">·</span> <a href="/?signout=1&amp;post=1b0e5dbd3758" class="nw">Sign out</a><div id="maindeadline" class="hidden"></div></div><div id="header_page"><h1>Assignments &nbsp;∕&nbsp; <strong>Automatic</strong></h1></div><table class="vbar"><tbody><tr><td class="vbar gopaper"><form method="get" action="paper.php" accept-charset="UTF-8" class="gopaper"><input type="text" name="p" value="" id="quicksearchq" size="10" placeholder="(All)" class="papersearch" autocomplete="off">&nbsp; <input type="submit" class="btn" value="Search"></form></td></tr></tbody></table>  <hr class="c"></div>
+<div id="initialmsgs">
+</div>
+</div>
+<div id="body" class="body">
+<div class="psmode"><div class="papmodex"><a href="autoassign.php">Automatic</a></div><div class="papmode"><a href="manualassign.php">Manual</a></div><div class="papmode"><a href="conflictassign.php">Conflicts</a></div><div class="papmode"><a href="bulkassign.php">Bulk update</a></div></div><hr class="c"><form method="post" action="autoassign.php?post=1b0e5dbd3758" enctype="multipart/form-data" accept-charset="UTF-8" id="autoassignform" class="alert"><div class="helpside"><div class="helpinside">
+Assignment methods:
+<ul><li><a href="autoassign.php" class="q"><strong>Automatic</strong></a></li>
+ <li><a href="manualassign.php">Manual by PC member</a></li>
+ <li><a href="assign.php">Manual by paper</a></li>
+ <li><a href="conflictassign.php">Potential conflicts</a></li>
+ <li><a href="bulkassign.php">Bulk update</a></li>
+</ul>
+<hr class="hr">
+Types of PC review:
+<dl><dt><span class="rto rt4" title="Primary review"><span class="rti">1</span></span> Primary</dt><dd>Mandatory review</dd>
+  <dt><span class="rto rt3" title="Secondary review"><span class="rti">2</span></span> Secondary</dt><dd>May be delegated to external reviewers</dd>
+  <dt><span class="rto rt2" title="PC review"><span class="rti">P</span></span> Optional</dt><dd>May be declined</dd>
+  <dt><span class="rto rt5" title="Metareview"><span class="rti">M</span></span> Metareview</dt><dd>Can view all other reviews before completing their own</dd></dl>
+</div></div>
+<!--[if lt IE 9]><script src="scripts/jquery-1.12.4.min.js?mtime=1778089704"></script><![endif]-->
+<!--[if !IE|gte IE 9]--><script src="scripts/jquery-3.3.1.min.js?mtime=1778089704"></script><!--[endif]-->
+<script>siteurl="";siteurl_suffix=".php";siteurl_postvalue="1b0e5dbd3758";siteurl_cookie_params="";assetsurl="";hotcrp_user={"email":"jaekpot@localhost.com","is_pclike":true,"cid":1};</script><script src="scripts/script.js?mtime=1778089704"></script>
+<script>hotcrp_load.time(240,0);hotcrp_deadlines.init({"now":1778371108,"email":"jaekpot@localhost.com","is_admin":true,"sub":{"open":false,"sub":0,"blind":true},"rev":{"blind":true},"revs":{"unnamed":{},"R1":{},"R2":{},"R3":{}}});hiliter_children("#autoassignform")</script><div><h3>Paper selection</h3><input type="text" name="q" value="" id="autoassignq" placeholder="(All)" size="40" title="Enter paper numbers or search terms" class="papersearch js-autosubmit" data-autosubmit-type="requery" autocomplete="off"> &nbsp;in &nbsp;<select name="t" data-default-value="s"><option value="s" selected="selected">Submitted papers</option><option value="acc">Accepted papers</option><option value="und">Undecided papers</option><option value="all">All papers</option></select> &nbsp; <input type="submit" id="requery" class="btn" name="requery" value="List"></div>
+<div><div><h3>Action</h3></div><table><tbody><tr class="js-radio-focus"><td class="nw"><input type="radio" name="a" value="rev" checked="checked" id="a_rev">&nbsp;</td><td><label for="a_rev">Ensure each selected paper has <i>at least</i></label>&nbsp; <input type="text" name="revct" value="1" size="3" class="js-autosubmit">&nbsp; <select name="revtype" data-default-value="4"><option value="4" selected="selected">primary</option><option value="3">secondary</option><option value="2">optional</option><option value="5">metareview</option></select>&nbsp; review(s)</td></tr>
+<tr class="js-radio-focus"><td class="nw"><input type="radio" name="a" value="revadd" id="a_revadd">&nbsp;</td><td><label for="a_revadd">Assign</label>&nbsp; <input type="text" name="revaddct" value="1" size="3" class="js-autosubmit">&nbsp; <i>additional</i>&nbsp; <select name="revaddtype" data-default-value="4"><option value="4" selected="selected">primary</option><option value="3">secondary</option><option value="2">optional</option><option value="5">metareview</option></select>&nbsp; review(s) per selected paper</td></tr>
+<tr class="js-radio-focus"><td class="nw"><input type="radio" name="a" value="revpc" id="a_revpc">&nbsp;</td><td><label for="a_revpc">Assign each PC member</label>&nbsp; <input type="text" name="revpcct" value="1" size="3" class="js-autosubmit">&nbsp; additional&nbsp; <select name="revpctype" data-default-value="4"><option value="4" selected="selected">primary</option><option value="3">secondary</option><option value="2">optional</option><option value="5">metareview</option></select>&nbsp; review(s) from this paper selection</td></tr>
+<tr><td></td><td style="font-size:smaller">Review round: &nbsp;<select name="rev_round" data-default-value="unnamed"><option value="unnamed" selected="selected">unnamed</option><option value="R1">R1</option><option value="R2">R2</option><option value="R3">R3</option></select></td></tr>
+<tr><td colspan="2" class="mg"></td></tr><tr class="js-radio-focus"><td class="nw"><input type="radio" name="a" value="prefconflict" id="a_prefconflict">&nbsp;</td><td><label for="a_prefconflict">Assign conflicts when PC members have review preferences of −100 or less</label></td></tr>
+<tr class="js-radio-focus"><td class="nw"><input type="radio" name="a" value="lead" id="a_lead">&nbsp;</td><td><label for="a_lead">Assign discussion lead from reviewers, preferring&nbsp; </label><select name="leadscore" data-default-value="+overAllMerit"><option value="+overAllMerit" selected="selected">high Overall merit scores</option><option value="-overAllMerit">low Overall merit scores</option><option value="+reviewerQualification">high Reviewer expertise scores</option><option value="-reviewerQualification">low Reviewer expertise scores</option><option label=" " disabled="disabled"></option><option value="x">random submitted reviews</option><option value="xa">random reviews</option></select></td></tr>
+<tr class="js-radio-focus"><td class="nw"><input type="radio" name="a" value="shepherd" id="a_shepherd">&nbsp;</td><td><label for="a_shepherd">Assign shepherd from reviewers, preferring&nbsp; </label><select name="shepherdscore" data-default-value="+overAllMerit"><option value="+overAllMerit" selected="selected">high Overall merit scores</option><option value="-overAllMerit">low Overall merit scores</option><option value="+reviewerQualification">high Reviewer expertise scores</option><option value="-reviewerQualification">low Reviewer expertise scores</option><option label=" " disabled="disabled"></option><option value="x">random submitted reviews</option><option value="xa">random reviews</option></select></td></tr>
+<tr><td colspan="2" class="mg"></td></tr><tr class="js-radio-focus"><td class="nw"><input type="radio" name="a" value="clear" id="a_clear">&nbsp;</td><td><label for="a_clear">Clear all &nbsp;</label><select name="cleartype" data-default-value="4"><option value="4" selected="selected">primary</option><option value="3">secondary</option><option value="2">optional</option><option value="5">metareview</option><option value="conflict">conflict</option><option value="lead">discussion lead</option><option value="shepherd">shepherd</option></select> &nbsp;assignments for selected papers and PC members</td></tr>
+<tr><td colspan="2" class="mg"></td></tr><tr class="js-radio-focus"><td class="nw"><input type="radio" name="a" value="discorder" id="a_discorder">&nbsp;</td><td><label for="a_discorder">Create discussion order in tag #</label><input type="text" name="discordertag" value="discuss" size="12" class="js-autosubmit">, grouping papers with similar PC conflicts</td></tr></tbody></table>
+<h3>PC members</h3>
+<table>
+<tbody><tr class="js-radio-focus"><td class="nw"><input type="radio" name="pctyp" value="all" checked="checked" id="pctyp_all">&nbsp;</td><td><label for="pctyp_all">Use entire PC</label></td></tr>
+<tr class="js-radio-focus"><td class="nw"><input type="radio" name="pctyp" value="sel" id="pctyp_sel">&nbsp;</td><td><label for="pctyp_sel">Use selected PC members:</label> &nbsp; (select <a class="ui js-pcsel-tag" href="#pc_all" style="font-weight: bold;">all</a>, <a class="ui js-pcsel-tag" href="#pc_none" style="font-weight: inherit;">none</a>, <a class="ui js-pcsel-tag" href="#pc_blue" style="font-weight: inherit;">#blue</a>, <a class="ui js-pcsel-tag" href="#pc_IDdOjFUu" style="font-weight: inherit;">#IDdOjFUu</a>, <a class="ui js-pcsel-tag" href="#pc_red" style="font-weight: inherit;">#red</a>, <a class="ui js-pcsel-tag" href="#pc___flip__" style="font-weight: inherit;">flip</a>)<div class="pc_ctable" style="margin-top:0.5em"><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="2" checked="checked" id="pcc2" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Christian Huitema</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Ahuitema%40bellcore.com">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki redtag tagbg"><span class="checkc"><input type="checkbox" name="pcs[]" value="3" checked="checked" id="pcc3" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Christophe Diot</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Achristophe.diot%40sophia.inria.fr">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki redtag tagbg"><span class="checkc"><input type="checkbox" name="pcs[]" value="4" checked="checked" id="pcc4" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Deborah Estrin</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Aestrin%40usc.edu">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki redtag tagbg"><span class="checkc"><input type="checkbox" name="pcs[]" value="6" checked="checked" id="pcc6" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">George Varghese</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Avarghese%40ccrc.wustl.edu">4 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="1" checked="checked" id="pcc1" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">iEEUjUiM hnbBAjnV</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Ajaekpot%40localhost.com">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki redtag tagbg"><span class="checkc"><input type="checkbox" name="pcs[]" value="7" checked="checked" id="pcc7" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">J. J. Garcia-Luna-Aceves</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Ajj%40cse.ucsc.edu">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki redtag tagbg"><span class="checkc"><input type="checkbox" name="pcs[]" value="8" checked="checked" id="pcc8" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Jon Crowcroft</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Ajon%40cs.ucl.ac.uk">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="9" checked="checked" id="pcc9" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Lixia Zhang</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Alixia%40cs.ucla.edu">4 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="10" checked="checked" id="pcc10" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Marina Tsvetaeva</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Amarina%40poema.ru">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="11" checked="checked" id="pcc11" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Mark Handley</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Amjh%40isi.edu">4 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="12" checked="checked" id="pcc12" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Mary Baker</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Amgbaker%40cs.stanford.edu">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki bluetag tagbg"><span class="checkc"><input type="checkbox" name="pcs[]" value="13" checked="checked" id="pcc13" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Paul Francis</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Apfrancis%40ntt.jp">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="14" checked="checked" id="pcc14" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Peter Danzig</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Apeter.danzig%40usc.edu">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="15" checked="checked" id="pcc15" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Peter Druschel</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Apdruschel%40cs.rice.edu">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="16" checked="checked" id="pcc16" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Roch Guerin</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Arguerin%40ibm.com">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki bluetag redtag tagbg"><span class="checkc"><input type="checkbox" name="pcs[]" value="17" checked="checked" id="pcc17" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Sally Floyd</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Afloyd%40ee.lbl.gov">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="18" checked="checked" id="pcc18" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Scott Shenker</span><span class="pcrevsum"><a class="qq" href="search.php?q=re%3Ashenker%40parc.xerox.com">3 reviews</a></span></label></div><div class="ctelt"><label class="ctelti checki"><span class="checkc"><input type="checkbox" name="pcs[]" value="20" checked="checked" id="pcc20" class="uix js-range-click js-pcsel-tag">&nbsp;</span><span class="taghl">Wilma Ojuelegba</span><span class="pcrevsum">0 reviews</span></label></div></div>
+</td></tr></tbody></table>
+<div class="g"></div><div class="relative"><table id="bptable"><tbody>
+    <tr><td class="rentry nw"><input type="checkbox" name="badpairs" value="1" id="badpairs">&nbsp;<label for="badpairs">Don’t assign</label> &nbsp;</td><td class="lentry"><select name="bpa1" class="badpairs" data-pcselector-options="[&quot;(PC member)&quot;,&quot;*&quot;]" data-default-value=""><option value="none">(PC member)</option><option value="huitema@bellcore.com">Christian Huitema</option><option value="christophe.diot@sophia.inria.fr">Christophe Diot</option><option value="estrin@usc.edu">Deborah Estrin</option><option value="varghese@ccrc.wustl.edu">George Varghese</option><option value="jaekpot@localhost.com">iEEUjUiM hnbBAjnV</option><option value="jj@cse.ucsc.edu">J. J. Garcia-Luna-Aceves</option><option value="jon@cs.ucl.ac.uk">Jon Crowcroft</option><option value="lixia@cs.ucla.edu">Lixia Zhang</option><option value="marina@poema.ru">Marina Tsvetaeva</option><option value="mjh@isi.edu">Mark Handley</option><option value="mgbaker@cs.stanford.edu">Mary Baker</option><option value="pfrancis@ntt.jp">Paul Francis</option><option value="peter.danzig@usc.edu">Peter Danzig</option><option value="pdruschel@cs.rice.edu">Peter Druschel</option><option value="rguerin@ibm.com">Roch Guerin</option><option value="floyd@ee.lbl.gov">Sally Floyd</option><option value="shenker@parc.xerox.com">Scott Shenker</option><option value="ojuelegba@gmail.com">Wilma Ojuelegba</option></select> &nbsp;and&nbsp; <select name="bpb1" class="badpairs" data-pcselector-options="[&quot;(PC member)&quot;,&quot;*&quot;]" data-default-value=""><option value="none">(PC member)</option><option value="huitema@bellcore.com">Christian Huitema</option><option value="christophe.diot@sophia.inria.fr">Christophe Diot</option><option value="estrin@usc.edu">Deborah Estrin</option><option value="varghese@ccrc.wustl.edu">George Varghese</option><option value="jaekpot@localhost.com">iEEUjUiM hnbBAjnV</option><option value="jj@cse.ucsc.edu">J. J. Garcia-Luna-Aceves</option><option value="jon@cs.ucl.ac.uk">Jon Crowcroft</option><option value="lixia@cs.ucla.edu">Lixia Zhang</option><option value="marina@poema.ru">Marina Tsvetaeva</option><option value="mjh@isi.edu">Mark Handley</option><option value="mgbaker@cs.stanford.edu">Mary Baker</option><option value="pfrancis@ntt.jp">Paul Francis</option><option value="peter.danzig@usc.edu">Peter Danzig</option><option value="pdruschel@cs.rice.edu">Peter Druschel</option><option value="rguerin@ibm.com">Roch Guerin</option><option value="floyd@ee.lbl.gov">Sally Floyd</option><option value="shenker@parc.xerox.com">Scott Shenker</option><option value="ojuelegba@gmail.com">Wilma Ojuelegba</option></select> &nbsp;to the same paper &nbsp;(<a class="ui js-badpairs-row more" href="#">More</a> &nbsp;·&nbsp; <a class="ui js-badpairs-row less" href="#">Fewer</a>)</td></tr>
+</tbody></table></div>
+<script>var hotcrp_pc_tags={"2":" pc#0 ","3":" pc#0 red#0 ","4":" pc#0 red#0 ","6":" pc#0 red#0 ","1":" pc#0 iddojfuu#0 ","7":" pc#0 red#0 ","8":" pc#0 red#0 ","9":" pc#0 ","10":" pc#0 ","11":" pc#0 ","12":" pc#0 ","13":" pc#0 blue#0 ","14":" pc#0 ","15":" pc#0 ","16":" pc#0 ","17":" pc#0 blue#0 red#0 ","18":" pc#0 ","20":" pc#0 "};function make_pcsel_members(tag) {
+    if (tag === "__flip__")
+        return function () { return !this.checked; };
+    else if (tag === "all")
+        return function () { return true; };
+    else if (tag === "none")
+        return function () { return false; };
+    else {
+        tag = " " + tag.toLowerCase() + "#";
+        return function () {
+            var tlist = hotcrp_pc_tags[this.value] || "";
+            return tlist.indexOf(tag) >= 0;
+        };
+    }
+}
+function pcsel_tag(event) {
+    var $g = $(this).closest(".js-radio-focus"), e;
+    if (this.tagName === "A") {
+        $g.find("input[type=radio]").first().click();
+        var f = make_pcsel_members(this.hash.substring(4));
+        $g.find("input").each(function () {
+            if (this.name === "pcs[]")
+                this.checked = f.call(this);
+        });
+        event_prevent(event);
+    }
+    var tags = [], functions = {};
+    $g.find("a.js-pcsel-tag").each(function () {
+        var tag = this.hash.substring(4);
+        tags.push(tag);
+        functions[tag] = make_pcsel_members(tag);
+    });
+    $g.find("input").each(function () {
+        if (this.name === "pcs[]") {
+            for (var i = 0; i < tags.length; ) {
+                if (this.checked !== functions[tags[i]].call(this))
+                    tags.splice(i, 1);
+                else
+                    ++i;
+            }
+        }
+    });
+    $g.find("a.js-pcsel-tag").each(function () {
+        if ($.inArray(this.hash.substring(4), tags) >= 0)
+            $(this).css("font-weight", "bold");
+        else
+            $(this).css("font-weight", "inherit");
+    });
+}
+$(document).on("click", "a.js-pcsel-tag", pcsel_tag);
+$(document).on("change", "input.js-pcsel-tag", pcsel_tag);
+$(function(){$("input.js-pcsel-tag").first().trigger("change")});make_pattern_fill("redtag tagbg");make_pattern_fill("bluetag tagbg");make_pattern_fill("bluetag redtag tagbg");hotcrp_pc={"2":{"name":"Christian Huitema","email":"huitema@bellcore.com"},"3":{"name":"Christophe Diot","email":"christophe.diot@sophia.inria.fr","color_classes":"redtag tagbg"},"4":{"name":"Deborah Estrin","email":"estrin@usc.edu","color_classes":"redtag tagbg"},"6":{"name":"George Varghese","email":"varghese@ccrc.wustl.edu","color_classes":"redtag tagbg"},"1":{"name":"iEEUjUiM hnbBAjnV","email":"jaekpot@localhost.com"},"7":{"name":"J. J. Garcia-Luna-Aceves","email":"jj@cse.ucsc.edu","color_classes":"redtag tagbg"},"8":{"name":"Jon Crowcroft","email":"jon@cs.ucl.ac.uk","color_classes":"redtag tagbg"},"9":{"name":"Lixia Zhang","email":"lixia@cs.ucla.edu"},"10":{"name":"Marina Tsvetaeva","email":"marina@poema.ru"},"11":{"name":"Mark Handley","email":"mjh@isi.edu"},"12":{"name":"Mary Baker","email":"mgbaker@cs.stanford.edu"},"13":{"name":"Paul Francis","email":"pfrancis@ntt.jp","color_classes":"bluetag tagbg"},"14":{"name":"Peter Danzig","email":"peter.danzig@usc.edu"},"15":{"name":"Peter Druschel","email":"pdruschel@cs.rice.edu"},"16":{"name":"Roch Guerin","email":"rguerin@ibm.com"},"17":{"name":"Sally Floyd","email":"floyd@ee.lbl.gov","color_classes":"bluetag redtag tagbg"},"18":{"name":"Scott Shenker","email":"shenker@parc.xerox.com"},"20":{"name":"Wilma Ojuelegba","email":"ojuelegba@gmail.com"},"__order__":[2,3,4,6,1,7,8,9,10,11,12,13,14,15,16,17,18,20]};$("#bptable").on("change", "select.badpairs", function () {
+    if (this.value !== "none") {
+        var x = $$("badpairs");
+        x.checked || x.click();
+    }
+});
+$("#bptable a.js-badpairs-row").on("click", function () {
+    var tbody = $("#bptable > tbody"), n = tbody.children().length;
+    if (hasClass(this, "more")) {
+        ++n;
+        tbody.append('<tr><td class="rentry nw">or &nbsp;</td><td class="lentry"><select name="bpa' + n + '" class="badpairs"></select> &nbsp;and&nbsp; <select name="bpb' + n + '" class="badpairs"></select></td></tr>');
+        var options = tbody.find("select").first().html();
+        tbody.find("select[name=bpa" + n + "], select[name=bpb" + n + "]").html(options).val("none");
+    } else if (n > 1) {
+        --n;
+        tbody.children().last().remove();
+    }
+    return false;
+});
+$(".need-pcselector").each(populate_pcselector)</script><h3>Load balancing</h3>
+<table>
+<tbody><tr class="js-radio-focus"><td class="nw"><input type="radio" name="balance" value="new" checked="checked" id="balance_new">&nbsp;</td><td><label for="balance_new">New assignments—spread new assignments equally among selected PC members</label></td></tr>
+<tr class="js-radio-focus"><td class="nw"><input type="radio" name="balance" value="all" id="balance_all">&nbsp;</td><td><label for="balance_all">All assignments—spread assignments so that selected PC members have roughly equal overall load</label></td></tr>
+</tbody></table>
+<h3>Assignment method</h3>
+<table>
+<tbody><tr class="js-radio-focus"><td class="nw"><input type="radio" name="method" value="mcmf" checked="checked" id="method_mcmf">&nbsp;</td><td><label for="method_mcmf">Globally optimal assignment</label></td></tr>
+<tr class="js-radio-focus"><td class="nw"><input type="radio" name="method" value="random" id="method_random">&nbsp;</td><td><label for="method_random">Random good assignment</label></td></tr>
+</tbody></table>
+<div class="aab aabig"><input type="submit" class="btn btn-primary" name="assign" value="Prepare assignments"> &nbsp; <span class="hint">You’ll be able to check the assignment before it is saved.</span></div></div></form></div>
+<div id="footer"><div id="footer_crp"><a href="http://read.seas.harvard.edu/~kohler/hotcrp/">HotCRP</a> v2.102</div>
+  <hr class="c"></div>
+
+
+<!--1778371109.69ffca25ca17b5.80454316.serialized--></body></html>

@@ -1,0 +1,420 @@
+{
+  "states" : {
+    "state18" : {
+      "name" : "state18",
+      "url" : "http://web/addressbook-mod/addressbook/register/agent_add_form.php",
+      "candidateElements" : [ ],
+      "fanIn" : 2,
+      "fanOut" : 0,
+      "id" : 18,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778537535925,
+      "nearestState" : "index"
+    },
+    "state9" : {
+      "name" : "state9",
+      "url" : "http://web/addressbook-mod/addressbook/register/user_add_errors.php?pw_insecure=&email_already_in_use=&username_already_in_use=&bad_email=104&username_too_short=104&email=&password=",
+      "candidateElements" : [ {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'header']/A[1]",
+        "width" : 340,
+        "height" : 14
+      }, {
+        "top" : 266,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'content']/FORM[1]/INPUT[3]",
+        "width" : 64,
+        "height" : 21
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 9,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778537526135,
+      "nearestState" : "index"
+    },
+    "state30" : {
+      "name" : "state30",
+      "url" : "http://web/addressbook-mod/addressbook/register/checklogin.php",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 30,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778537550515,
+      "nearestState" : "index"
+    },
+    "state6" : {
+      "name" : "state6",
+      "url" : "http://web/addressbook-mod/addressbook/register/email_password.php",
+      "candidateElements" : [ {
+        "top" : 174,
+        "left" : 212,
+        "xpath" : "//FORM[@id = 'form']/DIV[1]/P[2]/A[1]",
+        "width" : 179,
+        "height" : 17
+      }, {
+        "top" : 207,
+        "left" : 302,
+        "xpath" : "//FORM[@id = 'form']/DIV[1]/P[3]/FONT[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : 302,
+        "xpath" : "//FORM[@id = 'form']/DIV[1]/P[6]/FONT[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 139,
+        "left" : 273,
+        "xpath" : "//FORM[@id = 'form']/DIV[1]/P[1]/FONT[1]/STRONG[1]/INPUT[1]",
+        "width" : 57,
+        "height" : 21
+      } ],
+      "fanIn" : 4,
+      "fanOut" : 3,
+      "id" : 6,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778537521711,
+      "nearestState" : "index"
+    },
+    "index" : {
+      "name" : "index",
+      "url" : "http://web/addressbook-mod/addressbook/index.php",
+      "candidateElements" : [ {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'header']/A[1]",
+        "width" : 340,
+        "height" : 14
+      }, {
+        "top" : 233,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'content']/A[1]",
+        "width" : 110,
+        "height" : 14
+      }, {
+        "top" : 233,
+        "left" : 119,
+        "xpath" : "//DIV[@id = 'content']/A[2]",
+        "width" : 113,
+        "height" : 14
+      }, {
+        "top" : 198,
+        "left" : 0,
+        "xpath" : "//FORM[@id = 'LoginForm']/INPUT[3]",
+        "width" : 49,
+        "height" : 21
+      }, {
+        "top" : 198,
+        "left" : 0,
+        "xpath" : "//FORM[@id = 'LoginForm']/INPUT[3]",
+        "width" : 49,
+        "height" : 21
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 3,
+      "id" : 0,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778537513011,
+      "nearestState" : "null"
+    },
+    "state23" : {
+      "name" : "state23",
+      "url" : "http://web/addressbook-mod/addressbook/register/email_password_sender.php",
+      "candidateElements" : [ {
+        "top" : 8,
+        "left" : 292,
+        "xpath" : "/HTML[1]/BODY[1]/FONT[1]/A[1]",
+        "width" : 97,
+        "height" : 15
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 23,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778537541255,
+      "nearestState" : "index"
+    },
+    "state7" : {
+      "name" : "state7",
+      "url" : "http://web/addressbook-mod/addressbook/register/login.php",
+      "candidateElements" : [ {
+        "top" : 220,
+        "left" : 239,
+        "xpath" : "//FORM[@id = 'form']/DIV[1]/P[2]/A[1]",
+        "width" : 127,
+        "height" : 17
+      }, {
+        "top" : 253,
+        "left" : 194,
+        "xpath" : "//FORM[@id = 'form']/DIV[1]/P[3]/FONT[1]/A[1]",
+        "width" : 215,
+        "height" : 15
+      }, {
+        "top" : 352,
+        "left" : 302,
+        "xpath" : "//FORM[@id = 'form']/DIV[1]/P[6]/FONT[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 185,
+        "left" : 273,
+        "xpath" : "//FORM[@id = 'form']/DIV[1]/P[1]/FONT[1]/STRONG[1]/INPUT[1]",
+        "width" : 57,
+        "height" : 21
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 4,
+      "id" : 7,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778537522816,
+      "nearestState" : "index"
+    },
+    "state2" : {
+      "name" : "state2",
+      "url" : "http://web/addressbook-mod/addressbook/",
+      "candidateElements" : [ {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'header']/A[1]",
+        "width" : 340,
+        "height" : 14
+      }, {
+        "top" : 233,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'content']/A[1]",
+        "width" : 110,
+        "height" : 14
+      }, {
+        "top" : 233,
+        "left" : 119,
+        "xpath" : "//DIV[@id = 'content']/A[2]",
+        "width" : 113,
+        "height" : 14
+      }, {
+        "top" : 198,
+        "left" : 0,
+        "xpath" : "//FORM[@id = 'LoginForm']/INPUT[3]",
+        "width" : 49,
+        "height" : 21
+      }, {
+        "top" : 198,
+        "left" : 0,
+        "xpath" : "//FORM[@id = 'LoginForm']/INPUT[3]",
+        "width" : 49,
+        "height" : 21
+      } ],
+      "fanIn" : 3,
+      "fanOut" : 2,
+      "id" : 2,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 0.0,
+      "cluster" : -1,
+      "timeAdded" : 1778537516340,
+      "nearestState" : "index"
+    },
+    "state4" : {
+      "name" : "state4",
+      "url" : "http://web/addressbook-mod/addressbook/register/user_add.php",
+      "candidateElements" : [ {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'header']/A[1]",
+        "width" : 340,
+        "height" : 14
+      }, {
+        "top" : 206,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'content']/FORM[1]/INPUT[3]",
+        "width" : 64,
+        "height" : 21
+      } ],
+      "fanIn" : 3,
+      "fanOut" : 2,
+      "id" : 4,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778537519455,
+      "nearestState" : "index"
+    }
+  },
+  "edges" : [ {
+    "from" : "index",
+    "to" : "state2",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'header']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=.}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state2",
+    "to" : "state4",
+    "text" : "CREATE ACCOUNT",
+    "id" : "xpath //DIV[@id = 'content']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=CREATE ACCOUNT, attributes={href=register}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state2",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'header']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=..}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state2",
+    "to" : "state6",
+    "text" : "RESET PASSWORD",
+    "id" : "xpath //DIV[@id = 'content']/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=RESET PASSWORD, attributes={href=register/email_password.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state6",
+    "to" : "state7",
+    "text" : "I remember now. Back to Login",
+    "id" : "xpath //FORM[@id = 'form']/DIV[1]/P[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=I remember now. Back to Login, attributes={href=login.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state4",
+    "text" : "Create a new account",
+    "id" : "xpath //FORM[@id = 'form']/DIV[1]/P[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create a new account, attributes={href=user_add.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state9",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'content']/FORM[1]/INPUT[3]",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={type=submit, value=Sign-Up}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state9",
+    "to" : "state2",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'header']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=..}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state4",
+    "text" : "CREATE ACCOUNT",
+    "id" : "xpath //DIV[@id = 'content']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=CREATE ACCOUNT, attributes={href=register}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state6",
+    "text" : "RESET PASSWORD",
+    "id" : "xpath //DIV[@id = 'content']/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=RESET PASSWORD, attributes={href=register/email_password.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state6",
+    "to" : "state18",
+    "text" : "",
+    "id" : "xpath //FORM[@id = 'form']/DIV[1]/P[6]/FONT[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=agent_add_form.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state6",
+    "to" : "state23",
+    "text" : "",
+    "id" : "xpath //FORM[@id = 'form']/DIV[1]/P[1]/FONT[1]/STRONG[1]/INPUT[1]",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={name=submit, type=submit, value=Submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state23",
+    "to" : "state6",
+    "text" : "Please try again.",
+    "id" : "xpath /HTML[1]/BODY[1]/FONT[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Please try again., attributes={href=email_password.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state6",
+    "text" : "Forgot Password / Change Password",
+    "id" : "xpath //FORM[@id = 'form']/DIV[1]/P[3]/FONT[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Forgot Password / Change Password, attributes={href=email_password.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state18",
+    "text" : "",
+    "id" : "xpath //FORM[@id = 'form']/DIV[1]/P[6]/FONT[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={href=agent_add_form.php}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state30",
+    "text" : "",
+    "id" : "xpath //FORM[@id = 'form']/DIV[1]/P[1]/FONT[1]/STRONG[1]/INPUT[1]",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={name=submit, type=submit, value=Submit}}",
+    "eventType" : "click"
+  } ],
+  "statistics" : {
+    "duration" : "41 seconds",
+    "crawlPaths" : 8,
+    "averageDomSize" : "2.73 kB",
+    "edges" : 16,
+    "startDate" : "2026-05-11 22:11:43 UTC",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "state18",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "mostFanOut" : {
+        "id" : "state7",
+        "count" : 4
+      },
+      "mostFanIn" : {
+        "id" : "state6",
+        "count" : 4
+      },
+      "totalNumberOfStates" : 9,
+      "urls" : {
+        "http://web/addressbook-mod/addressbook/register/agent_add_form.php" : [ "state18" ],
+        "http://web/addressbook-mod/addressbook/register/user_add_errors.php?pw_insecure=&email_already_in_use=&username_already_in_use=&bad_email=104&username_too_short=104&email=&password=" : [ "state9" ],
+        "http://web/addressbook-mod/addressbook/register/checklogin.php" : [ "state30" ],
+        "http://web/addressbook-mod/addressbook/register/email_password.php" : [ "state6" ],
+        "http://web/addressbook-mod/addressbook/index.php" : [ "index" ],
+        "http://web/addressbook-mod/addressbook/register/email_password_sender.php" : [ "state23" ],
+        "http://web/addressbook-mod/addressbook/register/login.php" : [ "state7" ],
+        "http://web/addressbook-mod/addressbook/" : [ "state2" ],
+        "http://web/addressbook-mod/addressbook/register/user_add.php" : [ "state4" ]
+      }
+    },
+    "failedEvents" : 0
+  },
+  "exitStatus" : "EXHAUSTED"
+}

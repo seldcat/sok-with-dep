@@ -1,0 +1,5580 @@
+{
+  "states" : {
+    "state86" : {
+      "name" : "state86",
+      "url" : "http://web/index.php/apps/files?dir=//Photos&fileid=6#",
+      "candidateElements" : [ {
+        "top" : 43,
+        "left" : 484,
+        "xpath" : "//DIV[@id = 'notification']/DIV[2]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 62,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 45,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 133,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 177,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 221,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 265,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 256,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 140,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 422,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 140,
+        "left" : 509,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 50,
+        "left" : 581,
+        "xpath" : "//DIV[@id = 'app-sidebar']/A[1]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 45,
+        "left" : 44,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+        "width" : 109,
+        "height" : 46
+      }, {
+        "top" : 45,
+        "left" : 153,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[2]/A[1]",
+        "width" : 84,
+        "height" : 46
+      }, {
+        "top" : 50,
+        "left" : 251,
+        "xpath" : "//DIV[@id = 'controls']/DIV[2]/A[1]",
+        "width" : 38,
+        "height" : 36
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 140,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 242,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[3]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 242,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[3]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 56,
+        "left" : 468,
+        "xpath" : "//A[@id = 'closeWizard']",
+        "width" : 56,
+        "height" : 61
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      }, {
+        "top" : 299,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]",
+        "width" : 39,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//INPUT[@id = 'show-more']",
+        "width" : 125,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'uploadprogresswrapper']/INPUT[1]",
+        "width" : 25,
+        "height" : 36
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 86,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360484631,
+      "nearestState" : "index"
+    },
+    "state63" : {
+      "name" : "state63",
+      "url" : "http://web/index.php/apps/files?dir=/&fileid=5#",
+      "candidateElements" : [ {
+        "top" : 43,
+        "left" : 484,
+        "xpath" : "//DIV[@id = 'notification']/DIV[2]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 62,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 45,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 133,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 177,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 221,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 265,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 256,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 140,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 422,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 140,
+        "left" : 509,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 50,
+        "left" : 581,
+        "xpath" : "//DIV[@id = 'app-sidebar']/A[1]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 45,
+        "left" : 44,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+        "width" : 111,
+        "height" : 46
+      }, {
+        "top" : 50,
+        "left" : 170,
+        "xpath" : "//DIV[@id = 'controls']/DIV[2]/A[1]",
+        "width" : 38,
+        "height" : 36
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 140,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 242,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[3]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 56,
+        "left" : 468,
+        "xpath" : "//A[@id = 'closeWizard']",
+        "width" : 56,
+        "height" : 61
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      }, {
+        "top" : 299,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]",
+        "width" : 39,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//INPUT[@id = 'show-more']",
+        "width" : 125,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'uploadprogresswrapper']/INPUT[1]",
+        "width" : 25,
+        "height" : 36
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 63,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360443169,
+      "nearestState" : "index"
+    },
+    "state85" : {
+      "name" : "state85",
+      "url" : "http://web/index.php/apps/files?dir=//Photos&fileid=6",
+      "candidateElements" : [ {
+        "top" : 43,
+        "left" : 484,
+        "xpath" : "//DIV[@id = 'notification']/DIV[2]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 62,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 45,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 133,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 177,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 221,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 265,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 256,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 140,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 422,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 140,
+        "left" : 509,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 50,
+        "left" : 581,
+        "xpath" : "//DIV[@id = 'app-sidebar']/A[1]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 45,
+        "left" : 44,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+        "width" : 109,
+        "height" : 46
+      }, {
+        "top" : 45,
+        "left" : 153,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[2]/A[1]",
+        "width" : 84,
+        "height" : 46
+      }, {
+        "top" : 50,
+        "left" : 251,
+        "xpath" : "//DIV[@id = 'controls']/DIV[2]/A[1]",
+        "width" : 38,
+        "height" : 36
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 140,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 242,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[3]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 242,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[3]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 56,
+        "left" : 468,
+        "xpath" : "//A[@id = 'closeWizard']",
+        "width" : 56,
+        "height" : 61
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      }, {
+        "top" : 299,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]",
+        "width" : 39,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//INPUT[@id = 'show-more']",
+        "width" : 125,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'uploadprogresswrapper']/INPUT[1]",
+        "width" : 25,
+        "height" : 36
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 85,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360481631,
+      "nearestState" : "index"
+    },
+    "state62" : {
+      "name" : "state62",
+      "url" : "http://web/index.php/apps/files?dir=/&fileid=5",
+      "candidateElements" : [ {
+        "top" : 43,
+        "left" : 484,
+        "xpath" : "//DIV[@id = 'notification']/DIV[2]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 62,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 45,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 133,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 177,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 221,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 265,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 256,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 140,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 422,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 140,
+        "left" : 509,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 50,
+        "left" : 581,
+        "xpath" : "//DIV[@id = 'app-sidebar']/A[1]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 45,
+        "left" : 44,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+        "width" : 111,
+        "height" : 46
+      }, {
+        "top" : 50,
+        "left" : 170,
+        "xpath" : "//DIV[@id = 'controls']/DIV[2]/A[1]",
+        "width" : 38,
+        "height" : 36
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 140,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 242,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[3]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 56,
+        "left" : 468,
+        "xpath" : "//A[@id = 'closeWizard']",
+        "width" : 56,
+        "height" : 61
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      }, {
+        "top" : 299,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]",
+        "width" : 39,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//INPUT[@id = 'show-more']",
+        "width" : 125,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'uploadprogresswrapper']/INPUT[1]",
+        "width" : 25,
+        "height" : 36
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 2,
+      "id" : 62,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360440406,
+      "nearestState" : "index"
+    },
+    "state5" : {
+      "name" : "state5",
+      "url" : "http://web/index.php/apps/files/?dir=/&fileid=5#",
+      "candidateElements" : [ {
+        "top" : 43,
+        "left" : 484,
+        "xpath" : "//DIV[@id = 'notification']/DIV[2]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 62,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 45,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 133,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 177,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 221,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 265,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 256,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 140,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 422,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 140,
+        "left" : 509,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 50,
+        "left" : 581,
+        "xpath" : "//DIV[@id = 'app-sidebar']/A[1]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 45,
+        "left" : 44,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+        "width" : 111,
+        "height" : 46
+      }, {
+        "top" : 50,
+        "left" : 170,
+        "xpath" : "//DIV[@id = 'controls']/DIV[2]/A[1]",
+        "width" : 38,
+        "height" : 36
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 140,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 242,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[3]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 56,
+        "left" : 468,
+        "xpath" : "//A[@id = 'closeWizard']",
+        "width" : 56,
+        "height" : 61
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      }, {
+        "top" : 299,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]",
+        "width" : 39,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//INPUT[@id = 'show-more']",
+        "width" : 125,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'uploadprogresswrapper']/INPUT[1]",
+        "width" : 25,
+        "height" : 36
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      } ],
+      "fanIn" : 33,
+      "fanOut" : 17,
+      "id" : 5,
+      "failedEvents" : [ "xpath //DIV[@id = 'headerName-container']/A[1]", "xpath //TH[@id = 'headerSize']/A[1]", "xpath //A[@id = 'modified']", "xpath //DIV[@id = 'headerName-container']/A[1]", "xpath //TH[@id = 'headerSize']/A[1]", "xpath //A[@id = 'modified']", "xpath //DIV[@id = 'headerName-container']/A[1]", "xpath //A[@id = 'modified']", "xpath //A[@id = 'modified']", "xpath //TH[@id = 'headerExpiration']/A[1]", "xpath //DIV[@id = 'headerName-container']/A[1]", "xpath //A[@id = 'modified']", "xpath //A[@id = 'modified']", "xpath //TH[@id = 'headerExpiration']/A[1]", "xpath //DIV[@id = 'headerName-container']/A[1]", "xpath //A[@id = 'modified']", "xpath //A[@id = 'modified']", "xpath //TH[@id = 'headerExpiration']/A[1]", "xpath //DIV[@id = 'headerName-container']/A[1]", "xpath //TH[@id = 'headerSize']/A[1]", "xpath //A[@id = 'modified']", "xpath //DIV[@id = 'headerName-container']/A[1]", "xpath //A[@id = 'modified']", "xpath //DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]", "xpath //DIV[@id = 'app-settings-header']/BUTTON[1]", "xpath //BUTTON[@id = 'cboxPrevious']", "xpath //BUTTON[@id = 'cboxNext']", "xpath //BUTTON[@id = 'cboxSlideshow']", "xpath //BUTTON[@id = 'cboxClose']", "xpath //DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]", "xpath //INPUT[@id = 'show-more']", "xpath //DIV[@id = 'uploadprogresswrapper']/INPUT[1]", "xpath //DIV[@id = 'app-settings-header']/BUTTON[1]", "xpath //BUTTON[@id = 'cboxPrevious']", "xpath //BUTTON[@id = 'cboxNext']", "xpath //BUTTON[@id = 'cboxSlideshow']", "xpath //BUTTON[@id = 'cboxClose']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360341148,
+      "nearestState" : "index"
+    },
+    "index" : {
+      "name" : "index",
+      "url" : "http://web/",
+      "candidateElements" : [ {
+        "top" : 408,
+        "left" : 232,
+        "xpath" : "//BUTTON[@id = 'submit']",
+        "width" : 300,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 408,
+        "left" : 232,
+        "xpath" : "//BUTTON[@id = 'submit']",
+        "width" : 300,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 0,
+      "id" : 0,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360331759,
+      "nearestState" : "null"
+    },
+    "state7" : {
+      "name" : "state7",
+      "url" : "http://web/index.php/apps/files/?dir=/&fileid=5",
+      "candidateElements" : [ {
+        "top" : 43,
+        "left" : 484,
+        "xpath" : "//DIV[@id = 'notification']/DIV[2]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 62,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 45,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 133,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 177,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 221,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 265,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 256,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 140,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 422,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 140,
+        "left" : 509,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 50,
+        "left" : 581,
+        "xpath" : "//DIV[@id = 'app-sidebar']/A[1]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 45,
+        "left" : 44,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+        "width" : 111,
+        "height" : 46
+      }, {
+        "top" : 50,
+        "left" : 170,
+        "xpath" : "//DIV[@id = 'controls']/DIV[2]/A[1]",
+        "width" : 38,
+        "height" : 36
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 140,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 242,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[3]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 56,
+        "left" : 468,
+        "xpath" : "//A[@id = 'closeWizard']",
+        "width" : 56,
+        "height" : 61
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      }, {
+        "top" : 299,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]",
+        "width" : 39,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//INPUT[@id = 'show-more']",
+        "width" : 125,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'uploadprogresswrapper']/INPUT[1]",
+        "width" : 25,
+        "height" : 36
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      } ],
+      "fanIn" : 22,
+      "fanOut" : 23,
+      "id" : 7,
+      "failedEvents" : [ "xpath //DIV[@id = 'headerName-container']/A[1]", "xpath //TH[@id = 'headerSize']/A[1]", "xpath //A[@id = 'modified']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360346079,
+      "nearestState" : "index"
+    },
+    "state1" : {
+      "name" : "state1",
+      "url" : "http://web/index.php/login",
+      "candidateElements" : [ {
+        "top" : 408,
+        "left" : 232,
+        "xpath" : "//BUTTON[@id = 'submit']",
+        "width" : 300,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 408,
+        "left" : 232,
+        "xpath" : "//BUTTON[@id = 'submit']",
+        "width" : 300,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 6,
+      "fanOut" : 2,
+      "id" : 1,
+      "failedEvents" : [ "xpath //BUTTON[@id = 'cboxPrevious']", "xpath //BUTTON[@id = 'cboxNext']", "xpath //BUTTON[@id = 'cboxSlideshow']", "xpath //BUTTON[@id = 'cboxPrevious']", "xpath //BUTTON[@id = 'cboxNext']", "xpath //BUTTON[@id = 'cboxSlideshow']" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360332710,
+      "nearestState" : "index"
+    },
+    "state4" : {
+      "name" : "state4",
+      "url" : "http://web/index.php/apps/files/",
+      "candidateElements" : [ {
+        "top" : 43,
+        "left" : 484,
+        "xpath" : "//DIV[@id = 'notification']/DIV[2]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 62,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 45,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 133,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 177,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 221,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 265,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 256,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 140,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 422,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 140,
+        "left" : 509,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 50,
+        "left" : 581,
+        "xpath" : "//DIV[@id = 'app-sidebar']/A[1]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 45,
+        "left" : 44,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+        "width" : 111,
+        "height" : 46
+      }, {
+        "top" : 50,
+        "left" : 170,
+        "xpath" : "//DIV[@id = 'controls']/DIV[2]/A[1]",
+        "width" : 38,
+        "height" : 36
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 140,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 191,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[2]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 242,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[3]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 56,
+        "left" : 468,
+        "xpath" : "//A[@id = 'closeWizard']",
+        "width" : 56,
+        "height" : 61
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      }, {
+        "top" : 299,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]",
+        "width" : 39,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//INPUT[@id = 'show-more']",
+        "width" : 125,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'uploadprogresswrapper']/INPUT[1]",
+        "width" : 25,
+        "height" : 36
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 21,
+      "id" : 4,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360337168,
+      "nearestState" : "index"
+    },
+    "state78" : {
+      "name" : "state78",
+      "url" : "http://web/index.php/apps/files?dir=//Documents&fileid=11#",
+      "candidateElements" : [ {
+        "top" : 43,
+        "left" : 484,
+        "xpath" : "//DIV[@id = 'notification']/DIV[2]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 62,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 45,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 133,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 177,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 221,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 265,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 256,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 140,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 422,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 140,
+        "left" : 509,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 50,
+        "left" : 581,
+        "xpath" : "//DIV[@id = 'app-sidebar']/A[1]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 45,
+        "left" : 44,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+        "width" : 109,
+        "height" : 46
+      }, {
+        "top" : 45,
+        "left" : 153,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[2]/A[1]",
+        "width" : 112,
+        "height" : 46
+      }, {
+        "top" : 50,
+        "left" : 279,
+        "xpath" : "//DIV[@id = 'controls']/DIV[2]/A[1]",
+        "width" : 38,
+        "height" : 36
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 140,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 56,
+        "left" : 468,
+        "xpath" : "//A[@id = 'closeWizard']",
+        "width" : 56,
+        "height" : 61
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      }, {
+        "top" : 299,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]",
+        "width" : 39,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//INPUT[@id = 'show-more']",
+        "width" : 125,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'uploadprogresswrapper']/INPUT[1]",
+        "width" : 25,
+        "height" : 36
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 78,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360470996,
+      "nearestState" : "index"
+    },
+    "state77" : {
+      "name" : "state77",
+      "url" : "http://web/index.php/apps/files?dir=//Documents&fileid=11",
+      "candidateElements" : [ {
+        "top" : 43,
+        "left" : 484,
+        "xpath" : "//DIV[@id = 'notification']/DIV[2]/A[1]",
+        "width" : 16,
+        "height" : 16
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 62,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 45,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 133,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 177,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 221,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 265,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 256,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 140,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 422,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 140,
+        "left" : 509,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+        "width" : 87,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 50,
+        "left" : 581,
+        "xpath" : "//DIV[@id = 'app-sidebar']/A[1]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 45,
+        "left" : 44,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+        "width" : 109,
+        "height" : 46
+      }, {
+        "top" : 45,
+        "left" : 153,
+        "xpath" : "//DIV[@id = 'controls']/DIV[1]/DIV[2]/A[1]",
+        "width" : 112,
+        "height" : 46
+      }, {
+        "top" : 50,
+        "left" : 279,
+        "xpath" : "//DIV[@id = 'controls']/DIV[2]/A[1]",
+        "width" : 38,
+        "height" : 36
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 140,
+        "left" : 0,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]",
+        "width" : 46,
+        "height" : 50
+      }, {
+        "top" : 140,
+        "left" : 96,
+        "xpath" : "//TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]",
+        "width" : 516,
+        "height" : 50
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerExpiration']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerSize']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 100,
+        "xpath" : "//DIV[@id = 'headerName-container']/A[1]",
+        "width" : 512,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//SPAN[@id = 'selectedActionsList']/A[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'modified']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//TH[@id = 'headerDate']/SPAN[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'searchresults']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 56,
+        "left" : 468,
+        "xpath" : "//A[@id = 'closeWizard']",
+        "width" : 56,
+        "height" : 61
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      }, {
+        "top" : 299,
+        "left" : 335,
+        "xpath" : "//DIV[@id = 'commentsTabView']/DIV[1]/FORM[1]/INPUT[1]",
+        "width" : 39,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//INPUT[@id = 'show-more']",
+        "width" : 125,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'uploadprogresswrapper']/INPUT[1]",
+        "width" : 25,
+        "height" : 36
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 28,
+        "height" : 65
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 25,
+        "height" : 12
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxClose']",
+        "width" : 38,
+        "height" : 19
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 77,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360468200,
+      "nearestState" : "index"
+    },
+    "state10" : {
+      "name" : "state10",
+      "url" : "http://web/index.php/settings/personal",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 88,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 90,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 134,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 178,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 222,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 266,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 399,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[9]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 443,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[10]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 487,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[11]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 531,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[12]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 575,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[13]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 619,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-navigation']/UL[1]/LI[14]/A[1]",
+        "width" : 242,
+        "height" : 44
+      }, {
+        "top" : 1152,
+        "left" : 20,
+        "xpath" : "//A[@id = 'showWizard']",
+        "width" : 189,
+        "height" : 32
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 898,
+        "left" : 20,
+        "xpath" : "//DIV[@id = 'fileSharingSettings']/DIV[1]/BUTTON[1]",
+        "width" : 105,
+        "height" : 30
+      }, {
+        "top" : 898,
+        "left" : 127,
+        "xpath" : "//DIV[@id = 'fileSharingSettings']/BUTTON[1]",
+        "width" : 92,
+        "height" : 30
+      }, {
+        "top" : 898,
+        "left" : 226,
+        "xpath" : "//DIV[@id = 'fileSharingSettings']/BUTTON[2]",
+        "width" : 81,
+        "height" : 30
+      }, {
+        "top" : 898,
+        "left" : 313,
+        "xpath" : "//DIV[@id = 'fileSharingSettings']/BUTTON[3]",
+        "width" : 96,
+        "height" : 30
+      }, {
+        "top" : 898,
+        "left" : 415,
+        "xpath" : "//BUTTON[@id = 'oca-files-sharing-add-to-your-website']",
+        "width" : 138,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 478,
+        "left" : 326,
+        "xpath" : "//INPUT[@id = 'passwordbutton']",
+        "width" : 123,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BODY[@id = 'body-settings']/FORM[1]/INPUT[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : 441,
+        "xpath" : "//INPUT[@id = 'emailbutton']",
+        "width" : 97,
+        "height" : 30
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 898,
+        "left" : 20,
+        "xpath" : "//DIV[@id = 'fileSharingSettings']/DIV[1]/BUTTON[1]",
+        "width" : 105,
+        "height" : 30
+      }, {
+        "top" : 898,
+        "left" : 127,
+        "xpath" : "//DIV[@id = 'fileSharingSettings']/BUTTON[1]",
+        "width" : 92,
+        "height" : 30
+      }, {
+        "top" : 898,
+        "left" : 226,
+        "xpath" : "//DIV[@id = 'fileSharingSettings']/BUTTON[2]",
+        "width" : 81,
+        "height" : 30
+      }, {
+        "top" : 898,
+        "left" : 313,
+        "xpath" : "//DIV[@id = 'fileSharingSettings']/BUTTON[3]",
+        "width" : 96,
+        "height" : 30
+      }, {
+        "top" : 898,
+        "left" : 415,
+        "xpath" : "//BUTTON[@id = 'oca-files-sharing-add-to-your-website']",
+        "width" : 138,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 5,
+      "fanOut" : 5,
+      "id" : 10,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360354034,
+      "nearestState" : "index"
+    },
+    "state37" : {
+      "name" : "state37",
+      "url" : "http://web/index.php/apps/market/#/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 81,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 93,
+        "left" : 60,
+        "xpath" : "//DIV[@id = 'content-wrapper']/DIV[1]/DIV[1]/ASIDE[1]/DIV[1]/DIV[1]/H1[1]/A[1]",
+        "width" : 73,
+        "height" : 27
+      }, {
+        "top" : 154,
+        "left" : 30,
+        "xpath" : "//DIV[@id = 'content-wrapper']/DIV[1]/DIV[1]/ASIDE[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+        "width" : 260,
+        "height" : 30
+      }, {
+        "top" : 184,
+        "left" : 30,
+        "xpath" : "//DIV[@id = 'content-wrapper']/DIV[1]/DIV[1]/ASIDE[1]/DIV[1]/DIV[2]/UL[1]/LI[2]/A[1]",
+        "width" : 260,
+        "height" : 30
+      }, {
+        "top" : 314,
+        "left" : 30,
+        "xpath" : "//DIV[@id = 'content-wrapper']/DIV[1]/DIV[1]/ASIDE[1]/DIV[1]/DIV[2]/UL[1]/LI[5]/A[1]",
+        "width" : 260,
+        "height" : 30
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 5,
+      "fanOut" : 5,
+      "id" : 37,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360400726,
+      "nearestState" : "index"
+    },
+    "state14" : {
+      "name" : "state14",
+      "url" : "http://web/index.php/settings/users",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'owncloud']",
+        "width" : 151,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]",
+        "width" : 72,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'logout']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 45,
+        "left" : 0,
+        "xpath" : "//LI[@id = 'newgroup-init']/A[1]",
+        "width" : 250,
+        "height" : 44
+      }, {
+        "top" : 89,
+        "left" : 0,
+        "xpath" : "//LI[@id = 'everyonegroup']/A[1]",
+        "width" : 250,
+        "height" : 44
+      }, {
+        "top" : 133,
+        "left" : 0,
+        "xpath" : "//UL[@id = 'usergrouplist']/LI[4]/A[1]",
+        "width" : 250,
+        "height" : 44
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//LI[@id = 'newgroup-form']/FORM[1]/INPUT[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 48,
+        "left" : 475,
+        "xpath" : "//FORM[@id = 'newuser']/INPUT[4]",
+        "width" : 63,
+        "height" : 36
+      }, {
+        "top" : 17,
+        "left" : 15,
+        "xpath" : "//DIV[@id = 'header']/A[2]/BUTTON[1]",
+        "width" : 14,
+        "height" : 10
+      }, {
+        "top" : 300,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'app-settings-header']/BUTTON[1]",
+        "width" : 249,
+        "height" : 44
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxPrevious']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxNext']",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//BUTTON[@id = 'cboxSlideshow']",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 5,
+      "fanOut" : 5,
+      "id" : 14,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778360360592,
+      "nearestState" : "index"
+    }
+  },
+  "edges" : [ {
+    "from" : "state1",
+    "to" : "state4",
+    "text" : "Login",
+    "id" : "xpath //BUTTON[@id = 'submit']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Login, attributes={class=login-button, id=submit, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'notification']/DIV[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={alt=Dismiss, class=action close icon-close, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state7",
+    "text" : "ownCloud",
+    "id" : "xpath //A[@id = 'owncloud']",
+    "element" : "Element{node=[A: null], tag=A, text=ownCloud, attributes={href=/index.php, id=owncloud, style=, tabindex=1}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'notification']/DIV[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={alt=Dismiss, class=action close icon-close, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state10",
+    "text" : "Settings",
+    "id" : "xpath //DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Settings, attributes={href=/index.php/settings/personal}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state10",
+    "to" : "state7",
+    "text" : "ownCloud",
+    "id" : "xpath //A[@id = 'owncloud']",
+    "element" : "Element{node=[A: null], tag=A, text=ownCloud, attributes={href=/index.php, id=owncloud, tabindex=1}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "MenuFiles",
+    "id" : "xpath //DIV[@id = 'header']/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=MenuFiles, attributes={class=header-appname-container menutoggle, href=#, tabindex=2}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state14",
+    "text" : "Users",
+    "id" : "xpath //DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Users, attributes={href=/index.php/settings/users}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state7",
+    "text" : "ownCloud",
+    "id" : "xpath //A[@id = 'owncloud']",
+    "element" : "Element{node=[A: null], tag=A, text=ownCloud, attributes={href=/index.php, id=owncloud, tabindex=1}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state10",
+    "text" : "Settings",
+    "id" : "xpath //DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Settings, attributes={href=/index.php/settings/personal}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state10",
+    "to" : "state14",
+    "text" : "Users",
+    "id" : "xpath //DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Users, attributes={href=/index.php/settings/users}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state10",
+    "text" : "Settings",
+    "id" : "xpath //DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Settings, attributes={href=/index.php/settings/personal}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state10",
+    "to" : "state1",
+    "text" : "Log out",
+    "id" : "xpath //A[@id = 'logout']",
+    "element" : "Element{node=[A: null], tag=A, text=Log out, attributes={href=http://web/index.php/logout?requesttoken=Six%2BEGcuBAUABHVxTiQDchRRDxgZO09FDxMHEVp6YHA%3D:/y5G6iocgrB84k3FA5liWx52lpCFjK821dvKi3UjJ3w%3D, id=logout}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state1",
+    "to" : "state7",
+    "text" : "Login",
+    "id" : "xpath //BUTTON[@id = 'submit']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Login, attributes={class=login-button, id=submit, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state14",
+    "text" : "Users",
+    "id" : "xpath //DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Users, attributes={href=/index.php/settings/users}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state1",
+    "text" : "Log out",
+    "id" : "xpath //A[@id = 'logout']",
+    "element" : "Element{node=[A: null], tag=A, text=Log out, attributes={href=http://web/index.php/logout?requesttoken=XCQfAgMAPxMhF2c5QzZZB2MJUwQ2LE8YVykqPVV2Eg4%3D:9qTURGTuFaPp9yi36m0uxo5o4JnjeGJLAKUbGnj7pZ4%3D, id=logout}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state7",
+    "text" : "ownCloud",
+    "id" : "xpath //A[@id = 'owncloud']",
+    "element" : "Element{node=[A: null], tag=A, text=ownCloud, attributes={href=/index.php, id=owncloud, tabindex=1}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state1",
+    "text" : "Log out",
+    "id" : "xpath //A[@id = 'logout']",
+    "element" : "Element{node=[A: null], tag=A, text=Log out, attributes={href=http://web/index.php/logout?requesttoken=BmEfYxkxOk0MHANmLHcbZhMhBzh%2BOSMZIQY8L0RYNxc%3D:c4T4HvQ%2Bkj4/V8%2BRFEdI0zYnBexxtioUBr3T96Unmhs%3D, id=logout}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "MenuFiles",
+    "id" : "xpath //DIV[@id = 'header']/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=MenuFiles, attributes={class=header-appname-container menutoggle, href=#, tabindex=2}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state1",
+    "text" : "Log out",
+    "id" : "xpath //A[@id = 'logout']",
+    "element" : "Element{node=[A: null], tag=A, text=Log out, attributes={href=http://web/index.php/logout?requesttoken=UmMbYTAiGyg%2BPXw6PhlVDWMWBxwvC0hAEzFvZ1YJbQg%3D:76P6aepNYKKsDVe96rdmaH27pR%2B0f85JQg2lsLq4G4k%3D, id=logout}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state10",
+    "text" : "Settings",
+    "id" : "xpath //DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Settings, attributes={href=/index.php/settings/personal}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state10",
+    "to" : "state7",
+    "text" : "Files",
+    "id" : "xpath //DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Files, attributes={href=/index.php/apps/files/, tabindex=3}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state37",
+    "text" : "Market",
+    "id" : "xpath //DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Market, attributes={href=/index.php/apps/market/, tabindex=3}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state37",
+    "to" : "state7",
+    "text" : "ownCloud",
+    "id" : "xpath //A[@id = 'owncloud']",
+    "element" : "Element{node=[A: null], tag=A, text=ownCloud, attributes={href=/index.php, id=owncloud, tabindex=1}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "All files",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=All files, attributes={class=nav-icon-files svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state7",
+    "text" : "Files",
+    "id" : "xpath //DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Files, attributes={class=active, href=/index.php/apps/files/, tabindex=3}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Favorites",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Favorites, attributes={class=nav-icon-favorites svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state37",
+    "text" : "Market",
+    "id" : "xpath //DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Market, attributes={href=/index.php/apps/market/, tabindex=3}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state37",
+    "to" : "state10",
+    "text" : "Settings",
+    "id" : "xpath //DIV[@id = 'expanddiv']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Settings, attributes={href=/index.php/settings/personal}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state10",
+    "to" : "state37",
+    "text" : "Market",
+    "id" : "xpath //DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Market, attributes={href=/index.php/apps/market/, tabindex=3}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state37",
+    "to" : "state14",
+    "text" : "Users",
+    "id" : "xpath //DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Users, attributes={href=/index.php/settings/users}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state7",
+    "text" : "Files",
+    "id" : "xpath //DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Files, attributes={href=/index.php/apps/files/, tabindex=3}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Shared with you",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Shared with you, attributes={class=nav-icon-sharingin svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state62",
+    "text" : "All files",
+    "id" : "xpath //DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=All files, attributes={href=/index.php/apps/files?dir=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state62",
+    "to" : "state63",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'notification']/DIV[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={alt=Dismiss, class=action close icon-close, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state63",
+    "to" : "state7",
+    "text" : "ownCloud",
+    "id" : "xpath //A[@id = 'owncloud']",
+    "element" : "Element{node=[A: null], tag=A, text=ownCloud, attributes={href=/index.php, id=owncloud, style=, tabindex=1}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Shared with others",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Shared with others, attributes={class=nav-icon-sharingout svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state7",
+    "text" : "Download",
+    "id" : "xpath //SPAN[@id = 'selectedActionsList']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Download, attributes={class=download, data-original-title=, href=, style=, title=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Shared by link",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Shared by link, attributes={class=nav-icon-sharinglinks svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state7",
+    "text" : "",
+    "id" : "xpath //SPAN[@id = 'selectedActionsList']/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=download mobile button, data-original-title=, href=, title=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Tags",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Tags, attributes={class=nav-icon-systemtagsfilter svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state7",
+    "text" : "",
+    "id" : "xpath //SPAN[@id = 'selectedActionsList']/A[3]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=delete-selected mobile button, data-original-title=, href=, title=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Deleted files",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Deleted files, attributes={class=nav-icon-trashbin svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state7",
+    "text" : "Delete",
+    "id" : "xpath //TH[@id = 'headerDate']/SPAN[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Delete, attributes={class=delete-selected, data-original-title=, href=, style=, title=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Comments",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Comments, attributes={href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state77",
+    "text" : "Documents",
+    "id" : "xpath //TBODY[@id = 'fileList']/TR[1]/TD[1]/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=Documents, attributes={class=name, href=/index.php/apps/files?dir=//Documents}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state77",
+    "to" : "state78",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'notification']/DIV[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={alt=Dismiss, class=action close icon-close, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state78",
+    "to" : "state7",
+    "text" : "ownCloud",
+    "id" : "xpath //A[@id = 'owncloud']",
+    "element" : "Element{node=[A: null], tag=A, text=ownCloud, attributes={href=/index.php, id=owncloud, style=, tabindex=1}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Locks",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Locks, attributes={href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state85",
+    "text" : "Photos",
+    "id" : "xpath //TBODY[@id = 'fileList']/TR[2]/TD[1]/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=Photos, attributes={class=name, href=/index.php/apps/files?dir=//Photos}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state85",
+    "to" : "state86",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'notification']/DIV[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={alt=Dismiss, class=action close icon-close, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state86",
+    "to" : "state7",
+    "text" : "ownCloud",
+    "id" : "xpath //A[@id = 'owncloud']",
+    "element" : "Element{node=[A: null], tag=A, text=ownCloud, attributes={href=/index.php, id=owncloud, style=, tabindex=1}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Sharing",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Sharing, attributes={href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state7",
+    "text" : "Delete",
+    "id" : "xpath //TH[@id = 'headerDate']/SPAN[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Delete, attributes={class=delete-selected, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Tags",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Tags, attributes={href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state7",
+    "text" : "Restore",
+    "id" : "xpath //SPAN[@id = 'selectedActionsList']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Restore, attributes={class=undelete, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Versions",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Versions, attributes={href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state4",
+    "text" : "",
+    "id" : "xpath //SPAN[@id = 'selectedActionsList']/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=undelete mobile button, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state14",
+    "text" : "Users",
+    "id" : "xpath //DIV[@id = 'expanddiv']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Users, attributes={href=/index.php/settings/users}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state14",
+    "to" : "state37",
+    "text" : "Market",
+    "id" : "xpath //DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Market, attributes={href=/index.php/apps/market/, tabindex=3}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state37",
+    "to" : "state1",
+    "text" : "Log out",
+    "id" : "xpath //A[@id = 'logout']",
+    "element" : "Element{node=[A: null], tag=A, text=Log out, attributes={href=http://web/index.php/logout?requesttoken=X1E9FWJrDCV7LT8yFVgGLQxFGjUEIx0rYHFWTzM/FjA%3D:p4JWRYZj%2BLSCS/qhF1rWrtNJW3aydvgezfyR%2BYf5T1Y%3D, id=logout}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state1",
+    "text" : "Log out",
+    "id" : "xpath //A[@id = 'logout']",
+    "element" : "Element{node=[A: null], tag=A, text=Log out, attributes={href=http://web/index.php/logout?requesttoken=UmMbYTAiGyg%2BPXw6PhlVDWMWBxwvC0hAEzFvZ1YJbQg%3D:76P6aepNYKKsDVe96rdmaH27pR%2B0f85JQg2lsLq4G4k%3D, id=logout}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state7",
+    "text" : "Files",
+    "id" : "xpath //DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Files, attributes={class=active, href=/index.php/apps/files/, tabindex=3}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={alt=Close, class=close icon-close, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state5",
+    "to" : "state7",
+    "text" : "",
+    "id" : "xpath //SPAN[@id = 'selectedActionsList']/A[3]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=delete-selected mobile button, href=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state62",
+    "text" : "All files",
+    "id" : "xpath //DIV[@id = 'controls']/DIV[1]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=All files, attributes={href=/index.php/apps/files?dir=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state62",
+    "to" : "state7",
+    "text" : "ownCloud",
+    "id" : "xpath //A[@id = 'owncloud']",
+    "element" : "Element{node=[A: null], tag=A, text=ownCloud, attributes={href=/index.php, id=owncloud, tabindex=1}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "New",
+    "id" : "xpath //DIV[@id = 'controls']/DIV[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=New, attributes={class=button new, data-original-title=, href=#, title=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Favorite",
+    "id" : "xpath //TBODY[@id = 'fileList']/TR[1]/TD[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Favorite, attributes={class=action action-favorite , data-original-title=, href=#, title=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state37",
+    "text" : "Market",
+    "id" : "xpath //DIV[@id = 'apps']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Market, attributes={href=/index.php/apps/market/, tabindex=3}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state37",
+    "to" : "state7",
+    "text" : "Files",
+    "id" : "xpath //DIV[@id = 'apps']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Files, attributes={href=/index.php/apps/files/, tabindex=3}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state7",
+    "to" : "state5",
+    "text" : "Share",
+    "id" : "xpath //TBODY[@id = 'fileList']/TR[1]/TD[1]/A[3]",
+    "element" : "Element{node=[A: null], tag=A, text=Share, attributes={class=action action-share permanent, data-action=Share, data-original-title=, href=#, title=}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "All files",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=All files, attributes={class=nav-icon-files svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Favorites",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Favorites, attributes={class=nav-icon-favorites svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Shared with you",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[3]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Shared with you, attributes={class=nav-icon-sharingin svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Shared with others",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[4]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Shared with others, attributes={class=nav-icon-sharingout svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Shared by link",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[5]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Shared by link, attributes={class=nav-icon-sharinglinks svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Tags",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[6]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Tags, attributes={class=nav-icon-systemtagsfilter svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Deleted files",
+    "id" : "xpath //DIV[@id = 'app-navigation']/UL[1]/LI[7]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Deleted files, attributes={class=nav-icon-trashbin svg, href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Comments",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/UL[1]/LI[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Comments, attributes={href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Locks",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/UL[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Locks, attributes={href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Sharing",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/UL[1]/LI[3]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Sharing, attributes={href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Tags",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/UL[1]/LI[4]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Tags, attributes={href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Versions",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/UL[1]/LI[5]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Versions, attributes={href=#}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'app-sidebar']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={alt=Close, class=close icon-close, href=#}}",
+    "eventType" : "click"
+  } ],
+  "statistics" : {
+    "duration" : "4 minutes 50 seconds",
+    "crawlPaths" : 20,
+    "averageDomSize" : "42.534 kB",
+    "edges" : 85,
+    "startDate" : "2026-05-09 20:58:41 UTC",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "mostFanOut" : {
+        "id" : "state7",
+        "count" : 23
+      },
+      "mostFanIn" : {
+        "id" : "state5",
+        "count" : 33
+      },
+      "totalNumberOfStates" : 14,
+      "urls" : {
+        "http://web/index.php/apps/files?dir=//Photos&fileid=6#" : [ "state86" ],
+        "http://web/index.php/apps/files?dir=/&fileid=5#" : [ "state63" ],
+        "http://web/index.php/apps/files?dir=//Photos&fileid=6" : [ "state85" ],
+        "http://web/index.php/apps/files?dir=/&fileid=5" : [ "state62" ],
+        "http://web/index.php/apps/files/?dir=/&fileid=5#" : [ "state5" ],
+        "http://web/" : [ "index" ],
+        "http://web/index.php/apps/files/?dir=/&fileid=5" : [ "state7" ],
+        "http://web/index.php/login" : [ "state1" ],
+        "http://web/index.php/apps/files/" : [ "state4" ],
+        "http://web/index.php/apps/files?dir=//Documents&fileid=11#" : [ "state78" ],
+        "http://web/index.php/apps/files?dir=//Documents&fileid=11" : [ "state77" ],
+        "http://web/index.php/settings/personal" : [ "state10" ],
+        "http://web/index.php/apps/market/#/" : [ "state37" ],
+        "http://web/index.php/settings/users" : [ "state14" ]
+      }
+    },
+    "failedEvents" : 46
+  },
+  "exitStatus" : "MAX_TIME"
+}

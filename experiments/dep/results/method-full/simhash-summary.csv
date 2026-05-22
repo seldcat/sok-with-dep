@@ -1,0 +1,17 @@
+run,crawl_dir,states,edges,states_with_dep,unique_dep,exit_status
+baseline,experiments/dep/results/method-full/simhash/addressbook/baseline/web/crawl0,1,0,1,5,EXHAUSTED
+baseline,experiments/dep/results/method-full/simhash/hotcrp/baseline/web/crawl0,1,0,1,4,EXHAUSTED
+baseline,experiments/dep/results/method-full/simhash/joomla/baseline/web/crawl0,1,0,1,13,EXHAUSTED
+baseline,experiments/dep/results/method-full/simhash/owncloud/baseline/web/crawl0,1,0,1,9,EXHAUSTED
+baseline,experiments/dep/results/method-full/simhash/phpbb2/baseline/web/crawl0,1,0,0,0,EXHAUSTED
+baseline,experiments/dep/results/method-full/simhash/scarf/baseline/web/crawl0,1,0,0,0,EXHAUSTED
+baseline,experiments/dep/results/method-full/simhash/vanilla/baseline/web/crawl0,1,0,0,0,EXHAUSTED
+baseline,experiments/dep/results/method-full/simhash/wackopicko/baseline/web/crawl0,1,0,1,8,EXHAUSTED
+dep,experiments/dep/results/method-full/simhash/addressbook/dep/web/crawl0,26,56,25,93,MAX_TIME
+dep,experiments/dep/results/method-full/simhash/hotcrp/dep/web/crawl0,19,46,18,65,MAX_TIME
+dep,experiments/dep/results/method-full/simhash/joomla/dep/web/crawl0,20,15,19,27,MAX_TIME
+dep,experiments/dep/results/method-full/simhash/owncloud/dep/web/crawl0,8,21,7,57,MAX_TIME
+dep,experiments/dep/results/method-full/simhash/phpbb2/dep/web/crawl0,1,0,0,0,EXHAUSTED
+dep,experiments/dep/results/method-full/simhash/scarf/dep/web/crawl0,1,0,0,0,EXHAUSTED
+dep,experiments/dep/results/method-full/simhash/vanilla/dep/web/crawl0,1,0,0,0,EXHAUSTED
+dep,experiments/dep/results/method-full/simhash/wackopicko/dep/web/crawl0,15,124,14,27,MAX_TIME

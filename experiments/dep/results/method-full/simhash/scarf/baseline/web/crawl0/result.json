@@ -1,0 +1,50 @@
+{
+  "states" : {
+    "index" : {
+      "name" : "index",
+      "url" : "http://web/",
+      "candidateElements" : [ ],
+      "fanIn" : 0,
+      "fanOut" : 0,
+      "id" : 0,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1778379534766,
+      "nearestState" : "null"
+    }
+  },
+  "edges" : [ ],
+  "statistics" : {
+    "duration" : "0 seconds",
+    "crawlPaths" : 0,
+    "averageDomSize" : "1.823 kB",
+    "edges" : 0,
+    "startDate" : "2026-05-10 02:18:49 UTC",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "mostFanOut" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "mostFanIn" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "totalNumberOfStates" : 1,
+      "urls" : {
+        "http://web/" : [ "index" ]
+      }
+    },
+    "failedEvents" : 0
+  },
+  "exitStatus" : "EXHAUSTED"
+}

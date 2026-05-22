@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state60</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://web/autoassign.php'>http://web/autoassign.php</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>42</td>
+				</tr>
+				<tr>
+					<th>Nearest State</th>
+					<td>index</td>
+				</tr>
+				<tr>
+					<th>Distance to nearest State</th>
+					<td>1.0</td>
+				</tr>
+				<tr>
+					<th>Has Near Duplicate</th>
+					<td>false</td>
+				</tr>
+				<tr>
+					<th>Cluster</th>
+					<td>-1</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>xpath //DIV[@id = 'header_site']/H1[1]/A[1]</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state60.png' /> 
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_site']/H1[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 1px; width: 91px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 281px; top: 6px; width: 139px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 428px; top: 6px; width: 36px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[3]" class='hovers'
+				style="position: absolute; z-index: 10; left: 485px; top: 6px; width: 27px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_right']/A[4]" class='hovers'
+				style="position: absolute; z-index: 10; left: 533px; top: 6px; width: 47px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[1]/DIV[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 27px; top: 95px; width: 62px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[1]/DIV[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 107px; top: 95px; width: 42px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[1]/DIV[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 167px; top: 95px; width: 49px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'body']/DIV[1]/DIV[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 234px; top: 95px; width: 66px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 528px; top: 176px; width: 62px; height: 16px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 528px; top: 192px; width: 47px; height: 64px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 528px; top: 256px; width: 42px; height: 48px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[4]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 528px; top: 304px; width: 50px; height: 32px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[5]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 528px; top: 336px; width: 40px; height: 32px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 284px; top: 766px; width: 18px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 309px; top: 766px; width: 35px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[3]" class='hovers'
+				style="position: absolute; z-index: 10; left: 350px; top: 766px; width: 38px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[4]" class='hovers'
+				style="position: absolute; z-index: 10; left: 394px; top: 766px; width: 75px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[5]" class='hovers'
+				style="position: absolute; z-index: 10; left: 475px; top: 766px; width: 31px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[6]" class='hovers'
+				style="position: absolute; z-index: 10; left: 513px; top: 766px; width: 21px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[1]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 815px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[2]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 855px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[3]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 895px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[4]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 935px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[5]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 975px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[6]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1015px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[7]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1055px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[8]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1095px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[9]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1135px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[10]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1175px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[11]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1215px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[12]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1255px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[13]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1295px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[14]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1335px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[15]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1375px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[16]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1415px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[17]/LABEL[1]/SPAN[3]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 67px; top: 1455px; width: 45px; height: 13px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TABLE[@id = 'bptable']/TBODY[1]/TR[1]/TD[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 224px; top: 1540px; width: 36px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//TABLE[@id = 'bptable']/TBODY[1]/TR[1]/TD[2]/A[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 278px; top: 1540px; width: 43px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 524px; top: 37px; width: 55px; height: 25px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//INPUT[@id = 'requery']" class='hovers'
+				style="position: absolute; z-index: 10; left: 165px; top: 199px; width: 39px; height: 28px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="//FORM[@id = 'autoassignform']/DIV[3]/DIV[4]/INPUT[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 1826px; width: 161px; height: 31px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+&lt;meta name=&quot;google&quot; content=&quot;notranslate&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;stylesheets/style.css?mtime=1778089704&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;images/review24.png&quot;&gt;
+&lt;title&gt;Assignments - Automatic - hotcrp&lt;/title&gt;
+&lt;style&gt;&lt;/style&gt;&lt;/head&gt;
+&lt;body id=&quot;autoassign&quot;&gt;
+&lt;div id=&quot;prebody&quot;&gt;&lt;div id=&quot;header&quot;&gt;&lt;div id=&quot;header_site&quot; class=&quot;header_site_page&quot;&gt;&lt;h1&gt;&lt;a class=&quot;qq&quot; href=&quot;/&quot;&gt;&lt;span class=&quot;header-site-name&quot;&gt;hotcrp&lt;/span&gt; Home&lt;/a&gt;&lt;/h1&gt;&lt;/div&gt;&lt;div id=&quot;header_right&quot;&gt;&lt;a class=&quot;q&quot; href=&quot;profile.php&quot;&gt;&lt;strong&gt;jaekpot@localhost.com&lt;/strong&gt;&lt;/a&gt; &amp;nbsp; &lt;a href=&quot;profile.php&quot;&gt;Profile&lt;/a&gt; &lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt; &lt;a href=&quot;help.php&quot;&gt;Help&lt;/a&gt; &lt;span class=&quot;barsep&quot;&gt;&middot;&lt;/span&gt; &lt;a href=&quot;/?signout=1&amp;amp;post=1b0e5dbd3758&quot; class=&quot;nw&quot;&gt;Sign out&lt;/a&gt;&lt;div id=&quot;maindeadline&quot; class=&quot;hidden&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;header_page&quot;&gt;&lt;h1&gt;Assignments &amp;nbsp;∕&amp;nbsp; &lt;strong&gt;Automatic&lt;/strong&gt;&lt;/h1&gt;&lt;/div&gt;&lt;table class=&quot;vbar&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;vbar gopaper&quot;&gt;&lt;form method=&quot;get&quot; action=&quot;paper.php&quot; accept-charset=&quot;UTF-8&quot; class=&quot;gopaper&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;p&quot; value=&quot;&quot; id=&quot;quicksearchq&quot; size=&quot;10&quot; placeholder=&quot;(All)&quot; class=&quot;papersearch&quot; autocomplete=&quot;off&quot;&gt;&amp;nbsp; &lt;input type=&quot;submit&quot; class=&quot;btn&quot; value=&quot;Search&quot;&gt;&lt;/form&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;  &lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;initialmsgs&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;body&quot; class=&quot;body&quot;&gt;
+&lt;div class=&quot;psmode&quot;&gt;&lt;div class=&quot;papmodex&quot;&gt;&lt;a href=&quot;autoassign.php&quot;&gt;Automatic&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;papmode&quot;&gt;&lt;a href=&quot;manualassign.php&quot;&gt;Manual&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;papmode&quot;&gt;&lt;a href=&quot;conflictassign.php&quot;&gt;Conflicts&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;papmode&quot;&gt;&lt;a href=&quot;bulkassign.php&quot;&gt;Bulk update&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr class=&quot;c&quot;&gt;&lt;form method=&quot;post&quot; action=&quot;autoassign.php?post=1b0e5dbd3758&quot; enctype=&quot;multipart/form-data&quot; accept-charset=&quot;UTF-8&quot; id=&quot;autoassignform&quot; class=&quot;alert&quot;&gt;&lt;div class=&quot;helpside&quot;&gt;&lt;div class=&quot;helpinside&quot;&gt;
+Assignment methods:
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;autoassign.php&quot; class=&quot;q&quot;&gt;&lt;strong&gt;Automatic&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;manualassign.php&quot;&gt;Manual by PC member&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;assign.php&quot;&gt;Manual by paper&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;conflictassign.php&quot;&gt;Potential conflicts&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;bulkassign.php&quot;&gt;Bulk update&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;hr&quot;&gt;
+Types of PC review:
+&lt;dl&gt;&lt;dt&gt;&lt;span class=&quot;rto rt4&quot; title=&quot;Primary review&quot;&gt;&lt;span class=&quot;rti&quot;&gt;1&lt;/span&gt;&lt;/span&gt; Primary&lt;/dt&gt;&lt;dd&gt;Mandatory review&lt;/dd&gt;
+  &lt;dt&gt;&lt;span class=&quot;rto rt3&quot; title=&quot;Secondary review&quot;&gt;&lt;span class=&quot;rti&quot;&gt;2&lt;/span&gt;&lt;/span&gt; Secondary&lt;/dt&gt;&lt;dd&gt;May be delegated to external reviewers&lt;/dd&gt;
+  &lt;dt&gt;&lt;span class=&quot;rto rt2&quot; title=&quot;PC review&quot;&gt;&lt;span class=&quot;rti&quot;&gt;P&lt;/span&gt;&lt;/span&gt; Optional&lt;/dt&gt;&lt;dd&gt;May be declined&lt;/dd&gt;
+  &lt;dt&gt;&lt;span class=&quot;rto rt5&quot; title=&quot;Metareview&quot;&gt;&lt;span class=&quot;rti&quot;&gt;M&lt;/span&gt;&lt;/span&gt; Metareview&lt;/dt&gt;&lt;dd&gt;Can view all other reviews before completing their own&lt;/dd&gt;&lt;/dl&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;!--[if lt IE 9]&gt;&lt;script src=&quot;scripts/jquery-1.12.4.min.js?mtime=1778089704&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;
+&lt;!--[if !IE|gte IE 9]--&gt;&lt;script src=&quot;scripts/jquery-3.3.1.min.js?mtime=1778089704&quot;&gt;&lt;/script&gt;&lt;!--[endif]--&gt;
+&lt;script&gt;siteurl=&quot;&quot;;siteurl_suffix=&quot;.php&quot;;siteurl_postvalue=&quot;1b0e5dbd3758&quot;;siteurl_cookie_params=&quot;&quot;;assetsurl=&quot;&quot;;hotcrp_user={&quot;email&quot;:&quot;jaekpot@localhost.com&quot;,&quot;is_pclike&quot;:true,&quot;cid&quot;:1};&lt;/script&gt;&lt;script src=&quot;scripts/script.js?mtime=1778089704&quot;&gt;&lt;/script&gt;
+&lt;script&gt;hotcrp_load.time(240,0);hotcrp_deadlines.init({&quot;now&quot;:1778371108,&quot;email&quot;:&quot;jaekpot@localhost.com&quot;,&quot;is_admin&quot;:true,&quot;sub&quot;:{&quot;open&quot;:false,&quot;sub&quot;:0,&quot;blind&quot;:true},&quot;rev&quot;:{&quot;blind&quot;:true},&quot;revs&quot;:{&quot;unnamed&quot;:{},&quot;R1&quot;:{},&quot;R2&quot;:{},&quot;R3&quot;:{}}});hiliter_children(&quot;#autoassignform&quot;)&lt;/script&gt;&lt;div&gt;&lt;h3&gt;Paper selection&lt;/h3&gt;&lt;input type=&quot;text&quot; name=&quot;q&quot; value=&quot;&quot; id=&quot;autoassignq&quot; placeholder=&quot;(All)&quot; size=&quot;40&quot; title=&quot;Enter paper numbers or search terms&quot; class=&quot;papersearch js-autosubmit&quot; data-autosubmit-type=&quot;requery&quot; autocomplete=&quot;off&quot;&gt; &amp;nbsp;in &amp;nbsp;&lt;select name=&quot;t&quot; data-default-value=&quot;s&quot;&gt;&lt;option value=&quot;s&quot; selected=&quot;selected&quot;&gt;Submitted papers&lt;/option&gt;&lt;option value=&quot;acc&quot;&gt;Accepted papers&lt;/option&gt;&lt;option value=&quot;und&quot;&gt;Undecided papers&lt;/option&gt;&lt;option value=&quot;all&quot;&gt;All papers&lt;/option&gt;&lt;/select&gt; &amp;nbsp; &lt;input type=&quot;submit&quot; id=&quot;requery&quot; class=&quot;btn&quot; name=&quot;requery&quot; value=&quot;List&quot;&gt;&lt;/div&gt;
+&lt;div&gt;&lt;div&gt;&lt;h3&gt;Action&lt;/h3&gt;&lt;/div&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;a&quot; value=&quot;rev&quot; checked=&quot;checked&quot; id=&quot;a_rev&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;a_rev&quot;&gt;Ensure each selected paper has &lt;i&gt;at least&lt;/i&gt;&lt;/label&gt;&amp;nbsp; &lt;input type=&quot;text&quot; name=&quot;revct&quot; value=&quot;1&quot; size=&quot;3&quot; class=&quot;js-autosubmit&quot;&gt;&amp;nbsp; &lt;select name=&quot;revtype&quot; data-default-value=&quot;4&quot;&gt;&lt;option value=&quot;4&quot; selected=&quot;selected&quot;&gt;primary&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;secondary&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;optional&lt;/option&gt;&lt;option value=&quot;5&quot;&gt;metareview&lt;/option&gt;&lt;/select&gt;&amp;nbsp; review(s)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;a&quot; value=&quot;revadd&quot; id=&quot;a_revadd&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;a_revadd&quot;&gt;Assign&lt;/label&gt;&amp;nbsp; &lt;input type=&quot;text&quot; name=&quot;revaddct&quot; value=&quot;1&quot; size=&quot;3&quot; class=&quot;js-autosubmit&quot;&gt;&amp;nbsp; &lt;i&gt;additional&lt;/i&gt;&amp;nbsp; &lt;select name=&quot;revaddtype&quot; data-default-value=&quot;4&quot;&gt;&lt;option value=&quot;4&quot; selected=&quot;selected&quot;&gt;primary&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;secondary&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;optional&lt;/option&gt;&lt;option value=&quot;5&quot;&gt;metareview&lt;/option&gt;&lt;/select&gt;&amp;nbsp; review(s) per selected paper&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;a&quot; value=&quot;revpc&quot; id=&quot;a_revpc&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;a_revpc&quot;&gt;Assign each PC member&lt;/label&gt;&amp;nbsp; &lt;input type=&quot;text&quot; name=&quot;revpcct&quot; value=&quot;1&quot; size=&quot;3&quot; class=&quot;js-autosubmit&quot;&gt;&amp;nbsp; additional&amp;nbsp; &lt;select name=&quot;revpctype&quot; data-default-value=&quot;4&quot;&gt;&lt;option value=&quot;4&quot; selected=&quot;selected&quot;&gt;primary&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;secondary&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;optional&lt;/option&gt;&lt;option value=&quot;5&quot;&gt;metareview&lt;/option&gt;&lt;/select&gt;&amp;nbsp; review(s) from this paper selection&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td style=&quot;font-size:smaller&quot;&gt;Review round: &amp;nbsp;&lt;select name=&quot;rev_round&quot; data-default-value=&quot;unnamed&quot;&gt;&lt;option value=&quot;unnamed&quot; selected=&quot;selected&quot;&gt;unnamed&lt;/option&gt;&lt;option value=&quot;R1&quot;&gt;R1&lt;/option&gt;&lt;option value=&quot;R2&quot;&gt;R2&lt;/option&gt;&lt;option value=&quot;R3&quot;&gt;R3&lt;/option&gt;&lt;/select&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot; class=&quot;mg&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;a&quot; value=&quot;prefconflict&quot; id=&quot;a_prefconflict&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;a_prefconflict&quot;&gt;Assign conflicts when PC members have review preferences of &minus;100 or less&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;a&quot; value=&quot;lead&quot; id=&quot;a_lead&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;a_lead&quot;&gt;Assign discussion lead from reviewers, preferring&amp;nbsp; &lt;/label&gt;&lt;select name=&quot;leadscore&quot; data-default-value=&quot;+overAllMerit&quot;&gt;&lt;option value=&quot;+overAllMerit&quot; selected=&quot;selected&quot;&gt;high Overall merit scores&lt;/option&gt;&lt;option value=&quot;-overAllMerit&quot;&gt;low Overall merit scores&lt;/option&gt;&lt;option value=&quot;+reviewerQualification&quot;&gt;high Reviewer expertise scores&lt;/option&gt;&lt;option value=&quot;-reviewerQualification&quot;&gt;low Reviewer expertise scores&lt;/option&gt;&lt;option label=&quot; &quot; disabled=&quot;disabled&quot;&gt;&lt;/option&gt;&lt;option value=&quot;x&quot;&gt;random submitted reviews&lt;/option&gt;&lt;option value=&quot;xa&quot;&gt;random reviews&lt;/option&gt;&lt;/select&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;a&quot; value=&quot;shepherd&quot; id=&quot;a_shepherd&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;a_shepherd&quot;&gt;Assign shepherd from reviewers, preferring&amp;nbsp; &lt;/label&gt;&lt;select name=&quot;shepherdscore&quot; data-default-value=&quot;+overAllMerit&quot;&gt;&lt;option value=&quot;+overAllMerit&quot; selected=&quot;selected&quot;&gt;high Overall merit scores&lt;/option&gt;&lt;option value=&quot;-overAllMerit&quot;&gt;low Overall merit scores&lt;/option&gt;&lt;option value=&quot;+reviewerQualification&quot;&gt;high Reviewer expertise scores&lt;/option&gt;&lt;option value=&quot;-reviewerQualification&quot;&gt;low Reviewer expertise scores&lt;/option&gt;&lt;option label=&quot; &quot; disabled=&quot;disabled&quot;&gt;&lt;/option&gt;&lt;option value=&quot;x&quot;&gt;random submitted reviews&lt;/option&gt;&lt;option value=&quot;xa&quot;&gt;random reviews&lt;/option&gt;&lt;/select&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot; class=&quot;mg&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;a&quot; value=&quot;clear&quot; id=&quot;a_clear&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;a_clear&quot;&gt;Clear all &amp;nbsp;&lt;/label&gt;&lt;select name=&quot;cleartype&quot; data-default-value=&quot;4&quot;&gt;&lt;option value=&quot;4&quot; selected=&quot;selected&quot;&gt;primary&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;secondary&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;optional&lt;/option&gt;&lt;option value=&quot;5&quot;&gt;metareview&lt;/option&gt;&lt;option value=&quot;conflict&quot;&gt;conflict&lt;/option&gt;&lt;option value=&quot;lead&quot;&gt;discussion lead&lt;/option&gt;&lt;option value=&quot;shepherd&quot;&gt;shepherd&lt;/option&gt;&lt;/select&gt; &amp;nbsp;assignments for selected papers and PC members&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot; class=&quot;mg&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;a&quot; value=&quot;discorder&quot; id=&quot;a_discorder&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;a_discorder&quot;&gt;Create discussion order in tag #&lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;discordertag&quot; value=&quot;discuss&quot; size=&quot;12&quot; class=&quot;js-autosubmit&quot;&gt;, grouping papers with similar PC conflicts&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3&gt;PC members&lt;/h3&gt;
+&lt;table&gt;
+&lt;tbody&gt;&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;pctyp&quot; value=&quot;all&quot; checked=&quot;checked&quot; id=&quot;pctyp_all&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;pctyp_all&quot;&gt;Use entire PC&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;pctyp&quot; value=&quot;sel&quot; id=&quot;pctyp_sel&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;pctyp_sel&quot;&gt;Use selected PC members:&lt;/label&gt; &amp;nbsp; (select &lt;a class=&quot;ui js-pcsel-tag&quot; href=&quot;#pc_all&quot; style=&quot;font-weight: bold;&quot;&gt;all&lt;/a&gt;, &lt;a class=&quot;ui js-pcsel-tag&quot; href=&quot;#pc_none&quot; style=&quot;font-weight: inherit;&quot;&gt;none&lt;/a&gt;, &lt;a class=&quot;ui js-pcsel-tag&quot; href=&quot;#pc_blue&quot; style=&quot;font-weight: inherit;&quot;&gt;#blue&lt;/a&gt;, &lt;a class=&quot;ui js-pcsel-tag&quot; href=&quot;#pc_IDdOjFUu&quot; style=&quot;font-weight: inherit;&quot;&gt;#IDdOjFUu&lt;/a&gt;, &lt;a class=&quot;ui js-pcsel-tag&quot; href=&quot;#pc_red&quot; style=&quot;font-weight: inherit;&quot;&gt;#red&lt;/a&gt;, &lt;a class=&quot;ui js-pcsel-tag&quot; href=&quot;#pc___flip__&quot; style=&quot;font-weight: inherit;&quot;&gt;flip&lt;/a&gt;)&lt;div class=&quot;pc_ctable&quot; style=&quot;margin-top:0.5em&quot;&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;2&quot; checked=&quot;checked&quot; id=&quot;pcc2&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Christian Huitema&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Ahuitema%40bellcore.com&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki redtag tagbg&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;3&quot; checked=&quot;checked&quot; id=&quot;pcc3&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Christophe Diot&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Achristophe.diot%40sophia.inria.fr&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki redtag tagbg&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;4&quot; checked=&quot;checked&quot; id=&quot;pcc4&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Deborah Estrin&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Aestrin%40usc.edu&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki redtag tagbg&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;6&quot; checked=&quot;checked&quot; id=&quot;pcc6&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;George Varghese&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Avarghese%40ccrc.wustl.edu&quot;&gt;4 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;1&quot; checked=&quot;checked&quot; id=&quot;pcc1&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;iEEUjUiM hnbBAjnV&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Ajaekpot%40localhost.com&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki redtag tagbg&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;7&quot; checked=&quot;checked&quot; id=&quot;pcc7&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;J. J. Garcia-Luna-Aceves&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Ajj%40cse.ucsc.edu&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki redtag tagbg&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;8&quot; checked=&quot;checked&quot; id=&quot;pcc8&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Jon Crowcroft&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Ajon%40cs.ucl.ac.uk&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;9&quot; checked=&quot;checked&quot; id=&quot;pcc9&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Lixia Zhang&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Alixia%40cs.ucla.edu&quot;&gt;4 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;10&quot; checked=&quot;checked&quot; id=&quot;pcc10&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Marina Tsvetaeva&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Amarina%40poema.ru&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;11&quot; checked=&quot;checked&quot; id=&quot;pcc11&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Mark Handley&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Amjh%40isi.edu&quot;&gt;4 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;12&quot; checked=&quot;checked&quot; id=&quot;pcc12&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Mary Baker&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Amgbaker%40cs.stanford.edu&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki bluetag tagbg&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;13&quot; checked=&quot;checked&quot; id=&quot;pcc13&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Paul Francis&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Apfrancis%40ntt.jp&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;14&quot; checked=&quot;checked&quot; id=&quot;pcc14&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Peter Danzig&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Apeter.danzig%40usc.edu&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;15&quot; checked=&quot;checked&quot; id=&quot;pcc15&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Peter Druschel&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Apdruschel%40cs.rice.edu&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;16&quot; checked=&quot;checked&quot; id=&quot;pcc16&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Roch Guerin&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Arguerin%40ibm.com&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki bluetag redtag tagbg&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;17&quot; checked=&quot;checked&quot; id=&quot;pcc17&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Sally Floyd&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Afloyd%40ee.lbl.gov&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;18&quot; checked=&quot;checked&quot; id=&quot;pcc18&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Scott Shenker&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;&lt;a class=&quot;qq&quot; href=&quot;search.php?q=re%3Ashenker%40parc.xerox.com&quot;&gt;3 reviews&lt;/a&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;div class=&quot;ctelt&quot;&gt;&lt;label class=&quot;ctelti checki&quot;&gt;&lt;span class=&quot;checkc&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;pcs[]&quot; value=&quot;20&quot; checked=&quot;checked&quot; id=&quot;pcc20&quot; class=&quot;uix js-range-click js-pcsel-tag&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;taghl&quot;&gt;Wilma Ojuelegba&lt;/span&gt;&lt;span class=&quot;pcrevsum&quot;&gt;0 reviews&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;div class=&quot;g&quot;&gt;&lt;/div&gt;&lt;div class=&quot;relative&quot;&gt;&lt;table id=&quot;bptable&quot;&gt;&lt;tbody&gt;
+    &lt;tr&gt;&lt;td class=&quot;rentry nw&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;badpairs&quot; value=&quot;1&quot; id=&quot;badpairs&quot;&gt;&amp;nbsp;&lt;label for=&quot;badpairs&quot;&gt;Don&rsquo;t assign&lt;/label&gt; &amp;nbsp;&lt;/td&gt;&lt;td class=&quot;lentry&quot;&gt;&lt;select name=&quot;bpa1&quot; class=&quot;badpairs&quot; data-pcselector-options=&quot;[&amp;quot;(PC member)&amp;quot;,&amp;quot;*&amp;quot;]&quot; data-default-value=&quot;&quot;&gt;&lt;option value=&quot;none&quot;&gt;(PC member)&lt;/option&gt;&lt;option value=&quot;huitema@bellcore.com&quot;&gt;Christian Huitema&lt;/option&gt;&lt;option value=&quot;christophe.diot@sophia.inria.fr&quot;&gt;Christophe Diot&lt;/option&gt;&lt;option value=&quot;estrin@usc.edu&quot;&gt;Deborah Estrin&lt;/option&gt;&lt;option value=&quot;varghese@ccrc.wustl.edu&quot;&gt;George Varghese&lt;/option&gt;&lt;option value=&quot;jaekpot@localhost.com&quot;&gt;iEEUjUiM hnbBAjnV&lt;/option&gt;&lt;option value=&quot;jj@cse.ucsc.edu&quot;&gt;J. J. Garcia-Luna-Aceves&lt;/option&gt;&lt;option value=&quot;jon@cs.ucl.ac.uk&quot;&gt;Jon Crowcroft&lt;/option&gt;&lt;option value=&quot;lixia@cs.ucla.edu&quot;&gt;Lixia Zhang&lt;/option&gt;&lt;option value=&quot;marina@poema.ru&quot;&gt;Marina Tsvetaeva&lt;/option&gt;&lt;option value=&quot;mjh@isi.edu&quot;&gt;Mark Handley&lt;/option&gt;&lt;option value=&quot;mgbaker@cs.stanford.edu&quot;&gt;Mary Baker&lt;/option&gt;&lt;option value=&quot;pfrancis@ntt.jp&quot;&gt;Paul Francis&lt;/option&gt;&lt;option value=&quot;peter.danzig@usc.edu&quot;&gt;Peter Danzig&lt;/option&gt;&lt;option value=&quot;pdruschel@cs.rice.edu&quot;&gt;Peter Druschel&lt;/option&gt;&lt;option value=&quot;rguerin@ibm.com&quot;&gt;Roch Guerin&lt;/option&gt;&lt;option value=&quot;floyd@ee.lbl.gov&quot;&gt;Sally Floyd&lt;/option&gt;&lt;option value=&quot;shenker@parc.xerox.com&quot;&gt;Scott Shenker&lt;/option&gt;&lt;option value=&quot;ojuelegba@gmail.com&quot;&gt;Wilma Ojuelegba&lt;/option&gt;&lt;/select&gt; &amp;nbsp;and&amp;nbsp; &lt;select name=&quot;bpb1&quot; class=&quot;badpairs&quot; data-pcselector-options=&quot;[&amp;quot;(PC member)&amp;quot;,&amp;quot;*&amp;quot;]&quot; data-default-value=&quot;&quot;&gt;&lt;option value=&quot;none&quot;&gt;(PC member)&lt;/option&gt;&lt;option value=&quot;huitema@bellcore.com&quot;&gt;Christian Huitema&lt;/option&gt;&lt;option value=&quot;christophe.diot@sophia.inria.fr&quot;&gt;Christophe Diot&lt;/option&gt;&lt;option value=&quot;estrin@usc.edu&quot;&gt;Deborah Estrin&lt;/option&gt;&lt;option value=&quot;varghese@ccrc.wustl.edu&quot;&gt;George Varghese&lt;/option&gt;&lt;option value=&quot;jaekpot@localhost.com&quot;&gt;iEEUjUiM hnbBAjnV&lt;/option&gt;&lt;option value=&quot;jj@cse.ucsc.edu&quot;&gt;J. J. Garcia-Luna-Aceves&lt;/option&gt;&lt;option value=&quot;jon@cs.ucl.ac.uk&quot;&gt;Jon Crowcroft&lt;/option&gt;&lt;option value=&quot;lixia@cs.ucla.edu&quot;&gt;Lixia Zhang&lt;/option&gt;&lt;option value=&quot;marina@poema.ru&quot;&gt;Marina Tsvetaeva&lt;/option&gt;&lt;option value=&quot;mjh@isi.edu&quot;&gt;Mark Handley&lt;/option&gt;&lt;option value=&quot;mgbaker@cs.stanford.edu&quot;&gt;Mary Baker&lt;/option&gt;&lt;option value=&quot;pfrancis@ntt.jp&quot;&gt;Paul Francis&lt;/option&gt;&lt;option value=&quot;peter.danzig@usc.edu&quot;&gt;Peter Danzig&lt;/option&gt;&lt;option value=&quot;pdruschel@cs.rice.edu&quot;&gt;Peter Druschel&lt;/option&gt;&lt;option value=&quot;rguerin@ibm.com&quot;&gt;Roch Guerin&lt;/option&gt;&lt;option value=&quot;floyd@ee.lbl.gov&quot;&gt;Sally Floyd&lt;/option&gt;&lt;option value=&quot;shenker@parc.xerox.com&quot;&gt;Scott Shenker&lt;/option&gt;&lt;option value=&quot;ojuelegba@gmail.com&quot;&gt;Wilma Ojuelegba&lt;/option&gt;&lt;/select&gt; &amp;nbsp;to the same paper &amp;nbsp;(&lt;a class=&quot;ui js-badpairs-row more&quot; href=&quot;#&quot;&gt;More&lt;/a&gt; &amp;nbsp;&middot;&amp;nbsp; &lt;a class=&quot;ui js-badpairs-row less&quot; href=&quot;#&quot;&gt;Fewer&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;script&gt;var hotcrp_pc_tags={&quot;2&quot;:&quot; pc#0 &quot;,&quot;3&quot;:&quot; pc#0 red#0 &quot;,&quot;4&quot;:&quot; pc#0 red#0 &quot;,&quot;6&quot;:&quot; pc#0 red#0 &quot;,&quot;1&quot;:&quot; pc#0 iddojfuu#0 &quot;,&quot;7&quot;:&quot; pc#0 red#0 &quot;,&quot;8&quot;:&quot; pc#0 red#0 &quot;,&quot;9&quot;:&quot; pc#0 &quot;,&quot;10&quot;:&quot; pc#0 &quot;,&quot;11&quot;:&quot; pc#0 &quot;,&quot;12&quot;:&quot; pc#0 &quot;,&quot;13&quot;:&quot; pc#0 blue#0 &quot;,&quot;14&quot;:&quot; pc#0 &quot;,&quot;15&quot;:&quot; pc#0 &quot;,&quot;16&quot;:&quot; pc#0 &quot;,&quot;17&quot;:&quot; pc#0 blue#0 red#0 &quot;,&quot;18&quot;:&quot; pc#0 &quot;,&quot;20&quot;:&quot; pc#0 &quot;};function make_pcsel_members(tag) {
+    if (tag === &quot;__flip__&quot;)
+        return function () { return !this.checked; };
+    else if (tag === &quot;all&quot;)
+        return function () { return true; };
+    else if (tag === &quot;none&quot;)
+        return function () { return false; };
+    else {
+        tag = &quot; &quot; + tag.toLowerCase() + &quot;#&quot;;
+        return function () {
+            var tlist = hotcrp_pc_tags[this.value] || &quot;&quot;;
+            return tlist.indexOf(tag) &gt;= 0;
+        };
+    }
+}
+function pcsel_tag(event) {
+    var $g = $(this).closest(&quot;.js-radio-focus&quot;), e;
+    if (this.tagName === &quot;A&quot;) {
+        $g.find(&quot;input[type=radio]&quot;).first().click();
+        var f = make_pcsel_members(this.hash.substring(4));
+        $g.find(&quot;input&quot;).each(function () {
+            if (this.name === &quot;pcs[]&quot;)
+                this.checked = f.call(this);
+        });
+        event_prevent(event);
+    }
+    var tags = [], functions = {};
+    $g.find(&quot;a.js-pcsel-tag&quot;).each(function () {
+        var tag = this.hash.substring(4);
+        tags.push(tag);
+        functions[tag] = make_pcsel_members(tag);
+    });
+    $g.find(&quot;input&quot;).each(function () {
+        if (this.name === &quot;pcs[]&quot;) {
+            for (var i = 0; i &lt; tags.length; ) {
+                if (this.checked !== functions[tags[i]].call(this))
+                    tags.splice(i, 1);
+                else
+                    ++i;
+            }
+        }
+    });
+    $g.find(&quot;a.js-pcsel-tag&quot;).each(function () {
+        if ($.inArray(this.hash.substring(4), tags) &gt;= 0)
+            $(this).css(&quot;font-weight&quot;, &quot;bold&quot;);
+        else
+            $(this).css(&quot;font-weight&quot;, &quot;inherit&quot;);
+    });
+}
+$(document).on(&quot;click&quot;, &quot;a.js-pcsel-tag&quot;, pcsel_tag);
+$(document).on(&quot;change&quot;, &quot;input.js-pcsel-tag&quot;, pcsel_tag);
+$(function(){$(&quot;input.js-pcsel-tag&quot;).first().trigger(&quot;change&quot;)});make_pattern_fill(&quot;redtag tagbg&quot;);make_pattern_fill(&quot;bluetag tagbg&quot;);make_pattern_fill(&quot;bluetag redtag tagbg&quot;);hotcrp_pc={&quot;2&quot;:{&quot;name&quot;:&quot;Christian Huitema&quot;,&quot;email&quot;:&quot;huitema@bellcore.com&quot;},&quot;3&quot;:{&quot;name&quot;:&quot;Christophe Diot&quot;,&quot;email&quot;:&quot;christophe.diot@sophia.inria.fr&quot;,&quot;color_classes&quot;:&quot;redtag tagbg&quot;},&quot;4&quot;:{&quot;name&quot;:&quot;Deborah Estrin&quot;,&quot;email&quot;:&quot;estrin@usc.edu&quot;,&quot;color_classes&quot;:&quot;redtag tagbg&quot;},&quot;6&quot;:{&quot;name&quot;:&quot;George Varghese&quot;,&quot;email&quot;:&quot;varghese@ccrc.wustl.edu&quot;,&quot;color_classes&quot;:&quot;redtag tagbg&quot;},&quot;1&quot;:{&quot;name&quot;:&quot;iEEUjUiM hnbBAjnV&quot;,&quot;email&quot;:&quot;jaekpot@localhost.com&quot;},&quot;7&quot;:{&quot;name&quot;:&quot;J. J. Garcia-Luna-Aceves&quot;,&quot;email&quot;:&quot;jj@cse.ucsc.edu&quot;,&quot;color_classes&quot;:&quot;redtag tagbg&quot;},&quot;8&quot;:{&quot;name&quot;:&quot;Jon Crowcroft&quot;,&quot;email&quot;:&quot;jon@cs.ucl.ac.uk&quot;,&quot;color_classes&quot;:&quot;redtag tagbg&quot;},&quot;9&quot;:{&quot;name&quot;:&quot;Lixia Zhang&quot;,&quot;email&quot;:&quot;lixia@cs.ucla.edu&quot;},&quot;10&quot;:{&quot;name&quot;:&quot;Marina Tsvetaeva&quot;,&quot;email&quot;:&quot;marina@poema.ru&quot;},&quot;11&quot;:{&quot;name&quot;:&quot;Mark Handley&quot;,&quot;email&quot;:&quot;mjh@isi.edu&quot;},&quot;12&quot;:{&quot;name&quot;:&quot;Mary Baker&quot;,&quot;email&quot;:&quot;mgbaker@cs.stanford.edu&quot;},&quot;13&quot;:{&quot;name&quot;:&quot;Paul Francis&quot;,&quot;email&quot;:&quot;pfrancis@ntt.jp&quot;,&quot;color_classes&quot;:&quot;bluetag tagbg&quot;},&quot;14&quot;:{&quot;name&quot;:&quot;Peter Danzig&quot;,&quot;email&quot;:&quot;peter.danzig@usc.edu&quot;},&quot;15&quot;:{&quot;name&quot;:&quot;Peter Druschel&quot;,&quot;email&quot;:&quot;pdruschel@cs.rice.edu&quot;},&quot;16&quot;:{&quot;name&quot;:&quot;Roch Guerin&quot;,&quot;email&quot;:&quot;rguerin@ibm.com&quot;},&quot;17&quot;:{&quot;name&quot;:&quot;Sally Floyd&quot;,&quot;email&quot;:&quot;floyd@ee.lbl.gov&quot;,&quot;color_classes&quot;:&quot;bluetag redtag tagbg&quot;},&quot;18&quot;:{&quot;name&quot;:&quot;Scott Shenker&quot;,&quot;email&quot;:&quot;shenker@parc.xerox.com&quot;},&quot;20&quot;:{&quot;name&quot;:&quot;Wilma Ojuelegba&quot;,&quot;email&quot;:&quot;ojuelegba@gmail.com&quot;},&quot;__order__&quot;:[2,3,4,6,1,7,8,9,10,11,12,13,14,15,16,17,18,20]};$(&quot;#bptable&quot;).on(&quot;change&quot;, &quot;select.badpairs&quot;, function () {
+    if (this.value !== &quot;none&quot;) {
+        var x = $$(&quot;badpairs&quot;);
+        x.checked || x.click();
+    }
+});
+$(&quot;#bptable a.js-badpairs-row&quot;).on(&quot;click&quot;, function () {
+    var tbody = $(&quot;#bptable &gt; tbody&quot;), n = tbody.children().length;
+    if (hasClass(this, &quot;more&quot;)) {
+        ++n;
+        tbody.append('&lt;tr&gt;&lt;td class=&quot;rentry nw&quot;&gt;or &amp;nbsp;&lt;/td&gt;&lt;td class=&quot;lentry&quot;&gt;&lt;select name=&quot;bpa' + n + '&quot; class=&quot;badpairs&quot;&gt;&lt;/select&gt; &amp;nbsp;and&amp;nbsp; &lt;select name=&quot;bpb' + n + '&quot; class=&quot;badpairs&quot;&gt;&lt;/select&gt;&lt;/td&gt;&lt;/tr&gt;');
+        var options = tbody.find(&quot;select&quot;).first().html();
+        tbody.find(&quot;select[name=bpa&quot; + n + &quot;], select[name=bpb&quot; + n + &quot;]&quot;).html(options).val(&quot;none&quot;);
+    } else if (n &gt; 1) {
+        --n;
+        tbody.children().last().remove();
+    }
+    return false;
+});
+$(&quot;.need-pcselector&quot;).each(populate_pcselector)&lt;/script&gt;&lt;h3&gt;Load balancing&lt;/h3&gt;
+&lt;table&gt;
+&lt;tbody&gt;&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;balance&quot; value=&quot;new&quot; checked=&quot;checked&quot; id=&quot;balance_new&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;balance_new&quot;&gt;New assignments&mdash;spread new assignments equally among selected PC members&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;balance&quot; value=&quot;all&quot; id=&quot;balance_all&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;balance_all&quot;&gt;All assignments&mdash;spread assignments so that selected PC members have roughly equal overall load&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3&gt;Assignment method&lt;/h3&gt;
+&lt;table&gt;
+&lt;tbody&gt;&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;method&quot; value=&quot;mcmf&quot; checked=&quot;checked&quot; id=&quot;method_mcmf&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;method_mcmf&quot;&gt;Globally optimal assignment&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class=&quot;js-radio-focus&quot;&gt;&lt;td class=&quot;nw&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;method&quot; value=&quot;random&quot; id=&quot;method_random&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;label for=&quot;method_random&quot;&gt;Random good assignment&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;div class=&quot;aab aabig&quot;&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-primary&quot; name=&quot;assign&quot; value=&quot;Prepare assignments&quot;&gt; &amp;nbsp; &lt;span class=&quot;hint&quot;&gt;You&rsquo;ll be able to check the assignment before it is saved.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/form&gt;&lt;/div&gt;
+&lt;div id=&quot;footer&quot;&gt;&lt;div id=&quot;footer_crp&quot;&gt;&lt;a href=&quot;http://read.seas.harvard.edu/~kohler/hotcrp/&quot;&gt;HotCRP&lt;/a&gt; v2.102&lt;/div&gt;
+  &lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;
+
+
+&lt;!--1778371109.69ffca25ca17b5.80454316.serialized--&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_site']/H1[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[3]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_right']/A[4]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[1]/DIV[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[1]/DIV[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[1]/DIV[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'body']/DIV[1]/DIV[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[4]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[1]/DIV[1]/UL[1]/LI[5]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[3]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[4]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[5]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/A[6]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[1]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[2]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[3]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[4]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[5]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[6]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[7]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[8]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[9]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[10]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[11]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[12]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[13]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[14]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[15]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[16]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/TABLE[2]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[17]/LABEL[1]/SPAN[3]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TABLE[@id = 'bptable']/TBODY[1]/TR[1]/TD[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//TABLE[@id = 'bptable']/TBODY[1]/TR[1]/TD[2]/A[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header']/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/INPUT[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//INPUT[@id = 'requery']</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>//FORM[@id = 'autoassignform']/DIV[3]/DIV[4]/INPUT[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>

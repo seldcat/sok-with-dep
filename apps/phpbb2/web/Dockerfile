@@ -4,13 +4,13 @@ FROM php:5.6-apache
 
 ENV PHP_INI_SCAN_DIR=/usr/local/etc/php/conf.d
 
-RUN sed -i 's|deb http://deb.debian.org/debian stretch-updates main||g' /etc/apt/sources.list \ 
+RUN sed -i 's|deb http://deb.debian.org/debian stretch-updates main||g' /etc/apt/sources.list \
     && sed -i s/deb.debian.org/archive.debian.org/g /etc/apt/sources.list \
-    && sed -i 's|security.debian.org|archive.debian.org|g' /etc/apt/sources.list \ 
-    && apt update && apt install -y --force-yes git \
+    && sed -i 's|security.debian.org/debian-security|archive.debian.org/debian-security|g' /etc/apt/sources.list \
+    && apt -o Acquire::AllowInsecureRepositories=true update && apt install -y --allow-unauthenticated git \
     #&& pecl install xdebug-2.2.7 \
     && pecl install xdebug-2.5.5 && docker-php-ext-enable xdebug \
-    && docker-php-ext-install mysql mysqli pdo pdo_mysql \ 
+    && docker-php-ext-install mysql mysqli pdo pdo_mysql \
     && rm -r /var/lib/apt/lists/* \
     && echo 'ServerName web' >> /etc/apache2/apache2.conf \
     && mkdir -p $PHP_INI_SCAN_DIR \
@@ -24,4 +24,3 @@ RUN rm -rf /var/www/html/install /var/www/html/contrib
 COPY xdebug.php config.php /var/www/html/
 
 ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
-

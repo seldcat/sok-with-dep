@@ -1,0 +1,42 @@
+[
+  {
+    "app": "addressbook",
+    "status": "complete",
+    "seconds": 164.7
+  },
+  {
+    "app": "hotcrp",
+    "status": "complete",
+    "seconds": 418.1
+  },
+  {
+    "app": "owncloud",
+    "status": "complete",
+    "seconds": 113.3
+  },
+  {
+    "app": "joomla",
+    "status": "complete",
+    "seconds": 388.2
+  },
+  {
+    "app": "phpbb2",
+    "status": "complete",
+    "seconds": 99.0
+  },
+  {
+    "app": "scarf",
+    "status": "complete",
+    "seconds": 100.8
+  },
+  {
+    "app": "vanilla",
+    "status": "complete",
+    "seconds": 995.5
+  },
+  {
+    "app": "wackopicko",
+    "status": "complete",
+    "seconds": 2192.6
+  }
+]

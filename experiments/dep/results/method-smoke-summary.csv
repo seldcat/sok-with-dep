@@ -1,0 +1,17 @@
+run,crawl_dir,states,edges,states_with_dep,unique_dep,exit_status
+baseline,experiments/dep/results/method-smoke/apted_pruned/wackopicko/baseline/web/crawl0,1,0,1,8,EXHAUSTED
+baseline,experiments/dep/results/method-smoke/domstreq/wackopicko/baseline/web/crawl0,77,0,77,8,MAX_TIME
+baseline,experiments/dep/results/method-smoke/general_paths/wackopicko/baseline/web/crawl0,12,44,10,24,MAX_TIME
+baseline,experiments/dep/results/method-smoke/procrawl/wackopicko/baseline/web/crawl0,13,43,11,24,MAX_TIME
+baseline,experiments/dep/results/method-smoke/rted/wackopicko/baseline/web/crawl0,1,0,1,8,EXHAUSTED
+baseline,experiments/dep/results/method-smoke/simhash/wackopicko/baseline/web/crawl0,1,0,1,8,EXHAUSTED
+baseline,experiments/dep/results/method-smoke/url_full/wackopicko/baseline/web/crawl0,12,41,10,24,MAX_TIME
+baseline,experiments/dep/results/method-smoke/widgets/wackopicko/baseline/web/crawl0,9,40,7,20,MAX_TIME
+dep,experiments/dep/results/method-smoke/apted_pruned/wackopicko/dep/web/crawl0,11,33,10,24,MAX_TIME
+dep,experiments/dep/results/method-smoke/domstreq/wackopicko/dep/web/crawl0,55,0,55,8,MAX_TIME
+dep,experiments/dep/results/method-smoke/general_paths/wackopicko/dep/web/crawl0,14,38,11,24,MAX_TIME
+dep,experiments/dep/results/method-smoke/procrawl/wackopicko/dep/web/crawl0,13,36,11,24,MAX_TIME
+dep,experiments/dep/results/method-smoke/rted/wackopicko/dep/web/crawl0,11,35,10,24,MAX_TIME
+dep,experiments/dep/results/method-smoke/simhash/wackopicko/dep/web/crawl0,12,35,10,24,MAX_TIME
+dep,experiments/dep/results/method-smoke/url_full/wackopicko/dep/web/crawl0,13,36,10,24,MAX_TIME
+dep,experiments/dep/results/method-smoke/widgets/wackopicko/dep/web/crawl0,12,35,10,24,MAX_TIME

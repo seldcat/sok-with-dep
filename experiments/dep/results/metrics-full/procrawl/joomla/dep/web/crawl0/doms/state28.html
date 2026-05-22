@@ -1,0 +1,260 @@
+<html lang="en-us" dir="ltr"><head>
+		<meta charset="utf-8">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Joomla! Web Installer</title>
+	<link href="/installation/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link href="/media/jui/css/chosen.css?acf4fe03005190826b3962cc9078afe3" rel="stylesheet">
+	<link href="/media/jui/css/bootstrap.min.css?acf4fe03005190826b3962cc9078afe3" rel="stylesheet">
+	<link href="/media/jui/css/bootstrap-responsive.min.css?acf4fe03005190826b3962cc9078afe3" rel="stylesheet">
+	<link href="/media/jui/css/bootstrap-extended.css?acf4fe03005190826b3962cc9078afe3" rel="stylesheet">
+	<link href="/installation/template/css/template.css?acf4fe03005190826b3962cc9078afe3" rel="stylesheet">
+	<script type="application/json" class="joomla-script-options loaded">{"csrf.token":"f15b6bfe37e6711d6233695b916fe1ea","system.paths":{"root":"","base":"\/installation"},"system.keepalive":{"interval":300000,"uri":"index.php"},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Invalid field:&#160;","ERROR":"Error","WARNING":"Warning","NOTICE":"Notice","MESSAGE":"Message","JLIB_JS_AJAX_ERROR_CONNECTION_ABORT":"A connection abort has occurred while fetching the JSON data.","JLIB_JS_AJAX_ERROR_NO_CONTENT":"No content was returned.","JLIB_JS_AJAX_ERROR_OTHER":"An error has occurred while fetching the JSON data: HTTP %s status code.","JLIB_JS_AJAX_ERROR_PARSE":"A parse error has occurred while processing the following JSON data:<br\/><code style=\"color:inherit;white-space:pre-wrap;padding:0;margin:0;border:0;background:inherit;\">%s<\/code>","JLIB_JS_AJAX_ERROR_TIMEOUT":"A timeout has occurred while fetching the JSON data.","INSTL_PROCESS_BUSY":"Process is in progress. Please wait ...","INSTL_FTP_SETTINGS_CORRECT":"Settings correct"},"system.installation":{"url":"index.php"}}</script>
+	<script src="/media/jui/js/jquery.min.js?acf4fe03005190826b3962cc9078afe3"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?acf4fe03005190826b3962cc9078afe3"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?acf4fe03005190826b3962cc9078afe3"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/html5fallback.js?acf4fe03005190826b3962cc9078afe3"></script><![endif]-->
+	<script src="/media/jui/js/bootstrap.min.js?acf4fe03005190826b3962cc9078afe3"></script>
+	<script src="/media/jui/js/chosen.jquery.min.js?acf4fe03005190826b3962cc9078afe3"></script>
+	<script src="/media/system/js/core.js?acf4fe03005190826b3962cc9078afe3"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/polyfill.event.js?acf4fe03005190826b3962cc9078afe3"></script><![endif]-->
+	<script src="/media/system/js/keepalive.js?acf4fe03005190826b3962cc9078afe3"></script>
+	<script src="/media/system/js/punycode.js?acf4fe03005190826b3962cc9078afe3"></script>
+	<script src="/media/system/js/validate.js?acf4fe03005190826b3962cc9078afe3"></script>
+	<script src="/installation/template/js/installation.js?acf4fe03005190826b3962cc9078afe3"></script>
+	<!--[if lt IE 9]><script src="/media/jui/js/html5.js?acf4fe03005190826b3962cc9078afe3"></script><![endif]-->
+	<script>
+
+	jQuery(function ($) {
+		initChosen();
+		$("body").on("subform-row-add", initChosen);
+
+		function initChosen(event, container)
+		{
+			container = container || document;
+			$(container).find("select").chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"JGLOBAL_TYPE_OR_SELECT_SOME_OPTIONS","placeholder_text_single":"Select an option","no_results_text":"No results match"});
+		}
+	});
+	
+	</script>
+
+		<!--[if lt IE 9]><script src="/media/jui/js/html5.js"></script><![endif]-->
+	</head>
+	<body data-basepath="">
+		<!-- Header -->
+		<div class="header">
+			<img src="/installation/template/images/joomla.png" alt="Joomla">
+			<hr>
+			<h5>
+																<a href="https://www.joomla.org" target="_blank">Joomla!</a><sup></sup> is free software released under the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank" rel="noopener noreferrer">GNU General Public License</a>.			</h5>
+		</div>
+		<!-- Container -->
+		<div class="container">
+			<div id="system-message-container" style=""></div>
+
+			<div id="javascript-warning">
+				<noscript>
+					<div class="alert alert-error">
+						Warning! JavaScript must be enabled for proper installation of Joomla!					</div>
+				</noscript>
+			</div>
+			<div id="container-installation"><ul class="nav nav-tabs"><li class="step active" id="site"><a href="#" onclick="return Install.goToPage('site')"><span class="badge">1</span> Configuration</a></li><li class="step" id="database"><a href="#" onclick="Install.submitform();"><span class="badge">2</span> Database</a></li><li class="step" id="summary"><span><span class="badge">3</span> Overview</span></li></ul><div class="btn-toolbar">
+	<div class="btn-group pull-right">
+		<a href="#" class="btn btn-primary" onclick="Install.submitform();" rel="next" title="Next"><span class="icon-arrow-right icon-white"></span> Next</a>
+	</div>
+</div>
+<form action="index.php" method="post" id="languageForm" class="form-horizontal">
+	<div class="control-group">
+		<label for="jform_language" class="control-label">Select Language</label>
+		<div class="controls">
+			<select id="jform_language" name="jform[language]" class="chzn-select-deselect" size="20" onchange="Install.setlanguage();" style="display: none;">
+	<option value="af-ZA">Afrikaans</option>
+	<option value="ar-AA">Arabic Unitag (اللغة العربية)</option>
+	<option value="id-ID">Bahasa Indonesia</option>
+	<option value="ms-MY">Bahasa Melayu (Malaysia)</option>
+	<option value="eu-ES">Basque</option>
+	<option value="be-BY">Belarusian (Беларуская)</option>
+	<option value="bs-BA">Bosanski (Bosna i Hercegovina)</option>
+	<option value="ca-ES">Català (Spain)</option>
+	<option value="zh-TW">Chinese Traditional (中文繁體-台灣)</option>
+	<option value="hr-HR">Croatian (Hrvatska)</option>
+	<option value="cy-GB">Cymraeg</option>
+	<option value="cs-CZ">Czech (Čeština)</option>
+	<option value="da-DK">Dansk (Denmark)</option>
+	<option value="prs-AF">Dari Persian (فارسی دری)</option>
+	<option value="de-DE">Deutsch (Deutschland)</option>
+	<option value="de-LI">Deutsch (Lichtenstein)</option>
+	<option value="de-LU">Deutsch (Luxemburg)</option>
+	<option value="de-CH">Deutsch (Schweiz)</option>
+	<option value="de-AT">Deutsch (Österreich)</option>
+	<option value="dz-BT">Dzongkha (Bhutan)</option>
+	<option value="en-AU">English (Australia)</option>
+	<option value="en-CA">English (Canada)</option>
+	<option value="en-NZ">English (New Zealand)</option>
+	<option value="en-GB">English (United Kingdom)</option>
+	<option value="en-US" selected="selected">English (United States)</option>
+	<option value="es-CO">Español (Colombia)</option>
+	<option value="es-ES">Español (España)</option>
+	<option value="eo-XX">Esperanto</option>
+	<option value="et-EE">Estonian</option>
+	<option value="fi-FI">Finnish (Suomi)</option>
+	<option value="fr-CA">Français (Canada)</option>
+	<option value="fr-FR">Français (France)</option>
+	<option value="ga-IE">Gaeilge (Éire)</option>
+	<option value="gl-ES">Galician (Galiza)</option>
+	<option value="he-IL">Hebrew (Israel)</option>
+	<option value="hi-IN">Hindi-हिंदी (India)</option>
+	<option value="it-IT">Italiano (Italia)</option>
+	<option value="km-KH">Khmer ភាសាខ្មែរ (Cambodia)</option>
+	<option value="sw-KE">Kiswahili (Afrika Mashariki)</option>
+	<option value="ckb-IQ">Kurdish Soranî (کوردى)</option>
+	<option value="lv-LV">Latvian (Lv)</option>
+	<option value="lt-LT">Lietuvių (Lietuva) lt-LT</option>
+	<option value="hu-HU">Magyar (Magyarország)</option>
+	<option value="srp-ME">Montenegrin (Latin)</option>
+	<option value="nl-NL">Nederlands (Dutch)</option>
+	<option value="nb-NO">Norsk bokmål (Norge)</option>
+	<option value="nn-NO">Nynorsk (nn-NO)</option>
+	<option value="fa-IR">Persian (پارسی)</option>
+	<option value="pl-PL">Polski (PL)</option>
+	<option value="pt-PT">Português (Portugal)</option>
+	<option value="pt-BR">Português do Brasil (pt-BR)</option>
+	<option value="ro-RO">Română (România)</option>
+	<option value="ru-RU">Russian Русский</option>
+	<option value="si-LK">Sinhala (Si)</option>
+	<option value="sk-SK">Slovenčina (Slovak)</option>
+	<option value="sl-SI">Slovenščina (Slovenia)</option>
+	<option value="sr-YU">Srpski latinica (Serbia)</option>
+	<option value="sv-SE">Svenska (Sverige)</option>
+	<option value="sy-IQ">Syriac (Iraq)</option>
+	<option value="vi-VN">Tiếng Việt (Việt Nam)</option>
+	<option value="tk-TM">Türkmençe (Türkmenistan)</option>
+	<option value="tr-TR">Türkçe (Türkiye)</option>
+	<option value="ug-CN">Uyghur (ئۇيغۇرچە)</option>
+	<option value="el-GR">Ελληνικά (Ελλάδας)</option>
+	<option value="bg-BG">Български (България)</option>
+	<option value="mk-MK">Македонски (Macedonia)</option>
+	<option value="sr-RS">Српски ћирилица (Serbia)</option>
+	<option value="uk-UA">Українська (Україна)</option>
+	<option value="kk-KZ">Қазақша (Kazakhstan)</option>
+	<option value="hy-AM">Հայերեն (Armenia)</option>
+	<option value="bn-BD">বাংলা (বাংলাদেশ)</option>
+	<option value="ta-IN">தமிழ் (இந்தியா)</option>
+	<option value="th-TH">ไทย (ภาษาไทย)</option>
+	<option value="ka-GE">ქართული (საქართველო)</option>
+	<option value="ja-JP">日本語 (Japan)</option>
+	<option value="zh-CN">简体中文 (中国)</option>
+	<option value="ko-KR">한국어 (Republic of Korea)</option>
+</select><div class="chzn-container chzn-container-single chzn-with-drop chzn-container-active" style="width: 220px;" title="" id="jform_language_chzn"><a class="chzn-single"><span>English (United States)</span><div><b></b></div></a><div class="chzn-drop"><div class="chzn-search"><input type="text" autocomplete="off"></div><ul class="chzn-results"><li class="active-result" data-option-array-index="0" style="">Afrikaans</li><li class="active-result" data-option-array-index="1" style="">Arabic Unitag (اللغة العربية)</li><li class="active-result" data-option-array-index="2" style="">Bahasa Indonesia</li><li class="active-result" data-option-array-index="3" style="">Bahasa Melayu (Malaysia)</li><li class="active-result" data-option-array-index="4" style="">Basque</li><li class="active-result" data-option-array-index="5" style="">Belarusian (Беларуская)</li><li class="active-result" data-option-array-index="6" style="">Bosanski (Bosna i Hercegovina)</li><li class="active-result" data-option-array-index="7" style="">Català (Spain)</li><li class="active-result" data-option-array-index="8" style="">Chinese Traditional (中文繁體-台灣)</li><li class="active-result" data-option-array-index="9" style="">Croatian (Hrvatska)</li><li class="active-result" data-option-array-index="10" style="">Cymraeg</li><li class="active-result" data-option-array-index="11" style="">Czech (Čeština)</li><li class="active-result" data-option-array-index="12" style="">Dansk (Denmark)</li><li class="active-result" data-option-array-index="13" style="">Dari Persian (فارسی دری)</li><li class="active-result" data-option-array-index="14" style="">Deutsch (Deutschland)</li><li class="active-result" data-option-array-index="15" style="">Deutsch (Lichtenstein)</li><li class="active-result" data-option-array-index="16" style="">Deutsch (Luxemburg)</li><li class="active-result" data-option-array-index="17" style="">Deutsch (Schweiz)</li><li class="active-result" data-option-array-index="18" style="">Deutsch (Österreich)</li><li class="active-result" data-option-array-index="19" style="">Dzongkha (Bhutan)</li><li class="active-result" data-option-array-index="20" style="">English (Australia)</li><li class="active-result" data-option-array-index="21" style="">English (Canada)</li><li class="active-result" data-option-array-index="22" style="">English (New Zealand)</li><li class="active-result" data-option-array-index="23" style="">English (United Kingdom)</li><li class="active-result result-selected highlighted" data-option-array-index="24" style="">English (United States)</li><li class="active-result" data-option-array-index="25" style="">Español (Colombia)</li><li class="active-result" data-option-array-index="26" style="">Español (España)</li><li class="active-result" data-option-array-index="27" style="">Esperanto</li><li class="active-result" data-option-array-index="28" style="">Estonian</li><li class="active-result" data-option-array-index="29" style="">Finnish (Suomi)</li><li class="active-result" data-option-array-index="30" style="">Français (Canada)</li><li class="active-result" data-option-array-index="31" style="">Français (France)</li><li class="active-result" data-option-array-index="32" style="">Gaeilge (Éire)</li><li class="active-result" data-option-array-index="33" style="">Galician (Galiza)</li><li class="active-result" data-option-array-index="34" style="">Hebrew (Israel)</li><li class="active-result" data-option-array-index="35" style="">Hindi-हिंदी (India)</li><li class="active-result" data-option-array-index="36" style="">Italiano (Italia)</li><li class="active-result" data-option-array-index="37" style="">Khmer ភាសាខ្មែរ (Cambodia)</li><li class="active-result" data-option-array-index="38" style="">Kiswahili (Afrika Mashariki)</li><li class="active-result" data-option-array-index="39" style="">Kurdish Soranî (کوردى)</li><li class="active-result" data-option-array-index="40" style="">Latvian (Lv)</li><li class="active-result" data-option-array-index="41" style="">Lietuvių (Lietuva) lt-LT</li><li class="active-result" data-option-array-index="42" style="">Magyar (Magyarország)</li><li class="active-result" data-option-array-index="43" style="">Montenegrin (Latin)</li><li class="active-result" data-option-array-index="44" style="">Nederlands (Dutch)</li><li class="active-result" data-option-array-index="45" style="">Norsk bokmål (Norge)</li><li class="active-result" data-option-array-index="46" style="">Nynorsk (nn-NO)</li><li class="active-result" data-option-array-index="47" style="">Persian (پارسی)</li><li class="active-result" data-option-array-index="48" style="">Polski (PL)</li><li class="active-result" data-option-array-index="49" style="">Português (Portugal)</li><li class="active-result" data-option-array-index="50" style="">Português do Brasil (pt-BR)</li><li class="active-result" data-option-array-index="51" style="">Română (România)</li><li class="active-result" data-option-array-index="52" style="">Russian Русский</li><li class="active-result" data-option-array-index="53" style="">Sinhala (Si)</li><li class="active-result" data-option-array-index="54" style="">Slovenčina (Slovak)</li><li class="active-result" data-option-array-index="55" style="">Slovenščina (Slovenia)</li><li class="active-result" data-option-array-index="56" style="">Srpski latinica (Serbia)</li><li class="active-result" data-option-array-index="57" style="">Svenska (Sverige)</li><li class="active-result" data-option-array-index="58" style="">Syriac (Iraq)</li><li class="active-result" data-option-array-index="59" style="">Tiếng Việt (Việt Nam)</li><li class="active-result" data-option-array-index="60" style="">Türkmençe (Türkmenistan)</li><li class="active-result" data-option-array-index="61" style="">Türkçe (Türkiye)</li><li class="active-result" data-option-array-index="62" style="">Uyghur (ئۇيغۇرچە)</li><li class="active-result" data-option-array-index="63" style="">Ελληνικά (Ελλάδας)</li><li class="active-result" data-option-array-index="64" style="">Български (България)</li><li class="active-result" data-option-array-index="65" style="">Македонски (Macedonia)</li><li class="active-result" data-option-array-index="66" style="">Српски ћирилица (Serbia)</li><li class="active-result" data-option-array-index="67" style="">Українська (Україна)</li><li class="active-result" data-option-array-index="68" style="">Қазақша (Kazakhstan)</li><li class="active-result" data-option-array-index="69" style="">Հայերեն (Armenia)</li><li class="active-result" data-option-array-index="70" style="">বাংলা (বাংলাদেশ)</li><li class="active-result" data-option-array-index="71" style="">தமிழ் (இந்தியா)</li><li class="active-result" data-option-array-index="72" style="">ไทย (ภาษาไทย)</li><li class="active-result" data-option-array-index="73" style="">ქართული (საქართველო)</li><li class="active-result" data-option-array-index="74" style="">日本語 (Japan)</li><li class="active-result" data-option-array-index="75" style="">简体中文 (中国)</li><li class="active-result" data-option-array-index="76" style="">한국어 (Republic of Korea)</li></ul></div></div>
+		</div>
+	</div>
+	<input type="hidden" name="task" value="setlanguage">
+	<input type="hidden" name="f15b6bfe37e6711d6233695b916fe1ea" value="1"></form>
+<form action="index.php" method="post" id="adminForm" class="form-validate form-horizontal">
+	<h3>Main Configuration</h3>
+	<hr class="hr-condensed">
+	<div class="row-fluid">
+		<div class="span6">
+			<div class="control-group">
+				<div class="control-label">
+					<label id="jform_site_name-lbl" for="jform_site_name" class="required">
+	Site Name<span class="star">&nbsp;*</span></label>
+				</div>
+				<div class="controls">
+					<input type="text" name="jform[site_name]" id="jform_site_name" value="" class="inputbox required" required="required" aria-required="true" aria-invalid="false">
+					<p class="help-block">Enter the name of your Joomla! site.</p>
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="control-label">
+					<label id="jform_site_metadesc-lbl" for="jform_site_metadesc">
+	Description</label>
+				</div>
+				<div class="controls">
+					<textarea name="jform[site_metadesc]" id="jform_site_metadesc" rows="3" class="text_area noResize" aria-invalid="false"></textarea>					<p class="help-block">
+						Enter a description of the overall website that is to be used by search engines. Generally, a maximum of 20 words is best.					</p>
+				</div>
+			</div>
+		</div>
+		<div class="span6">
+			<div class="center">
+				<h4>Super User Account Details</h4>
+			</div>
+			<div class="control-group">
+				<div class="control-label">
+					<label id="jform_admin_email-lbl" for="jform_admin_email" class="required">
+	Email<span class="star">&nbsp;*</span></label>
+				</div>
+				<div class="controls">
+					<input type="email" name="jform[admin_email]" class="validate-email inputbox required" id="jform_admin_email" value="" required="required" aria-required="true">					<p class="help-block">Enter an email address. This will be the email address of the website Super User.</p>
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="control-label">
+					<label id="jform_admin_user-lbl" for="jform_admin_user" class="required">
+	Username<span class="star">&nbsp;*</span></label>
+				</div>
+				<div class="controls">
+					<input type="text" name="jform[admin_user]" id="jform_admin_user" value="" class="inputbox required" size="30" required="required" aria-required="true" aria-invalid="false">
+					<p class="help-block">Set the username for your Super User account.</p>
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="control-label">
+					<label id="jform_admin_password-lbl" for="jform_admin_password" class="required">
+	Password<span class="star">&nbsp;*</span></label>
+				</div>
+				<div class="controls">
+					 <input type="password" style="display:none">
+					<input type="password" name="jform[admin_password]" id="jform_admin_password" value="" autocomplete="off" class="inputbox required" maxlength="99" required="required" aria-required="true">					<p class="help-block">Set the password for your Super User account and confirm it in the field below.</p>
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="control-label">
+					<label id="jform_admin_password2-lbl" for="jform_admin_password2" class="required">
+	Confirm Password<span class="star">&nbsp;*</span></label>
+				</div>
+				<div class="controls">
+					 <input type="password" style="display:none">
+					<input type="password" name="jform[admin_password2]" id="jform_admin_password2" value="" autocomplete="off" class="inputbox required" maxlength="99" required="required" aria-required="true">				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="control-group">
+				<div class="control-label">
+					<label id="jform_site_offline-lbl" for="jform_site_offline">
+	Site Offline</label>
+				</div>
+				<div class="controls">
+					<fieldset id="jform_site_offline" class="btn-group radio">
+
+						
+						<input type="radio" id="jform_site_offline0" name="jform[site_offline]" value="1">			<label for="jform_site_offline0" class="btn">
+				Yes			</label>
+					
+						<input type="radio" id="jform_site_offline1" name="jform[site_offline]" value="0" checked="checked">			<label for="jform_site_offline1" class="btn active btn-success">
+				No			</label>
+			</fieldset>
+					<p class="help-block">
+						Set the site Frontend offline when installation is completed. The site can be set online later on through the Global Configuration.					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="btn-toolbar">
+			<div class="btn-group pull-right">
+				<a href="#" class="btn btn-primary" onclick="Install.submitform();" rel="next" title="Next"><span class="icon-arrow-right icon-white"></span> Next</a>
+			</div>
+		</div>
+	</div>
+	<input type="hidden" name="task" value="site">
+	<input type="hidden" name="f15b6bfe37e6711d6233695b916fe1ea" value="1"></form>
+
+<!--1778539408.6a025b902bb6d7.00473487.serialized--></div>
+			<hr>
+		</div>
+	
+
+<!--1778539405.6a025b8d57a875.08316034.serialized--><div id="loading-logo" style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; opacity: 0.8; overflow: hidden; z-index: 10000; display: none; background-color: rgb(255, 255, 255); background-image: url(&quot;/media/jui/images/ajax-loader.gif&quot;); background-position: center center; background-repeat: no-repeat; background-attachment: fixed;"></div><div id="loading-logo" style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; opacity: 0.8; overflow: hidden; z-index: 10000; display: none; background-color: rgb(255, 255, 255); background-image: url(&quot;/media/jui/images/ajax-loader.gif&quot;); background-position: center center; background-repeat: no-repeat; background-attachment: fixed;"></div></body></html>

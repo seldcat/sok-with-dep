@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state130</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://web/index.php'>http://web/index.php</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Nearest State</th>
+					<td>index</td>
+				</tr>
+				<tr>
+					<th>Distance to nearest State</th>
+					<td>1.0</td>
+				</tr>
+				<tr>
+					<th>Has Near Duplicate</th>
+					<td>false</td>
+				</tr>
+				<tr>
+					<th>Cluster</th>
+					<td>-1</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>-</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state130.png' /> 
+								<div rel="tooltip" data-original-title="//DIV[@id = 'header_site']/H1[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 21px; top: 826px; width: 91px; height: 18px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;br&gt;
+&lt;font size=&quot;1&quot;&gt;&lt;table class=&quot;xdebug-error xe-warning&quot; dir=&quot;ltr&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;1&quot;&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#f57900&quot; colspan=&quot;5&quot;&gt;&lt;span style=&quot;background-color: #cc0000; color: #fce94f; font-size: x-large;&quot;&gt;( ! )&lt;/span&gt; Warning: mysqli::__construct(): (HY000/2002): Connection refused in /var/www/html/lib/dbl.php on line &lt;i&gt;126&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#e9b96e&quot; colspan=&quot;5&quot;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th align=&quot;center&quot; bgcolor=&quot;#eeeeec&quot;&gt;#&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Time&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Memory&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Function&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Location&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;1&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0001&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;363672&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;{main}(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/index.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../index.php&lt;b&gt;:&lt;/b&gt;0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;2&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0007&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;569680&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;require_once( &lt;font color=&quot;#00bb00&quot;&gt;'/var/www/html/pages/home.php'&lt;/font&gt; )&lt;/td&gt;&lt;td title=&quot;/var/www/html/index.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../index.php&lt;b&gt;:&lt;/b&gt;24&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;3&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0007&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;597416&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;require_once( &lt;font color=&quot;#00bb00&quot;&gt;'/var/www/html/src/initweb.php'&lt;/font&gt; )&lt;/td&gt;&lt;td title=&quot;/var/www/html/pages/home.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../home.php&lt;b&gt;:&lt;/b&gt;5&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;4&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0009&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;674520&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;require_once( &lt;font color=&quot;#00bb00&quot;&gt;'/var/www/html/src/init.php'&lt;/font&gt; )&lt;/td&gt;&lt;td title=&quot;/var/www/html/src/initweb.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../initweb.php&lt;b&gt;:&lt;/b&gt;5&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;5&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0059&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;3072064&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;Conf-&amp;gt;__construct(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/src/init.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../init.php&lt;b&gt;:&lt;/b&gt;313&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;6&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0059&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;3072064&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;Dbl::connect_dsn(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/src/conference.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../conference.php&lt;b&gt;:&lt;/b&gt;187&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;7&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0059&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;3073184&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;&lt;a href=&quot;http://www.php.net/mysqli.construct&quot; target=&quot;_new&quot;&gt;__construct&lt;/a&gt;
+(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/lib/dbl.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../dbl.php&lt;b&gt;:&lt;/b&gt;126&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/font&gt;
+&lt;br&gt;
+&lt;font size=&quot;1&quot;&gt;&lt;table class=&quot;xdebug-error xe-warning&quot; dir=&quot;ltr&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;1&quot;&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#f57900&quot; colspan=&quot;5&quot;&gt;&lt;span style=&quot;background-color: #cc0000; color: #fce94f; font-size: x-large;&quot;&gt;( ! )&lt;/span&gt; Warning: mysqli::close(): Couldn't fetch mysqli in /var/www/html/lib/dbl.php on line &lt;i&gt;136&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#e9b96e&quot; colspan=&quot;5&quot;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th align=&quot;center&quot; bgcolor=&quot;#eeeeec&quot;&gt;#&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Time&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Memory&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Function&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Location&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;1&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0001&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;363672&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;{main}(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/index.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../index.php&lt;b&gt;:&lt;/b&gt;0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;2&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0007&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;569680&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;require_once( &lt;font color=&quot;#00bb00&quot;&gt;'/var/www/html/pages/home.php'&lt;/font&gt; )&lt;/td&gt;&lt;td title=&quot;/var/www/html/index.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../index.php&lt;b&gt;:&lt;/b&gt;24&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;3&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0007&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;597416&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;require_once( &lt;font color=&quot;#00bb00&quot;&gt;'/var/www/html/src/initweb.php'&lt;/font&gt; )&lt;/td&gt;&lt;td title=&quot;/var/www/html/pages/home.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../home.php&lt;b&gt;:&lt;/b&gt;5&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;4&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0009&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;674520&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;require_once( &lt;font color=&quot;#00bb00&quot;&gt;'/var/www/html/src/init.php'&lt;/font&gt; )&lt;/td&gt;&lt;td title=&quot;/var/www/html/src/initweb.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../initweb.php&lt;b&gt;:&lt;/b&gt;5&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;5&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0059&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;3072064&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;Conf-&amp;gt;__construct(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/src/init.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../init.php&lt;b&gt;:&lt;/b&gt;313&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;6&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0059&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;3072064&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;Dbl::connect_dsn(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/src/conference.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../conference.php&lt;b&gt;:&lt;/b&gt;187&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;7&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0064&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;3073320&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;&lt;a href=&quot;http://www.php.net/mysqli.close&quot; target=&quot;_new&quot;&gt;close&lt;/a&gt;
+(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/lib/dbl.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../dbl.php&lt;b&gt;:&lt;/b&gt;136&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/font&gt;
+&lt;br&gt;
+&lt;font size=&quot;1&quot;&gt;&lt;table class=&quot;xdebug-error xe-warning&quot; dir=&quot;ltr&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;1&quot;&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#f57900&quot; colspan=&quot;5&quot;&gt;&lt;span style=&quot;background-color: #cc0000; color: #fce94f; font-size: x-large;&quot;&gt;( ! )&lt;/span&gt; Warning: Cannot modify header information - headers already sent by (output started at /var/www/html/lib/dbl.php:126) in /var/www/html/src/multiconference.php on line &lt;i&gt;97&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#e9b96e&quot; colspan=&quot;5&quot;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th align=&quot;center&quot; bgcolor=&quot;#eeeeec&quot;&gt;#&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Time&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Memory&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Function&lt;/th&gt;&lt;th align=&quot;left&quot; bgcolor=&quot;#eeeeec&quot;&gt;Location&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;1&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0001&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;363672&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;{main}(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/index.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../index.php&lt;b&gt;:&lt;/b&gt;0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;2&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0007&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;569680&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;require_once( &lt;font color=&quot;#00bb00&quot;&gt;'/var/www/html/pages/home.php'&lt;/font&gt; )&lt;/td&gt;&lt;td title=&quot;/var/www/html/index.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../index.php&lt;b&gt;:&lt;/b&gt;24&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;3&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0007&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;597416&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;require_once( &lt;font color=&quot;#00bb00&quot;&gt;'/var/www/html/src/initweb.php'&lt;/font&gt; )&lt;/td&gt;&lt;td title=&quot;/var/www/html/pages/home.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../home.php&lt;b&gt;:&lt;/b&gt;5&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;4&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0009&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;674520&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;require_once( &lt;font color=&quot;#00bb00&quot;&gt;'/var/www/html/src/init.php'&lt;/font&gt; )&lt;/td&gt;&lt;td title=&quot;/var/www/html/src/initweb.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../initweb.php&lt;b&gt;:&lt;/b&gt;5&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;5&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0076&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;3605768&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;Multiconference::fail_bad_database(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/src/init.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../init.php&lt;b&gt;:&lt;/b&gt;315&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;6&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0076&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;3606256&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;Multiconference::fail_message(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/src/multiconference.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../multiconference.php&lt;b&gt;:&lt;/b&gt;140&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;7&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;center&quot;&gt;0.0076&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot; align=&quot;right&quot;&gt;3606280&lt;/td&gt;&lt;td bgcolor=&quot;#eeeeec&quot;&gt;&lt;a href=&quot;http://www.php.net/function.header&quot; target=&quot;_new&quot;&gt;header&lt;/a&gt;
+(  )&lt;/td&gt;&lt;td title=&quot;/var/www/html/src/multiconference.php&quot; bgcolor=&quot;#eeeeec&quot;&gt;.../multiconference.php&lt;b&gt;:&lt;/b&gt;97&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/font&gt;
+
+
+
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+&lt;meta name=&quot;google&quot; content=&quot;notranslate&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;stylesheets/style.css?mtime=1778089704&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;images/review24.png&quot;&gt;
+&lt;title&gt;HotCRP Error - hotcrp&lt;/title&gt;
+
+
+&lt;div id=&quot;prebody&quot;&gt;&lt;div id=&quot;header&quot;&gt;&lt;div id=&quot;header_site&quot; class=&quot;header_site_page&quot;&gt;&lt;h1&gt;&lt;a class=&quot;qq&quot; href=&quot;/&quot;&gt;&lt;span class=&quot;header-site-name&quot;&gt;hotcrp&lt;/span&gt; Home&lt;/a&gt;&lt;/h1&gt;&lt;/div&gt;&lt;div id=&quot;header_right&quot;&gt;&lt;div id=&quot;maindeadline&quot; class=&quot;hidden&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;header_page&quot;&gt;&lt;h1&gt;HotCRP Error&lt;/h1&gt;&lt;/div&gt;  &lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;initialmsgs&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;body&quot; class=&quot;body&quot;&gt;
+&lt;p&gt;HotCRP was unable to load. A system administrator must fix this problem.&lt;/p&gt;&lt;div class=&quot;hint&quot;&gt;Error: Unable to connect to database mysql://root:PASSWORD@mysql:3306/hotcrp&lt;/div&gt;&lt;/div&gt;
+&lt;div id=&quot;footer&quot;&gt;&lt;div id=&quot;footer_crp&quot;&gt;&lt;a href=&quot;http://read.seas.harvard.edu/~kohler/hotcrp/&quot;&gt;HotCRP&lt;/a&gt;&lt;!-- Version 2.102 --&gt;&lt;/div&gt;
+  &lt;hr class=&quot;c&quot;&gt;&lt;/div&gt;
+&lt;!--[if lt IE 9]&gt;&lt;script src=&quot;scripts/jquery-1.12.4.min.js?mtime=1778089704&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;
+&lt;!--[if !IE|gte IE 9]--&gt;&lt;script src=&quot;scripts/jquery-3.3.1.min.js?mtime=1778089704&quot;&gt;&lt;/script&gt;&lt;!--[endif]--&gt;
+&lt;script&gt;siteurl=&quot;&quot;;siteurl_suffix=&quot;.php&quot;;assetsurl=&quot;&quot;;hotcrp_user={};&lt;/script&gt;&lt;script src=&quot;scripts/script.js?mtime=1778089704&quot;&gt;&lt;/script&gt;
+&lt;script&gt;hotcrp_load.time(240,0)&lt;/script&gt;
+
+&lt;!--1778363237.69ffab6529cc98.87125521.serialized--&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>//DIV[@id = 'header_site']/H1[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>
